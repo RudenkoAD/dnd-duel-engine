@@ -1,0 +1,598 @@
+{
+  "checkpoint": "training/runs/roster-2901-league/checkpoints/update-1000.npz",
+  "checkpoint_sha256": "608facd39535f804f9304783093f2590c74ed66966654ff51bb667c480ceda17",
+  "cumulative": {
+    "bouts": 384000,
+    "learner": 27315868,
+    "learner_expanded_main": 5710110,
+    "learner_phase_0": 19443670,
+    "learner_phase_1": 127358,
+    "learner_phase_10": 64,
+    "learner_phase_100": 625,
+    "learner_phase_101": 90,
+    "learner_phase_103": 18,
+    "learner_phase_104": 1,
+    "learner_phase_106": 84,
+    "learner_phase_107": 27,
+    "learner_phase_108": 7,
+    "learner_phase_109": 4,
+    "learner_phase_11": 2845,
+    "learner_phase_110": 4,
+    "learner_phase_111": 4,
+    "learner_phase_113": 121,
+    "learner_phase_114": 6753,
+    "learner_phase_116": 37423,
+    "learner_phase_119": 685,
+    "learner_phase_12": 29262,
+    "learner_phase_121": 61846,
+    "learner_phase_13": 1461301,
+    "learner_phase_14": 166982,
+    "learner_phase_141": 31976,
+    "learner_phase_142": 13581,
+    "learner_phase_143": 40405,
+    "learner_phase_144": 17164,
+    "learner_phase_145": 72133,
+    "learner_phase_146": 55527,
+    "learner_phase_147": 27988,
+    "learner_phase_148": 6424,
+    "learner_phase_149": 42157,
+    "learner_phase_15": 9463,
+    "learner_phase_150": 95,
+    "learner_phase_153": 8,
+    "learner_phase_154": 8,
+    "learner_phase_16": 36991,
+    "learner_phase_160": 30208,
+    "learner_phase_161": 13512,
+    "learner_phase_162": 9886,
+    "learner_phase_163": 516,
+    "learner_phase_164": 13305,
+    "learner_phase_165": 41063,
+    "learner_phase_166": 36654,
+    "learner_phase_167": 590,
+    "learner_phase_168": 8551,
+    "learner_phase_169": 883,
+    "learner_phase_17": 67259,
+    "learner_phase_170": 11940,
+    "learner_phase_171": 17025,
+    "learner_phase_172": 297,
+    "learner_phase_173": 1416,
+    "learner_phase_175": 41750,
+    "learner_phase_176": 67,
+    "learner_phase_177": 3,
+    "learner_phase_178": 18494,
+    "learner_phase_179": 282,
+    "learner_phase_18": 1083,
+    "learner_phase_180": 34389,
+    "learner_phase_181": 22933,
+    "learner_phase_182": 40,
+    "learner_phase_183": 42819,
+    "learner_phase_184": 42023,
+    "learner_phase_185": 848,
+    "learner_phase_186": 4771,
+    "learner_phase_187": 16741,
+    "learner_phase_188": 30995,
+    "learner_phase_189": 23418,
+    "learner_phase_19": 278689,
+    "learner_phase_190": 249,
+    "learner_phase_191": 17015,
+    "learner_phase_192": 5464,
+    "learner_phase_193": 4759,
+    "learner_phase_194": 4759,
+    "learner_phase_195": 51669,
+    "learner_phase_196": 4447,
+    "learner_phase_2": 232073,
+    "learner_phase_20": 28385,
+    "learner_phase_200": 393,
+    "learner_phase_201": 393,
+    "learner_phase_202": 57,
+    "learner_phase_21": 12014,
+    "learner_phase_22": 73130,
+    "learner_phase_23": 78154,
+    "learner_phase_24": 55506,
+    "learner_phase_25": 53657,
+    "learner_phase_26": 1673,
+    "learner_phase_27": 36344,
+    "learner_phase_28": 25208,
+    "learner_phase_29": 65122,
+    "learner_phase_3": 153288,
+    "learner_phase_30": 80840,
+    "learner_phase_31": 29494,
+    "learner_phase_32": 4469,
+    "learner_phase_33": 292,
+    "learner_phase_34": 435,
+    "learner_phase_35": 126078,
+    "learner_phase_36": 3,
+    "learner_phase_37": 185,
+    "learner_phase_38": 864306,
+    "learner_phase_40": 8374,
+    "learner_phase_41": 18569,
+    "learner_phase_42": 77934,
+    "learner_phase_43": 10,
+    "learner_phase_44": 10,
+    "learner_phase_45": 625,
+    "learner_phase_46": 62,
+    "learner_phase_47": 57679,
+    "learner_phase_48": 573288,
+    "learner_phase_49": 691,
+    "learner_phase_5": 289791,
+    "learner_phase_50": 18165,
+    "learner_phase_51": 18166,
+    "learner_phase_52": 18166,
+    "learner_phase_53": 192504,
+    "learner_phase_54": 16487,
+    "learner_phase_55": 6629,
+    "learner_phase_56": 1895,
+    "learner_phase_57": 1895,
+    "learner_phase_58": 7582,
+    "learner_phase_59": 71,
+    "learner_phase_6": 289790,
+    "learner_phase_60": 17,
+    "learner_phase_61": 1925,
+    "learner_phase_63": 9047,
+    "learner_phase_65": 4,
+    "learner_phase_66": 581,
+    "learner_phase_67": 121,
+    "learner_phase_68": 121,
+    "learner_phase_69": 121,
+    "learner_phase_7": 10898,
+    "learner_phase_71": 286,
+    "learner_phase_72": 111510,
+    "learner_phase_73": 280586,
+    "learner_phase_74": 2,
+    "learner_phase_75": 1,
+    "learner_phase_76": 1,
+    "learner_phase_78": 42342,
+    "learner_phase_79": 42076,
+    "learner_phase_8": 10898,
+    "learner_phase_80": 525122,
+    "learner_phase_81": 2033,
+    "learner_phase_82": 9424,
+    "learner_phase_83": 9424,
+    "learner_phase_84": 9426,
+    "learner_phase_85": 2354,
+    "learner_phase_86": 7,
+    "learner_phase_87": 1223,
+    "learner_phase_9": 1020,
+    "learner_phase_90": 38142,
+    "learner_phase_91": 32021,
+    "learner_phase_92": 52901,
+    "learner_phase_93": 393,
+    "learner_phase_94": 393,
+    "learner_phase_95": 2,
+    "learner_phase_96": 4876,
+    "learner_phase_97": 2721,
+    "learner_phase_98": 58,
+    "learner_phase_99": 3,
+    "learner_repeated_choice": 91776,
+    "live_vs_live_bouts": 96000,
+    "optimizer_minibatches": 108219,
+    "result_decision_limit": 817,
+    "result_defeat": 381542,
+    "result_double_ko": 412,
+    "result_ongoing": 0,
+    "result_turn_limit": 1229,
+    "snapshot": 16927995,
+    "snapshot_expanded_main": 3501977,
+    "snapshot_phase_0": 11511870,
+    "snapshot_phase_1": 72765,
+    "snapshot_phase_10": 80,
+    "snapshot_phase_100": 583,
+    "snapshot_phase_101": 57,
+    "snapshot_phase_102": 1,
+    "snapshot_phase_103": 13,
+    "snapshot_phase_106": 29,
+    "snapshot_phase_107": 32,
+    "snapshot_phase_108": 7,
+    "snapshot_phase_109": 8,
+    "snapshot_phase_11": 2219,
+    "snapshot_phase_110": 8,
+    "snapshot_phase_111": 8,
+    "snapshot_phase_113": 245,
+    "snapshot_phase_114": 4627,
+    "snapshot_phase_116": 24243,
+    "snapshot_phase_119": 159,
+    "snapshot_phase_12": 19243,
+    "snapshot_phase_121": 43745,
+    "snapshot_phase_13": 782252,
+    "snapshot_phase_14": 111504,
+    "snapshot_phase_141": 18258,
+    "snapshot_phase_142": 4438,
+    "snapshot_phase_143": 23976,
+    "snapshot_phase_144": 12923,
+    "snapshot_phase_145": 37383,
+    "snapshot_phase_146": 27745,
+    "snapshot_phase_147": 17741,
+    "snapshot_phase_148": 394237,
+    "snapshot_phase_149": 30178,
+    "snapshot_phase_15": 5514,
+    "snapshot_phase_150": 101,
+    "snapshot_phase_153": 20,
+    "snapshot_phase_154": 19,
+    "snapshot_phase_16": 32496,
+    "snapshot_phase_160": 8090,
+    "snapshot_phase_161": 3762,
+    "snapshot_phase_162": 2772,
+    "snapshot_phase_163": 111,
+    "snapshot_phase_164": 7575,
+    "snapshot_phase_165": 23567,
+    "snapshot_phase_166": 22700,
+    "snapshot_phase_167": 219,
+    "snapshot_phase_168": 2173,
+    "snapshot_phase_169": 644,
+    "snapshot_phase_17": 47538,
+    "snapshot_phase_170": 5769,
+    "snapshot_phase_171": 10868,
+    "snapshot_phase_172": 567,
+    "snapshot_phase_173": 498,
+    "snapshot_phase_175": 19417,
+    "snapshot_phase_176": 62,
+    "snapshot_phase_177": 1,
+    "snapshot_phase_178": 11150,
+    "snapshot_phase_179": 184,
+    "snapshot_phase_18": 778,
+    "snapshot_phase_180": 19441,
+    "snapshot_phase_181": 13161,
+    "snapshot_phase_182": 27,
+    "snapshot_phase_183": 21142,
+    "snapshot_phase_184": 20719,
+    "snapshot_phase_185": 2453,
+    "snapshot_phase_186": 803,
+    "snapshot_phase_187": 9459,
+    "snapshot_phase_188": 17648,
+    "snapshot_phase_189": 13334,
+    "snapshot_phase_19": 157215,
+    "snapshot_phase_190": 172,
+    "snapshot_phase_191": 11339,
+    "snapshot_phase_192": 3038,
+    "snapshot_phase_193": 2879,
+    "snapshot_phase_194": 2879,
+    "snapshot_phase_195": 31992,
+    "snapshot_phase_196": 2689,
+    "snapshot_phase_2": 145038,
+    "snapshot_phase_20": 17965,
+    "snapshot_phase_200": 153,
+    "snapshot_phase_201": 153,
+    "snapshot_phase_202": 71,
+    "snapshot_phase_21": 7370,
+    "snapshot_phase_22": 40863,
+    "snapshot_phase_23": 37790,
+    "snapshot_phase_24": 39890,
+    "snapshot_phase_25": 38724,
+    "snapshot_phase_26": 924,
+    "snapshot_phase_27": 20849,
+    "snapshot_phase_28": 14501,
+    "snapshot_phase_29": 33675,
+    "snapshot_phase_3": 65695,
+    "snapshot_phase_30": 45054,
+    "snapshot_phase_31": 17395,
+    "snapshot_phase_32": 2215,
+    "snapshot_phase_33": 157,
+    "snapshot_phase_34": 273,
+    "snapshot_phase_35": 88664,
+    "snapshot_phase_36": 3,
+    "snapshot_phase_37": 80,
+    "snapshot_phase_38": 506418,
+    "snapshot_phase_40": 4825,
+    "snapshot_phase_41": 7569,
+    "snapshot_phase_42": 56735,
+    "snapshot_phase_43": 24,
+    "snapshot_phase_44": 24,
+    "snapshot_phase_45": 583,
+    "snapshot_phase_46": 32,
+    "snapshot_phase_47": 34588,
+    "snapshot_phase_48": 353299,
+    "snapshot_phase_49": 559,
+    "snapshot_phase_5": 169700,
+    "snapshot_phase_50": 14114,
+    "snapshot_phase_51": 14118,
+    "snapshot_phase_52": 14118,
+    "snapshot_phase_53": 164409,
+    "snapshot_phase_54": 9387,
+    "snapshot_phase_55": 4454,
+    "snapshot_phase_56": 3112,
+    "snapshot_phase_57": 3112,
+    "snapshot_phase_58": 6345,
+    "snapshot_phase_59": 285,
+    "snapshot_phase_6": 169701,
+    "snapshot_phase_60": 35,
+    "snapshot_phase_61": 864,
+    "snapshot_phase_63": 6815,
+    "snapshot_phase_65": 12,
+    "snapshot_phase_66": 406,
+    "snapshot_phase_67": 61,
+    "snapshot_phase_68": 61,
+    "snapshot_phase_69": 61,
+    "snapshot_phase_7": 7907,
+    "snapshot_phase_71": 324,
+    "snapshot_phase_72": 48320,
+    "snapshot_phase_73": 186910,
+    "snapshot_phase_74": 2,
+    "snapshot_phase_75": 1,
+    "snapshot_phase_76": 1,
+    "snapshot_phase_78": 25831,
+    "snapshot_phase_79": 25652,
+    "snapshot_phase_8": 7907,
+    "snapshot_phase_80": 290288,
+    "snapshot_phase_81": 863,
+    "snapshot_phase_82": 6669,
+    "snapshot_phase_83": 6669,
+    "snapshot_phase_84": 6670,
+    "snapshot_phase_85": 1353,
+    "snapshot_phase_86": 9,
+    "snapshot_phase_87": 514,
+    "snapshot_phase_9": 792,
+    "snapshot_phase_90": 414341,
+    "snapshot_phase_91": 19607,
+    "snapshot_phase_92": 30183,
+    "snapshot_phase_93": 217,
+    "snapshot_phase_94": 217,
+    "snapshot_phase_95": 1,
+    "snapshot_phase_96": 3380,
+    "snapshot_phase_97": 2442,
+    "snapshot_phase_98": 33,
+    "snapshot_phase_99": 2,
+    "snapshot_repeated_choice": 829916,
+    "unequal_level_bouts": 0
+  },
+  "fixture_schedule": {
+    "bouts_by_layout": [
+      76800,
+      76800,
+      76800,
+      76800,
+      76800
+    ],
+    "fixture_pairs_per_ordered_build_pair": [
+      148,
+      149
+    ],
+    "fixture_pairs_per_ordered_build_pair_and_layout": [
+      15,
+      49
+    ],
+    "focal_bouts_by_build_and_seat": [
+      [
+        5333,
+        5333
+      ],
+      [
+        5335,
+        5335
+      ],
+      [
+        5333,
+        5333
+      ],
+      [
+        5332,
+        5332
+      ],
+      [
+        5334,
+        5334
+      ],
+      [
+        5332,
+        5332
+      ],
+      [
+        5334,
+        5334
+      ],
+      [
+        5332,
+        5332
+      ],
+      [
+        5331,
+        5331
+      ],
+      [
+        5335,
+        5335
+      ],
+      [
+        5330,
+        5330
+      ],
+      [
+        5329,
+        5329
+      ],
+      [
+        5334,
+        5334
+      ],
+      [
+        5333,
+        5333
+      ],
+      [
+        5333,
+        5333
+      ],
+      [
+        5331,
+        5331
+      ],
+      [
+        5337,
+        5337
+      ],
+      [
+        5334,
+        5334
+      ],
+      [
+        5336,
+        5336
+      ],
+      [
+        5335,
+        5335
+      ],
+      [
+        5332,
+        5332
+      ],
+      [
+        5334,
+        5334
+      ],
+      [
+        5331,
+        5331
+      ],
+      [
+        5332,
+        5332
+      ],
+      [
+        5338,
+        5338
+      ],
+      [
+        5334,
+        5334
+      ],
+      [
+        5334,
+        5334
+      ],
+      [
+        5333,
+        5333
+      ],
+      [
+        5333,
+        5333
+      ],
+      [
+        5332,
+        5332
+      ],
+      [
+        5334,
+        5334
+      ],
+      [
+        5332,
+        5332
+      ],
+      [
+        5332,
+        5332
+      ],
+      [
+        5331,
+        5331
+      ],
+      [
+        5337,
+        5337
+      ],
+      [
+        5338,
+        5338
+      ]
+    ]
+  },
+  "league": {
+    "anchor-1-update-0967": {
+      "bouts": 50008,
+      "learner_score_ema": 0.5870119245953143,
+      "sha256": "701f58a8dd5e2a858ea596bf0f668e1f0f4bf4fad744e60eab696cc75632a6bf"
+    },
+    "anchor-2-update-1934": {
+      "bouts": 51806,
+      "learner_score_ema": 0.5782300597573685,
+      "sha256": "0e4652790047af29bf0eccf510f2620f508720c494fedc4c765ae6cc1c4c3441"
+    },
+    "initial": {
+      "bouts": 51402,
+      "learner_score_ema": 0.5760700752976567,
+      "sha256": "5077e8c775f85029bc397316d57d4d02eb31237792cc1c46b81e54cbabf9e723"
+    },
+    "update-0064": {
+      "bouts": 26820,
+      "learner_score_ema": 0.5153250208386847,
+      "sha256": "bfe88813f1d575404a91d29b426cfab8de71fef4bc67c8dac9eaf1e304292e7b"
+    },
+    "update-0128": {
+      "bouts": 17358,
+      "learner_score_ema": 0.543869673160982,
+      "sha256": "d910973684cabfb50ef3788305117cb77b980915e2de76a0238a9f4f120b8aa8"
+    },
+    "update-0192": {
+      "bouts": 13650,
+      "learner_score_ema": 0.5297576296507485,
+      "sha256": "7a1f4d6f748aaf1623b4ead16e7741453c2d428a12612d174becf362963700f9"
+    },
+    "update-0256": {
+      "bouts": 12052,
+      "learner_score_ema": 0.5273804633614453,
+      "sha256": "e1751aba82116353e694924bad4020f46a38adf795e553d6b24a4e5adde995d3"
+    },
+    "update-0320": {
+      "bouts": 9078,
+      "learner_score_ema": 0.535797783305491,
+      "sha256": "e1be0a8724b9b15f1236a82929258c2537c2235bbf85c9148e8977ee278d7d57"
+    },
+    "update-0384": {
+      "bouts": 9314,
+      "learner_score_ema": 0.5081004838957294,
+      "sha256": "4d4b64d097dd2055a59bdc961f6b8d90d0c34f246b2ae88c6328b079f689ac1a"
+    },
+    "update-0448": {
+      "bouts": 8510,
+      "learner_score_ema": 0.5304850510540605,
+      "sha256": "4bce70c551424ac1fc15e2a97422477267f6ea68460a03ec72705f5ff5684649"
+    },
+    "update-0512": {
+      "bouts": 6770,
+      "learner_score_ema": 0.5060570546599152,
+      "sha256": "6e7ab598d3dc294555cd071950b3ae7f04a540bc309bd4d18715fc4c17e874a6"
+    },
+    "update-0576": {
+      "bouts": 6938,
+      "learner_score_ema": 0.5425349891708253,
+      "sha256": "9116aa712e990beaa5e286af942282473605abebe09aa4c67cdf60034d84d108"
+    },
+    "update-0640": {
+      "bouts": 5334,
+      "learner_score_ema": 0.5004269118306847,
+      "sha256": "68700481a8514a2b99427bdd2f896f238b05cc398077e5ff4f8a46edc603a87f"
+    },
+    "update-0704": {
+      "bouts": 4786,
+      "learner_score_ema": 0.5243526369816375,
+      "sha256": "b92743772bec6a3fb04ceb72fda7cf18fb879d10c32dc82ddd7cc0f35d056362"
+    },
+    "update-0768": {
+      "bouts": 4704,
+      "learner_score_ema": 0.49624144974901085,
+      "sha256": "455c015e8f27eb9a5e0cdafe9ad301fea2a21e2515ace5e91cff5e881e6bf12f"
+    },
+    "update-0832": {
+      "bouts": 4050,
+      "learner_score_ema": 0.5160222127653074,
+      "sha256": "62ea44777d4f6b03c1ce40bc3468ea977342c4ef90c4a9992dab66b8d6a8d41a"
+    },
+    "update-0896": {
+      "bouts": 3532,
+      "learner_score_ema": 0.502584721770782,
+      "sha256": "317dec1938f709a8d07e454f43f5c463f1e7cc6bd9ac50a1c280aa22b7ad4c79"
+    },
+    "update-0960": {
+      "bouts": 1888,
+      "learner_score_ema": 0.5074534122793412,
+      "sha256": "476bef8746211dc9cf66e8e59440943e49136366f97e8b49ad0068a483828f12"
+    }
+  },
+  "learner_decision_coverage_cells": 72,
+  "learner_decision_coverage_minimum": 6531,
+  "native_sha256": "b60818b8a2767b570b5271c2c9d24c783235a0c2b27ac4175a8c4a38ec4fe277",
+  "process_cpu_seconds": 2900.0812,
+  "training_log_sha256": "f0fc060b02e775ff965f7c201bffd2142652e040e6c1dc15f53f7fb59b4ec60f",
+  "wall_seconds": 2636.205
+}

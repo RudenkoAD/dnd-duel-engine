@@ -1,0 +1,819 @@
+{
+  "fixture_domain": "R36-L2901-FINAL-v1",
+  "seed_blocks_per_arm": 26640,
+  "arms": {
+    "initial-expert": {
+      "wins": 63385,
+      "draws": 5711,
+      "losses": 34584,
+      "score": 0.638893711419753,
+      "termination": {
+        "ongoing": 0,
+        "defeat": 97969,
+        "double knockout": 10,
+        "turn limit": 862,
+        "decision limit": 4839
+      },
+      "score_inference": {
+        "estimate": 0.6388937114197532,
+        "standard_error": 0.0010745899248720654,
+        "95_percent_ci": [
+          0.6367875538688543,
+          0.640999868970652
+        ]
+      },
+      "arena_score": {
+        "Мшистая цитадель": {
+          "estimate": 0.65014949845679,
+          "standard_error": 0.0024030704270489177,
+          "95_percent_ci": [
+            0.6454395669674609,
+            0.6548594299461192
+          ]
+        },
+        "Янтарная застава": {
+          "estimate": 0.6453751929012345,
+          "standard_error": 0.0024202564681013844,
+          "95_percent_ci": [
+            0.6406315773904057,
+            0.6501188084120633
+          ]
+        },
+        "Серебряный бастион": {
+          "estimate": 0.6297984182098765,
+          "standard_error": 0.002433296755864049,
+          "95_percent_ci": [
+            0.6250292442046848,
+            0.6345675922150682
+          ]
+        },
+        "Туманные врата": {
+          "estimate": 0.6390817901234567,
+          "standard_error": 0.002349291768619157,
+          "95_percent_ci": [
+            0.6344772628677867,
+            0.6436863173791266
+          ]
+        },
+        "Тёмный бастион": {
+          "estimate": 0.6300636574074073,
+          "standard_error": 0.002407507819503372,
+          "95_percent_ci": [
+            0.6253450287886821,
+            0.6347822860261325
+          ]
+        }
+      },
+      "metadata": {
+        "arena_abi": 2002,
+        "arm": "initial-expert",
+        "bouts": 103680,
+        "focal_roster_inputs_neutralized": true,
+        "inference": "torch 2.9.1 single-threaded masked argmax",
+        "input_files": {
+          "fixtures": {
+            "path": "evaluation/roster-2901-league/fixtures.npz",
+            "sha256": "ba8948dc1851048bdbb45f8a55db2ad46a867c29c3141c13420e40297620096a"
+          },
+          "focal": {
+            "path": "training/runs/long-width/checkpoints/update-2901.npz",
+            "sha256": "5077e8c775f85029bc397316d57d4d02eb31237792cc1c46b81e54cbabf9e723"
+          },
+          "native": {
+            "path": "target/release/libdnd_duel_engine.dylib",
+            "sha256": "b60818b8a2767b570b5271c2c9d24c783235a0c2b27ac4175a8c4a38ec4fe277"
+          }
+        },
+        "opponent_roster_inputs_neutralized": false
+      }
+    },
+    "trained-expert": {
+      "wins": 69484,
+      "draws": 3505,
+      "losses": 30691,
+      "score": 0.6870804398148148,
+      "termination": {
+        "ongoing": 0,
+        "defeat": 100175,
+        "double knockout": 33,
+        "turn limit": 974,
+        "decision limit": 2498
+      },
+      "score_inference": {
+        "estimate": 0.6870804398148148,
+        "standard_error": 0.0010501655154561782,
+        "95_percent_ci": [
+          0.6850221532267148,
+          0.6891387264029148
+        ]
+      },
+      "arena_score": {
+        "Мшистая цитадель": {
+          "estimate": 0.6997010030864197,
+          "standard_error": 0.0023687275211854474,
+          "95_percent_ci": [
+            0.6950583824557074,
+            0.704343623717132
+          ]
+        },
+        "Янтарная застава": {
+          "estimate": 0.6775414737654321,
+          "standard_error": 0.002372529049911057,
+          "95_percent_ci": [
+            0.6728914022753314,
+            0.6821915452555327
+          ]
+        },
+        "Серебряный бастион": {
+          "estimate": 0.6755883487654321,
+          "standard_error": 0.0022990086851822768,
+          "95_percent_ci": [
+            0.67108237454233,
+            0.6800943229885341
+          ]
+        },
+        "Туманные врата": {
+          "estimate": 0.693214699074074,
+          "standard_error": 0.0023705326935246625,
+          "95_percent_ci": [
+            0.6885685403705909,
+            0.697860857777557
+          ]
+        },
+        "Тёмный бастион": {
+          "estimate": 0.689356674382716,
+          "standard_error": 0.0023294977781546525,
+          "95_percent_ci": [
+            0.6847909426354668,
+            0.6939224061299651
+          ]
+        }
+      },
+      "metadata": {
+        "arena_abi": 2002,
+        "arm": "trained-expert",
+        "bouts": 103680,
+        "focal_roster_inputs_neutralized": false,
+        "inference": "torch 2.9.1 single-threaded masked argmax",
+        "input_files": {
+          "fixtures": {
+            "path": "evaluation/roster-2901-league/fixtures.npz",
+            "sha256": "ba8948dc1851048bdbb45f8a55db2ad46a867c29c3141c13420e40297620096a"
+          },
+          "focal": {
+            "path": "training/runs/roster-2901-league/checkpoints/update-1000.npz",
+            "sha256": "608facd39535f804f9304783093f2590c74ed66966654ff51bb667c480ceda17"
+          },
+          "native": {
+            "path": "target/release/libdnd_duel_engine.dylib",
+            "sha256": "b60818b8a2767b570b5271c2c9d24c783235a0c2b27ac4175a8c4a38ec4fe277"
+          }
+        },
+        "opponent_roster_inputs_neutralized": false
+      }
+    },
+    "trained-initial": {
+      "wins": 55226,
+      "draws": 6486,
+      "losses": 41968,
+      "score": 0.5639371141975309,
+      "termination": {
+        "ongoing": 0,
+        "defeat": 97194,
+        "double knockout": 55,
+        "turn limit": 1150,
+        "decision limit": 5281
+      },
+      "score_inference": {
+        "estimate": 0.5639371141975309,
+        "standard_error": 0.0010244477435297898,
+        "95_percent_ci": [
+          0.5619292335161692,
+          0.5659449948788926
+        ]
+      },
+      "arena_score": {
+        "Мшистая цитадель": {
+          "estimate": 0.5707224151234567,
+          "standard_error": 0.0023212109020734673,
+          "95_percent_ci": [
+            0.566172925354871,
+            0.5752719048920424
+          ]
+        },
+        "Янтарная застава": {
+          "estimate": 0.55859375,
+          "standard_error": 0.002226772713864774,
+          "95_percent_ci": [
+            0.5542293556790685,
+            0.5629581443209315
+          ]
+        },
+        "Серебряный бастион": {
+          "estimate": 0.55639949845679,
+          "standard_error": 0.002245438049321471,
+          "95_percent_ci": [
+            0.5519985207506041,
+            0.560800476162976
+          ]
+        },
+        "Туманные врата": {
+          "estimate": 0.5681664737654321,
+          "standard_error": 0.002375922501976662,
+          "95_percent_ci": [
+            0.5635097512314995,
+            0.5728231962993646
+          ]
+        },
+        "Тёмный бастион": {
+          "estimate": 0.5658034336419753,
+          "standard_error": 0.002281182355868309,
+          "95_percent_ci": [
+            0.5613323983823052,
+            0.5702744689016453
+          ]
+        }
+      },
+      "metadata": {
+        "arena_abi": 2002,
+        "arm": "trained-initial",
+        "bouts": 103680,
+        "focal_roster_inputs_neutralized": false,
+        "inference": "torch 2.9.1 single-threaded masked argmax",
+        "input_files": {
+          "fixtures": {
+            "path": "evaluation/roster-2901-league/fixtures.npz",
+            "sha256": "ba8948dc1851048bdbb45f8a55db2ad46a867c29c3141c13420e40297620096a"
+          },
+          "focal": {
+            "path": "training/runs/roster-2901-league/checkpoints/update-1000.npz",
+            "sha256": "608facd39535f804f9304783093f2590c74ed66966654ff51bb667c480ceda17"
+          },
+          "native": {
+            "path": "target/release/libdnd_duel_engine.dylib",
+            "sha256": "b60818b8a2767b570b5271c2c9d24c783235a0c2b27ac4175a8c4a38ec4fe277"
+          },
+          "opponent": {
+            "path": "training/runs/long-width/checkpoints/update-2901.npz",
+            "sha256": "5077e8c775f85029bc397316d57d4d02eb31237792cc1c46b81e54cbabf9e723"
+          }
+        },
+        "opponent_roster_inputs_neutralized": true
+      }
+    },
+    "trained-original": {
+      "wins": 55697,
+      "draws": 6871,
+      "losses": 41112,
+      "score": 0.570336612654321,
+      "termination": {
+        "ongoing": 0,
+        "defeat": 96809,
+        "double knockout": 52,
+        "turn limit": 1433,
+        "decision limit": 5386
+      },
+      "score_inference": {
+        "estimate": 0.570336612654321,
+        "standard_error": 0.0010204753352474724,
+        "95_percent_ci": [
+          0.5683365177501245,
+          0.5723367075585175
+        ]
+      },
+      "arena_score": {
+        "Мшистая цитадель": {
+          "estimate": 0.5747492283950617,
+          "standard_error": 0.0022808728418055022,
+          "95_percent_ci": [
+            0.5702787997718074,
+            0.579219657018316
+          ]
+        },
+        "Янтарная застава": {
+          "estimate": 0.5684076003086419,
+          "standard_error": 0.002249244850218954,
+          "95_percent_ci": [
+            0.5639991614098006,
+            0.5728160392074833
+          ]
+        },
+        "Серебряный бастион": {
+          "estimate": 0.5602092978395061,
+          "standard_error": 0.0022213388429327746,
+          "95_percent_ci": [
+            0.555855553709898,
+            0.5645630419691142
+          ]
+        },
+        "Туманные врата": {
+          "estimate": 0.5760754243827159,
+          "standard_error": 0.0023607015150579743,
+          "95_percent_ci": [
+            0.5714485344349531,
+            0.5807023143304786
+          ]
+        },
+        "Тёмный бастион": {
+          "estimate": 0.572241512345679,
+          "standard_error": 0.0022946691550569352,
+          "95_percent_ci": [
+            0.5677440434453325,
+            0.5767389812460255
+          ]
+        }
+      },
+      "metadata": {
+        "arena_abi": 2002,
+        "arm": "trained-original",
+        "bouts": 103680,
+        "focal_roster_inputs_neutralized": false,
+        "inference": "torch 2.9.1 single-threaded masked argmax",
+        "input_files": {
+          "fixtures": {
+            "path": "evaluation/roster-2901-league/fixtures.npz",
+            "sha256": "ba8948dc1851048bdbb45f8a55db2ad46a867c29c3141c13420e40297620096a"
+          },
+          "focal": {
+            "path": "training/runs/roster-2901-league/checkpoints/update-1000.npz",
+            "sha256": "608facd39535f804f9304783093f2590c74ed66966654ff51bb667c480ceda17"
+          },
+          "native": {
+            "path": "target/release/libdnd_duel_engine.dylib",
+            "sha256": "b60818b8a2767b570b5271c2c9d24c783235a0c2b27ac4175a8c4a38ec4fe277"
+          },
+          "opponent": {
+            "path": "training/runs/long-width/checkpoints/update-2901.npz",
+            "sha256": "5077e8c775f85029bc397316d57d4d02eb31237792cc1c46b81e54cbabf9e723"
+          }
+        },
+        "opponent_roster_inputs_neutralized": false
+      }
+    },
+    "original-expert": {
+      "wins": 62068,
+      "draws": 6168,
+      "losses": 35444,
+      "score": 0.6283950617283951,
+      "termination": {
+        "ongoing": 0,
+        "defeat": 97512,
+        "double knockout": 11,
+        "turn limit": 1191,
+        "decision limit": 4966
+      },
+      "score_inference": {
+        "estimate": 0.6283950617283951,
+        "standard_error": 0.0010765437024793127,
+        "95_percent_ci": [
+          0.6262850748437523,
+          0.6305050486130379
+        ]
+      },
+      "arena_score": {
+        "Мшистая цитадель": {
+          "estimate": 0.6416377314814814,
+          "standard_error": 0.0023825728951608178,
+          "95_percent_ci": [
+            0.6369679744164248,
+            0.646307488546538
+          ]
+        },
+        "Янтарная застава": {
+          "estimate": 0.6295090663580247,
+          "standard_error": 0.002448269983982409,
+          "95_percent_ci": [
+            0.6247105453649887,
+            0.6343075873510607
+          ]
+        },
+        "Серебряный бастион": {
+          "estimate": 0.6198398919753086,
+          "standard_error": 0.0024581395205856044,
+          "95_percent_ci": [
+            0.6150220270459863,
+            0.624657756904631
+          ]
+        },
+        "Туманные врата": {
+          "estimate": 0.6291956018518519,
+          "standard_error": 0.0023752756713440464,
+          "95_percent_ci": [
+            0.6245401470826634,
+            0.6338510566210404
+          ]
+        },
+        "Тёмный бастион": {
+          "estimate": 0.6217930169753086,
+          "standard_error": 0.002370357494330489,
+          "95_percent_ci": [
+            0.6171472016559363,
+            0.626438832294681
+          ]
+        }
+      },
+      "metadata": {
+        "arena_abi": 2002,
+        "arm": "original-expert",
+        "bouts": 103680,
+        "focal_roster_inputs_neutralized": false,
+        "inference": "torch 2.9.1 single-threaded masked argmax",
+        "input_files": {
+          "fixtures": {
+            "path": "evaluation/roster-2901-league/fixtures.npz",
+            "sha256": "ba8948dc1851048bdbb45f8a55db2ad46a867c29c3141c13420e40297620096a"
+          },
+          "focal": {
+            "path": "training/runs/long-width/checkpoints/update-2901.npz",
+            "sha256": "5077e8c775f85029bc397316d57d4d02eb31237792cc1c46b81e54cbabf9e723"
+          },
+          "native": {
+            "path": "target/release/libdnd_duel_engine.dylib",
+            "sha256": "b60818b8a2767b570b5271c2c9d24c783235a0c2b27ac4175a8c4a38ec4fe277"
+          }
+        },
+        "opponent_roster_inputs_neutralized": false
+      }
+    }
+  },
+  "trained_minus_initial_vs_expert": {
+    "estimate": 0.048186728395061725,
+    "standard_error": 0.00124677379916515,
+    "95_percent_ci": [
+      0.04574309665182986,
+      0.05063036013829359
+    ]
+  },
+  "trained_minus_original_vs_expert": {
+    "estimate": 0.05868537808641975,
+    "standard_error": 0.0012609986205869435,
+    "95_percent_ci": [
+      0.056213866205514655,
+      0.061156889967324844
+    ]
+  },
+  "initial_minus_original_vs_expert": {
+    "estimate": 0.010498649691358025,
+    "standard_error": 0.000793438762947991,
+    "95_percent_ci": [
+      0.00894353829204195,
+      0.0120537610906741
+    ]
+  },
+  "arena_trained_minus_initial_vs_expert": {
+    "Мшистая цитадель": {
+      "estimate": 0.04955150462962962,
+      "standard_error": 0.0028165544345229074,
+      "95_percent_ci": [
+        0.04403115937746815,
+        0.0550718498817911
+      ]
+    },
+    "Янтарная застава": {
+      "estimate": 0.03216628086419753,
+      "standard_error": 0.0028053110722222577,
+      "95_percent_ci": [
+        0.026667972197210465,
+        0.037664589531184595
+      ]
+    },
+    "Серебряный бастион": {
+      "estimate": 0.04578993055555555,
+      "standard_error": 0.0026998944226973207,
+      "95_percent_ci": [
+        0.04049823472500824,
+        0.05108162638610286
+      ]
+    },
+    "Туманные врата": {
+      "estimate": 0.05413290895061729,
+      "standard_error": 0.0028072201470041905,
+      "95_percent_ci": [
+        0.04863085856581384,
+        0.059634959335420734
+      ]
+    },
+    "Тёмный бастион": {
+      "estimate": 0.05929301697530864,
+      "standard_error": 0.002808640011659693,
+      "95_percent_ci": [
+        0.053788183706917486,
+        0.0647978502436998
+      ]
+    }
+  },
+  "expert_by_focal_class": {
+    "Barbarian": {
+      "initial": {
+        "estimate": 0.7709490740740739,
+        "standard_error": 0.003499260904647835,
+        "95_percent_ci": [
+          0.7640906487284551,
+          0.7778074994196926
+        ]
+      },
+      "trained": {
+        "estimate": 0.8112268518518516,
+        "standard_error": 0.003201529601478587,
+        "95_percent_ci": [
+          0.8049519691375148,
+          0.8175017345661885
+        ]
+      },
+      "difference": {
+        "estimate": 0.04027777777777777,
+        "standard_error": 0.0027587670675325625,
+        "95_percent_ci": [
+          0.034870693683678775,
+          0.04568486187187677
+        ]
+      }
+    },
+    "Bard": {
+      "initial": {
+        "estimate": 0.48321759259259256,
+        "standard_error": 0.004055057416980289,
+        "95_percent_ci": [
+          0.4752698261000692,
+          0.49116535908511594
+        ]
+      },
+      "trained": {
+        "estimate": 0.5341435185185184,
+        "standard_error": 0.004143523137061066,
+        "95_percent_ci": [
+          0.5260223624007703,
+          0.5422646746362665
+        ]
+      },
+      "difference": {
+        "estimate": 0.050925925925925916,
+        "standard_error": 0.005108444694258466,
+        "95_percent_ci": [
+          0.0409135583081646,
+          0.06093829354368723
+        ]
+      }
+    },
+    "Cleric": {
+      "initial": {
+        "estimate": 0.5818287037037037,
+        "standard_error": 0.00439248800365327,
+        "95_percent_ci": [
+          0.573219585414019,
+          0.5904378219933883
+        ]
+      },
+      "trained": {
+        "estimate": 0.6162037037037036,
+        "standard_error": 0.004176529699192655,
+        "95_percent_ci": [
+          0.6080178559129241,
+          0.624389551494483
+        ]
+      },
+      "difference": {
+        "estimate": 0.034375,
+        "standard_error": 0.005375406722098667,
+        "95_percent_ci": [
+          0.02383939642243211,
+          0.0449106035775679
+        ]
+      }
+    },
+    "Druid": {
+      "initial": {
+        "estimate": 0.5916087962962963,
+        "standard_error": 0.003874105320944682,
+        "95_percent_ci": [
+          0.5840156893949296,
+          0.5992019031976629
+        ]
+      },
+      "trained": {
+        "estimate": 0.678125,
+        "standard_error": 0.0037968306018372243,
+        "95_percent_ci": [
+          0.6706833487649995,
+          0.6855666512350005
+        ]
+      },
+      "difference": {
+        "estimate": 0.08651620370370369,
+        "standard_error": 0.004938589149774501,
+        "95_percent_ci": [
+          0.07683674683570539,
+          0.096195660571702
+        ]
+      }
+    },
+    "Fighter": {
+      "initial": {
+        "estimate": 0.722048611111111,
+        "standard_error": 0.0037095765070688297,
+        "95_percent_ci": [
+          0.7147779747593601,
+          0.7293192474628618
+        ]
+      },
+      "trained": {
+        "estimate": 0.7719328703703702,
+        "standard_error": 0.0034368374470604723,
+        "95_percent_ci": [
+          0.765196792753413,
+          0.7786689479873273
+        ]
+      },
+      "difference": {
+        "estimate": 0.04988425925925925,
+        "standard_error": 0.0036930961689548686,
+        "95_percent_ci": [
+          0.04264592377666486,
+          0.05712259474185365
+        ]
+      }
+    },
+    "Monk": {
+      "initial": {
+        "estimate": 0.8035300925925924,
+        "standard_error": 0.0034457350630426532,
+        "95_percent_ci": [
+          0.796776575968762,
+          0.810283609216423
+        ]
+      },
+      "trained": {
+        "estimate": 0.8685763888888887,
+        "standard_error": 0.003456271231860905,
+        "95_percent_ci": [
+          0.8618022217536394,
+          0.8753505560241379
+        ]
+      },
+      "difference": {
+        "estimate": 0.0650462962962963,
+        "standard_error": 0.003425473434653773,
+        "95_percent_ci": [
+          0.058332491734376185,
+          0.07176010085821641
+        ]
+      }
+    },
+    "Paladin": {
+      "initial": {
+        "estimate": 0.7778935185185184,
+        "standard_error": 0.003678688463565969,
+        "95_percent_ci": [
+          0.7706834216195861,
+          0.7851036154174507
+        ]
+      },
+      "trained": {
+        "estimate": 0.8635416666666664,
+        "standard_error": 0.003401506529264099,
+        "95_percent_ci": [
+          0.8568748363761309,
+          0.8702084969572019
+        ]
+      },
+      "difference": {
+        "estimate": 0.08564814814814814,
+        "standard_error": 0.004525955584900958,
+        "95_percent_ci": [
+          0.07677743820611435,
+          0.09451885809018193
+        ]
+      }
+    },
+    "Ranger": {
+      "initial": {
+        "estimate": 0.6506365740740739,
+        "standard_error": 0.0037702129127356212,
+        "95_percent_ci": [
+          0.6432470925510643,
+          0.6580260555970836
+        ]
+      },
+      "trained": {
+        "estimate": 0.6847800925925924,
+        "standard_error": 0.003804194845656744,
+        "95_percent_ci": [
+          0.6773240077049323,
+          0.6922361774802526
+        ]
+      },
+      "difference": {
+        "estimate": 0.03414351851851852,
+        "standard_error": 0.004670065641164859,
+        "95_percent_ci": [
+          0.02499035805639744,
+          0.043296678980639595
+        ]
+      }
+    },
+    "Rogue": {
+      "initial": {
+        "estimate": 0.5058449074074073,
+        "standard_error": 0.0037259197501776473,
+        "95_percent_ci": [
+          0.4985422388877726,
+          0.513147575927042
+        ]
+      },
+      "trained": {
+        "estimate": 0.5419560185185184,
+        "standard_error": 0.0038131135401951195,
+        "95_percent_ci": [
+          0.5344824533107739,
+          0.5494295837262628
+        ]
+      },
+      "difference": {
+        "estimate": 0.03611111111111111,
+        "standard_error": 0.003760111131879465,
+        "95_percent_ci": [
+          0.028741428714759223,
+          0.04348079350746299
+        ]
+      }
+    },
+    "Sorcerer": {
+      "initial": {
+        "estimate": 0.6894097222222221,
+        "standard_error": 0.004071130170592953,
+        "95_percent_ci": [
+          0.6814304537114855,
+          0.6973889907329587
+        ]
+      },
+      "trained": {
+        "estimate": 0.7325810185185184,
+        "standard_error": 0.003926239150459135,
+        "95_percent_ci": [
+          0.7248857311889274,
+          0.7402763058481094
+        ]
+      },
+      "difference": {
+        "estimate": 0.0431712962962963,
+        "standard_error": 0.004362651767036558,
+        "95_percent_ci": [
+          0.03462065595581462,
+          0.051721936636777974
+        ]
+      }
+    },
+    "Warlock": {
+      "initial": {
+        "estimate": 0.44618055555555547,
+        "standard_error": 0.0038406797049126604,
+        "95_percent_ci": [
+          0.43865296165777273,
+          0.4537081494533382
+        ]
+      },
+      "trained": {
+        "estimate": 0.49751157407407404,
+        "standard_error": 0.0041092620274090505,
+        "95_percent_ci": [
+          0.48945756849731425,
+          0.5055655796508338
+        ]
+      },
+      "difference": {
+        "estimate": 0.05133101851851852,
+        "standard_error": 0.004854463283169076,
+        "95_percent_ci": [
+          0.04181644531923507,
+          0.06084559171780197
+        ]
+      }
+    },
+    "Wizard": {
+      "initial": {
+        "estimate": 0.6435763888888887,
+        "standard_error": 0.004084856481598791,
+        "95_percent_ci": [
+          0.63557021730294,
+          0.6515825604748373
+        ]
+      },
+      "trained": {
+        "estimate": 0.644386574074074,
+        "standard_error": 0.004336087042082727,
+        "95_percent_ci": [
+          0.635887999637761,
+          0.6528851485103869
+        ]
+      },
+      "difference": {
+        "estimate": 0.0008101851851851862,
+        "standard_error": 0.0034973462739239258,
+        "95_percent_ci": [
+          -0.0060444875531710605,
+          0.007664857923541433
+        ]
+      }
+    }
+  }
+}

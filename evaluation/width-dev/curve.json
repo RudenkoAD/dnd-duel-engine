@@ -1,0 +1,1562 @@
+{
+  "baseline": {
+    "path": "training/runs/league/checkpoints/update-1300.npz",
+    "checkpoint_sha256": "96f9bddabc0eeff4a70c111db443dea064490c6e576ff8bb569966024cb26e31",
+    "main_updates": 0,
+    "league": 0.5437500000000001,
+    "league_raw_win": 0.5189814814814815,
+    "expert": 0.6987847222222222,
+    "expert_raw_win": 0.6854166666666667,
+    "composite": 0.6212673611111111,
+    "weighted_points_twice": 21471,
+    "cpu_seconds": 41.444,
+    "wall_seconds": 41.496,
+    "opponents": {
+      "champion": {
+        "wins": 1488,
+        "draws": 145,
+        "losses": 1247,
+        "score": 0.5418402777777778,
+        "points": 1560.5,
+        "raw_win": 0.5166666666666667,
+        "reasons": {
+          "defeat": 2735,
+          "simultaneous_ko": 1,
+          "turn_cap": 126,
+          "decision_cap": 18
+        },
+        "seats": [
+          {
+            "wins": 752,
+            "draws": 62,
+            "losses": 626,
+            "score": 0.54375
+          },
+          {
+            "wins": 736,
+            "draws": 83,
+            "losses": 621,
+            "score": 0.5399305555555556
+          }
+        ]
+      },
+      "abi2002-control": {
+        "wins": 1509,
+        "draws": 128,
+        "losses": 1243,
+        "score": 0.5461805555555556,
+        "points": 1573.0,
+        "raw_win": 0.5239583333333333,
+        "reasons": {
+          "defeat": 2752,
+          "simultaneous_ko": 1,
+          "turn_cap": 113,
+          "decision_cap": 14
+        },
+        "seats": [
+          {
+            "wins": 739,
+            "draws": 61,
+            "losses": 640,
+            "score": 0.534375
+          },
+          {
+            "wins": 770,
+            "draws": 67,
+            "losses": 603,
+            "score": 0.5579861111111111
+          }
+        ]
+      },
+      "relative-update-90": {
+        "wins": 1487,
+        "draws": 155,
+        "losses": 1238,
+        "score": 0.5432291666666667,
+        "points": 1564.5,
+        "raw_win": 0.5163194444444444,
+        "reasons": {
+          "defeat": 2725,
+          "simultaneous_ko": 0,
+          "turn_cap": 137,
+          "decision_cap": 18
+        },
+        "seats": [
+          {
+            "wins": 747,
+            "draws": 76,
+            "losses": 617,
+            "score": 0.5451388888888888
+          },
+          {
+            "wins": 740,
+            "draws": 79,
+            "losses": 621,
+            "score": 0.5413194444444445
+          }
+        ]
+      },
+      "expert": {
+        "wins": 1974,
+        "draws": 77,
+        "losses": 829,
+        "score": 0.6987847222222222,
+        "points": 2012.5,
+        "raw_win": 0.6854166666666667,
+        "reasons": {
+          "defeat": 2803,
+          "simultaneous_ko": 0,
+          "turn_cap": 64,
+          "decision_cap": 13
+        },
+        "seats": [
+          {
+            "wins": 1021,
+            "draws": 33,
+            "losses": 386,
+            "score": 0.7204861111111112
+          },
+          {
+            "wins": 953,
+            "draws": 44,
+            "losses": 443,
+            "score": 0.6770833333333334
+          }
+        ]
+      }
+    },
+    "budget_percent": 0,
+    "training_cpu_seconds": 0
+  },
+  "wide_initial": {
+    "path": "training/runs/width-league/wide-init.npz",
+    "checkpoint_sha256": "8757c7dec788c354152f7546f36b3cf3051f6fd5eab62faf28308300c2f5a86b",
+    "main_updates": 0,
+    "league": 0.5437500000000001,
+    "league_raw_win": 0.5189814814814815,
+    "expert": 0.6987847222222222,
+    "expert_raw_win": 0.6854166666666667,
+    "composite": 0.6212673611111111,
+    "weighted_points_twice": 21471,
+    "cpu_seconds": 46.122,
+    "wall_seconds": 46.143,
+    "opponents": {
+      "champion": {
+        "wins": 1488,
+        "draws": 145,
+        "losses": 1247,
+        "score": 0.5418402777777778,
+        "points": 1560.5,
+        "raw_win": 0.5166666666666667,
+        "reasons": {
+          "defeat": 2735,
+          "simultaneous_ko": 1,
+          "turn_cap": 126,
+          "decision_cap": 18
+        },
+        "seats": [
+          {
+            "wins": 752,
+            "draws": 62,
+            "losses": 626,
+            "score": 0.54375
+          },
+          {
+            "wins": 736,
+            "draws": 83,
+            "losses": 621,
+            "score": 0.5399305555555556
+          }
+        ]
+      },
+      "abi2002-control": {
+        "wins": 1509,
+        "draws": 128,
+        "losses": 1243,
+        "score": 0.5461805555555556,
+        "points": 1573.0,
+        "raw_win": 0.5239583333333333,
+        "reasons": {
+          "defeat": 2752,
+          "simultaneous_ko": 1,
+          "turn_cap": 113,
+          "decision_cap": 14
+        },
+        "seats": [
+          {
+            "wins": 739,
+            "draws": 61,
+            "losses": 640,
+            "score": 0.534375
+          },
+          {
+            "wins": 770,
+            "draws": 67,
+            "losses": 603,
+            "score": 0.5579861111111111
+          }
+        ]
+      },
+      "relative-update-90": {
+        "wins": 1487,
+        "draws": 155,
+        "losses": 1238,
+        "score": 0.5432291666666667,
+        "points": 1564.5,
+        "raw_win": 0.5163194444444444,
+        "reasons": {
+          "defeat": 2725,
+          "simultaneous_ko": 0,
+          "turn_cap": 137,
+          "decision_cap": 18
+        },
+        "seats": [
+          {
+            "wins": 747,
+            "draws": 76,
+            "losses": 617,
+            "score": 0.5451388888888888
+          },
+          {
+            "wins": 740,
+            "draws": 79,
+            "losses": 621,
+            "score": 0.5413194444444445
+          }
+        ]
+      },
+      "expert": {
+        "wins": 1974,
+        "draws": 77,
+        "losses": 829,
+        "score": 0.6987847222222222,
+        "points": 2012.5,
+        "raw_win": 0.6854166666666667,
+        "reasons": {
+          "defeat": 2803,
+          "simultaneous_ko": 0,
+          "turn_cap": 64,
+          "decision_cap": 13
+        },
+        "seats": [
+          {
+            "wins": 1021,
+            "draws": 33,
+            "losses": 386,
+            "score": 0.7204861111111112
+          },
+          {
+            "wins": 953,
+            "draws": 44,
+            "losses": 443,
+            "score": 0.6770833333333334
+          }
+        ]
+      }
+    },
+    "budget_percent": 0,
+    "training_cpu_seconds": 0
+  },
+  "branches": {
+    "narrow": {
+      "25": {
+        "path": "training/runs/width-league/narrow/checkpoints/cpu-025.npz",
+        "checkpoint_sha256": "ee7cdd7e5a490f1bcb1b654fd90b25fea919f9212c499c446186d0f89aca46bf",
+        "main_updates": 247,
+        "league": 0.5405671296296296,
+        "league_raw_win": 0.515625,
+        "expert": 0.6949652777777777,
+        "expert_raw_win": 0.6788194444444444,
+        "composite": 0.6177662037037037,
+        "weighted_points_twice": 21350,
+        "cpu_seconds": 42.704,
+        "wall_seconds": 42.746,
+        "opponents": {
+          "champion": {
+            "wins": 1451,
+            "draws": 159,
+            "losses": 1270,
+            "score": 0.5314236111111111,
+            "points": 1530.5,
+            "raw_win": 0.5038194444444445,
+            "reasons": {
+              "defeat": 2721,
+              "simultaneous_ko": 1,
+              "turn_cap": 111,
+              "decision_cap": 47
+            },
+            "seats": [
+              {
+                "wins": 730,
+                "draws": 82,
+                "losses": 628,
+                "score": 0.5354166666666667
+              },
+              {
+                "wins": 721,
+                "draws": 77,
+                "losses": 642,
+                "score": 0.5274305555555555
+              }
+            ]
+          },
+          "abi2002-control": {
+            "wins": 1505,
+            "draws": 129,
+            "losses": 1246,
+            "score": 0.5449652777777778,
+            "points": 1569.5,
+            "raw_win": 0.5225694444444444,
+            "reasons": {
+              "defeat": 2751,
+              "simultaneous_ko": 2,
+              "turn_cap": 96,
+              "decision_cap": 31
+            },
+            "seats": [
+              {
+                "wins": 727,
+                "draws": 68,
+                "losses": 645,
+                "score": 0.5284722222222222
+              },
+              {
+                "wins": 778,
+                "draws": 61,
+                "losses": 601,
+                "score": 0.5614583333333333
+              }
+            ]
+          },
+          "relative-update-90": {
+            "wins": 1499,
+            "draws": 143,
+            "losses": 1238,
+            "score": 0.5453125,
+            "points": 1570.5,
+            "raw_win": 0.5204861111111111,
+            "reasons": {
+              "defeat": 2737,
+              "simultaneous_ko": 1,
+              "turn_cap": 105,
+              "decision_cap": 37
+            },
+            "seats": [
+              {
+                "wins": 744,
+                "draws": 73,
+                "losses": 623,
+                "score": 0.5420138888888889
+              },
+              {
+                "wins": 755,
+                "draws": 70,
+                "losses": 615,
+                "score": 0.5486111111111112
+              }
+            ]
+          },
+          "expert": {
+            "wins": 1955,
+            "draws": 93,
+            "losses": 832,
+            "score": 0.6949652777777777,
+            "points": 2001.5,
+            "raw_win": 0.6788194444444444,
+            "reasons": {
+              "defeat": 2787,
+              "simultaneous_ko": 0,
+              "turn_cap": 54,
+              "decision_cap": 39
+            },
+            "seats": [
+              {
+                "wins": 988,
+                "draws": 42,
+                "losses": 410,
+                "score": 0.7006944444444444
+              },
+              {
+                "wins": 967,
+                "draws": 51,
+                "losses": 422,
+                "score": 0.6892361111111112
+              }
+            ]
+          }
+        },
+        "budget_percent": 25,
+        "training_cpu_seconds": 393.79288800000006
+      },
+      "50": {
+        "path": "training/runs/width-league/narrow/checkpoints/cpu-050.npz",
+        "checkpoint_sha256": "31cf656b7743a69c07904551be9cf674a182dbe76eb4f85ab7add3b99a2ab16e",
+        "main_updates": 485,
+        "league": 0.5423611111111111,
+        "league_raw_win": 0.5184027777777778,
+        "expert": 0.6963541666666667,
+        "expert_raw_win": 0.6819444444444445,
+        "composite": 0.6193576388888888,
+        "weighted_points_twice": 21405,
+        "cpu_seconds": 42.015,
+        "wall_seconds": 42.063,
+        "opponents": {
+          "champion": {
+            "wins": 1440,
+            "draws": 148,
+            "losses": 1292,
+            "score": 0.5256944444444445,
+            "points": 1514.0,
+            "raw_win": 0.5,
+            "reasons": {
+              "defeat": 2732,
+              "simultaneous_ko": 0,
+              "turn_cap": 109,
+              "decision_cap": 39
+            },
+            "seats": [
+              {
+                "wins": 702,
+                "draws": 79,
+                "losses": 659,
+                "score": 0.5149305555555556
+              },
+              {
+                "wins": 738,
+                "draws": 69,
+                "losses": 633,
+                "score": 0.5364583333333334
+              }
+            ]
+          },
+          "abi2002-control": {
+            "wins": 1522,
+            "draws": 137,
+            "losses": 1221,
+            "score": 0.5522569444444444,
+            "points": 1590.5,
+            "raw_win": 0.5284722222222222,
+            "reasons": {
+              "defeat": 2743,
+              "simultaneous_ko": 0,
+              "turn_cap": 101,
+              "decision_cap": 36
+            },
+            "seats": [
+              {
+                "wins": 740,
+                "draws": 75,
+                "losses": 625,
+                "score": 0.5399305555555556
+              },
+              {
+                "wins": 782,
+                "draws": 62,
+                "losses": 596,
+                "score": 0.5645833333333333
+              }
+            ]
+          },
+          "relative-update-90": {
+            "wins": 1517,
+            "draws": 129,
+            "losses": 1234,
+            "score": 0.5491319444444445,
+            "points": 1581.5,
+            "raw_win": 0.5267361111111111,
+            "reasons": {
+              "defeat": 2751,
+              "simultaneous_ko": 0,
+              "turn_cap": 103,
+              "decision_cap": 26
+            },
+            "seats": [
+              {
+                "wins": 738,
+                "draws": 68,
+                "losses": 634,
+                "score": 0.5361111111111111
+              },
+              {
+                "wins": 779,
+                "draws": 61,
+                "losses": 600,
+                "score": 0.5621527777777777
+              }
+            ]
+          },
+          "expert": {
+            "wins": 1964,
+            "draws": 83,
+            "losses": 833,
+            "score": 0.6963541666666667,
+            "points": 2005.5,
+            "raw_win": 0.6819444444444445,
+            "reasons": {
+              "defeat": 2797,
+              "simultaneous_ko": 0,
+              "turn_cap": 55,
+              "decision_cap": 28
+            },
+            "seats": [
+              {
+                "wins": 996,
+                "draws": 36,
+                "losses": 408,
+                "score": 0.7041666666666667
+              },
+              {
+                "wins": 968,
+                "draws": 47,
+                "losses": 425,
+                "score": 0.6885416666666667
+              }
+            ]
+          }
+        },
+        "budget_percent": 50,
+        "training_cpu_seconds": 787.785417
+      },
+      "75": {
+        "path": "training/runs/width-league/narrow/checkpoints/cpu-075.npz",
+        "checkpoint_sha256": "f03392b1b32909cf95919318d777d6b50919b0d2e34eb58c1df82cbed36c4900",
+        "main_updates": 725,
+        "league": 0.5519675925925926,
+        "league_raw_win": 0.5234953703703704,
+        "expert": 0.7128472222222222,
+        "expert_raw_win": 0.7010416666666667,
+        "composite": 0.6324074074074074,
+        "weighted_points_twice": 21856,
+        "cpu_seconds": 39.761,
+        "wall_seconds": 39.787,
+        "opponents": {
+          "champion": {
+            "wins": 1441,
+            "draws": 198,
+            "losses": 1241,
+            "score": 0.5347222222222222,
+            "points": 1540.0,
+            "raw_win": 0.5003472222222223,
+            "reasons": {
+              "defeat": 2682,
+              "simultaneous_ko": 2,
+              "turn_cap": 171,
+              "decision_cap": 25
+            },
+            "seats": [
+              {
+                "wins": 711,
+                "draws": 89,
+                "losses": 640,
+                "score": 0.5246527777777777
+              },
+              {
+                "wins": 730,
+                "draws": 109,
+                "losses": 601,
+                "score": 0.5447916666666667
+              }
+            ]
+          },
+          "abi2002-control": {
+            "wins": 1560,
+            "draws": 134,
+            "losses": 1186,
+            "score": 0.5649305555555556,
+            "points": 1627.0,
+            "raw_win": 0.5416666666666666,
+            "reasons": {
+              "defeat": 2746,
+              "simultaneous_ko": 1,
+              "turn_cap": 122,
+              "decision_cap": 11
+            },
+            "seats": [
+              {
+                "wins": 759,
+                "draws": 61,
+                "losses": 620,
+                "score": 0.5482638888888889
+              },
+              {
+                "wins": 801,
+                "draws": 73,
+                "losses": 566,
+                "score": 0.5815972222222222
+              }
+            ]
+          },
+          "relative-update-90": {
+            "wins": 1522,
+            "draws": 160,
+            "losses": 1198,
+            "score": 0.55625,
+            "points": 1602.0,
+            "raw_win": 0.5284722222222222,
+            "reasons": {
+              "defeat": 2720,
+              "simultaneous_ko": 1,
+              "turn_cap": 152,
+              "decision_cap": 7
+            },
+            "seats": [
+              {
+                "wins": 753,
+                "draws": 77,
+                "losses": 610,
+                "score": 0.5496527777777778
+              },
+              {
+                "wins": 769,
+                "draws": 83,
+                "losses": 588,
+                "score": 0.5628472222222223
+              }
+            ]
+          },
+          "expert": {
+            "wins": 2019,
+            "draws": 68,
+            "losses": 793,
+            "score": 0.7128472222222222,
+            "points": 2053.0,
+            "raw_win": 0.7010416666666667,
+            "reasons": {
+              "defeat": 2812,
+              "simultaneous_ko": 0,
+              "turn_cap": 50,
+              "decision_cap": 18
+            },
+            "seats": [
+              {
+                "wins": 1026,
+                "draws": 25,
+                "losses": 389,
+                "score": 0.7211805555555556
+              },
+              {
+                "wins": 993,
+                "draws": 43,
+                "losses": 404,
+                "score": 0.7045138888888889
+              }
+            ]
+          }
+        },
+        "budget_percent": 75,
+        "training_cpu_seconds": 1181.815243
+      },
+      "100": {
+        "path": "training/runs/width-league/narrow/checkpoints/cpu-100.npz",
+        "checkpoint_sha256": "4f4bb5c76eb175e1028b18761df01b5206fb379930a9fbca9b19c82336edc346",
+        "main_updates": 967,
+        "league": 0.5593171296296297,
+        "league_raw_win": 0.5354166666666667,
+        "expert": 0.7164930555555555,
+        "expert_raw_win": 0.7045138888888889,
+        "composite": 0.6379050925925925,
+        "weighted_points_twice": 22046,
+        "cpu_seconds": 40.41,
+        "wall_seconds": 40.432,
+        "opponents": {
+          "champion": {
+            "wins": 1525,
+            "draws": 140,
+            "losses": 1215,
+            "score": 0.5538194444444444,
+            "points": 1595.0,
+            "raw_win": 0.5295138888888888,
+            "reasons": {
+              "defeat": 2740,
+              "simultaneous_ko": 0,
+              "turn_cap": 102,
+              "decision_cap": 38
+            },
+            "seats": [
+              {
+                "wins": 768,
+                "draws": 67,
+                "losses": 605,
+                "score": 0.5565972222222222
+              },
+              {
+                "wins": 757,
+                "draws": 73,
+                "losses": 610,
+                "score": 0.5510416666666667
+              }
+            ]
+          },
+          "abi2002-control": {
+            "wins": 1563,
+            "draws": 135,
+            "losses": 1182,
+            "score": 0.5661458333333333,
+            "points": 1630.5,
+            "raw_win": 0.5427083333333333,
+            "reasons": {
+              "defeat": 2745,
+              "simultaneous_ko": 0,
+              "turn_cap": 116,
+              "decision_cap": 19
+            },
+            "seats": [
+              {
+                "wins": 771,
+                "draws": 62,
+                "losses": 607,
+                "score": 0.5569444444444445
+              },
+              {
+                "wins": 792,
+                "draws": 73,
+                "losses": 575,
+                "score": 0.5753472222222222
+              }
+            ]
+          },
+          "relative-update-90": {
+            "wins": 1538,
+            "draws": 138,
+            "losses": 1204,
+            "score": 0.5579861111111111,
+            "points": 1607.0,
+            "raw_win": 0.5340277777777778,
+            "reasons": {
+              "defeat": 2742,
+              "simultaneous_ko": 0,
+              "turn_cap": 116,
+              "decision_cap": 22
+            },
+            "seats": [
+              {
+                "wins": 762,
+                "draws": 66,
+                "losses": 612,
+                "score": 0.5520833333333334
+              },
+              {
+                "wins": 776,
+                "draws": 72,
+                "losses": 592,
+                "score": 0.5638888888888889
+              }
+            ]
+          },
+          "expert": {
+            "wins": 2029,
+            "draws": 69,
+            "losses": 782,
+            "score": 0.7164930555555555,
+            "points": 2063.5,
+            "raw_win": 0.7045138888888889,
+            "reasons": {
+              "defeat": 2811,
+              "simultaneous_ko": 0,
+              "turn_cap": 49,
+              "decision_cap": 20
+            },
+            "seats": [
+              {
+                "wins": 1023,
+                "draws": 32,
+                "losses": 385,
+                "score": 0.7215277777777778
+              },
+              {
+                "wins": 1006,
+                "draws": 37,
+                "losses": 397,
+                "score": 0.7114583333333333
+              }
+            ]
+          }
+        },
+        "budget_percent": 100,
+        "training_cpu_seconds": 1575.7750389999999
+      }
+    },
+    "wide": {
+      "25": {
+        "path": "training/runs/width-league/wide/checkpoints/cpu-025.npz",
+        "checkpoint_sha256": "e8c51bc0bef6893f4a4cf5fd4a3c9908ce55e0044d0921842469bcfd5cd13f60",
+        "main_updates": 197,
+        "league": 0.5349537037037037,
+        "league_raw_win": 0.5101851851851852,
+        "expert": 0.6878472222222223,
+        "expert_raw_win": 0.6746527777777778,
+        "composite": 0.6114004629629629,
+        "weighted_points_twice": 21130,
+        "cpu_seconds": 57.873,
+        "wall_seconds": 57.96,
+        "opponents": {
+          "champion": {
+            "wins": 1477,
+            "draws": 150,
+            "losses": 1253,
+            "score": 0.5388888888888889,
+            "points": 1552.0,
+            "raw_win": 0.5128472222222222,
+            "reasons": {
+              "defeat": 2730,
+              "simultaneous_ko": 2,
+              "turn_cap": 120,
+              "decision_cap": 28
+            },
+            "seats": [
+              {
+                "wins": 748,
+                "draws": 67,
+                "losses": 625,
+                "score": 0.5427083333333333
+              },
+              {
+                "wins": 729,
+                "draws": 83,
+                "losses": 628,
+                "score": 0.5350694444444445
+              }
+            ]
+          },
+          "abi2002-control": {
+            "wins": 1449,
+            "draws": 131,
+            "losses": 1300,
+            "score": 0.5258680555555556,
+            "points": 1514.5,
+            "raw_win": 0.503125,
+            "reasons": {
+              "defeat": 2749,
+              "simultaneous_ko": 1,
+              "turn_cap": 106,
+              "decision_cap": 24
+            },
+            "seats": [
+              {
+                "wins": 728,
+                "draws": 68,
+                "losses": 644,
+                "score": 0.5291666666666667
+              },
+              {
+                "wins": 721,
+                "draws": 63,
+                "losses": 656,
+                "score": 0.5225694444444444
+              }
+            ]
+          },
+          "relative-update-90": {
+            "wins": 1482,
+            "draws": 147,
+            "losses": 1251,
+            "score": 0.5401041666666667,
+            "points": 1555.5,
+            "raw_win": 0.5145833333333333,
+            "reasons": {
+              "defeat": 2733,
+              "simultaneous_ko": 3,
+              "turn_cap": 125,
+              "decision_cap": 19
+            },
+            "seats": [
+              {
+                "wins": 752,
+                "draws": 73,
+                "losses": 615,
+                "score": 0.5475694444444444
+              },
+              {
+                "wins": 730,
+                "draws": 74,
+                "losses": 636,
+                "score": 0.5326388888888889
+              }
+            ]
+          },
+          "expert": {
+            "wins": 1943,
+            "draws": 76,
+            "losses": 861,
+            "score": 0.6878472222222223,
+            "points": 1981.0,
+            "raw_win": 0.6746527777777778,
+            "reasons": {
+              "defeat": 2804,
+              "simultaneous_ko": 2,
+              "turn_cap": 55,
+              "decision_cap": 19
+            },
+            "seats": [
+              {
+                "wins": 1007,
+                "draws": 33,
+                "losses": 400,
+                "score": 0.7107638888888889
+              },
+              {
+                "wins": 936,
+                "draws": 43,
+                "losses": 461,
+                "score": 0.6649305555555556
+              }
+            ]
+          }
+        },
+        "budget_percent": 25,
+        "training_cpu_seconds": 391.942365
+      },
+      "50": {
+        "path": "training/runs/width-league/wide/checkpoints/cpu-050.npz",
+        "checkpoint_sha256": "4bc3c4e024f436f39c4f43ce1155ff7d16842bbf5f72dd314e509f9d677cffd6",
+        "main_updates": 386,
+        "league": 0.5382523148148147,
+        "league_raw_win": 0.5077546296296296,
+        "expert": 0.7,
+        "expert_raw_win": 0.6864583333333333,
+        "composite": 0.6191261574074074,
+        "weighted_points_twice": 21397,
+        "cpu_seconds": 57.933,
+        "wall_seconds": 57.969,
+        "opponents": {
+          "champion": {
+            "wins": 1436,
+            "draws": 187,
+            "losses": 1257,
+            "score": 0.5310763888888889,
+            "points": 1529.5,
+            "raw_win": 0.4986111111111111,
+            "reasons": {
+              "defeat": 2693,
+              "simultaneous_ko": 0,
+              "turn_cap": 157,
+              "decision_cap": 30
+            },
+            "seats": [
+              {
+                "wins": 727,
+                "draws": 80,
+                "losses": 633,
+                "score": 0.5326388888888889
+              },
+              {
+                "wins": 709,
+                "draws": 107,
+                "losses": 624,
+                "score": 0.5295138888888888
+              }
+            ]
+          },
+          "abi2002-control": {
+            "wins": 1464,
+            "draws": 163,
+            "losses": 1253,
+            "score": 0.5366319444444444,
+            "points": 1545.5,
+            "raw_win": 0.5083333333333333,
+            "reasons": {
+              "defeat": 2717,
+              "simultaneous_ko": 1,
+              "turn_cap": 135,
+              "decision_cap": 27
+            },
+            "seats": [
+              {
+                "wins": 722,
+                "draws": 74,
+                "losses": 644,
+                "score": 0.5270833333333333
+              },
+              {
+                "wins": 742,
+                "draws": 89,
+                "losses": 609,
+                "score": 0.5461805555555556
+              }
+            ]
+          },
+          "relative-update-90": {
+            "wins": 1487,
+            "draws": 177,
+            "losses": 1216,
+            "score": 0.5470486111111111,
+            "points": 1575.5,
+            "raw_win": 0.5163194444444444,
+            "reasons": {
+              "defeat": 2703,
+              "simultaneous_ko": 0,
+              "turn_cap": 150,
+              "decision_cap": 27
+            },
+            "seats": [
+              {
+                "wins": 745,
+                "draws": 87,
+                "losses": 608,
+                "score": 0.5475694444444444
+              },
+              {
+                "wins": 742,
+                "draws": 90,
+                "losses": 608,
+                "score": 0.5465277777777777
+              }
+            ]
+          },
+          "expert": {
+            "wins": 1977,
+            "draws": 78,
+            "losses": 825,
+            "score": 0.7,
+            "points": 2016.0,
+            "raw_win": 0.6864583333333333,
+            "reasons": {
+              "defeat": 2802,
+              "simultaneous_ko": 0,
+              "turn_cap": 61,
+              "decision_cap": 17
+            },
+            "seats": [
+              {
+                "wins": 985,
+                "draws": 36,
+                "losses": 419,
+                "score": 0.6965277777777777
+              },
+              {
+                "wins": 992,
+                "draws": 42,
+                "losses": 406,
+                "score": 0.7034722222222223
+              }
+            ]
+          }
+        },
+        "budget_percent": 50,
+        "training_cpu_seconds": 787.7259529999999
+      },
+      "75": {
+        "path": "training/runs/width-league/wide/checkpoints/cpu-075.npz",
+        "checkpoint_sha256": "e140de69d7af7925a32f54260e55660805b2cdc4056088eda59a56a68ec01ed8",
+        "main_updates": 574,
+        "league": 0.5416666666666666,
+        "league_raw_win": 0.5118055555555555,
+        "expert": 0.7048611111111112,
+        "expert_raw_win": 0.6913194444444445,
+        "composite": 0.6232638888888888,
+        "weighted_points_twice": 21540,
+        "cpu_seconds": 59.968,
+        "wall_seconds": 59.988,
+        "opponents": {
+          "champion": {
+            "wins": 1470,
+            "draws": 180,
+            "losses": 1230,
+            "score": 0.5416666666666666,
+            "points": 1560.0,
+            "raw_win": 0.5104166666666666,
+            "reasons": {
+              "defeat": 2700,
+              "simultaneous_ko": 0,
+              "turn_cap": 152,
+              "decision_cap": 28
+            },
+            "seats": [
+              {
+                "wins": 732,
+                "draws": 86,
+                "losses": 622,
+                "score": 0.5381944444444444
+              },
+              {
+                "wins": 738,
+                "draws": 94,
+                "losses": 608,
+                "score": 0.5451388888888888
+              }
+            ]
+          },
+          "abi2002-control": {
+            "wins": 1495,
+            "draws": 157,
+            "losses": 1228,
+            "score": 0.5463541666666667,
+            "points": 1573.5,
+            "raw_win": 0.5190972222222222,
+            "reasons": {
+              "defeat": 2723,
+              "simultaneous_ko": 1,
+              "turn_cap": 137,
+              "decision_cap": 19
+            },
+            "seats": [
+              {
+                "wins": 737,
+                "draws": 73,
+                "losses": 630,
+                "score": 0.5371527777777778
+              },
+              {
+                "wins": 758,
+                "draws": 84,
+                "losses": 598,
+                "score": 0.5555555555555556
+              }
+            ]
+          },
+          "relative-update-90": {
+            "wins": 1457,
+            "draws": 179,
+            "losses": 1244,
+            "score": 0.5369791666666667,
+            "points": 1546.5,
+            "raw_win": 0.5059027777777778,
+            "reasons": {
+              "defeat": 2701,
+              "simultaneous_ko": 0,
+              "turn_cap": 157,
+              "decision_cap": 22
+            },
+            "seats": [
+              {
+                "wins": 716,
+                "draws": 89,
+                "losses": 635,
+                "score": 0.528125
+              },
+              {
+                "wins": 741,
+                "draws": 90,
+                "losses": 609,
+                "score": 0.5458333333333333
+              }
+            ]
+          },
+          "expert": {
+            "wins": 1991,
+            "draws": 78,
+            "losses": 811,
+            "score": 0.7048611111111112,
+            "points": 2030.0,
+            "raw_win": 0.6913194444444445,
+            "reasons": {
+              "defeat": 2802,
+              "simultaneous_ko": 0,
+              "turn_cap": 60,
+              "decision_cap": 18
+            },
+            "seats": [
+              {
+                "wins": 1000,
+                "draws": 31,
+                "losses": 409,
+                "score": 0.7052083333333333
+              },
+              {
+                "wins": 991,
+                "draws": 47,
+                "losses": 402,
+                "score": 0.7045138888888889
+              }
+            ]
+          }
+        },
+        "budget_percent": 75,
+        "training_cpu_seconds": 1180.490559
+      },
+      "100": {
+        "path": "training/runs/width-league/wide/checkpoints/cpu-100.npz",
+        "checkpoint_sha256": "1c8cfe14f7a18f5455e022dfcc27376ecb273ae276a1a493914680c4d7fc51b5",
+        "main_updates": 757,
+        "league": 0.5511574074074074,
+        "league_raw_win": 0.5174768518518519,
+        "expert": 0.7125,
+        "expert_raw_win": 0.6951388888888889,
+        "composite": 0.6318287037037037,
+        "weighted_points_twice": 21836,
+        "cpu_seconds": 62.753,
+        "wall_seconds": 62.781,
+        "opponents": {
+          "champion": {
+            "wins": 1499,
+            "draws": 198,
+            "losses": 1183,
+            "score": 0.5548611111111111,
+            "points": 1598.0,
+            "raw_win": 0.5204861111111111,
+            "reasons": {
+              "defeat": 2682,
+              "simultaneous_ko": 0,
+              "turn_cap": 137,
+              "decision_cap": 61
+            },
+            "seats": [
+              {
+                "wins": 753,
+                "draws": 90,
+                "losses": 597,
+                "score": 0.5541666666666667
+              },
+              {
+                "wins": 746,
+                "draws": 108,
+                "losses": 586,
+                "score": 0.5555555555555556
+              }
+            ]
+          },
+          "abi2002-control": {
+            "wins": 1487,
+            "draws": 186,
+            "losses": 1207,
+            "score": 0.5486111111111112,
+            "points": 1580.0,
+            "raw_win": 0.5163194444444444,
+            "reasons": {
+              "defeat": 2694,
+              "simultaneous_ko": 1,
+              "turn_cap": 138,
+              "decision_cap": 47
+            },
+            "seats": [
+              {
+                "wins": 720,
+                "draws": 86,
+                "losses": 634,
+                "score": 0.5298611111111111
+              },
+              {
+                "wins": 767,
+                "draws": 100,
+                "losses": 573,
+                "score": 0.5673611111111111
+              }
+            ]
+          },
+          "relative-update-90": {
+            "wins": 1485,
+            "draws": 198,
+            "losses": 1197,
+            "score": 0.55,
+            "points": 1584.0,
+            "raw_win": 0.515625,
+            "reasons": {
+              "defeat": 2682,
+              "simultaneous_ko": 0,
+              "turn_cap": 153,
+              "decision_cap": 45
+            },
+            "seats": [
+              {
+                "wins": 726,
+                "draws": 102,
+                "losses": 612,
+                "score": 0.5395833333333333
+              },
+              {
+                "wins": 759,
+                "draws": 96,
+                "losses": 585,
+                "score": 0.5604166666666667
+              }
+            ]
+          },
+          "expert": {
+            "wins": 2002,
+            "draws": 100,
+            "losses": 778,
+            "score": 0.7125,
+            "points": 2052.0,
+            "raw_win": 0.6951388888888889,
+            "reasons": {
+              "defeat": 2780,
+              "simultaneous_ko": 0,
+              "turn_cap": 58,
+              "decision_cap": 42
+            },
+            "seats": [
+              {
+                "wins": 1029,
+                "draws": 42,
+                "losses": 369,
+                "score": 0.7291666666666666
+              },
+              {
+                "wins": 973,
+                "draws": 58,
+                "losses": 409,
+                "score": 0.6958333333333333
+              }
+            ]
+          }
+        },
+        "budget_percent": 100,
+        "training_cpu_seconds": 1573.871378
+      }
+    }
+  },
+  "selection": {
+    "narrow": {
+      "path": "training/runs/width-league/narrow/checkpoints/cpu-100.npz",
+      "checkpoint_sha256": "4f4bb5c76eb175e1028b18761df01b5206fb379930a9fbca9b19c82336edc346",
+      "main_updates": 967,
+      "league": 0.5593171296296297,
+      "league_raw_win": 0.5354166666666667,
+      "expert": 0.7164930555555555,
+      "expert_raw_win": 0.7045138888888889,
+      "composite": 0.6379050925925925,
+      "weighted_points_twice": 22046,
+      "cpu_seconds": 40.41,
+      "wall_seconds": 40.432,
+      "opponents": {
+        "champion": {
+          "wins": 1525,
+          "draws": 140,
+          "losses": 1215,
+          "score": 0.5538194444444444,
+          "points": 1595.0,
+          "raw_win": 0.5295138888888888,
+          "reasons": {
+            "defeat": 2740,
+            "simultaneous_ko": 0,
+            "turn_cap": 102,
+            "decision_cap": 38
+          },
+          "seats": [
+            {
+              "wins": 768,
+              "draws": 67,
+              "losses": 605,
+              "score": 0.5565972222222222
+            },
+            {
+              "wins": 757,
+              "draws": 73,
+              "losses": 610,
+              "score": 0.5510416666666667
+            }
+          ]
+        },
+        "abi2002-control": {
+          "wins": 1563,
+          "draws": 135,
+          "losses": 1182,
+          "score": 0.5661458333333333,
+          "points": 1630.5,
+          "raw_win": 0.5427083333333333,
+          "reasons": {
+            "defeat": 2745,
+            "simultaneous_ko": 0,
+            "turn_cap": 116,
+            "decision_cap": 19
+          },
+          "seats": [
+            {
+              "wins": 771,
+              "draws": 62,
+              "losses": 607,
+              "score": 0.5569444444444445
+            },
+            {
+              "wins": 792,
+              "draws": 73,
+              "losses": 575,
+              "score": 0.5753472222222222
+            }
+          ]
+        },
+        "relative-update-90": {
+          "wins": 1538,
+          "draws": 138,
+          "losses": 1204,
+          "score": 0.5579861111111111,
+          "points": 1607.0,
+          "raw_win": 0.5340277777777778,
+          "reasons": {
+            "defeat": 2742,
+            "simultaneous_ko": 0,
+            "turn_cap": 116,
+            "decision_cap": 22
+          },
+          "seats": [
+            {
+              "wins": 762,
+              "draws": 66,
+              "losses": 612,
+              "score": 0.5520833333333334
+            },
+            {
+              "wins": 776,
+              "draws": 72,
+              "losses": 592,
+              "score": 0.5638888888888889
+            }
+          ]
+        },
+        "expert": {
+          "wins": 2029,
+          "draws": 69,
+          "losses": 782,
+          "score": 0.7164930555555555,
+          "points": 2063.5,
+          "raw_win": 0.7045138888888889,
+          "reasons": {
+            "defeat": 2811,
+            "simultaneous_ko": 0,
+            "turn_cap": 49,
+            "decision_cap": 20
+          },
+          "seats": [
+            {
+              "wins": 1023,
+              "draws": 32,
+              "losses": 385,
+              "score": 0.7215277777777778
+            },
+            {
+              "wins": 1006,
+              "draws": 37,
+              "losses": 397,
+              "score": 0.7114583333333333
+            }
+          ]
+        }
+      },
+      "budget_percent": 100,
+      "training_cpu_seconds": 1575.7750389999999
+    },
+    "wide": {
+      "path": "training/runs/width-league/wide/checkpoints/cpu-100.npz",
+      "checkpoint_sha256": "1c8cfe14f7a18f5455e022dfcc27376ecb273ae276a1a493914680c4d7fc51b5",
+      "main_updates": 757,
+      "league": 0.5511574074074074,
+      "league_raw_win": 0.5174768518518519,
+      "expert": 0.7125,
+      "expert_raw_win": 0.6951388888888889,
+      "composite": 0.6318287037037037,
+      "weighted_points_twice": 21836,
+      "cpu_seconds": 62.753,
+      "wall_seconds": 62.781,
+      "opponents": {
+        "champion": {
+          "wins": 1499,
+          "draws": 198,
+          "losses": 1183,
+          "score": 0.5548611111111111,
+          "points": 1598.0,
+          "raw_win": 0.5204861111111111,
+          "reasons": {
+            "defeat": 2682,
+            "simultaneous_ko": 0,
+            "turn_cap": 137,
+            "decision_cap": 61
+          },
+          "seats": [
+            {
+              "wins": 753,
+              "draws": 90,
+              "losses": 597,
+              "score": 0.5541666666666667
+            },
+            {
+              "wins": 746,
+              "draws": 108,
+              "losses": 586,
+              "score": 0.5555555555555556
+            }
+          ]
+        },
+        "abi2002-control": {
+          "wins": 1487,
+          "draws": 186,
+          "losses": 1207,
+          "score": 0.5486111111111112,
+          "points": 1580.0,
+          "raw_win": 0.5163194444444444,
+          "reasons": {
+            "defeat": 2694,
+            "simultaneous_ko": 1,
+            "turn_cap": 138,
+            "decision_cap": 47
+          },
+          "seats": [
+            {
+              "wins": 720,
+              "draws": 86,
+              "losses": 634,
+              "score": 0.5298611111111111
+            },
+            {
+              "wins": 767,
+              "draws": 100,
+              "losses": 573,
+              "score": 0.5673611111111111
+            }
+          ]
+        },
+        "relative-update-90": {
+          "wins": 1485,
+          "draws": 198,
+          "losses": 1197,
+          "score": 0.55,
+          "points": 1584.0,
+          "raw_win": 0.515625,
+          "reasons": {
+            "defeat": 2682,
+            "simultaneous_ko": 0,
+            "turn_cap": 153,
+            "decision_cap": 45
+          },
+          "seats": [
+            {
+              "wins": 726,
+              "draws": 102,
+              "losses": 612,
+              "score": 0.5395833333333333
+            },
+            {
+              "wins": 759,
+              "draws": 96,
+              "losses": 585,
+              "score": 0.5604166666666667
+            }
+          ]
+        },
+        "expert": {
+          "wins": 2002,
+          "draws": 100,
+          "losses": 778,
+          "score": 0.7125,
+          "points": 2052.0,
+          "raw_win": 0.6951388888888889,
+          "reasons": {
+            "defeat": 2780,
+            "simultaneous_ko": 0,
+            "turn_cap": 58,
+            "decision_cap": 42
+          },
+          "seats": [
+            {
+              "wins": 1029,
+              "draws": 42,
+              "losses": 369,
+              "score": 0.7291666666666666
+            },
+            {
+              "wins": 973,
+              "draws": 58,
+              "losses": 409,
+              "score": 0.6958333333333333
+            }
+          ]
+        }
+      },
+      "budget_percent": 100,
+      "training_cpu_seconds": 1573.871378
+    }
+  },
+  "selection_cpu_seconds": {
+    "narrow": 164.89,
+    "wide": 238.527
+  }
+}

@@ -1,0 +1,423 @@
+{
+  "checkpoint": "training/runs/self_play/continuation.npz",
+  "sha256": "fd8a81371247b42ba186a9f88e318fe2afab0ddfd131aad2b793a6fffd85cb6b",
+  "seed_namespace": "S2D / separate candidate audit",
+  "equal_level": {
+    "baseline": {
+      "counts": {
+        "all": {
+          "games": 1320,
+          "wins": 640,
+          "draws": 40,
+          "losses": 640
+        }
+      },
+      "decisions": 0,
+      "termination": {
+        "ongoing": 0,
+        "defeat": 1280,
+        "double_ko": 0,
+        "turn_limit": 40,
+        "decision_limit": 0
+      },
+      "classes": {
+        "Barbarian": [
+          110,
+          75,
+          0
+        ],
+        "Bard": [
+          110,
+          17,
+          5
+        ],
+        "Cleric": [
+          110,
+          4,
+          15
+        ],
+        "Druid": [
+          110,
+          35,
+          7
+        ],
+        "Fighter": [
+          110,
+          81,
+          2
+        ],
+        "Monk": [
+          110,
+          75,
+          0
+        ],
+        "Paladin": [
+          110,
+          66,
+          0
+        ],
+        "Ranger": [
+          110,
+          58,
+          0
+        ],
+        "Rogue": [
+          110,
+          53,
+          4
+        ],
+        "Sorcerer": [
+          110,
+          81,
+          2
+        ],
+        "Warlock": [
+          110,
+          35,
+          5
+        ],
+        "Wizard": [
+          110,
+          60,
+          0
+        ]
+      }
+    },
+    "greedy": {
+      "counts": {
+        "all": {
+          "games": 1320,
+          "wins": 868,
+          "draws": 28,
+          "losses": 424
+        }
+      },
+      "decisions": 42441,
+      "termination": {
+        "ongoing": 0,
+        "defeat": 1292,
+        "double_ko": 0,
+        "turn_limit": 28,
+        "decision_limit": 0
+      },
+      "classes": {
+        "Barbarian": [
+          110,
+          91,
+          0
+        ],
+        "Bard": [
+          110,
+          61,
+          1
+        ],
+        "Cleric": [
+          110,
+          52,
+          5
+        ],
+        "Druid": [
+          110,
+          55,
+          0
+        ],
+        "Fighter": [
+          110,
+          82,
+          2
+        ],
+        "Monk": [
+          110,
+          80,
+          0
+        ],
+        "Paladin": [
+          110,
+          97,
+          0
+        ],
+        "Ranger": [
+          110,
+          65,
+          0
+        ],
+        "Rogue": [
+          110,
+          68,
+          0
+        ],
+        "Sorcerer": [
+          110,
+          88,
+          1
+        ],
+        "Warlock": [
+          110,
+          48,
+          19
+        ],
+        "Wizard": [
+          110,
+          81,
+          0
+        ]
+      }
+    },
+    "stochastic": {
+      "counts": {
+        "all": {
+          "games": 1320,
+          "wins": 828,
+          "draws": 18,
+          "losses": 474
+        }
+      },
+      "decisions": 44430,
+      "termination": {
+        "ongoing": 0,
+        "defeat": 1302,
+        "double_ko": 1,
+        "turn_limit": 17,
+        "decision_limit": 0
+      },
+      "classes": {
+        "Barbarian": [
+          110,
+          89,
+          0
+        ],
+        "Bard": [
+          110,
+          58,
+          1
+        ],
+        "Cleric": [
+          110,
+          45,
+          2
+        ],
+        "Druid": [
+          110,
+          61,
+          0
+        ],
+        "Fighter": [
+          110,
+          79,
+          0
+        ],
+        "Monk": [
+          110,
+          80,
+          0
+        ],
+        "Paladin": [
+          110,
+          94,
+          0
+        ],
+        "Ranger": [
+          110,
+          65,
+          0
+        ],
+        "Rogue": [
+          110,
+          52,
+          0
+        ],
+        "Sorcerer": [
+          110,
+          85,
+          0
+        ],
+        "Warlock": [
+          110,
+          49,
+          14
+        ],
+        "Wizard": [
+          110,
+          71,
+          1
+        ]
+      }
+    }
+  },
+  "mixed_levels": {
+    "level_combos_seen": 25,
+    "greedy": {
+      "counts": {
+        "all": {
+          "games": 2640,
+          "wins": 1711,
+          "draws": 50,
+          "losses": 879
+        },
+        "unequal_levels": {
+          "games": 660,
+          "wins": 374,
+          "draws": 7,
+          "losses": 279
+        }
+      },
+      "decisions": 81753,
+      "termination": {
+        "ongoing": 0,
+        "defeat": 2590,
+        "double_ko": 0,
+        "turn_limit": 47,
+        "decision_limit": 3
+      },
+      "classes": {
+        "Barbarian": [
+          217,
+          177,
+          0
+        ],
+        "Bard": [
+          198,
+          118,
+          0
+        ],
+        "Cleric": [
+          240,
+          139,
+          12
+        ],
+        "Druid": [
+          218,
+          118,
+          0
+        ],
+        "Fighter": [
+          224,
+          153,
+          2
+        ],
+        "Monk": [
+          219,
+          168,
+          0
+        ],
+        "Paladin": [
+          201,
+          164,
+          3
+        ],
+        "Ranger": [
+          228,
+          130,
+          0
+        ],
+        "Rogue": [
+          221,
+          119,
+          0
+        ],
+        "Sorcerer": [
+          221,
+          176,
+          1
+        ],
+        "Warlock": [
+          222,
+          89,
+          32
+        ],
+        "Wizard": [
+          231,
+          160,
+          0
+        ]
+      }
+    },
+    "stochastic": {
+      "counts": {
+        "all": {
+          "games": 2640,
+          "wins": 1617,
+          "draws": 39,
+          "losses": 984
+        },
+        "unequal_levels": {
+          "games": 660,
+          "wins": 377,
+          "draws": 8,
+          "losses": 275
+        }
+      },
+      "decisions": 86681,
+      "termination": {
+        "ongoing": 0,
+        "defeat": 2601,
+        "double_ko": 0,
+        "turn_limit": 39,
+        "decision_limit": 0
+      },
+      "classes": {
+        "Barbarian": [
+          217,
+          178,
+          0
+        ],
+        "Bard": [
+          198,
+          113,
+          0
+        ],
+        "Cleric": [
+          240,
+          106,
+          11
+        ],
+        "Druid": [
+          218,
+          110,
+          0
+        ],
+        "Fighter": [
+          224,
+          152,
+          1
+        ],
+        "Monk": [
+          219,
+          165,
+          0
+        ],
+        "Paladin": [
+          201,
+          159,
+          0
+        ],
+        "Ranger": [
+          228,
+          119,
+          0
+        ],
+        "Rogue": [
+          221,
+          105,
+          0
+        ],
+        "Sorcerer": [
+          221,
+          172,
+          0
+        ],
+        "Warlock": [
+          222,
+          97,
+          27
+        ],
+        "Wizard": [
+          231,
+          141,
+          0
+        ]
+      }
+    }
+  },
+  "elapsed_s": 10.642566208029166
+}

@@ -1,0 +1,201 @@
+master	owner	dependencies
+grant.barbarian.rage	martial	barbarian.rage barbarian.rage-resistance barbarian.rage-damage barbarian.rage-strength barbarian.rage-concentration
+grant.barbarian.unarmored-defense	martial	-
+grant.barbarian.weapon-mastery	martial	barbarian.cleave equipment.mastery
+grant.barbarian.danger-sense	martial	barbarian.danger-sense
+grant.barbarian.reckless-attack	martial	barbarian.reckless
+grant.barbarian.barbarian-subclass	origins	-
+grant.barbarian.primal-knowledge	martial	barbarian.primal-knowledge
+grant.barbarian.ability-score-improvement	origins	-
+grant.barbarian.extra-attack	martial	-
+grant.barbarian.fast-movement	martial	-
+grant.barbarian.frenzy	martial	barbarian.frenzy
+grant.bard.bardic-inspiration	magic	magic.bardic-inspiration bard.inspiration.grant bard.inspiration.save bard.inspiration.attack-check
+grant.bard.spellcasting	magic	magic.spell-slots magic.spell-concentration common.spell-components magic.spell.vicious-mockery magic.spell.starry-wisp magic.spell.true-strike magic.spell.dissonant-whispers magic.spell.healing-word magic.spell.cure-wounds magic.spell.thunderwave magic.spell.command magic.spell.shatter magic.spell.hold-person magic.spell.hypnotic-pattern magic.spell.dispel-magic areas.hypnotic-pattern areas.shatter areas.thunderwave
+grant.bard.expertise	origins	-
+grant.bard.jack-of-all-trades	origins	-
+grant.bard.bard-subclass	origins	-
+grant.bard.ability-score-improvement	origins	-
+grant.bard.font-of-inspiration	magic	magic.font-of-inspiration
+grant.bard.bonus-proficiencies	origins	-
+grant.bard.cutting-words	magic	magic.cutting-words areas.reaction-damage
+grant.cleric.spellcasting	magic	magic.spell-slots magic.spell-concentration common.spell-components magic.spell.sacred-flame magic.spell.guidance magic.spell.resistance magic.spell.light magic.spell.guiding-bolt magic.spell.healing-word magic.spell.shield-of-faith magic.spell.spiritual-weapon magic.spell.command magic.spell.hold-person magic.spell.sanctuary magic.spell.spirit-guardians magic.spell.dispel-magic prepared.cleric.aid prepared.cleric.bless prepared.cleric.cure-wounds prepared.cleric.lesser-restoration prepared.cleric.mass-healing-word prepared.cleric.revivify areas.spirit-guardians
+grant.cleric.divine-order	magic	magic.divine-order
+grant.cleric.channel-divinity	magic	magic.divine-spark magic.turn-undead
+grant.cleric.cleric-subclass	origins	-
+grant.cleric.ability-score-improvement	origins	-
+grant.cleric.sear-undead	origins	-
+grant.cleric.disciple-of-life	magic	magic.disciple-of-life
+grant.cleric.life-domain-spells	magic	prepared.cleric.aid prepared.cleric.bless prepared.cleric.cure-wounds prepared.cleric.lesser-restoration prepared.cleric.mass-healing-word prepared.cleric.revivify
+grant.cleric.preserve-life	magic	magic.preserve-life
+grant.druid.spellcasting	magic	magic.spell-slots magic.spell-concentration common.spell-components magic.spell.starry-wisp magic.spell.shillelagh magic.spell.resistance magic.spell.thunderwave magic.spell.healing-word magic.spell.cure-wounds magic.spell.longstrider magic.spell.entangle magic.spell.moonbeam magic.spell.hold-person magic.spell.protection-from-energy magic.spell.dispel-magic prepared.druid.speak-with-animals prepared.druid.blur prepared.druid.burning-hands prepared.druid.fire-bolt prepared.druid.fireball areas.entangle areas.moonbeam areas.thunderwave
+grant.druid.druidic	origins	-
+grant.druid.primal-order	magic	magic.primal-order
+grant.druid.wild-shape	magic	magic.wild-shape shape.roster shape.equipment shape.reversion shape.wolf shape.rat shape.horse shape.spider shape.bear shape.badger shape.water-webs temporary-hp.class-grants
+grant.druid.wild-companion	entities	druid.wild_companion allied.familiar_forms allied.familiar_turn allied.familiar_environment allied.creature_opportunity allied.entity_weapon_target allied.entity_direct_spell_target allied.entity_area_spell_target allied.familiar_shared_senses allied.familiar_touch_delivery allied.familiar_dismiss_and_recall
+grant.druid.druid-subclass	origins	-
+grant.druid.ability-score-improvement	origins	-
+grant.druid.wild-resurgence	magic	magic.wild-resurgence
+grant.druid.circle-of-the-land-spells	magic	prepared.druid.blur prepared.druid.burning-hands prepared.druid.fire-bolt prepared.druid.fireball
+grant.druid.lands-aid	magic	magic.lands-aid areas.lands-aid
+grant.fighter.fighting-style	martial	fighter.defense
+grant.fighter.second-wind	martial	fighter.second-wind
+grant.fighter.weapon-mastery	martial	fighter.sap equipment.mastery
+grant.fighter.action-surge	martial	fighter.action-surge
+grant.fighter.tactical-mind	martial	fighter.tactical-mind
+grant.fighter.fighter-subclass	origins	-
+grant.fighter.ability-score-improvement	origins	-
+grant.fighter.extra-attack	martial	-
+grant.fighter.tactical-shift	martial	fighter.tactical-shift
+grant.fighter.improved-critical	martial	fighter.improved-critical
+grant.fighter.remarkable-athlete	martial	fighter.remarkable-athlete
+grant.monk.martial-arts	martial	monk.martial-arts
+grant.monk.unarmored-defense	martial	-
+grant.monk.monks-focus	martial	monk.focus
+grant.monk.unarmored-movement	martial	-
+grant.monk.uncanny-metabolism	martial	monk.uncanny-metabolism
+grant.monk.deflect-attacks	martial	monk.deflect
+grant.monk.monk-subclass	origins	-
+grant.monk.ability-score-improvement	origins	-
+grant.monk.slow-fall	martial	monk.slow-fall
+grant.monk.extra-attack	martial	-
+grant.monk.stunning-strike	martial	monk.stunning-strike
+grant.monk.open-hand-technique	martial	monk.open-hand
+grant.paladin.lay-on-hands	martial	paladin.lay-on-hands
+grant.paladin.spellcasting	magic	magic.spell-slots magic.spell-concentration common.spell-components magic.spell.divine-favor magic.spell.bless magic.spell.cure-wounds magic.spell.command magic.spell.heroism magic.spell.magic-weapon prepared.paladin.divine-smite prepared.paladin.protection-from-evil-and-good prepared.paladin.shield-of-faith prepared.paladin.aid prepared.paladin.zone-of-truth prepared.paladin.find-steed temporary-hp.heroism
+grant.paladin.weapon-mastery	martial	paladin.sap equipment.mastery
+grant.paladin.fighting-style	martial	paladin.defense
+grant.paladin.paladins-smite	martial	paladin.smite
+grant.paladin.channel-divinity	martial	paladin.divine-sense paladin.sacred-weapon
+grant.paladin.paladin-subclass	origins	-
+grant.paladin.ability-score-improvement	origins	-
+grant.paladin.extra-attack	martial	-
+grant.paladin.faithful-steed	entities	paladin.faithful_steed paladin.steed_control paladin.steed_healing_touch paladin.steed_fey_step paladin.steed_fell_glare
+grant.paladin.oath-of-devotion-spells	magic	prepared.paladin.protection-from-evil-and-good prepared.paladin.shield-of-faith prepared.paladin.aid prepared.paladin.zone-of-truth
+grant.paladin.sacred-weapon	martial	paladin.sacred-weapon
+grant.ranger.spellcasting	magic	magic.spell-slots magic.spell-concentration common.spell-components magic.spell.cure-wounds magic.spell.longstrider magic.spell.entangle magic.spell.jump magic.spell.ensnaring-strike magic.spell.magic-weapon prepared.ranger.hunters-mark areas.entangle
+grant.ranger.favored-enemy	martial	ranger.hunters-mark magic.spell.hunters-mark
+grant.ranger.weapon-mastery	martial	ranger.slow ranger.vex equipment.mastery
+grant.ranger.deft-explorer	origins	-
+grant.ranger.fighting-style	martial	-
+grant.ranger.ranger-subclass	origins	-
+grant.ranger.ability-score-improvement	origins	-
+grant.ranger.extra-attack	martial	-
+grant.ranger.hunters-lore	martial	ranger.hunters-lore
+grant.ranger.hunters-prey	martial	ranger.colossus-slayer
+grant.rogue.expertise	origins	-
+grant.rogue.sneak-attack	martial	rogue.sneak-attack
+grant.rogue.thieves-cant	origins	-
+grant.rogue.weapon-mastery	martial	rogue.vex equipment.mastery
+grant.rogue.cunning-action	martial	rogue.cunning-action
+grant.rogue.rogue-subclass	origins	-
+grant.rogue.steady-aim	martial	rogue.steady-aim
+grant.rogue.ability-score-improvement	origins	-
+grant.rogue.cunning-strike	martial	rogue.cunning-strike
+grant.rogue.uncanny-dodge	martial	rogue.uncanny-dodge
+grant.rogue.fast-hands	martial	rogue.fast-hands
+grant.rogue.second-story-work	martial	rogue.second-story-work
+grant.sorcerer.spellcasting	magic	magic.spell-slots magic.spell-concentration common.spell-components magic.spell.fire-bolt magic.spell.ray-of-frost magic.spell.shocking-grasp magic.spell.light magic.spell.true-strike magic.spell.shield magic.spell.magic-missile magic.spell.thunderwave magic.spell.scorching-ray magic.spell.burning-hands magic.spell.hold-person magic.spell.shatter magic.spell.fireball magic.spell.counterspell prepared.sorcerer.alter-self prepared.sorcerer.chromatic-orb prepared.sorcerer.command prepared.sorcerer.dragons-breath prepared.sorcerer.fear prepared.sorcerer.fly areas.burning-hands areas.fireball areas.shatter areas.thunderwave
+grant.sorcerer.innate-sorcery	magic	magic.innate-sorcery
+grant.sorcerer.font-of-magic	magic	magic.font-of-magic
+grant.sorcerer.metamagic	magic	magic.metamagic
+grant.sorcerer.sorcerer-subclass	origins	-
+grant.sorcerer.ability-score-improvement	origins	-
+grant.sorcerer.sorcerous-restoration	origins	-
+grant.sorcerer.draconic-resilience	magic	magic.draconic-resilience
+grant.sorcerer.draconic-spells	magic	prepared.sorcerer.alter-self prepared.sorcerer.chromatic-orb prepared.sorcerer.command prepared.sorcerer.dragons-breath prepared.sorcerer.fear prepared.sorcerer.fly
+grant.warlock.eldritch-invocations	magic	magic.warlock-invocations temporary-hp.fiendish-vigor
+grant.warlock.pact-magic	magic	magic.warlock-pact-magic magic.spell-slots magic.spell-concentration common.spell-components magic.spell.eldritch-blast magic.spell.poison-spray magic.spell.true-strike magic.spell.hex magic.spell.bane magic.spell.expeditious-retreat magic.spell.hold-person magic.spell.misty-step magic.spell.counterspell prepared.warlock.burning-hands prepared.warlock.command prepared.warlock.scorching-ray prepared.warlock.suggestion prepared.warlock.fireball prepared.warlock.stinking-cloud
+grant.warlock.magical-cunning	magic	magic.magical-cunning
+grant.warlock.warlock-subclass	origins	-
+grant.warlock.ability-score-improvement	origins	-
+grant.warlock.dark-ones-blessing	magic	magic.dark-ones-blessing temporary-hp.class-grants
+grant.warlock.fiend-spells	magic	prepared.warlock.burning-hands prepared.warlock.command prepared.warlock.scorching-ray prepared.warlock.suggestion prepared.warlock.fireball prepared.warlock.stinking-cloud
+grant.wizard.spellcasting	magic	magic.spell-slots magic.spell-concentration common.spell-components magic.spell.fire-bolt magic.spell.ray-of-frost magic.spell.shocking-grasp magic.spell.true-strike magic.spell.magic-missile magic.spell.burning-hands magic.spell.shield magic.spell.mage-armor magic.spell.thunderwave magic.spell.scorching-ray magic.spell.shatter magic.spell.fireball magic.spell.misty-step areas.burning-hands areas.fireball areas.shatter areas.thunderwave
+grant.wizard.ritual-adept	magic	magic.wizard-ritual-adept wizard.find_familiar_book
+grant.wizard.arcane-recovery	origins	-
+grant.wizard.scholar	origins	-
+grant.wizard.wizard-subclass	origins	-
+grant.wizard.ability-score-improvement	origins	-
+grant.wizard.memorize-spell	origins	-
+grant.wizard.evocation-savant	origins	-
+grant.wizard.potent-cantrip	magic	magic.potent-cantrip
+prepared.cleric.aid	magic	magic.spell.aid
+prepared.cleric.bless	magic	magic.spell.bless
+prepared.cleric.cure-wounds	magic	magic.spell.cure-wounds
+prepared.cleric.lesser-restoration	magic	magic.spell.lesser-restoration
+prepared.cleric.mass-healing-word	magic	magic.spell.mass-healing-word
+prepared.cleric.revivify	magic	magic.spell.revivify
+prepared.druid.speak-with-animals	origins	-
+prepared.druid.blur	magic	magic.spell.blur
+prepared.druid.burning-hands	magic	magic.spell.burning-hands areas.burning-hands
+prepared.druid.fire-bolt	magic	magic.spell.fire-bolt
+prepared.druid.fireball	magic	magic.spell.fireball areas.fireball
+prepared.paladin.divine-smite	martial	paladin.smite
+prepared.paladin.protection-from-evil-and-good	magic	magic.spell.protection-from-evil-and-good
+prepared.paladin.shield-of-faith	magic	magic.spell.shield-of-faith
+prepared.paladin.aid	magic	magic.spell.aid
+prepared.paladin.zone-of-truth	magic	magic.spell.zone-of-truth areas.zone-of-truth
+prepared.paladin.find-steed	entities	paladin.faithful_steed
+prepared.ranger.hunters-mark	magic	magic.spell.hunters-mark
+prepared.sorcerer.alter-self	magic	magic.spell.alter-self
+prepared.sorcerer.chromatic-orb	magic	magic.spell.chromatic-orb
+prepared.sorcerer.command	magic	magic.spell.command
+prepared.sorcerer.dragons-breath	magic	magic.spell.dragons-breath areas.dragons-breath
+prepared.sorcerer.fear	magic	magic.spell.fear
+prepared.sorcerer.fly	magic	magic.spell.fly
+prepared.warlock.burning-hands	magic	magic.spell.burning-hands areas.burning-hands
+prepared.warlock.command	magic	magic.spell.command
+prepared.warlock.scorching-ray	magic	magic.spell.scorching-ray
+prepared.warlock.suggestion	magic	magic.spell.suggestion
+prepared.warlock.fireball	magic	magic.spell.fireball areas.fireball
+prepared.warlock.stinking-cloud	magic	magic.spell.stinking-cloud areas.stinking-cloud
+common.dwarven-toughness	origins	-
+common.darkvision	origins	-
+common.dwarven-resilience	origins	-
+common.stonecunning	origins	-
+common.standard-array	origins	-
+common.background-ability-adjustments	origins	-
+common.hit-dice-and-hit-points	origins	-
+common.proficiency-bonus	origins	-
+common.saving-throw-proficiencies	origins	-
+common.action	combat	-
+common.bonus-action	combat	-
+common.reaction	combat	-
+common.initiative	combat	combat.initiative
+common.move	combat	combat.move geometry.grid
+common.dash	combat	combat.dash-disengage-dodge
+common.disengage	combat	combat.dash-disengage-dodge
+common.dodge	combat	combat.dash-disengage-dodge
+common.help	combat	combat.help
+common.hide	combat	combat.hide
+common.influence	combat	combat.ambient-actions
+common.magic	magic	magic.spell-slots common.spell-components
+common.ready	combat	combat.ready magic.ready-spell
+common.search	combat	combat.search
+common.study	origins	-
+common.utilize	combat	combat.interact-utilize
+common.attack	combat	combat.attack allied.entity_weapon_target
+common.opportunity-attack	combat	combat.opportunity allied.creature_opportunity
+common.unarmed-strike	combat	-
+common.grapple	combat	combat.grapple
+common.shove	combat	combat.shove
+common.two-weapon-fighting	equipment	weapon.property.light
+common.cover	combat	combat.cover geometry.wall-cover geometry.creature-cover
+common.visibility-and-obscurity	combat	combat.hide geometry.hidden-aim
+common.difficult-terrain	geometry	geometry.difficult-terrain
+common.prone-stand-or-crawl	combat	combat.prone
+common.forced-movement	combat	-
+common.death-saving-throw	combat	-
+common.weapon-proficiency	equipment	-
+common.weapon-mastery-property	equipment	equipment.mastery
+common.armor-training	equipment	armor.training.body armor.training.shield
+common.don-doff-armor	armor	armor.body.light armor.body.medium armor.body.heavy armor.body.interruption gear.shield
+common.object-interaction	combat	combat.interact-utilize gear.object-interaction gear.transfer
+common.spell-components	equipment	gear.material-hands gear.costed-material
+common.concentration	combat	combat.concentration magic.spell-concentration
+common.spell-slots	magic	magic.spell-slots
+common.targeting	geometry	geometry.point-aim geometry.hidden-aim allied.entity_weapon_target allied.entity_direct_spell_target allied.entity_area_spell_target
+common.area-of-effect	geometry	geometry.area-sphere geometry.area-cylinder geometry.area-cone geometry.area-cube
+common.temporary-hp	combat	temporary-hp.replacement
+common.damage-types	combat	-

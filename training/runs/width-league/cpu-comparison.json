@@ -1,0 +1,31 @@
+{
+  "common_cpu_seconds": 1740.8937840000003,
+  "arms": {
+    "narrow": {
+      "training_cpu_seconds": 1576.0037840000002,
+      "selection_cpu_seconds": 164.89,
+      "all_in_cpu_seconds": 1740.8937840000003,
+      "endpoint": "training/runs/width-league/narrow/checkpoints/cpu-100.npz",
+      "sha256": "4f4bb5c76eb175e1028b18761df01b5206fb379930a9fbca9b19c82336edc346",
+      "endpoint_training_cpu_seconds": 1575.7750389999999,
+      "endpoint_all_in_cpu_seconds": 1740.665039,
+      "endpoint_update": 967,
+      "endpoint_bouts": 371328,
+      "final_training_update": 967,
+      "final_training_bouts": 371328
+    },
+    "wide": {
+      "training_cpu_seconds": 1576.0073200000002,
+      "selection_cpu_seconds": 238.527,
+      "all_in_cpu_seconds": 1814.5343200000002,
+      "endpoint": "training/runs/width-league/wide/cpu-matched.npz",
+      "sha256": "1a40b9430dee0fcd35e400682fd1e2de3afa5bbc367a46481009a2d3ffb909af",
+      "endpoint_training_cpu_seconds": 1492.223569,
+      "endpoint_all_in_cpu_seconds": 1730.750569,
+      "endpoint_update": 719,
+      "endpoint_bouts": 276096,
+      "final_training_update": 757,
+      "final_training_bouts": 290688
+    }
+  }
+}

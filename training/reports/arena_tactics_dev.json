@@ -1,0 +1,444 @@
+{
+  "method": "Independent DEV diagnostics. 1,440 paired-seat bouts per opponent style, spanning all classes and matchups at levels 1–5. Greedy masked policy.",
+  "seed_domain": "DEV / tactical-probe-v1",
+  "checkpoint": {
+    "training_run_id": 5,
+    "training_update": 375,
+    "completed_training_games": 236170
+  },
+  "checkpoint_sha256": "23233928f6a50071222f6aaddc3ce632d944e31f6bad4a94847ec3c749371511",
+  "commands": [
+    "PYTHONPATH=python .venv/bin/python training/tactical_probe.py --repeats 12 --output /tmp/duel-dev.json",
+    "PYTHONPATH=python .venv/bin/python training/tactical_probe.py --repeats 12 --opponent random --output /tmp/duel-dev-random.json",
+    "PYTHONPATH=python .venv/bin/python training/tactical_probe.py --repeats 12 --controller baseline --output /tmp/duel-dev-baseline.json"
+  ],
+  "learned_vs_baseline_by_role": {
+    "melee": {
+      "bouts": 480,
+      "wins": 331,
+      "losses": 148,
+      "draws": 1,
+      "turns": 2529,
+      "moves": 2355,
+      "reversals": 4,
+      "turns_with_reversal": 2,
+      "revisits": 4,
+      "turns_with_revisit": 2,
+      "turns_with_offense_available": 2234,
+      "turns_without_move_or_weapon_spell": 187,
+      "inactive_turns_with_offense_available": 142,
+      "turns_with_offense_available_but_unused": 152,
+      "end_with_offense_offered": 3,
+      "end_with_offense_and_no_offensive_choice": 3,
+      "second_wind": 211,
+      "full_hp_second_wind": 2,
+      "full_hp_second_wind_without_move": 1,
+      "full_hp_second_wind_without_immediate_move": 2,
+      "full_hp_wind_before_level_five": 2,
+      "opportunity_offered": 0,
+      "opportunity_chosen": 0,
+      "defend_offered": 113,
+      "defend_chosen": 113,
+      "rider_offered": 276,
+      "rider_chosen": 247,
+      "already_lethal_rider_offered": 32,
+      "already_lethal_rider_chosen": 4,
+      "shield_tradeoff_offered": 0,
+      "shield_tradeoff_opportunity_chosen": 0,
+      "low_hp_shield_tradeoff_offered": 0,
+      "low_hp_shield_tradeoff_opportunity_chosen": 0,
+      "targeted_bursts_or_moonbeams": 0,
+      "targeted_area_foe_affected": 0,
+      "targeted_area_self_affected": 0,
+      "targeted_area_safe_center_available": 0,
+      "targeted_area_safe_row_selected": 0,
+      "targeted_area_safe_center_selected": 0,
+      "lands_aid_placements": 0,
+      "lands_aid_damage_and_healing_available": 0,
+      "lands_aid_damage_and_healing_selected": 0,
+      "lands_aid_damage_and_healing_row_selected": 0,
+      "caltrops_placements": 0,
+      "caltrops_placed_on_own_square": 0,
+      "caltrops_placed_on_foe_square": 0,
+      "target_row_decisions": 0,
+      "target_column_decisions": 0,
+      "burst_placements": 0,
+      "burst_safe_center_available": 0,
+      "burst_safe_row_selected": 0,
+      "burst_safe_center_selected": 0,
+      "burst_foe_affected": 0,
+      "burst_self_affected": 0,
+      "moonbeam_placements": 0,
+      "moonbeam_safe_center_available": 0,
+      "moonbeam_safe_row_selected": 0,
+      "moonbeam_safe_center_selected": 0,
+      "moonbeam_foe_affected": 0,
+      "moonbeam_self_affected": 0
+    },
+    "ranged": {
+      "bouts": 960,
+      "wins": 557,
+      "losses": 394,
+      "draws": 9,
+      "turns": 5043,
+      "moves": 2718,
+      "reversals": 11,
+      "turns_with_reversal": 3,
+      "revisits": 11,
+      "turns_with_revisit": 3,
+      "turns_with_offense_available": 4985,
+      "turns_without_move_or_weapon_spell": 770,
+      "inactive_turns_with_offense_available": 731,
+      "turns_with_offense_available_but_unused": 868,
+      "end_with_offense_offered": 26,
+      "end_with_offense_and_no_offensive_choice": 5,
+      "second_wind": 0,
+      "full_hp_second_wind": 0,
+      "full_hp_second_wind_without_move": 0,
+      "full_hp_second_wind_without_immediate_move": 0,
+      "full_hp_wind_before_level_five": 0,
+      "opportunity_offered": 0,
+      "opportunity_chosen": 0,
+      "defend_offered": 316,
+      "defend_chosen": 311,
+      "rider_offered": 0,
+      "rider_chosen": 0,
+      "already_lethal_rider_offered": 0,
+      "already_lethal_rider_chosen": 0,
+      "shield_tradeoff_offered": 0,
+      "shield_tradeoff_opportunity_chosen": 0,
+      "low_hp_shield_tradeoff_offered": 0,
+      "low_hp_shield_tradeoff_opportunity_chosen": 0,
+      "targeted_bursts_or_moonbeams": 218,
+      "targeted_area_foe_affected": 218,
+      "targeted_area_self_affected": 1,
+      "targeted_area_safe_center_available": 217,
+      "targeted_area_safe_row_selected": 217,
+      "targeted_area_safe_center_selected": 217,
+      "lands_aid_placements": 97,
+      "lands_aid_damage_and_healing_available": 80,
+      "lands_aid_damage_and_healing_selected": 79,
+      "lands_aid_damage_and_healing_row_selected": 80,
+      "caltrops_placements": 8,
+      "caltrops_placed_on_own_square": 8,
+      "caltrops_placed_on_foe_square": 0,
+      "target_row_decisions": 323,
+      "target_column_decisions": 323,
+      "burst_placements": 102,
+      "burst_safe_center_available": 101,
+      "burst_safe_row_selected": 101,
+      "burst_safe_center_selected": 101,
+      "burst_foe_affected": 102,
+      "burst_self_affected": 1,
+      "moonbeam_placements": 116,
+      "moonbeam_safe_center_available": 116,
+      "moonbeam_safe_row_selected": 116,
+      "moonbeam_safe_center_selected": 116,
+      "moonbeam_foe_affected": 116,
+      "moonbeam_self_affected": 0
+    }
+  },
+  "inactive_turn_last_action_by_role": {
+    "melee": {
+      "Dodge": 137,
+      "Rage": 2,
+      "End turn only": 7,
+      "Second Wind": 2,
+      "Patient Defense: Disengage": 6,
+      "Lay On Hands": 13,
+      "Cure Wounds": 18,
+      "Divine Favor": 2
+    },
+    "ranged": {
+      "Dodge": 104,
+      "Preserve Life": 2,
+      "Cure Wounds": 66,
+      "Healing Word": 3,
+      "End turn only": 5,
+      "Select Higher Spell Slot": 1,
+      "Shillelagh": 13,
+      "Hunter's Mark": 15,
+      "Cunning Disengage": 9,
+      "Fiendish Vigor": 547,
+      "Hex": 5
+    }
+  },
+  "baseline_reference_by_role": {
+    "melee": {
+      "bouts": 480,
+      "wins": 307,
+      "losses": 172,
+      "draws": 1,
+      "moves": 2795,
+      "reversals": 0,
+      "revisits": 0,
+      "turns_with_reversal": 0
+    },
+    "ranged": {
+      "bouts": 960,
+      "wins": 413,
+      "losses": 546,
+      "draws": 1,
+      "moves": 1115,
+      "reversals": 0,
+      "revisits": 0,
+      "turns_with_reversal": 0
+    }
+  },
+  "reaction_stress_vs_random": {
+    "bouts": 1440,
+    "total": {
+      "opportunity_offered": 1089,
+      "opportunity_chosen": 1089,
+      "defend_offered": 61,
+      "defend_chosen": 58,
+      "shield_tradeoff_offered": 0,
+      "shield_tradeoff_opportunity_chosen": 0,
+      "low_hp_shield_tradeoff_offered": 0,
+      "low_hp_shield_tradeoff_opportunity_chosen": 0
+    },
+    "caster_breakdown": {
+      "Wizard": {
+        "opportunity_offered": 17,
+        "opportunity_chosen": 17,
+        "defend_offered": 10,
+        "defend_chosen": 10,
+        "shield_tradeoff_offered": 0,
+        "shield_tradeoff_opportunity_chosen": 0,
+        "low_hp_shield_tradeoff_offered": 0,
+        "low_hp_shield_tradeoff_opportunity_chosen": 0
+      },
+      "Sorcerer": {
+        "opportunity_offered": 8,
+        "opportunity_chosen": 8,
+        "defend_offered": 3,
+        "defend_chosen": 3,
+        "shield_tradeoff_offered": 0,
+        "shield_tradeoff_opportunity_chosen": 0,
+        "low_hp_shield_tradeoff_offered": 0,
+        "low_hp_shield_tradeoff_opportunity_chosen": 0
+      }
+    }
+  },
+  "example_turns": {
+    "melee_strong": {
+      "class": "Fighter",
+      "opponent": "Fighter",
+      "level": 5,
+      "seat": 0,
+      "seed": 4919432757012260961,
+      "turn": 3,
+      "start_hp": 49,
+      "enemy_start_hp": 49,
+      "positions": [
+        [
+          0,
+          3
+        ]
+      ],
+      "enemy_position": [
+        0,
+        2
+      ],
+      "actions": [
+        "Melee attack",
+        "Melee attack",
+        "Action Surge",
+        "Melee attack",
+        "Melee attack"
+      ],
+      "placements": [],
+      "offense": 4,
+      "offense_available": true,
+      "reversals": 0,
+      "wind_without_move": 0,
+      "skipped_offense": false,
+      "enemy_end_hp": 0,
+      "revisits": 0,
+      "full_hp_wind": 0
+    },
+    "ranged_strong": {
+      "class": "Wizard",
+      "opponent": "Warlock",
+      "level": 5,
+      "seat": 0,
+      "seed": 4919433440783588497,
+      "turn": 1,
+      "start_hp": 37,
+      "enemy_start_hp": 43,
+      "positions": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "enemy_position": [
+        8,
+        3
+      ],
+      "actions": [
+        "North",
+        "North",
+        "North-east",
+        "Fireball",
+        "Target row 3",
+        "Target column 9",
+        "End turn"
+      ],
+      "placements": [
+        {
+          "safe_available": true,
+          "safe_row": true,
+          "both_available": true,
+          "both_row": false,
+          "kind": 1,
+          "row": 2,
+          "ability": "Fireball",
+          "column": 8,
+          "affects_foe": true,
+          "affects_self": false
+        }
+      ],
+      "offense": 1,
+      "offense_available": true,
+      "reversals": 0,
+      "wind_without_move": 0,
+      "skipped_offense": false,
+      "enemy_end_hp": 5,
+      "revisits": 0,
+      "full_hp_wind": 0
+    },
+    "ranged_poor": {
+      "class": "Warlock",
+      "opponent": "Warlock",
+      "level": 1,
+      "seat": 1,
+      "seed": 4919432997481416002,
+      "turn": 7,
+      "start_hp": 5,
+      "enemy_start_hp": 11,
+      "positions": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "enemy_position": [
+        0,
+        3
+      ],
+      "actions": [
+        "Eldritch Blast",
+        "South-east",
+        "North-west",
+        "South-east",
+        "North-west",
+        "South-east",
+        "North-west",
+        "End turn"
+      ],
+      "placements": [],
+      "offense": 1,
+      "offense_available": true,
+      "reversals": 5,
+      "wind_without_move": 0,
+      "skipped_offense": false,
+      "enemy_end_hp": 11,
+      "revisits": 5,
+      "full_hp_wind": 0
+    },
+    "melee_poor": {
+      "class": "Fighter",
+      "opponent": "Sorcerer",
+      "level": 1,
+      "seat": 1,
+      "seed": 4919433172092872037,
+      "turn": 3,
+      "start_hp": 13,
+      "enemy_start_hp": 9,
+      "positions": [
+        [
+          7,
+          3
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "enemy_position": [
+        4,
+        0
+      ],
+      "actions": [
+        "North",
+        "North-west",
+        "North-west",
+        "Melee attack",
+        "Second Wind",
+        "End turn"
+      ],
+      "placements": [],
+      "offense": 1,
+      "offense_available": true,
+      "reversals": 0,
+      "wind_without_move": 1,
+      "skipped_offense": false,
+      "enemy_end_hp": 9,
+      "revisits": 0,
+      "full_hp_wind": 1
+    }
+  },
+  "limitations": [
+    "A same-turn reversal is A→B→A, including deliberate retracing. Longer cycles also count as revisits.",
+    "No-move/no-offense turns may include deliberate Dodge, healing, or resource actions. Casting an attack that gets saved still counts as an offensive choice.",
+    "Full-HP Second Wind is useful for Tactical Shift only from level 5 and with immediately following movement.",
+    "Already-lethal rider detection considers pending damage and remaining HP plus temporary HP. It excludes Monk and Rogue opponents because their pending damage reductions can be private.",
+    "Shield tradeoff eligibility checks for injured Wizard/Sorcerer, available reaction and spell slot, inactive Shield, surviving even maximum dagger critical damage, and opponent action unspent. It cannot determine which action would follow, whether a Shield-relevant hit would occur, or the effect of declining an opportunity.",
+    "Ground-target summaries compare the chosen tile to legal geometry, not damage rolls. Caltrops placements do not establish a successful trap or tactical value."
+  ]
+}

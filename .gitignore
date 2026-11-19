@@ -1,0 +1,5 @@
+/target/
+/.toolchain/
+/.venv/
+__pycache__/
+*.egg-info/

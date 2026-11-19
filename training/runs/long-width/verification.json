@@ -1,0 +1,81 @@
+{
+  "complete_through": 2901,
+  "verified_checkpoints": [
+    {
+      "bouts": 371328,
+      "coverage_cells": 120,
+      "cpu_s": 442.282727,
+      "elapsed_s": 398.2634919589618,
+      "frozen_decisions": 12067038,
+      "learner_decisions": 20869386,
+      "live_vs_live_bouts": 92832,
+      "min_games_per_cell": 686,
+      "new_bouts": 80640,
+      "new_updates": 210,
+      "optimizer_minibatches": 82977,
+      "path": "training/runs/long-width/checkpoints/update-0967.npz",
+      "sha256": "701f58a8dd5e2a858ea596bf0f668e1f0f4bf4fad744e60eab696cc75632a6bf",
+      "termination": {
+        "decision_limit": 1,
+        "defeat": 78784,
+        "double_ko": 23,
+        "ongoing": 0,
+        "turn_limit": 1832
+      },
+      "unequal_level_bouts": 92832,
+      "update": 967
+    },
+    {
+      "bouts": 742656,
+      "coverage_cells": 120,
+      "cpu_s": 2352.6968580000002,
+      "elapsed_s": 2103.224028042052,
+      "frozen_decisions": 24551010,
+      "learner_decisions": 43481762,
+      "live_vs_live_bouts": 185664,
+      "min_games_per_cell": 3869,
+      "new_bouts": 451968,
+      "new_updates": 1177,
+      "optimizer_minibatches": 172728,
+      "path": "training/runs/long-width/checkpoints/update-1934.npz",
+      "sha256": "0e4652790047af29bf0eccf510f2620f508720c494fedc4c765ae6cc1c4c3441",
+      "termination": {
+        "decision_limit": 11,
+        "defeat": 441215,
+        "double_ko": 139,
+        "ongoing": 0,
+        "turn_limit": 10603
+      },
+      "unequal_level_bouts": 185664,
+      "update": 1934
+    },
+    {
+      "bouts": 1113984,
+      "coverage_cells": 120,
+      "cpu_s": 4193.4060150000005,
+      "elapsed_s": 3737.684328958974,
+      "frozen_decisions": 37026272,
+      "learner_decisions": 66179405,
+      "live_vs_live_bouts": 278496,
+      "min_games_per_cell": 6993,
+      "new_bouts": 823296,
+      "new_updates": 2144,
+      "optimizer_minibatches": 262839,
+      "path": "training/runs/long-width/checkpoints/update-2901.npz",
+      "sha256": "5077e8c775f85029bc397316d57d4d02eb31237792cc1c46b81e54cbabf9e723",
+      "termination": {
+        "decision_limit": 15,
+        "defeat": 804117,
+        "double_ko": 253,
+        "ongoing": 0,
+        "turn_limit": 18911
+      },
+      "unequal_level_bouts": 278496,
+      "update": 2901
+    }
+  ],
+  "verified_resume": {
+    "path": "resume.pt",
+    "sha256": "253ec4d2e5a55e2aba843bd47124ef6a18f7a2335dae6cc568c8954086bfdd75"
+  }
+}

@@ -1,0 +1,12 @@
+[package]
+name = "dnd-duel-engine"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["rlib", "cdylib"]
+
+[[bin]]
+name = "duels"
+path = "src/bin/duels.rs"

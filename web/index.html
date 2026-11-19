@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#182626" />
+    <title>Рубеж · Дуэльная арена</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="mast">
+      <div class="duel-context">
+        <h1><i data-icon="die" aria-hidden="true"></i><span id="arena-name">Янтарная застава</span></h1>
+        <div class="turnbox">
+          <small id="round">Инициатива</small><strong id="whose">Подготовка поля</strong>
+        </div>
+      </div>
+      <nav aria-label="Управление дуэлью">
+        <button id="help" class="quiet" aria-label="Правила" title="Правила">
+          <i data-icon="guide"></i><span>Правила</span>
+        </button>
+        <button id="new" class="outline" aria-label="Новая дуэль" title="Новая дуэль">
+          <i data-icon="plus"></i><span>Новая дуэль</span>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <div id="error" role="alert" hidden></div>
+      <div class="layout">
+        <section class="field-column" aria-label="Игровой стол">
+          <div class="table">
+            <div class="fighters" id="fighters"></div>
+            <div class="stage">
+              <canvas
+                id="board"
+                tabindex="0"
+                aria-label="Поле 9 на 7. Стрелки выбирают клетку, Enter указывает её."
+              ></canvas>
+              <div class="camera">
+                <button
+                  id="left"
+                  title="Повернуть влево"
+                  aria-label="Повернуть влево"
+                  data-icon="left"
+                ></button
+                ><button
+                  id="right"
+                  title="Повернуть вправо"
+                  aria-label="Повернуть вправо"
+                  data-icon="right"
+                ></button
+                ><button
+                  id="top"
+                  aria-pressed="false"
+                  title="Вид сверху"
+                  aria-label="Вид сверху"
+                  data-icon="map"
+                ></button
+                ><button
+                  id="cover"
+                  aria-pressed="false"
+                  title="Укрытия от соперника"
+                  aria-label="Укрытия от соперника"
+                  data-icon="shield"
+                ></button
+                ><button
+                  id="cut"
+                  aria-pressed="false"
+                  title="Срез стен"
+                  aria-label="Срез стен"
+                  data-icon="layers"
+                ></button>
+              </div>
+            </div>
+            <div class="inspection">
+              <i data-icon="pin"></i
+              ><span id="inspection">Наведите на клетку, чтобы оценить местность и укрытие.</span>
+            </div>
+            <button id="board-order" class="primary" hidden>Подтвердить</button>
+          </div>
+          <div class="journal">
+            <div class="sectionline">
+              <h2><i data-icon="quill"></i>Хроника боя</h2>
+              <button class="link" id="history">Вся хроника ↗</button>
+            </div>
+            <div id="recent"></div>
+          </div>
+        </section>
+        <aside id="panel" class="panel" aria-label="Решения игрока">
+          <div class="panel-head">
+            <div class="eyebrow">
+              <span class="goldline"></span><span id="panel-kicker">Ваш арсенал</span>
+            </div>
+            <h2 id="panel-title">Книга заклинаний</h2>
+            <p id="instruction"></p>
+          </div>
+          <div id="tabs" class="tabs"></div>
+          <div id="resources" class="resources"></div>
+          <div id="options" class="options"></div>
+          <div class="order">
+            <div id="preview" aria-live="polite"></div>
+            <button id="confirm" class="primary" disabled>Подтвердить</button>
+            <button id="end" class="end"><i data-icon="hour"></i>Завершить ход</button>
+          </div>
+        </aside>
+      </div>
+    </main>
+    <dialog id="modal">
+      <form method="dialog" class="modal-head">
+        <h2 id="modal-title"></h2>
+        <button type="submit" class="close" aria-label="Закрыть">×</button>
+      </form>
+      <div id="modal-body"></div>
+    </dialog>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

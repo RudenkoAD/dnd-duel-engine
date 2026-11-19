@@ -1,0 +1,1189 @@
+controller,class_A,subclass_A,class_B,subclass_B,games,wins_A,draws,wins_B,score_A_pct,one_sided_KOs
+Expert bot,Barbarian,Berserker,Bard,Lore,64,64,0,0,100.0,54
+Expert bot,Barbarian,Berserker,Bard,Valor,64,64,0,0,100.0,54
+Expert bot,Barbarian,Berserker,Bard,Glamour,64,64,0,0,100.0,54
+Expert bot,Barbarian,Zealot,Bard,Lore,64,64,0,0,100.0,63
+Expert bot,Barbarian,Zealot,Bard,Valor,64,64,0,0,100.0,63
+Expert bot,Barbarian,Zealot,Bard,Glamour,64,64,0,0,100.0,63
+Expert bot,Barbarian,World Tree,Bard,Lore,64,64,0,0,100.0,47
+Expert bot,Barbarian,World Tree,Bard,Valor,64,64,0,0,100.0,53
+Expert bot,Barbarian,World Tree,Bard,Glamour,64,64,0,0,100.0,53
+Expert bot,Barbarian,Berserker,Cleric,Life,64,63,0,1,98.438,49
+Expert bot,Barbarian,Berserker,Cleric,War,64,64,0,0,100.0,22
+Expert bot,Barbarian,Berserker,Cleric,Trickery,64,63,0,1,98.438,29
+Expert bot,Barbarian,Zealot,Cleric,Life,64,63,0,1,98.438,59
+Expert bot,Barbarian,Zealot,Cleric,War,64,64,0,0,100.0,56
+Expert bot,Barbarian,Zealot,Cleric,Trickery,64,64,0,0,100.0,61
+Expert bot,Barbarian,World Tree,Cleric,Life,64,63,0,1,98.438,51
+Expert bot,Barbarian,World Tree,Cleric,War,64,64,0,0,100.0,25
+Expert bot,Barbarian,World Tree,Cleric,Trickery,64,63,0,1,98.438,37
+Expert bot,Barbarian,Berserker,Druid,Land,64,60,0,4,93.75,20
+Expert bot,Barbarian,Berserker,Druid,Stars,64,64,0,0,100.0,15
+Expert bot,Barbarian,Berserker,Druid,Sea,64,64,0,0,100.0,26
+Expert bot,Barbarian,Zealot,Druid,Land,64,64,0,0,100.0,54
+Expert bot,Barbarian,Zealot,Druid,Stars,64,64,0,0,100.0,48
+Expert bot,Barbarian,Zealot,Druid,Sea,64,64,0,0,100.0,57
+Expert bot,Barbarian,World Tree,Druid,Land,64,64,0,0,100.0,19
+Expert bot,Barbarian,World Tree,Druid,Stars,64,59,0,5,92.188,12
+Expert bot,Barbarian,World Tree,Druid,Sea,64,63,0,1,98.438,25
+Expert bot,Barbarian,Berserker,Fighter,Champion,64,54,0,10,84.375,1
+Expert bot,Barbarian,Berserker,Fighter,Battle Master,64,38,0,26,59.375,6
+Expert bot,Barbarian,Berserker,Fighter,Psi Warrior,64,46,0,18,71.875,5
+Expert bot,Barbarian,Zealot,Fighter,Champion,64,52,0,12,81.25,23
+Expert bot,Barbarian,Zealot,Fighter,Battle Master,64,47,0,17,73.438,16
+Expert bot,Barbarian,Zealot,Fighter,Psi Warrior,64,53,0,11,82.812,17
+Expert bot,Barbarian,World Tree,Fighter,Champion,64,38,0,26,59.375,7
+Expert bot,Barbarian,World Tree,Fighter,Battle Master,64,26,0,38,40.625,8
+Expert bot,Barbarian,World Tree,Fighter,Psi Warrior,64,26,0,38,40.625,6
+Expert bot,Barbarian,Berserker,Monk,Open Hand,64,47,0,17,73.438,1
+Expert bot,Barbarian,Berserker,Monk,Mercy,64,44,0,20,68.75,12
+Expert bot,Barbarian,Berserker,Monk,Elements,64,25,0,39,39.062,7
+Expert bot,Barbarian,Zealot,Monk,Open Hand,64,42,0,22,65.625,21
+Expert bot,Barbarian,Zealot,Monk,Mercy,64,48,0,16,75.0,28
+Expert bot,Barbarian,Zealot,Monk,Elements,64,24,0,40,37.5,7
+Expert bot,Barbarian,World Tree,Monk,Open Hand,64,33,0,31,51.562,4
+Expert bot,Barbarian,World Tree,Monk,Mercy,64,27,0,37,42.188,7
+Expert bot,Barbarian,World Tree,Monk,Elements,64,5,0,59,7.812,13
+Expert bot,Barbarian,Berserker,Paladin,Devotion,64,60,0,4,93.75,19
+Expert bot,Barbarian,Berserker,Paladin,Ancients,64,63,0,1,98.438,60
+Expert bot,Barbarian,Berserker,Paladin,Glory,64,48,0,16,75.0,25
+Expert bot,Barbarian,Zealot,Paladin,Devotion,64,64,0,0,100.0,50
+Expert bot,Barbarian,Zealot,Paladin,Ancients,64,64,0,0,100.0,62
+Expert bot,Barbarian,Zealot,Paladin,Glory,64,61,0,3,95.312,38
+Expert bot,Barbarian,World Tree,Paladin,Devotion,64,52,0,12,81.25,14
+Expert bot,Barbarian,World Tree,Paladin,Ancients,64,63,0,1,98.438,46
+Expert bot,Barbarian,World Tree,Paladin,Glory,64,40,0,24,62.5,30
+Expert bot,Barbarian,Berserker,Ranger,Hunter,64,63,0,1,98.438,32
+Expert bot,Barbarian,Berserker,Ranger,Fey Wanderer,64,63,0,1,98.438,31
+Expert bot,Barbarian,Berserker,Ranger,Gloom Stalker,64,63,0,1,98.438,22
+Expert bot,Barbarian,Zealot,Ranger,Hunter,64,64,0,0,100.0,48
+Expert bot,Barbarian,Zealot,Ranger,Fey Wanderer,64,62,0,2,96.875,42
+Expert bot,Barbarian,Zealot,Ranger,Gloom Stalker,64,63,0,1,98.438,32
+Expert bot,Barbarian,World Tree,Ranger,Hunter,64,64,0,0,100.0,35
+Expert bot,Barbarian,World Tree,Ranger,Fey Wanderer,64,61,0,3,95.312,22
+Expert bot,Barbarian,World Tree,Ranger,Gloom Stalker,64,60,0,4,93.75,19
+Expert bot,Barbarian,Berserker,Rogue,Thief,64,63,0,1,98.438,21
+Expert bot,Barbarian,Berserker,Rogue,Assassin,64,60,0,4,93.75,12
+Expert bot,Barbarian,Berserker,Rogue,Soulknife,64,52,0,12,81.25,0
+Expert bot,Barbarian,Zealot,Rogue,Thief,64,62,0,2,96.875,52
+Expert bot,Barbarian,Zealot,Rogue,Assassin,64,62,0,2,96.875,28
+Expert bot,Barbarian,Zealot,Rogue,Soulknife,64,60,0,4,93.75,32
+Expert bot,Barbarian,World Tree,Rogue,Thief,64,63,0,1,98.438,20
+Expert bot,Barbarian,World Tree,Rogue,Assassin,64,60,0,4,93.75,8
+Expert bot,Barbarian,World Tree,Rogue,Soulknife,64,41,0,23,64.062,1
+Expert bot,Barbarian,Berserker,Sorcerer,Draconic,64,47,0,17,73.438,6
+Expert bot,Barbarian,Berserker,Sorcerer,Aberrant,64,57,0,7,89.062,10
+Expert bot,Barbarian,Berserker,Sorcerer,Clockwork,64,60,0,4,93.75,16
+Expert bot,Barbarian,Zealot,Sorcerer,Draconic,64,54,0,10,84.375,26
+Expert bot,Barbarian,Zealot,Sorcerer,Aberrant,64,61,0,3,95.312,31
+Expert bot,Barbarian,Zealot,Sorcerer,Clockwork,64,63,0,1,98.438,35
+Expert bot,Barbarian,World Tree,Sorcerer,Draconic,64,43,0,21,67.188,6
+Expert bot,Barbarian,World Tree,Sorcerer,Aberrant,64,50,0,14,78.125,10
+Expert bot,Barbarian,World Tree,Sorcerer,Clockwork,64,58,0,6,90.625,8
+Expert bot,Barbarian,Berserker,Warlock,Fiend,64,56,0,8,87.5,8
+Expert bot,Barbarian,Berserker,Warlock,Archfey,64,64,0,0,100.0,22
+Expert bot,Barbarian,Berserker,Warlock,Great Old One,64,61,0,3,95.312,28
+Expert bot,Barbarian,Zealot,Warlock,Fiend,64,63,0,1,98.438,41
+Expert bot,Barbarian,Zealot,Warlock,Archfey,64,64,0,0,100.0,55
+Expert bot,Barbarian,Zealot,Warlock,Great Old One,64,63,0,1,98.438,46
+Expert bot,Barbarian,World Tree,Warlock,Fiend,64,59,0,5,92.188,10
+Expert bot,Barbarian,World Tree,Warlock,Archfey,64,64,0,0,100.0,25
+Expert bot,Barbarian,World Tree,Warlock,Great Old One,64,58,0,6,90.625,24
+Expert bot,Barbarian,Berserker,Wizard,Evoker,64,59,0,5,92.188,12
+Expert bot,Barbarian,Berserker,Wizard,Abjurer,64,56,0,8,87.5,5
+Expert bot,Barbarian,Berserker,Wizard,Diviner,64,50,0,14,78.125,4
+Expert bot,Barbarian,Zealot,Wizard,Evoker,64,64,0,0,100.0,32
+Expert bot,Barbarian,Zealot,Wizard,Abjurer,64,61,0,3,95.312,28
+Expert bot,Barbarian,Zealot,Wizard,Diviner,64,63,0,1,98.438,26
+Expert bot,Barbarian,World Tree,Wizard,Evoker,64,56,0,8,87.5,17
+Expert bot,Barbarian,World Tree,Wizard,Abjurer,64,49,0,15,76.562,8
+Expert bot,Barbarian,World Tree,Wizard,Diviner,64,54,0,10,84.375,6
+Expert bot,Bard,Lore,Cleric,Life,64,41,16,7,76.562,40
+Expert bot,Bard,Lore,Cleric,War,64,48,15,1,86.719,47
+Expert bot,Bard,Lore,Cleric,Trickery,64,49,14,1,87.5,48
+Expert bot,Bard,Valor,Cleric,Life,64,41,16,7,76.562,40
+Expert bot,Bard,Valor,Cleric,War,64,48,15,1,86.719,47
+Expert bot,Bard,Valor,Cleric,Trickery,64,49,14,1,87.5,48
+Expert bot,Bard,Glamour,Cleric,Life,64,41,16,7,76.562,40
+Expert bot,Bard,Glamour,Cleric,War,64,48,15,1,86.719,47
+Expert bot,Bard,Glamour,Cleric,Trickery,64,49,14,1,87.5,48
+Expert bot,Bard,Lore,Druid,Land,64,32,2,30,51.562,51
+Expert bot,Bard,Lore,Druid,Stars,64,8,0,56,12.5,45
+Expert bot,Bard,Lore,Druid,Sea,64,33,0,31,51.562,56
+Expert bot,Bard,Valor,Druid,Land,64,31,2,31,50.0,53
+Expert bot,Bard,Valor,Druid,Stars,64,5,0,59,7.812,49
+Expert bot,Bard,Valor,Druid,Sea,64,31,0,33,48.438,55
+Expert bot,Bard,Glamour,Druid,Land,64,29,2,33,46.875,54
+Expert bot,Bard,Glamour,Druid,Stars,64,5,0,59,7.812,49
+Expert bot,Bard,Glamour,Druid,Sea,64,30,0,34,46.875,59
+Expert bot,Bard,Lore,Fighter,Champion,64,0,0,64,0.0,63
+Expert bot,Bard,Lore,Fighter,Battle Master,64,0,0,64,0.0,64
+Expert bot,Bard,Lore,Fighter,Psi Warrior,64,0,0,64,0.0,64
+Expert bot,Bard,Valor,Fighter,Champion,64,0,0,64,0.0,64
+Expert bot,Bard,Valor,Fighter,Battle Master,64,0,0,64,0.0,64
+Expert bot,Bard,Valor,Fighter,Psi Warrior,64,0,0,64,0.0,64
+Expert bot,Bard,Glamour,Fighter,Champion,64,0,0,64,0.0,64
+Expert bot,Bard,Glamour,Fighter,Battle Master,64,0,0,64,0.0,64
+Expert bot,Bard,Glamour,Fighter,Psi Warrior,64,0,0,64,0.0,64
+Expert bot,Bard,Lore,Monk,Open Hand,64,0,0,64,0.0,55
+Expert bot,Bard,Lore,Monk,Mercy,64,0,0,64,0.0,64
+Expert bot,Bard,Lore,Monk,Elements,64,0,0,64,0.0,58
+Expert bot,Bard,Valor,Monk,Open Hand,64,0,0,64,0.0,61
+Expert bot,Bard,Valor,Monk,Mercy,64,0,0,64,0.0,62
+Expert bot,Bard,Valor,Monk,Elements,64,0,0,64,0.0,61
+Expert bot,Bard,Glamour,Monk,Open Hand,64,0,0,64,0.0,61
+Expert bot,Bard,Glamour,Monk,Mercy,64,0,0,64,0.0,62
+Expert bot,Bard,Glamour,Monk,Elements,64,0,0,64,0.0,61
+Expert bot,Bard,Lore,Paladin,Devotion,64,0,0,64,0.0,50
+Expert bot,Bard,Lore,Paladin,Ancients,64,12,0,52,18.75,41
+Expert bot,Bard,Lore,Paladin,Glory,64,0,0,64,0.0,46
+Expert bot,Bard,Valor,Paladin,Devotion,64,0,0,64,0.0,54
+Expert bot,Bard,Valor,Paladin,Ancients,64,5,0,59,7.812,41
+Expert bot,Bard,Valor,Paladin,Glory,64,0,0,64,0.0,52
+Expert bot,Bard,Glamour,Paladin,Devotion,64,0,0,64,0.0,54
+Expert bot,Bard,Glamour,Paladin,Ancients,64,5,0,59,7.812,42
+Expert bot,Bard,Glamour,Paladin,Glory,64,0,0,64,0.0,52
+Expert bot,Bard,Lore,Ranger,Hunter,64,11,0,53,17.188,43
+Expert bot,Bard,Lore,Ranger,Fey Wanderer,64,9,0,55,14.062,44
+Expert bot,Bard,Lore,Ranger,Gloom Stalker,64,10,0,54,15.625,45
+Expert bot,Bard,Valor,Ranger,Hunter,64,8,1,55,13.281,47
+Expert bot,Bard,Valor,Ranger,Fey Wanderer,64,3,0,61,4.688,55
+Expert bot,Bard,Valor,Ranger,Gloom Stalker,64,6,0,58,9.375,54
+Expert bot,Bard,Glamour,Ranger,Hunter,64,9,1,54,14.844,48
+Expert bot,Bard,Glamour,Ranger,Fey Wanderer,64,3,0,61,4.688,55
+Expert bot,Bard,Glamour,Ranger,Gloom Stalker,64,5,0,59,7.812,54
+Expert bot,Bard,Lore,Rogue,Thief,64,6,0,58,9.375,48
+Expert bot,Bard,Lore,Rogue,Assassin,64,0,0,64,0.0,50
+Expert bot,Bard,Lore,Rogue,Soulknife,64,5,0,59,7.812,49
+Expert bot,Bard,Valor,Rogue,Thief,64,2,0,62,3.125,52
+Expert bot,Bard,Valor,Rogue,Assassin,64,0,0,64,0.0,60
+Expert bot,Bard,Valor,Rogue,Soulknife,64,1,0,63,1.562,57
+Expert bot,Bard,Glamour,Rogue,Thief,64,2,0,62,3.125,51
+Expert bot,Bard,Glamour,Rogue,Assassin,64,0,0,64,0.0,60
+Expert bot,Bard,Glamour,Rogue,Soulknife,64,1,0,63,1.562,57
+Expert bot,Bard,Lore,Sorcerer,Draconic,64,1,0,63,1.562,52
+Expert bot,Bard,Lore,Sorcerer,Aberrant,64,8,0,56,12.5,49
+Expert bot,Bard,Lore,Sorcerer,Clockwork,64,8,0,56,12.5,49
+Expert bot,Bard,Valor,Sorcerer,Draconic,64,2,0,62,3.125,52
+Expert bot,Bard,Valor,Sorcerer,Aberrant,64,6,0,58,9.375,49
+Expert bot,Bard,Valor,Sorcerer,Clockwork,64,6,0,58,9.375,49
+Expert bot,Bard,Glamour,Sorcerer,Draconic,64,1,0,63,1.562,52
+Expert bot,Bard,Glamour,Sorcerer,Aberrant,64,6,0,58,9.375,45
+Expert bot,Bard,Glamour,Sorcerer,Clockwork,64,6,0,58,9.375,45
+Expert bot,Bard,Lore,Warlock,Fiend,64,22,0,42,34.375,36
+Expert bot,Bard,Lore,Warlock,Archfey,64,19,0,45,29.688,33
+Expert bot,Bard,Lore,Warlock,Great Old One,64,41,0,23,64.062,49
+Expert bot,Bard,Valor,Warlock,Fiend,64,9,0,55,14.062,43
+Expert bot,Bard,Valor,Warlock,Archfey,64,10,0,54,15.625,35
+Expert bot,Bard,Valor,Warlock,Great Old One,64,31,0,33,48.438,38
+Expert bot,Bard,Glamour,Warlock,Fiend,64,9,0,55,14.062,43
+Expert bot,Bard,Glamour,Warlock,Archfey,64,10,0,54,15.625,35
+Expert bot,Bard,Glamour,Warlock,Great Old One,64,31,0,33,48.438,38
+Expert bot,Bard,Lore,Wizard,Evoker,64,23,0,41,35.938,42
+Expert bot,Bard,Lore,Wizard,Abjurer,64,24,0,40,37.5,45
+Expert bot,Bard,Lore,Wizard,Diviner,64,24,0,40,37.5,47
+Expert bot,Bard,Valor,Wizard,Evoker,64,14,0,50,21.875,41
+Expert bot,Bard,Valor,Wizard,Abjurer,64,22,0,42,34.375,40
+Expert bot,Bard,Valor,Wizard,Diviner,64,15,0,49,23.438,48
+Expert bot,Bard,Glamour,Wizard,Evoker,64,14,0,50,21.875,41
+Expert bot,Bard,Glamour,Wizard,Abjurer,64,22,0,42,34.375,40
+Expert bot,Bard,Glamour,Wizard,Diviner,64,15,0,49,23.438,48
+Expert bot,Cleric,Life,Druid,Land,64,0,23,41,17.969,40
+Expert bot,Cleric,Life,Druid,Stars,64,0,0,64,0.0,64
+Expert bot,Cleric,Life,Druid,Sea,64,0,15,49,11.719,49
+Expert bot,Cleric,War,Druid,Land,64,0,11,53,8.594,49
+Expert bot,Cleric,War,Druid,Stars,64,0,0,64,0.0,62
+Expert bot,Cleric,War,Druid,Sea,64,0,13,51,10.156,51
+Expert bot,Cleric,Trickery,Druid,Land,64,0,12,52,9.375,47
+Expert bot,Cleric,Trickery,Druid,Stars,64,0,0,64,0.0,64
+Expert bot,Cleric,Trickery,Druid,Sea,64,0,14,50,10.938,50
+Expert bot,Cleric,Life,Fighter,Champion,64,10,0,54,15.625,43
+Expert bot,Cleric,Life,Fighter,Battle Master,64,3,0,61,4.688,54
+Expert bot,Cleric,Life,Fighter,Psi Warrior,64,9,0,55,14.062,46
+Expert bot,Cleric,War,Fighter,Champion,64,3,0,61,4.688,38
+Expert bot,Cleric,War,Fighter,Battle Master,64,0,0,64,0.0,56
+Expert bot,Cleric,War,Fighter,Psi Warrior,64,0,0,64,0.0,57
+Expert bot,Cleric,Trickery,Fighter,Champion,64,12,0,52,18.75,42
+Expert bot,Cleric,Trickery,Fighter,Battle Master,64,4,0,60,6.25,59
+Expert bot,Cleric,Trickery,Fighter,Psi Warrior,64,5,0,59,7.812,51
+Expert bot,Cleric,Life,Monk,Open Hand,64,10,0,54,15.625,40
+Expert bot,Cleric,Life,Monk,Mercy,64,10,0,54,15.625,55
+Expert bot,Cleric,Life,Monk,Elements,64,7,0,57,10.938,44
+Expert bot,Cleric,War,Monk,Open Hand,64,5,0,59,7.812,21
+Expert bot,Cleric,War,Monk,Mercy,64,5,0,59,7.812,48
+Expert bot,Cleric,War,Monk,Elements,64,3,0,61,4.688,24
+Expert bot,Cleric,Trickery,Monk,Open Hand,64,10,0,54,15.625,21
+Expert bot,Cleric,Trickery,Monk,Mercy,64,7,0,57,10.938,51
+Expert bot,Cleric,Trickery,Monk,Elements,64,11,0,53,17.188,22
+Expert bot,Cleric,Life,Paladin,Devotion,64,25,0,39,39.062,49
+Expert bot,Cleric,Life,Paladin,Ancients,64,55,0,9,85.938,63
+Expert bot,Cleric,Life,Paladin,Glory,64,29,0,35,45.312,51
+Expert bot,Cleric,War,Paladin,Devotion,64,22,0,42,34.375,21
+Expert bot,Cleric,War,Paladin,Ancients,64,54,0,10,84.375,64
+Expert bot,Cleric,War,Paladin,Glory,64,30,0,34,46.875,28
+Expert bot,Cleric,Trickery,Paladin,Devotion,64,24,0,40,37.5,29
+Expert bot,Cleric,Trickery,Paladin,Ancients,64,49,0,15,76.562,60
+Expert bot,Cleric,Trickery,Paladin,Glory,64,30,0,34,46.875,31
+Expert bot,Cleric,Life,Ranger,Hunter,64,0,36,28,28.125,28
+Expert bot,Cleric,Life,Ranger,Fey Wanderer,64,0,29,35,22.656,35
+Expert bot,Cleric,Life,Ranger,Gloom Stalker,64,0,27,37,21.094,36
+Expert bot,Cleric,War,Ranger,Hunter,64,0,22,42,17.188,41
+Expert bot,Cleric,War,Ranger,Fey Wanderer,64,0,24,40,18.75,40
+Expert bot,Cleric,War,Ranger,Gloom Stalker,64,0,17,47,13.281,47
+Expert bot,Cleric,Trickery,Ranger,Hunter,64,0,26,38,20.312,37
+Expert bot,Cleric,Trickery,Ranger,Fey Wanderer,64,0,23,41,17.969,40
+Expert bot,Cleric,Trickery,Ranger,Gloom Stalker,64,0,18,46,14.062,44
+Expert bot,Cleric,Life,Rogue,Thief,64,0,16,48,12.5,46
+Expert bot,Cleric,Life,Rogue,Assassin,64,0,12,52,9.375,51
+Expert bot,Cleric,Life,Rogue,Soulknife,64,0,12,52,9.375,47
+Expert bot,Cleric,War,Rogue,Thief,64,0,15,49,11.719,46
+Expert bot,Cleric,War,Rogue,Assassin,64,0,8,56,6.25,51
+Expert bot,Cleric,War,Rogue,Soulknife,64,0,6,58,4.688,50
+Expert bot,Cleric,Trickery,Rogue,Thief,64,0,15,49,11.719,46
+Expert bot,Cleric,Trickery,Rogue,Assassin,64,0,10,54,7.812,50
+Expert bot,Cleric,Trickery,Rogue,Soulknife,64,0,6,58,4.688,47
+Expert bot,Cleric,Life,Sorcerer,Draconic,64,0,10,54,7.812,51
+Expert bot,Cleric,Life,Sorcerer,Aberrant,64,0,10,54,7.812,50
+Expert bot,Cleric,Life,Sorcerer,Clockwork,64,0,6,58,4.688,54
+Expert bot,Cleric,War,Sorcerer,Draconic,64,0,5,59,3.906,48
+Expert bot,Cleric,War,Sorcerer,Aberrant,64,0,5,59,3.906,47
+Expert bot,Cleric,War,Sorcerer,Clockwork,64,0,2,62,1.562,50
+Expert bot,Cleric,Trickery,Sorcerer,Draconic,64,0,5,59,3.906,48
+Expert bot,Cleric,Trickery,Sorcerer,Aberrant,64,0,5,59,3.906,47
+Expert bot,Cleric,Trickery,Sorcerer,Clockwork,64,0,2,62,1.562,50
+Expert bot,Cleric,Life,Warlock,Fiend,64,0,11,53,8.594,50
+Expert bot,Cleric,Life,Warlock,Archfey,64,0,15,49,11.719,48
+Expert bot,Cleric,Life,Warlock,Great Old One,64,0,0,64,0.0,56
+Expert bot,Cleric,War,Warlock,Fiend,64,0,11,53,8.594,50
+Expert bot,Cleric,War,Warlock,Archfey,64,0,14,50,10.938,50
+Expert bot,Cleric,War,Warlock,Great Old One,64,0,0,64,0.0,56
+Expert bot,Cleric,Trickery,Warlock,Fiend,64,0,11,53,8.594,50
+Expert bot,Cleric,Trickery,Warlock,Archfey,64,0,14,50,10.938,48
+Expert bot,Cleric,Trickery,Warlock,Great Old One,64,0,0,64,0.0,56
+Expert bot,Cleric,Life,Wizard,Evoker,64,0,0,64,0.0,54
+Expert bot,Cleric,Life,Wizard,Abjurer,64,0,14,50,10.938,48
+Expert bot,Cleric,Life,Wizard,Diviner,64,0,8,56,6.25,51
+Expert bot,Cleric,War,Wizard,Evoker,64,0,0,64,0.0,50
+Expert bot,Cleric,War,Wizard,Abjurer,64,0,8,56,6.25,43
+Expert bot,Cleric,War,Wizard,Diviner,64,0,5,59,3.906,45
+Expert bot,Cleric,Trickery,Wizard,Evoker,64,0,0,64,0.0,50
+Expert bot,Cleric,Trickery,Wizard,Abjurer,64,0,8,56,6.25,43
+Expert bot,Cleric,Trickery,Wizard,Diviner,64,0,5,59,3.906,45
+Expert bot,Druid,Land,Fighter,Champion,64,6,0,58,9.375,32
+Expert bot,Druid,Land,Fighter,Battle Master,64,5,0,59,7.812,38
+Expert bot,Druid,Land,Fighter,Psi Warrior,64,3,0,61,4.688,44
+Expert bot,Druid,Stars,Fighter,Champion,64,0,0,64,0.0,60
+Expert bot,Druid,Stars,Fighter,Battle Master,64,0,0,64,0.0,58
+Expert bot,Druid,Stars,Fighter,Psi Warrior,64,0,0,64,0.0,63
+Expert bot,Druid,Sea,Fighter,Champion,64,13,0,51,20.312,21
+Expert bot,Druid,Sea,Fighter,Battle Master,64,5,0,59,7.812,50
+Expert bot,Druid,Sea,Fighter,Psi Warrior,64,8,0,56,12.5,40
+Expert bot,Druid,Land,Monk,Open Hand,64,4,0,60,6.25,49
+Expert bot,Druid,Land,Monk,Mercy,64,3,0,61,4.688,60
+Expert bot,Druid,Land,Monk,Elements,64,2,0,62,3.125,48
+Expert bot,Druid,Stars,Monk,Open Hand,64,2,0,62,3.125,22
+Expert bot,Druid,Stars,Monk,Mercy,64,4,0,60,6.25,46
+Expert bot,Druid,Stars,Monk,Elements,64,9,0,55,14.062,21
+Expert bot,Druid,Sea,Monk,Open Hand,64,31,0,33,48.438,13
+Expert bot,Druid,Sea,Monk,Mercy,64,31,0,33,48.438,19
+Expert bot,Druid,Sea,Monk,Elements,64,29,0,35,45.312,12
+Expert bot,Druid,Land,Paladin,Devotion,64,38,0,26,59.375,47
+Expert bot,Druid,Land,Paladin,Ancients,64,53,0,11,82.812,61
+Expert bot,Druid,Land,Paladin,Glory,64,35,0,29,54.688,49
+Expert bot,Druid,Stars,Paladin,Devotion,64,5,0,59,7.812,36
+Expert bot,Druid,Stars,Paladin,Ancients,64,20,0,44,31.25,34
+Expert bot,Druid,Stars,Paladin,Glory,64,7,0,57,10.938,37
+Expert bot,Druid,Sea,Paladin,Devotion,64,52,0,12,81.25,21
+Expert bot,Druid,Sea,Paladin,Ancients,64,60,0,4,93.75,40
+Expert bot,Druid,Sea,Paladin,Glory,64,50,0,14,78.125,18
+Expert bot,Druid,Land,Ranger,Hunter,64,10,4,50,18.75,53
+Expert bot,Druid,Land,Ranger,Fey Wanderer,64,10,3,51,17.969,56
+Expert bot,Druid,Land,Ranger,Gloom Stalker,64,10,2,52,17.188,56
+Expert bot,Druid,Stars,Ranger,Hunter,64,20,1,43,32.031,20
+Expert bot,Druid,Stars,Ranger,Fey Wanderer,64,12,1,51,19.531,20
+Expert bot,Druid,Stars,Ranger,Gloom Stalker,64,18,0,46,28.125,16
+Expert bot,Druid,Sea,Ranger,Hunter,64,12,11,41,27.344,46
+Expert bot,Druid,Sea,Ranger,Fey Wanderer,64,9,7,48,19.531,46
+Expert bot,Druid,Sea,Ranger,Gloom Stalker,64,12,6,46,23.438,47
+Expert bot,Druid,Land,Rogue,Thief,64,13,1,50,21.094,55
+Expert bot,Druid,Land,Rogue,Assassin,64,7,2,55,12.5,58
+Expert bot,Druid,Land,Rogue,Soulknife,64,9,0,55,14.062,54
+Expert bot,Druid,Stars,Rogue,Thief,64,8,0,56,12.5,15
+Expert bot,Druid,Stars,Rogue,Assassin,64,4,0,60,6.25,18
+Expert bot,Druid,Stars,Rogue,Soulknife,64,8,0,56,12.5,15
+Expert bot,Druid,Sea,Rogue,Thief,64,15,0,49,23.438,40
+Expert bot,Druid,Sea,Rogue,Assassin,64,8,1,55,13.281,43
+Expert bot,Druid,Sea,Rogue,Soulknife,64,10,0,54,15.625,37
+Expert bot,Druid,Land,Sorcerer,Draconic,64,15,0,49,23.438,10
+Expert bot,Druid,Land,Sorcerer,Aberrant,64,25,0,39,39.062,12
+Expert bot,Druid,Land,Sorcerer,Clockwork,64,24,0,40,37.5,10
+Expert bot,Druid,Stars,Sorcerer,Draconic,64,1,0,63,1.562,42
+Expert bot,Druid,Stars,Sorcerer,Aberrant,64,8,0,56,12.5,19
+Expert bot,Druid,Stars,Sorcerer,Clockwork,64,11,0,53,17.188,21
+Expert bot,Druid,Sea,Sorcerer,Draconic,64,4,1,59,7.031,53
+Expert bot,Druid,Sea,Sorcerer,Aberrant,64,5,1,58,8.594,51
+Expert bot,Druid,Sea,Sorcerer,Clockwork,64,4,0,60,6.25,53
+Expert bot,Druid,Land,Warlock,Fiend,64,20,0,44,31.25,12
+Expert bot,Druid,Land,Warlock,Archfey,64,34,0,30,53.125,22
+Expert bot,Druid,Land,Warlock,Great Old One,64,19,0,45,29.688,14
+Expert bot,Druid,Stars,Warlock,Fiend,64,20,0,44,31.25,8
+Expert bot,Druid,Stars,Warlock,Archfey,64,46,0,18,71.875,10
+Expert bot,Druid,Stars,Warlock,Great Old One,64,13,0,51,20.312,26
+Expert bot,Druid,Sea,Warlock,Fiend,64,13,0,51,20.312,49
+Expert bot,Druid,Sea,Warlock,Archfey,64,20,0,44,31.25,50
+Expert bot,Druid,Sea,Warlock,Great Old One,64,11,0,53,17.188,33
+Expert bot,Druid,Land,Wizard,Evoker,64,32,0,32,50.0,5
+Expert bot,Druid,Land,Wizard,Abjurer,64,35,0,29,54.688,11
+Expert bot,Druid,Land,Wizard,Diviner,64,29,0,35,45.312,6
+Expert bot,Druid,Stars,Wizard,Evoker,64,16,0,48,25.0,10
+Expert bot,Druid,Stars,Wizard,Abjurer,64,4,0,60,6.25,29
+Expert bot,Druid,Stars,Wizard,Diviner,64,12,0,52,18.75,21
+Expert bot,Druid,Sea,Wizard,Evoker,64,8,0,56,12.5,44
+Expert bot,Druid,Sea,Wizard,Abjurer,64,7,3,54,13.281,44
+Expert bot,Druid,Sea,Wizard,Diviner,64,5,2,57,9.375,55
+Expert bot,Fighter,Champion,Monk,Open Hand,64,9,0,55,14.062,23
+Expert bot,Fighter,Champion,Monk,Mercy,64,12,0,52,18.75,24
+Expert bot,Fighter,Champion,Monk,Elements,64,12,0,52,18.75,19
+Expert bot,Fighter,Battle Master,Monk,Open Hand,64,53,0,11,82.812,32
+Expert bot,Fighter,Battle Master,Monk,Mercy,64,48,0,16,75.0,33
+Expert bot,Fighter,Battle Master,Monk,Elements,64,54,0,10,84.375,39
+Expert bot,Fighter,Psi Warrior,Monk,Open Hand,64,32,0,32,50.0,16
+Expert bot,Fighter,Psi Warrior,Monk,Mercy,64,27,0,37,42.188,13
+Expert bot,Fighter,Psi Warrior,Monk,Elements,64,38,0,26,59.375,15
+Expert bot,Fighter,Champion,Paladin,Devotion,64,41,0,23,64.062,17
+Expert bot,Fighter,Champion,Paladin,Ancients,64,58,0,6,90.625,44
+Expert bot,Fighter,Champion,Paladin,Glory,64,46,0,18,71.875,36
+Expert bot,Fighter,Battle Master,Paladin,Devotion,64,52,0,12,81.25,44
+Expert bot,Fighter,Battle Master,Paladin,Ancients,64,62,0,2,96.875,54
+Expert bot,Fighter,Battle Master,Paladin,Glory,64,53,0,11,82.812,49
+Expert bot,Fighter,Psi Warrior,Paladin,Devotion,64,49,0,15,76.562,45
+Expert bot,Fighter,Psi Warrior,Paladin,Ancients,64,63,0,1,98.438,60
+Expert bot,Fighter,Psi Warrior,Paladin,Glory,64,48,0,16,75.0,47
+Expert bot,Fighter,Champion,Ranger,Hunter,64,63,0,1,98.438,56
+Expert bot,Fighter,Champion,Ranger,Fey Wanderer,64,63,0,1,98.438,51
+Expert bot,Fighter,Champion,Ranger,Gloom Stalker,64,61,0,3,95.312,42
+Expert bot,Fighter,Battle Master,Ranger,Hunter,64,64,0,0,100.0,63
+Expert bot,Fighter,Battle Master,Ranger,Fey Wanderer,64,64,0,0,100.0,61
+Expert bot,Fighter,Battle Master,Ranger,Gloom Stalker,64,62,0,2,96.875,59
+Expert bot,Fighter,Psi Warrior,Ranger,Hunter,64,64,0,0,100.0,60
+Expert bot,Fighter,Psi Warrior,Ranger,Fey Wanderer,64,64,0,0,100.0,56
+Expert bot,Fighter,Psi Warrior,Ranger,Gloom Stalker,64,58,0,6,90.625,51
+Expert bot,Fighter,Champion,Rogue,Thief,64,64,0,0,100.0,56
+Expert bot,Fighter,Champion,Rogue,Assassin,64,62,0,2,96.875,47
+Expert bot,Fighter,Champion,Rogue,Soulknife,64,58,0,6,90.625,45
+Expert bot,Fighter,Battle Master,Rogue,Thief,64,64,0,0,100.0,64
+Expert bot,Fighter,Battle Master,Rogue,Assassin,64,64,0,0,100.0,63
+Expert bot,Fighter,Battle Master,Rogue,Soulknife,64,64,0,0,100.0,63
+Expert bot,Fighter,Psi Warrior,Rogue,Thief,64,63,0,1,98.438,62
+Expert bot,Fighter,Psi Warrior,Rogue,Assassin,64,64,0,0,100.0,57
+Expert bot,Fighter,Psi Warrior,Rogue,Soulknife,64,62,0,2,96.875,50
+Expert bot,Fighter,Champion,Sorcerer,Draconic,64,24,0,40,37.5,11
+Expert bot,Fighter,Champion,Sorcerer,Aberrant,64,45,0,19,70.312,6
+Expert bot,Fighter,Champion,Sorcerer,Clockwork,64,42,0,22,65.625,4
+Expert bot,Fighter,Battle Master,Sorcerer,Draconic,64,40,0,24,62.5,13
+Expert bot,Fighter,Battle Master,Sorcerer,Aberrant,64,57,0,7,89.062,20
+Expert bot,Fighter,Battle Master,Sorcerer,Clockwork,64,58,0,6,90.625,20
+Expert bot,Fighter,Psi Warrior,Sorcerer,Draconic,64,41,0,23,64.062,5
+Expert bot,Fighter,Psi Warrior,Sorcerer,Aberrant,64,61,0,3,95.312,13
+Expert bot,Fighter,Psi Warrior,Sorcerer,Clockwork,64,61,0,3,95.312,13
+Expert bot,Fighter,Champion,Warlock,Fiend,64,55,0,9,85.938,25
+Expert bot,Fighter,Champion,Warlock,Archfey,64,64,0,0,100.0,60
+Expert bot,Fighter,Champion,Warlock,Great Old One,64,56,0,8,87.5,34
+Expert bot,Fighter,Battle Master,Warlock,Fiend,64,58,0,6,90.625,30
+Expert bot,Fighter,Battle Master,Warlock,Archfey,64,64,0,0,100.0,63
+Expert bot,Fighter,Battle Master,Warlock,Great Old One,64,62,0,2,96.875,59
+Expert bot,Fighter,Psi Warrior,Warlock,Fiend,64,62,0,2,96.875,40
+Expert bot,Fighter,Psi Warrior,Warlock,Archfey,64,64,0,0,100.0,63
+Expert bot,Fighter,Psi Warrior,Warlock,Great Old One,64,57,0,7,89.062,47
+Expert bot,Fighter,Champion,Wizard,Evoker,64,51,0,13,79.688,10
+Expert bot,Fighter,Champion,Wizard,Abjurer,64,36,0,28,56.25,9
+Expert bot,Fighter,Champion,Wizard,Diviner,64,43,0,21,67.188,7
+Expert bot,Fighter,Battle Master,Wizard,Evoker,64,61,0,3,95.312,20
+Expert bot,Fighter,Battle Master,Wizard,Abjurer,64,50,0,14,78.125,15
+Expert bot,Fighter,Battle Master,Wizard,Diviner,64,54,0,10,84.375,20
+Expert bot,Fighter,Psi Warrior,Wizard,Evoker,64,60,0,4,93.75,29
+Expert bot,Fighter,Psi Warrior,Wizard,Abjurer,64,55,0,9,85.938,12
+Expert bot,Fighter,Psi Warrior,Wizard,Diviner,64,62,0,2,96.875,29
+Expert bot,Monk,Open Hand,Paladin,Devotion,64,59,0,5,92.188,37
+Expert bot,Monk,Open Hand,Paladin,Ancients,64,57,0,7,89.062,45
+Expert bot,Monk,Open Hand,Paladin,Glory,64,61,0,3,95.312,43
+Expert bot,Monk,Mercy,Paladin,Devotion,64,61,0,3,95.312,53
+Expert bot,Monk,Mercy,Paladin,Ancients,64,59,0,5,92.188,56
+Expert bot,Monk,Mercy,Paladin,Glory,64,60,0,4,93.75,54
+Expert bot,Monk,Elements,Paladin,Devotion,64,57,0,7,89.062,33
+Expert bot,Monk,Elements,Paladin,Ancients,64,59,0,5,92.188,42
+Expert bot,Monk,Elements,Paladin,Glory,64,57,0,7,89.062,35
+Expert bot,Monk,Open Hand,Ranger,Hunter,64,64,0,0,100.0,58
+Expert bot,Monk,Open Hand,Ranger,Fey Wanderer,64,62,0,2,96.875,54
+Expert bot,Monk,Open Hand,Ranger,Gloom Stalker,64,62,0,2,96.875,50
+Expert bot,Monk,Mercy,Ranger,Hunter,64,64,0,0,100.0,62
+Expert bot,Monk,Mercy,Ranger,Fey Wanderer,64,63,0,1,98.438,59
+Expert bot,Monk,Mercy,Ranger,Gloom Stalker,64,62,0,2,96.875,62
+Expert bot,Monk,Elements,Ranger,Hunter,64,64,0,0,100.0,56
+Expert bot,Monk,Elements,Ranger,Fey Wanderer,64,62,0,2,96.875,53
+Expert bot,Monk,Elements,Ranger,Gloom Stalker,64,61,0,3,95.312,51
+Expert bot,Monk,Open Hand,Rogue,Thief,64,62,0,2,96.875,59
+Expert bot,Monk,Open Hand,Rogue,Assassin,64,64,0,0,100.0,43
+Expert bot,Monk,Open Hand,Rogue,Soulknife,64,19,0,45,29.688,3
+Expert bot,Monk,Mercy,Rogue,Thief,64,64,0,0,100.0,62
+Expert bot,Monk,Mercy,Rogue,Assassin,64,60,0,4,93.75,56
+Expert bot,Monk,Mercy,Rogue,Soulknife,64,15,0,49,23.438,9
+Expert bot,Monk,Elements,Rogue,Thief,64,64,0,0,100.0,58
+Expert bot,Monk,Elements,Rogue,Assassin,64,64,0,0,100.0,39
+Expert bot,Monk,Elements,Rogue,Soulknife,64,21,0,43,32.812,4
+Expert bot,Monk,Open Hand,Sorcerer,Draconic,64,8,0,56,12.5,18
+Expert bot,Monk,Open Hand,Sorcerer,Aberrant,64,21,0,43,32.812,7
+Expert bot,Monk,Open Hand,Sorcerer,Clockwork,64,21,0,43,32.812,7
+Expert bot,Monk,Mercy,Sorcerer,Draconic,64,9,0,55,14.062,16
+Expert bot,Monk,Mercy,Sorcerer,Aberrant,64,27,0,37,42.188,18
+Expert bot,Monk,Mercy,Sorcerer,Clockwork,64,27,0,37,42.188,18
+Expert bot,Monk,Elements,Sorcerer,Draconic,64,4,0,60,6.25,17
+Expert bot,Monk,Elements,Sorcerer,Aberrant,64,30,0,34,46.875,7
+Expert bot,Monk,Elements,Sorcerer,Clockwork,64,30,0,34,46.875,7
+Expert bot,Monk,Open Hand,Warlock,Fiend,64,40,0,24,62.5,7
+Expert bot,Monk,Open Hand,Warlock,Archfey,64,56,0,8,87.5,28
+Expert bot,Monk,Open Hand,Warlock,Great Old One,64,56,0,8,87.5,18
+Expert bot,Monk,Mercy,Warlock,Fiend,64,52,0,12,81.25,30
+Expert bot,Monk,Mercy,Warlock,Archfey,64,60,0,4,93.75,53
+Expert bot,Monk,Mercy,Warlock,Great Old One,64,53,0,11,82.812,45
+Expert bot,Monk,Elements,Warlock,Fiend,64,48,0,16,75.0,3
+Expert bot,Monk,Elements,Warlock,Archfey,64,56,0,8,87.5,27
+Expert bot,Monk,Elements,Warlock,Great Old One,64,52,0,12,81.25,23
+Expert bot,Monk,Open Hand,Wizard,Evoker,64,23,0,41,35.938,7
+Expert bot,Monk,Open Hand,Wizard,Abjurer,64,7,0,57,10.938,24
+Expert bot,Monk,Open Hand,Wizard,Diviner,64,16,0,48,25.0,4
+Expert bot,Monk,Mercy,Wizard,Evoker,64,43,0,21,67.188,12
+Expert bot,Monk,Mercy,Wizard,Abjurer,64,18,0,46,28.125,20
+Expert bot,Monk,Mercy,Wizard,Diviner,64,33,0,31,51.562,17
+Expert bot,Monk,Elements,Wizard,Evoker,64,23,0,41,35.938,13
+Expert bot,Monk,Elements,Wizard,Abjurer,64,8,0,56,12.5,29
+Expert bot,Monk,Elements,Wizard,Diviner,64,19,0,45,29.688,3
+Expert bot,Paladin,Devotion,Ranger,Hunter,64,53,0,11,82.812,44
+Expert bot,Paladin,Devotion,Ranger,Fey Wanderer,64,47,0,17,73.438,37
+Expert bot,Paladin,Devotion,Ranger,Gloom Stalker,64,45,0,19,70.312,39
+Expert bot,Paladin,Ancients,Ranger,Hunter,64,28,0,36,43.75,37
+Expert bot,Paladin,Ancients,Ranger,Fey Wanderer,64,19,0,45,29.688,49
+Expert bot,Paladin,Ancients,Ranger,Gloom Stalker,64,14,0,50,21.875,49
+Expert bot,Paladin,Glory,Ranger,Hunter,64,48,0,16,75.0,45
+Expert bot,Paladin,Glory,Ranger,Fey Wanderer,64,40,0,24,62.5,42
+Expert bot,Paladin,Glory,Ranger,Gloom Stalker,64,38,0,26,59.375,40
+Expert bot,Paladin,Devotion,Rogue,Thief,64,58,0,6,90.625,47
+Expert bot,Paladin,Devotion,Rogue,Assassin,64,47,0,17,73.438,44
+Expert bot,Paladin,Devotion,Rogue,Soulknife,64,56,0,8,87.5,38
+Expert bot,Paladin,Ancients,Rogue,Thief,64,50,0,14,78.125,30
+Expert bot,Paladin,Ancients,Rogue,Assassin,64,44,0,20,68.75,32
+Expert bot,Paladin,Ancients,Rogue,Soulknife,64,42,0,22,65.625,42
+Expert bot,Paladin,Glory,Rogue,Thief,64,57,0,7,89.062,46
+Expert bot,Paladin,Glory,Rogue,Assassin,64,48,0,16,75.0,45
+Expert bot,Paladin,Glory,Rogue,Soulknife,64,50,0,14,78.125,36
+Expert bot,Paladin,Devotion,Sorcerer,Draconic,64,12,0,52,18.75,48
+Expert bot,Paladin,Devotion,Sorcerer,Aberrant,64,12,0,52,18.75,49
+Expert bot,Paladin,Devotion,Sorcerer,Clockwork,64,12,0,52,18.75,49
+Expert bot,Paladin,Ancients,Sorcerer,Draconic,64,0,0,64,0.0,54
+Expert bot,Paladin,Ancients,Sorcerer,Aberrant,64,1,0,63,1.562,51
+Expert bot,Paladin,Ancients,Sorcerer,Clockwork,64,1,0,63,1.562,52
+Expert bot,Paladin,Glory,Sorcerer,Draconic,64,9,0,55,14.062,53
+Expert bot,Paladin,Glory,Sorcerer,Aberrant,64,6,0,58,9.375,44
+Expert bot,Paladin,Glory,Sorcerer,Clockwork,64,6,0,58,9.375,44
+Expert bot,Paladin,Devotion,Warlock,Fiend,64,36,0,28,56.25,28
+Expert bot,Paladin,Devotion,Warlock,Archfey,64,58,0,6,90.625,48
+Expert bot,Paladin,Devotion,Warlock,Great Old One,64,35,0,29,54.688,28
+Expert bot,Paladin,Ancients,Warlock,Fiend,64,25,0,39,39.062,45
+Expert bot,Paladin,Ancients,Warlock,Archfey,64,55,0,9,85.938,31
+Expert bot,Paladin,Ancients,Warlock,Great Old One,64,30,0,34,46.875,28
+Expert bot,Paladin,Glory,Warlock,Fiend,64,34,0,30,53.125,32
+Expert bot,Paladin,Glory,Warlock,Archfey,64,58,0,6,90.625,47
+Expert bot,Paladin,Glory,Warlock,Great Old One,64,33,0,31,51.562,28
+Expert bot,Paladin,Devotion,Wizard,Evoker,64,8,0,56,12.5,37
+Expert bot,Paladin,Devotion,Wizard,Abjurer,64,9,0,55,14.062,43
+Expert bot,Paladin,Devotion,Wizard,Diviner,64,17,0,47,26.562,37
+Expert bot,Paladin,Ancients,Wizard,Evoker,64,4,0,60,6.25,48
+Expert bot,Paladin,Ancients,Wizard,Abjurer,64,3,0,61,4.688,52
+Expert bot,Paladin,Ancients,Wizard,Diviner,64,4,0,60,6.25,51
+Expert bot,Paladin,Glory,Wizard,Evoker,64,3,0,61,4.688,37
+Expert bot,Paladin,Glory,Wizard,Abjurer,64,7,0,57,10.938,46
+Expert bot,Paladin,Glory,Wizard,Diviner,64,10,0,54,15.625,40
+Expert bot,Ranger,Hunter,Rogue,Thief,64,6,0,58,9.375,21
+Expert bot,Ranger,Hunter,Rogue,Assassin,64,9,0,55,14.062,24
+Expert bot,Ranger,Hunter,Rogue,Soulknife,64,7,0,57,10.938,20
+Expert bot,Ranger,Fey Wanderer,Rogue,Thief,64,11,0,53,17.188,22
+Expert bot,Ranger,Fey Wanderer,Rogue,Assassin,64,8,0,56,12.5,23
+Expert bot,Ranger,Fey Wanderer,Rogue,Soulknife,64,11,0,53,17.188,22
+Expert bot,Ranger,Gloom Stalker,Rogue,Thief,64,12,0,52,18.75,12
+Expert bot,Ranger,Gloom Stalker,Rogue,Assassin,64,14,0,50,21.875,22
+Expert bot,Ranger,Gloom Stalker,Rogue,Soulknife,64,14,0,50,21.875,12
+Expert bot,Ranger,Hunter,Sorcerer,Draconic,64,3,0,61,4.688,38
+Expert bot,Ranger,Hunter,Sorcerer,Aberrant,64,14,0,50,21.875,22
+Expert bot,Ranger,Hunter,Sorcerer,Clockwork,64,15,0,49,23.438,22
+Expert bot,Ranger,Fey Wanderer,Sorcerer,Draconic,64,10,0,54,15.625,33
+Expert bot,Ranger,Fey Wanderer,Sorcerer,Aberrant,64,24,0,40,37.5,17
+Expert bot,Ranger,Fey Wanderer,Sorcerer,Clockwork,64,24,0,40,37.5,17
+Expert bot,Ranger,Gloom Stalker,Sorcerer,Draconic,64,14,0,50,21.875,30
+Expert bot,Ranger,Gloom Stalker,Sorcerer,Aberrant,64,29,0,35,45.312,16
+Expert bot,Ranger,Gloom Stalker,Sorcerer,Clockwork,64,29,0,35,45.312,16
+Expert bot,Ranger,Hunter,Warlock,Fiend,64,35,0,29,54.688,11
+Expert bot,Ranger,Hunter,Warlock,Archfey,64,41,0,23,64.062,20
+Expert bot,Ranger,Hunter,Warlock,Great Old One,64,19,0,45,29.688,11
+Expert bot,Ranger,Fey Wanderer,Warlock,Fiend,64,42,0,22,65.625,8
+Expert bot,Ranger,Fey Wanderer,Warlock,Archfey,64,48,0,16,75.0,17
+Expert bot,Ranger,Fey Wanderer,Warlock,Great Old One,64,28,0,36,43.75,15
+Expert bot,Ranger,Gloom Stalker,Warlock,Fiend,64,43,0,21,67.188,10
+Expert bot,Ranger,Gloom Stalker,Warlock,Archfey,64,51,0,13,79.688,28
+Expert bot,Ranger,Gloom Stalker,Warlock,Great Old One,64,52,0,12,81.25,29
+Expert bot,Ranger,Hunter,Wizard,Evoker,64,32,0,32,50.0,15
+Expert bot,Ranger,Hunter,Wizard,Abjurer,64,22,0,42,34.375,28
+Expert bot,Ranger,Hunter,Wizard,Diviner,64,35,0,29,54.688,15
+Expert bot,Ranger,Fey Wanderer,Wizard,Evoker,64,33,0,31,51.562,13
+Expert bot,Ranger,Fey Wanderer,Wizard,Abjurer,64,29,0,35,45.312,18
+Expert bot,Ranger,Fey Wanderer,Wizard,Diviner,64,36,0,28,56.25,13
+Expert bot,Ranger,Gloom Stalker,Wizard,Evoker,64,40,0,24,62.5,11
+Expert bot,Ranger,Gloom Stalker,Wizard,Abjurer,64,35,0,29,54.688,13
+Expert bot,Ranger,Gloom Stalker,Wizard,Diviner,64,39,0,25,60.938,9
+Expert bot,Rogue,Thief,Sorcerer,Draconic,64,3,0,61,4.688,29
+Expert bot,Rogue,Thief,Sorcerer,Aberrant,64,19,0,45,29.688,12
+Expert bot,Rogue,Thief,Sorcerer,Clockwork,64,16,0,48,25.0,13
+Expert bot,Rogue,Assassin,Sorcerer,Draconic,64,11,0,53,17.188,27
+Expert bot,Rogue,Assassin,Sorcerer,Aberrant,64,33,0,31,51.562,17
+Expert bot,Rogue,Assassin,Sorcerer,Clockwork,64,29,0,35,45.312,11
+Expert bot,Rogue,Soulknife,Sorcerer,Draconic,64,4,0,60,6.25,27
+Expert bot,Rogue,Soulknife,Sorcerer,Aberrant,64,17,0,47,26.562,7
+Expert bot,Rogue,Soulknife,Sorcerer,Clockwork,64,14,0,50,21.875,14
+Expert bot,Rogue,Thief,Warlock,Fiend,64,35,0,29,54.688,3
+Expert bot,Rogue,Thief,Warlock,Archfey,64,61,0,3,95.312,31
+Expert bot,Rogue,Thief,Warlock,Great Old One,64,9,0,55,14.062,18
+Expert bot,Rogue,Assassin,Warlock,Fiend,64,47,0,17,73.438,3
+Expert bot,Rogue,Assassin,Warlock,Archfey,64,64,0,0,100.0,28
+Expert bot,Rogue,Assassin,Warlock,Great Old One,64,26,0,38,40.625,13
+Expert bot,Rogue,Soulknife,Warlock,Fiend,64,41,0,23,64.062,2
+Expert bot,Rogue,Soulknife,Warlock,Archfey,64,62,0,2,96.875,32
+Expert bot,Rogue,Soulknife,Warlock,Great Old One,64,6,0,58,9.375,27
+Expert bot,Rogue,Thief,Wizard,Evoker,64,34,0,30,53.125,9
+Expert bot,Rogue,Thief,Wizard,Abjurer,64,13,0,51,20.312,20
+Expert bot,Rogue,Thief,Wizard,Diviner,64,34,0,30,53.125,8
+Expert bot,Rogue,Assassin,Wizard,Evoker,64,46,0,18,71.875,12
+Expert bot,Rogue,Assassin,Wizard,Abjurer,64,20,0,44,31.25,12
+Expert bot,Rogue,Assassin,Wizard,Diviner,64,40,0,24,62.5,6
+Expert bot,Rogue,Soulknife,Wizard,Evoker,64,38,0,26,59.375,9
+Expert bot,Rogue,Soulknife,Wizard,Abjurer,64,19,0,45,29.688,14
+Expert bot,Rogue,Soulknife,Wizard,Diviner,64,35,0,29,54.688,10
+Expert bot,Sorcerer,Draconic,Warlock,Fiend,64,43,0,21,67.188,0
+Expert bot,Sorcerer,Draconic,Warlock,Archfey,64,59,0,5,92.188,34
+Expert bot,Sorcerer,Draconic,Warlock,Great Old One,64,61,0,3,95.312,25
+Expert bot,Sorcerer,Aberrant,Warlock,Fiend,64,54,0,10,84.375,13
+Expert bot,Sorcerer,Aberrant,Warlock,Archfey,64,59,0,5,92.188,23
+Expert bot,Sorcerer,Aberrant,Warlock,Great Old One,64,63,0,1,98.438,59
+Expert bot,Sorcerer,Clockwork,Warlock,Fiend,64,54,0,10,84.375,13
+Expert bot,Sorcerer,Clockwork,Warlock,Archfey,64,54,0,10,84.375,14
+Expert bot,Sorcerer,Clockwork,Warlock,Great Old One,64,63,0,1,98.438,59
+Expert bot,Sorcerer,Draconic,Wizard,Evoker,64,46,0,18,71.875,2
+Expert bot,Sorcerer,Draconic,Wizard,Abjurer,64,45,0,19,70.312,2
+Expert bot,Sorcerer,Draconic,Wizard,Diviner,64,32,0,32,50.0,1
+Expert bot,Sorcerer,Aberrant,Wizard,Evoker,64,42,0,22,65.625,2
+Expert bot,Sorcerer,Aberrant,Wizard,Abjurer,64,41,0,23,64.062,2
+Expert bot,Sorcerer,Aberrant,Wizard,Diviner,64,28,0,36,43.75,0
+Expert bot,Sorcerer,Clockwork,Wizard,Evoker,64,42,0,22,65.625,2
+Expert bot,Sorcerer,Clockwork,Wizard,Abjurer,64,41,0,23,64.062,2
+Expert bot,Sorcerer,Clockwork,Wizard,Diviner,64,28,0,36,43.75,0
+Expert bot,Warlock,Fiend,Wizard,Evoker,64,12,0,52,18.75,16
+Expert bot,Warlock,Fiend,Wizard,Abjurer,64,3,0,61,4.688,36
+Expert bot,Warlock,Fiend,Wizard,Diviner,64,9,0,55,14.062,12
+Expert bot,Warlock,Archfey,Wizard,Evoker,64,8,0,56,12.5,19
+Expert bot,Warlock,Archfey,Wizard,Abjurer,64,5,0,59,7.812,40
+Expert bot,Warlock,Archfey,Wizard,Diviner,64,5,0,59,7.812,21
+Expert bot,Warlock,Great Old One,Wizard,Evoker,64,0,0,64,0.0,51
+Expert bot,Warlock,Great Old One,Wizard,Abjurer,64,0,0,64,0.0,61
+Expert bot,Warlock,Great Old One,Wizard,Diviner,64,0,0,64,0.0,61
+Greedy policy update-2901.npz,Barbarian,Berserker,Bard,Lore,32,30,0,2,93.75,6
+Greedy policy update-2901.npz,Barbarian,Berserker,Bard,Valor,32,32,0,0,100.0,9
+Greedy policy update-2901.npz,Barbarian,Berserker,Bard,Glamour,32,29,0,3,90.625,15
+Greedy policy update-2901.npz,Barbarian,Zealot,Bard,Lore,32,27,0,5,84.375,7
+Greedy policy update-2901.npz,Barbarian,Zealot,Bard,Valor,32,27,0,5,84.375,12
+Greedy policy update-2901.npz,Barbarian,Zealot,Bard,Glamour,32,26,0,6,81.25,11
+Greedy policy update-2901.npz,Barbarian,World Tree,Bard,Lore,32,26,0,6,81.25,3
+Greedy policy update-2901.npz,Barbarian,World Tree,Bard,Valor,32,27,0,5,84.375,7
+Greedy policy update-2901.npz,Barbarian,World Tree,Bard,Glamour,32,19,0,13,59.375,13
+Greedy policy update-2901.npz,Barbarian,Berserker,Cleric,Life,32,28,0,4,87.5,12
+Greedy policy update-2901.npz,Barbarian,Berserker,Cleric,War,32,31,0,1,96.875,15
+Greedy policy update-2901.npz,Barbarian,Berserker,Cleric,Trickery,32,30,0,2,93.75,20
+Greedy policy update-2901.npz,Barbarian,Zealot,Cleric,Life,32,27,0,5,84.375,9
+Greedy policy update-2901.npz,Barbarian,Zealot,Cleric,War,32,32,0,0,100.0,15
+Greedy policy update-2901.npz,Barbarian,Zealot,Cleric,Trickery,32,30,0,2,93.75,19
+Greedy policy update-2901.npz,Barbarian,World Tree,Cleric,Life,32,13,0,19,40.625,9
+Greedy policy update-2901.npz,Barbarian,World Tree,Cleric,War,32,24,0,8,75.0,8
+Greedy policy update-2901.npz,Barbarian,World Tree,Cleric,Trickery,32,22,0,10,68.75,9
+Greedy policy update-2901.npz,Barbarian,Berserker,Druid,Land,32,30,1,1,95.312,11
+Greedy policy update-2901.npz,Barbarian,Berserker,Druid,Stars,32,26,6,0,90.625,22
+Greedy policy update-2901.npz,Barbarian,Berserker,Druid,Sea,32,32,0,0,100.0,16
+Greedy policy update-2901.npz,Barbarian,Zealot,Druid,Land,32,29,0,3,90.625,10
+Greedy policy update-2901.npz,Barbarian,Zealot,Druid,Stars,32,28,2,2,90.625,24
+Greedy policy update-2901.npz,Barbarian,Zealot,Druid,Sea,32,31,0,1,96.875,12
+Greedy policy update-2901.npz,Barbarian,World Tree,Druid,Land,32,20,1,11,64.062,7
+Greedy policy update-2901.npz,Barbarian,World Tree,Druid,Stars,32,26,5,1,89.062,18
+Greedy policy update-2901.npz,Barbarian,World Tree,Druid,Sea,32,20,0,12,62.5,9
+Greedy policy update-2901.npz,Barbarian,Berserker,Fighter,Champion,32,31,0,1,96.875,4
+Greedy policy update-2901.npz,Barbarian,Berserker,Fighter,Battle Master,32,29,0,3,90.625,0
+Greedy policy update-2901.npz,Barbarian,Berserker,Fighter,Psi Warrior,32,31,1,0,98.438,4
+Greedy policy update-2901.npz,Barbarian,Zealot,Fighter,Champion,32,28,0,4,87.5,1
+Greedy policy update-2901.npz,Barbarian,Zealot,Fighter,Battle Master,32,25,1,6,79.688,0
+Greedy policy update-2901.npz,Barbarian,Zealot,Fighter,Psi Warrior,32,29,2,1,93.75,2
+Greedy policy update-2901.npz,Barbarian,World Tree,Fighter,Champion,32,9,1,22,29.688,7
+Greedy policy update-2901.npz,Barbarian,World Tree,Fighter,Battle Master,32,6,0,26,18.75,4
+Greedy policy update-2901.npz,Barbarian,World Tree,Fighter,Psi Warrior,32,14,3,15,48.438,5
+Greedy policy update-2901.npz,Barbarian,Berserker,Monk,Open Hand,32,11,0,21,34.375,5
+Greedy policy update-2901.npz,Barbarian,Berserker,Monk,Mercy,32,4,15,13,35.938,2
+Greedy policy update-2901.npz,Barbarian,Berserker,Monk,Elements,32,4,0,28,12.5,6
+Greedy policy update-2901.npz,Barbarian,Zealot,Monk,Open Hand,32,14,1,17,45.312,5
+Greedy policy update-2901.npz,Barbarian,Zealot,Monk,Mercy,32,6,14,12,40.625,6
+Greedy policy update-2901.npz,Barbarian,Zealot,Monk,Elements,32,3,0,29,9.375,8
+Greedy policy update-2901.npz,Barbarian,World Tree,Monk,Open Hand,32,4,0,28,12.5,8
+Greedy policy update-2901.npz,Barbarian,World Tree,Monk,Mercy,32,0,14,18,21.875,7
+Greedy policy update-2901.npz,Barbarian,World Tree,Monk,Elements,32,0,0,32,0.0,15
+Greedy policy update-2901.npz,Barbarian,Berserker,Paladin,Devotion,32,6,4,22,25.0,9
+Greedy policy update-2901.npz,Barbarian,Berserker,Paladin,Ancients,32,26,1,5,82.812,6
+Greedy policy update-2901.npz,Barbarian,Berserker,Paladin,Glory,32,15,1,16,48.438,9
+Greedy policy update-2901.npz,Barbarian,Zealot,Paladin,Devotion,32,3,13,16,29.688,8
+Greedy policy update-2901.npz,Barbarian,Zealot,Paladin,Ancients,32,18,5,9,64.062,5
+Greedy policy update-2901.npz,Barbarian,Zealot,Paladin,Glory,32,7,11,14,39.062,3
+Greedy policy update-2901.npz,Barbarian,World Tree,Paladin,Devotion,32,0,1,31,1.562,19
+Greedy policy update-2901.npz,Barbarian,World Tree,Paladin,Ancients,32,6,4,22,25.0,8
+Greedy policy update-2901.npz,Barbarian,World Tree,Paladin,Glory,32,0,3,29,4.688,14
+Greedy policy update-2901.npz,Barbarian,Berserker,Ranger,Hunter,32,24,0,8,75.0,3
+Greedy policy update-2901.npz,Barbarian,Berserker,Ranger,Fey Wanderer,32,23,0,9,71.875,2
+Greedy policy update-2901.npz,Barbarian,Berserker,Ranger,Gloom Stalker,32,21,0,11,65.625,5
+Greedy policy update-2901.npz,Barbarian,Zealot,Ranger,Hunter,32,24,0,8,75.0,3
+Greedy policy update-2901.npz,Barbarian,Zealot,Ranger,Fey Wanderer,32,26,0,6,81.25,2
+Greedy policy update-2901.npz,Barbarian,Zealot,Ranger,Gloom Stalker,32,21,0,11,65.625,4
+Greedy policy update-2901.npz,Barbarian,World Tree,Ranger,Hunter,32,20,0,12,62.5,7
+Greedy policy update-2901.npz,Barbarian,World Tree,Ranger,Fey Wanderer,32,21,0,11,65.625,3
+Greedy policy update-2901.npz,Barbarian,World Tree,Ranger,Gloom Stalker,32,17,0,15,53.125,6
+Greedy policy update-2901.npz,Barbarian,Berserker,Rogue,Thief,32,32,0,0,100.0,9
+Greedy policy update-2901.npz,Barbarian,Berserker,Rogue,Assassin,32,29,0,3,90.625,7
+Greedy policy update-2901.npz,Barbarian,Berserker,Rogue,Soulknife,32,32,0,0,100.0,15
+Greedy policy update-2901.npz,Barbarian,Zealot,Rogue,Thief,32,28,3,1,92.188,8
+Greedy policy update-2901.npz,Barbarian,Zealot,Rogue,Assassin,32,32,0,0,100.0,3
+Greedy policy update-2901.npz,Barbarian,Zealot,Rogue,Soulknife,32,31,1,0,98.438,17
+Greedy policy update-2901.npz,Barbarian,World Tree,Rogue,Thief,32,24,2,6,78.125,1
+Greedy policy update-2901.npz,Barbarian,World Tree,Rogue,Assassin,32,26,2,4,84.375,2
+Greedy policy update-2901.npz,Barbarian,World Tree,Rogue,Soulknife,32,32,0,0,100.0,9
+Greedy policy update-2901.npz,Barbarian,Berserker,Sorcerer,Draconic,32,17,0,15,53.125,2
+Greedy policy update-2901.npz,Barbarian,Berserker,Sorcerer,Aberrant,32,26,0,6,81.25,5
+Greedy policy update-2901.npz,Barbarian,Berserker,Sorcerer,Clockwork,32,29,0,3,90.625,5
+Greedy policy update-2901.npz,Barbarian,Zealot,Sorcerer,Draconic,32,18,1,13,57.812,3
+Greedy policy update-2901.npz,Barbarian,Zealot,Sorcerer,Aberrant,32,25,0,7,78.125,7
+Greedy policy update-2901.npz,Barbarian,Zealot,Sorcerer,Clockwork,32,30,0,2,93.75,4
+Greedy policy update-2901.npz,Barbarian,World Tree,Sorcerer,Draconic,32,11,0,21,34.375,9
+Greedy policy update-2901.npz,Barbarian,World Tree,Sorcerer,Aberrant,32,22,1,9,70.312,2
+Greedy policy update-2901.npz,Barbarian,World Tree,Sorcerer,Clockwork,32,26,0,6,81.25,3
+Greedy policy update-2901.npz,Barbarian,Berserker,Warlock,Fiend,32,24,2,6,78.125,3
+Greedy policy update-2901.npz,Barbarian,Berserker,Warlock,Archfey,32,29,1,2,92.188,11
+Greedy policy update-2901.npz,Barbarian,Berserker,Warlock,Great Old One,32,29,3,0,95.312,13
+Greedy policy update-2901.npz,Barbarian,Zealot,Warlock,Fiend,32,26,1,5,82.812,2
+Greedy policy update-2901.npz,Barbarian,Zealot,Warlock,Archfey,32,31,0,1,96.875,13
+Greedy policy update-2901.npz,Barbarian,Zealot,Warlock,Great Old One,32,29,3,0,95.312,12
+Greedy policy update-2901.npz,Barbarian,World Tree,Warlock,Fiend,32,21,3,8,70.312,3
+Greedy policy update-2901.npz,Barbarian,World Tree,Warlock,Archfey,32,30,2,0,96.875,18
+Greedy policy update-2901.npz,Barbarian,World Tree,Warlock,Great Old One,32,29,2,1,93.75,18
+Greedy policy update-2901.npz,Barbarian,Berserker,Wizard,Evoker,32,27,2,3,87.5,5
+Greedy policy update-2901.npz,Barbarian,Berserker,Wizard,Abjurer,32,24,2,6,78.125,1
+Greedy policy update-2901.npz,Barbarian,Berserker,Wizard,Diviner,32,22,5,5,76.562,5
+Greedy policy update-2901.npz,Barbarian,Zealot,Wizard,Evoker,32,24,6,2,84.375,5
+Greedy policy update-2901.npz,Barbarian,Zealot,Wizard,Abjurer,32,22,8,2,81.25,3
+Greedy policy update-2901.npz,Barbarian,Zealot,Wizard,Diviner,32,28,3,1,92.188,10
+Greedy policy update-2901.npz,Barbarian,World Tree,Wizard,Evoker,32,18,4,10,62.5,7
+Greedy policy update-2901.npz,Barbarian,World Tree,Wizard,Abjurer,32,10,4,18,37.5,5
+Greedy policy update-2901.npz,Barbarian,World Tree,Wizard,Diviner,32,21,0,11,65.625,10
+Greedy policy update-2901.npz,Bard,Lore,Cleric,Life,32,0,16,16,25.0,15
+Greedy policy update-2901.npz,Bard,Lore,Cleric,War,32,0,12,20,18.75,17
+Greedy policy update-2901.npz,Bard,Lore,Cleric,Trickery,32,1,13,18,23.438,12
+Greedy policy update-2901.npz,Bard,Valor,Cleric,Life,32,0,8,24,12.5,16
+Greedy policy update-2901.npz,Bard,Valor,Cleric,War,32,0,6,26,9.375,20
+Greedy policy update-2901.npz,Bard,Valor,Cleric,Trickery,32,0,7,25,10.938,19
+Greedy policy update-2901.npz,Bard,Glamour,Cleric,Life,32,0,7,25,10.938,20
+Greedy policy update-2901.npz,Bard,Glamour,Cleric,War,32,0,5,27,7.812,21
+Greedy policy update-2901.npz,Bard,Glamour,Cleric,Trickery,32,0,8,24,12.5,16
+Greedy policy update-2901.npz,Bard,Lore,Druid,Land,32,0,8,24,12.5,21
+Greedy policy update-2901.npz,Bard,Lore,Druid,Stars,32,0,12,20,18.75,9
+Greedy policy update-2901.npz,Bard,Lore,Druid,Sea,32,0,16,16,25.0,15
+Greedy policy update-2901.npz,Bard,Valor,Druid,Land,32,1,1,30,4.688,20
+Greedy policy update-2901.npz,Bard,Valor,Druid,Stars,32,0,8,24,12.5,15
+Greedy policy update-2901.npz,Bard,Valor,Druid,Sea,32,0,7,25,10.938,21
+Greedy policy update-2901.npz,Bard,Glamour,Druid,Land,32,0,2,30,3.125,19
+Greedy policy update-2901.npz,Bard,Glamour,Druid,Stars,32,0,5,27,7.812,20
+Greedy policy update-2901.npz,Bard,Glamour,Druid,Sea,32,0,12,20,18.75,20
+Greedy policy update-2901.npz,Bard,Lore,Fighter,Champion,32,1,0,31,3.125,17
+Greedy policy update-2901.npz,Bard,Lore,Fighter,Battle Master,32,0,0,32,0.0,20
+Greedy policy update-2901.npz,Bard,Lore,Fighter,Psi Warrior,32,0,1,31,1.562,16
+Greedy policy update-2901.npz,Bard,Valor,Fighter,Champion,32,0,0,32,0.0,15
+Greedy policy update-2901.npz,Bard,Valor,Fighter,Battle Master,32,0,0,32,0.0,26
+Greedy policy update-2901.npz,Bard,Valor,Fighter,Psi Warrior,32,0,0,32,0.0,14
+Greedy policy update-2901.npz,Bard,Glamour,Fighter,Champion,32,16,0,16,50.0,20
+Greedy policy update-2901.npz,Bard,Glamour,Fighter,Battle Master,32,5,0,27,15.625,26
+Greedy policy update-2901.npz,Bard,Glamour,Fighter,Psi Warrior,32,3,0,29,9.375,15
+Greedy policy update-2901.npz,Bard,Lore,Monk,Open Hand,32,2,0,30,6.25,14
+Greedy policy update-2901.npz,Bard,Lore,Monk,Mercy,32,0,18,14,28.125,10
+Greedy policy update-2901.npz,Bard,Lore,Monk,Elements,32,1,0,31,3.125,15
+Greedy policy update-2901.npz,Bard,Valor,Monk,Open Hand,32,0,0,32,0.0,16
+Greedy policy update-2901.npz,Bard,Valor,Monk,Mercy,32,1,19,12,32.812,7
+Greedy policy update-2901.npz,Bard,Valor,Monk,Elements,32,1,0,31,3.125,14
+Greedy policy update-2901.npz,Bard,Glamour,Monk,Open Hand,32,4,0,28,12.5,16
+Greedy policy update-2901.npz,Bard,Glamour,Monk,Mercy,32,1,19,12,32.812,8
+Greedy policy update-2901.npz,Bard,Glamour,Monk,Elements,32,7,0,25,21.875,16
+Greedy policy update-2901.npz,Bard,Lore,Paladin,Devotion,32,0,8,24,12.5,6
+Greedy policy update-2901.npz,Bard,Lore,Paladin,Ancients,32,1,13,18,23.438,8
+Greedy policy update-2901.npz,Bard,Lore,Paladin,Glory,32,1,13,18,23.438,6
+Greedy policy update-2901.npz,Bard,Valor,Paladin,Devotion,32,0,7,25,10.938,6
+Greedy policy update-2901.npz,Bard,Valor,Paladin,Ancients,32,0,9,23,14.062,12
+Greedy policy update-2901.npz,Bard,Valor,Paladin,Glory,32,1,7,24,14.062,15
+Greedy policy update-2901.npz,Bard,Glamour,Paladin,Devotion,32,0,7,25,10.938,11
+Greedy policy update-2901.npz,Bard,Glamour,Paladin,Ancients,32,0,11,21,17.188,10
+Greedy policy update-2901.npz,Bard,Glamour,Paladin,Glory,32,1,12,19,21.875,8
+Greedy policy update-2901.npz,Bard,Lore,Ranger,Hunter,32,4,2,26,15.625,7
+Greedy policy update-2901.npz,Bard,Lore,Ranger,Fey Wanderer,32,2,2,28,9.375,1
+Greedy policy update-2901.npz,Bard,Lore,Ranger,Gloom Stalker,32,2,0,30,6.25,5
+Greedy policy update-2901.npz,Bard,Valor,Ranger,Hunter,32,2,0,30,6.25,7
+Greedy policy update-2901.npz,Bard,Valor,Ranger,Fey Wanderer,32,0,1,31,1.562,4
+Greedy policy update-2901.npz,Bard,Valor,Ranger,Gloom Stalker,32,0,1,31,1.562,2
+Greedy policy update-2901.npz,Bard,Glamour,Ranger,Hunter,32,2,1,29,7.812,14
+Greedy policy update-2901.npz,Bard,Glamour,Ranger,Fey Wanderer,32,1,2,29,6.25,8
+Greedy policy update-2901.npz,Bard,Glamour,Ranger,Gloom Stalker,32,6,3,23,23.438,9
+Greedy policy update-2901.npz,Bard,Lore,Rogue,Thief,32,16,0,16,50.0,4
+Greedy policy update-2901.npz,Bard,Lore,Rogue,Assassin,32,12,0,20,37.5,6
+Greedy policy update-2901.npz,Bard,Lore,Rogue,Soulknife,32,21,0,11,65.625,6
+Greedy policy update-2901.npz,Bard,Valor,Rogue,Thief,32,11,0,21,34.375,3
+Greedy policy update-2901.npz,Bard,Valor,Rogue,Assassin,32,9,0,23,28.125,11
+Greedy policy update-2901.npz,Bard,Valor,Rogue,Soulknife,32,13,0,19,40.625,4
+Greedy policy update-2901.npz,Bard,Glamour,Rogue,Thief,32,21,0,11,65.625,5
+Greedy policy update-2901.npz,Bard,Glamour,Rogue,Assassin,32,12,0,20,37.5,12
+Greedy policy update-2901.npz,Bard,Glamour,Rogue,Soulknife,32,22,0,10,68.75,7
+Greedy policy update-2901.npz,Bard,Lore,Sorcerer,Draconic,32,5,3,24,20.312,18
+Greedy policy update-2901.npz,Bard,Lore,Sorcerer,Aberrant,32,7,3,22,26.562,17
+Greedy policy update-2901.npz,Bard,Lore,Sorcerer,Clockwork,32,10,2,20,34.375,12
+Greedy policy update-2901.npz,Bard,Valor,Sorcerer,Draconic,32,3,5,24,17.188,15
+Greedy policy update-2901.npz,Bard,Valor,Sorcerer,Aberrant,32,5,2,25,18.75,15
+Greedy policy update-2901.npz,Bard,Valor,Sorcerer,Clockwork,32,5,1,26,17.188,12
+Greedy policy update-2901.npz,Bard,Glamour,Sorcerer,Draconic,32,1,3,28,7.812,13
+Greedy policy update-2901.npz,Bard,Glamour,Sorcerer,Aberrant,32,5,2,25,18.75,19
+Greedy policy update-2901.npz,Bard,Glamour,Sorcerer,Clockwork,32,3,2,27,12.5,14
+Greedy policy update-2901.npz,Bard,Lore,Warlock,Fiend,32,3,20,9,40.625,1
+Greedy policy update-2901.npz,Bard,Lore,Warlock,Archfey,32,1,18,13,31.25,5
+Greedy policy update-2901.npz,Bard,Lore,Warlock,Great Old One,32,7,13,12,42.188,9
+Greedy policy update-2901.npz,Bard,Valor,Warlock,Fiend,32,2,14,16,28.125,3
+Greedy policy update-2901.npz,Bard,Valor,Warlock,Archfey,32,0,15,17,23.438,7
+Greedy policy update-2901.npz,Bard,Valor,Warlock,Great Old One,32,7,12,13,40.625,9
+Greedy policy update-2901.npz,Bard,Glamour,Warlock,Fiend,32,0,10,22,15.625,5
+Greedy policy update-2901.npz,Bard,Glamour,Warlock,Archfey,32,2,6,24,15.625,11
+Greedy policy update-2901.npz,Bard,Glamour,Warlock,Great Old One,32,5,11,16,32.812,6
+Greedy policy update-2901.npz,Bard,Lore,Wizard,Evoker,32,17,0,15,53.125,6
+Greedy policy update-2901.npz,Bard,Lore,Wizard,Abjurer,32,7,0,25,21.875,16
+Greedy policy update-2901.npz,Bard,Lore,Wizard,Diviner,32,10,0,22,31.25,6
+Greedy policy update-2901.npz,Bard,Valor,Wizard,Evoker,32,9,0,23,28.125,6
+Greedy policy update-2901.npz,Bard,Valor,Wizard,Abjurer,32,2,1,29,7.812,13
+Greedy policy update-2901.npz,Bard,Valor,Wizard,Diviner,32,9,0,23,28.125,5
+Greedy policy update-2901.npz,Bard,Glamour,Wizard,Evoker,32,4,0,28,12.5,7
+Greedy policy update-2901.npz,Bard,Glamour,Wizard,Abjurer,32,4,0,28,12.5,18
+Greedy policy update-2901.npz,Bard,Glamour,Wizard,Diviner,32,5,2,25,18.75,6
+Greedy policy update-2901.npz,Cleric,Life,Druid,Land,32,5,1,26,17.188,22
+Greedy policy update-2901.npz,Cleric,Life,Druid,Stars,32,12,3,17,42.188,15
+Greedy policy update-2901.npz,Cleric,Life,Druid,Sea,32,13,2,17,43.75,15
+Greedy policy update-2901.npz,Cleric,War,Druid,Land,32,3,1,28,10.938,25
+Greedy policy update-2901.npz,Cleric,War,Druid,Stars,32,12,1,19,39.062,19
+Greedy policy update-2901.npz,Cleric,War,Druid,Sea,32,4,4,24,18.75,16
+Greedy policy update-2901.npz,Cleric,Trickery,Druid,Land,32,7,1,24,23.438,25
+Greedy policy update-2901.npz,Cleric,Trickery,Druid,Stars,32,13,0,19,40.625,16
+Greedy policy update-2901.npz,Cleric,Trickery,Druid,Sea,32,11,5,16,42.188,18
+Greedy policy update-2901.npz,Cleric,Life,Fighter,Champion,32,17,6,9,62.5,17
+Greedy policy update-2901.npz,Cleric,Life,Fighter,Battle Master,32,8,5,19,32.812,20
+Greedy policy update-2901.npz,Cleric,Life,Fighter,Psi Warrior,32,9,8,15,40.625,18
+Greedy policy update-2901.npz,Cleric,War,Fighter,Champion,32,10,4,18,37.5,17
+Greedy policy update-2901.npz,Cleric,War,Fighter,Battle Master,32,4,4,24,18.75,20
+Greedy policy update-2901.npz,Cleric,War,Fighter,Psi Warrior,32,7,5,20,29.688,16
+Greedy policy update-2901.npz,Cleric,Trickery,Fighter,Champion,32,16,0,16,50.0,16
+Greedy policy update-2901.npz,Cleric,Trickery,Fighter,Battle Master,32,9,2,21,31.25,16
+Greedy policy update-2901.npz,Cleric,Trickery,Fighter,Psi Warrior,32,14,2,16,46.875,22
+Greedy policy update-2901.npz,Cleric,Life,Monk,Open Hand,32,13,0,19,40.625,18
+Greedy policy update-2901.npz,Cleric,Life,Monk,Mercy,32,3,24,5,46.875,3
+Greedy policy update-2901.npz,Cleric,Life,Monk,Elements,32,14,0,18,43.75,17
+Greedy policy update-2901.npz,Cleric,War,Monk,Open Hand,32,0,0,32,0.0,19
+Greedy policy update-2901.npz,Cleric,War,Monk,Mercy,32,1,24,7,40.625,8
+Greedy policy update-2901.npz,Cleric,War,Monk,Elements,32,4,0,28,12.5,19
+Greedy policy update-2901.npz,Cleric,Trickery,Monk,Open Hand,32,10,0,22,31.25,17
+Greedy policy update-2901.npz,Cleric,Trickery,Monk,Mercy,32,3,24,5,46.875,5
+Greedy policy update-2901.npz,Cleric,Trickery,Monk,Elements,32,14,0,18,43.75,18
+Greedy policy update-2901.npz,Cleric,Life,Paladin,Devotion,32,8,1,23,26.562,17
+Greedy policy update-2901.npz,Cleric,Life,Paladin,Ancients,32,9,3,20,32.812,13
+Greedy policy update-2901.npz,Cleric,Life,Paladin,Glory,32,13,1,18,42.188,20
+Greedy policy update-2901.npz,Cleric,War,Paladin,Devotion,32,0,0,32,0.0,15
+Greedy policy update-2901.npz,Cleric,War,Paladin,Ancients,32,2,1,29,7.812,17
+Greedy policy update-2901.npz,Cleric,War,Paladin,Glory,32,4,2,26,15.625,16
+Greedy policy update-2901.npz,Cleric,Trickery,Paladin,Devotion,32,6,3,23,23.438,15
+Greedy policy update-2901.npz,Cleric,Trickery,Paladin,Ancients,32,8,2,22,28.125,17
+Greedy policy update-2901.npz,Cleric,Trickery,Paladin,Glory,32,5,2,25,18.75,16
+Greedy policy update-2901.npz,Cleric,Life,Ranger,Hunter,32,13,0,19,40.625,7
+Greedy policy update-2901.npz,Cleric,Life,Ranger,Fey Wanderer,32,16,0,16,50.0,11
+Greedy policy update-2901.npz,Cleric,Life,Ranger,Gloom Stalker,32,14,0,18,43.75,9
+Greedy policy update-2901.npz,Cleric,War,Ranger,Hunter,32,2,0,30,6.25,21
+Greedy policy update-2901.npz,Cleric,War,Ranger,Fey Wanderer,32,6,0,26,18.75,21
+Greedy policy update-2901.npz,Cleric,War,Ranger,Gloom Stalker,32,2,0,30,6.25,20
+Greedy policy update-2901.npz,Cleric,Trickery,Ranger,Hunter,32,9,0,23,28.125,16
+Greedy policy update-2901.npz,Cleric,Trickery,Ranger,Fey Wanderer,32,13,0,19,40.625,19
+Greedy policy update-2901.npz,Cleric,Trickery,Ranger,Gloom Stalker,32,13,0,19,40.625,11
+Greedy policy update-2901.npz,Cleric,Life,Rogue,Thief,32,29,0,3,90.625,20
+Greedy policy update-2901.npz,Cleric,Life,Rogue,Assassin,32,27,0,5,84.375,15
+Greedy policy update-2901.npz,Cleric,Life,Rogue,Soulknife,32,30,0,2,93.75,23
+Greedy policy update-2901.npz,Cleric,War,Rogue,Thief,32,21,1,10,67.188,8
+Greedy policy update-2901.npz,Cleric,War,Rogue,Assassin,32,23,0,9,71.875,9
+Greedy policy update-2901.npz,Cleric,War,Rogue,Soulknife,32,24,0,8,75.0,10
+Greedy policy update-2901.npz,Cleric,Trickery,Rogue,Thief,32,26,0,6,81.25,19
+Greedy policy update-2901.npz,Cleric,Trickery,Rogue,Assassin,32,21,0,11,65.625,18
+Greedy policy update-2901.npz,Cleric,Trickery,Rogue,Soulknife,32,25,0,7,78.125,16
+Greedy policy update-2901.npz,Cleric,Life,Sorcerer,Draconic,32,22,0,10,68.75,6
+Greedy policy update-2901.npz,Cleric,Life,Sorcerer,Aberrant,32,29,0,3,90.625,11
+Greedy policy update-2901.npz,Cleric,Life,Sorcerer,Clockwork,32,30,0,2,93.75,12
+Greedy policy update-2901.npz,Cleric,War,Sorcerer,Draconic,32,10,1,21,32.812,8
+Greedy policy update-2901.npz,Cleric,War,Sorcerer,Aberrant,32,17,0,15,53.125,2
+Greedy policy update-2901.npz,Cleric,War,Sorcerer,Clockwork,32,23,0,9,71.875,6
+Greedy policy update-2901.npz,Cleric,Trickery,Sorcerer,Draconic,32,14,0,18,43.75,5
+Greedy policy update-2901.npz,Cleric,Trickery,Sorcerer,Aberrant,32,28,0,4,87.5,5
+Greedy policy update-2901.npz,Cleric,Trickery,Sorcerer,Clockwork,32,27,0,5,84.375,7
+Greedy policy update-2901.npz,Cleric,Life,Warlock,Fiend,32,14,8,10,56.25,17
+Greedy policy update-2901.npz,Cleric,Life,Warlock,Archfey,32,26,5,1,89.062,26
+Greedy policy update-2901.npz,Cleric,Life,Warlock,Great Old One,32,22,6,4,78.125,23
+Greedy policy update-2901.npz,Cleric,War,Warlock,Fiend,32,10,10,12,46.875,16
+Greedy policy update-2901.npz,Cleric,War,Warlock,Archfey,32,27,2,3,87.5,26
+Greedy policy update-2901.npz,Cleric,War,Warlock,Great Old One,32,21,6,5,75.0,19
+Greedy policy update-2901.npz,Cleric,Trickery,Warlock,Fiend,32,13,8,11,53.125,19
+Greedy policy update-2901.npz,Cleric,Trickery,Warlock,Archfey,32,26,4,2,87.5,23
+Greedy policy update-2901.npz,Cleric,Trickery,Warlock,Great Old One,32,20,6,6,71.875,21
+Greedy policy update-2901.npz,Cleric,Life,Wizard,Evoker,32,23,1,8,73.438,11
+Greedy policy update-2901.npz,Cleric,Life,Wizard,Abjurer,32,23,9,0,85.938,11
+Greedy policy update-2901.npz,Cleric,Life,Wizard,Diviner,32,26,2,4,84.375,18
+Greedy policy update-2901.npz,Cleric,War,Wizard,Evoker,32,19,0,13,59.375,6
+Greedy policy update-2901.npz,Cleric,War,Wizard,Abjurer,32,23,9,0,85.938,10
+Greedy policy update-2901.npz,Cleric,War,Wizard,Diviner,32,23,0,9,71.875,13
+Greedy policy update-2901.npz,Cleric,Trickery,Wizard,Evoker,32,21,1,10,67.188,7
+Greedy policy update-2901.npz,Cleric,Trickery,Wizard,Abjurer,32,21,8,3,78.125,9
+Greedy policy update-2901.npz,Cleric,Trickery,Wizard,Diviner,32,26,2,4,84.375,14
+Greedy policy update-2901.npz,Druid,Land,Fighter,Champion,32,12,0,20,37.5,12
+Greedy policy update-2901.npz,Druid,Land,Fighter,Battle Master,32,1,0,31,3.125,19
+Greedy policy update-2901.npz,Druid,Land,Fighter,Psi Warrior,32,13,1,18,42.188,10
+Greedy policy update-2901.npz,Druid,Stars,Fighter,Champion,32,0,0,32,0.0,23
+Greedy policy update-2901.npz,Druid,Stars,Fighter,Battle Master,32,0,0,32,0.0,32
+Greedy policy update-2901.npz,Druid,Stars,Fighter,Psi Warrior,32,3,0,29,9.375,20
+Greedy policy update-2901.npz,Druid,Sea,Fighter,Champion,32,2,0,30,6.25,18
+Greedy policy update-2901.npz,Druid,Sea,Fighter,Battle Master,32,2,0,30,6.25,28
+Greedy policy update-2901.npz,Druid,Sea,Fighter,Psi Warrior,32,2,0,30,6.25,18
+Greedy policy update-2901.npz,Druid,Land,Monk,Open Hand,32,1,0,31,3.125,16
+Greedy policy update-2901.npz,Druid,Land,Monk,Mercy,32,2,13,17,26.562,8
+Greedy policy update-2901.npz,Druid,Land,Monk,Elements,32,8,0,24,25.0,14
+Greedy policy update-2901.npz,Druid,Stars,Monk,Open Hand,32,1,0,31,3.125,27
+Greedy policy update-2901.npz,Druid,Stars,Monk,Mercy,32,0,20,12,31.25,10
+Greedy policy update-2901.npz,Druid,Stars,Monk,Elements,32,2,0,30,6.25,26
+Greedy policy update-2901.npz,Druid,Sea,Monk,Open Hand,32,1,0,31,3.125,21
+Greedy policy update-2901.npz,Druid,Sea,Monk,Mercy,32,1,15,16,26.562,10
+Greedy policy update-2901.npz,Druid,Sea,Monk,Elements,32,3,0,29,9.375,17
+Greedy policy update-2901.npz,Druid,Land,Paladin,Devotion,32,8,0,24,25.0,14
+Greedy policy update-2901.npz,Druid,Land,Paladin,Ancients,32,11,0,21,34.375,15
+Greedy policy update-2901.npz,Druid,Land,Paladin,Glory,32,8,0,24,25.0,13
+Greedy policy update-2901.npz,Druid,Stars,Paladin,Devotion,32,0,0,32,0.0,25
+Greedy policy update-2901.npz,Druid,Stars,Paladin,Ancients,32,3,0,29,9.375,25
+Greedy policy update-2901.npz,Druid,Stars,Paladin,Glory,32,3,0,29,9.375,26
+Greedy policy update-2901.npz,Druid,Sea,Paladin,Devotion,32,2,0,30,6.25,19
+Greedy policy update-2901.npz,Druid,Sea,Paladin,Ancients,32,4,0,28,12.5,18
+Greedy policy update-2901.npz,Druid,Sea,Paladin,Glory,32,2,0,30,6.25,25
+Greedy policy update-2901.npz,Druid,Land,Ranger,Hunter,32,8,0,24,25.0,16
+Greedy policy update-2901.npz,Druid,Land,Ranger,Fey Wanderer,32,9,0,23,28.125,10
+Greedy policy update-2901.npz,Druid,Land,Ranger,Gloom Stalker,32,7,0,25,21.875,12
+Greedy policy update-2901.npz,Druid,Stars,Ranger,Hunter,32,1,0,31,3.125,24
+Greedy policy update-2901.npz,Druid,Stars,Ranger,Fey Wanderer,32,2,0,30,6.25,27
+Greedy policy update-2901.npz,Druid,Stars,Ranger,Gloom Stalker,32,3,2,27,12.5,22
+Greedy policy update-2901.npz,Druid,Sea,Ranger,Hunter,32,7,0,25,21.875,16
+Greedy policy update-2901.npz,Druid,Sea,Ranger,Fey Wanderer,32,5,0,27,15.625,17
+Greedy policy update-2901.npz,Druid,Sea,Ranger,Gloom Stalker,32,6,0,26,18.75,17
+Greedy policy update-2901.npz,Druid,Land,Rogue,Thief,32,21,0,11,65.625,8
+Greedy policy update-2901.npz,Druid,Land,Rogue,Assassin,32,15,1,16,48.438,11
+Greedy policy update-2901.npz,Druid,Land,Rogue,Soulknife,32,19,0,13,59.375,11
+Greedy policy update-2901.npz,Druid,Stars,Rogue,Thief,32,15,0,17,46.875,10
+Greedy policy update-2901.npz,Druid,Stars,Rogue,Assassin,32,14,0,18,43.75,10
+Greedy policy update-2901.npz,Druid,Stars,Rogue,Soulknife,32,16,0,16,50.0,8
+Greedy policy update-2901.npz,Druid,Sea,Rogue,Thief,32,15,3,14,51.562,8
+Greedy policy update-2901.npz,Druid,Sea,Rogue,Assassin,32,12,2,18,40.625,3
+Greedy policy update-2901.npz,Druid,Sea,Rogue,Soulknife,32,15,4,13,53.125,5
+Greedy policy update-2901.npz,Druid,Land,Sorcerer,Draconic,32,28,0,4,87.5,15
+Greedy policy update-2901.npz,Druid,Land,Sorcerer,Aberrant,32,30,0,2,93.75,15
+Greedy policy update-2901.npz,Druid,Land,Sorcerer,Clockwork,32,27,0,5,84.375,15
+Greedy policy update-2901.npz,Druid,Stars,Sorcerer,Draconic,32,15,0,17,46.875,3
+Greedy policy update-2901.npz,Druid,Stars,Sorcerer,Aberrant,32,24,0,8,75.0,5
+Greedy policy update-2901.npz,Druid,Stars,Sorcerer,Clockwork,32,23,1,8,73.438,6
+Greedy policy update-2901.npz,Druid,Sea,Sorcerer,Draconic,32,25,0,7,78.125,15
+Greedy policy update-2901.npz,Druid,Sea,Sorcerer,Aberrant,32,31,0,1,96.875,19
+Greedy policy update-2901.npz,Druid,Sea,Sorcerer,Clockwork,32,25,0,7,78.125,14
+Greedy policy update-2901.npz,Druid,Land,Warlock,Fiend,32,23,5,4,79.688,17
+Greedy policy update-2901.npz,Druid,Land,Warlock,Archfey,32,28,2,2,90.625,27
+Greedy policy update-2901.npz,Druid,Land,Warlock,Great Old One,32,31,1,0,98.438,21
+Greedy policy update-2901.npz,Druid,Stars,Warlock,Fiend,32,9,15,8,51.562,7
+Greedy policy update-2901.npz,Druid,Stars,Warlock,Archfey,32,20,5,7,70.312,20
+Greedy policy update-2901.npz,Druid,Stars,Warlock,Great Old One,32,22,4,6,75.0,17
+Greedy policy update-2901.npz,Druid,Sea,Warlock,Fiend,32,13,11,8,57.812,12
+Greedy policy update-2901.npz,Druid,Sea,Warlock,Archfey,32,27,5,0,92.188,26
+Greedy policy update-2901.npz,Druid,Sea,Warlock,Great Old One,32,25,6,1,87.5,23
+Greedy policy update-2901.npz,Druid,Land,Wizard,Evoker,32,27,4,1,90.625,7
+Greedy policy update-2901.npz,Druid,Land,Wizard,Abjurer,32,24,7,1,85.938,15
+Greedy policy update-2901.npz,Druid,Land,Wizard,Diviner,32,30,1,1,95.312,8
+Greedy policy update-2901.npz,Druid,Stars,Wizard,Evoker,32,19,2,11,62.5,1
+Greedy policy update-2901.npz,Druid,Stars,Wizard,Abjurer,32,19,8,5,71.875,8
+Greedy policy update-2901.npz,Druid,Stars,Wizard,Diviner,32,22,3,7,73.438,8
+Greedy policy update-2901.npz,Druid,Sea,Wizard,Evoker,32,25,4,3,84.375,11
+Greedy policy update-2901.npz,Druid,Sea,Wizard,Abjurer,32,26,6,0,90.625,22
+Greedy policy update-2901.npz,Druid,Sea,Wizard,Diviner,32,30,1,1,95.312,14
+Greedy policy update-2901.npz,Fighter,Champion,Monk,Open Hand,32,2,1,29,7.812,21
+Greedy policy update-2901.npz,Fighter,Champion,Monk,Mercy,32,2,9,21,20.312,13
+Greedy policy update-2901.npz,Fighter,Champion,Monk,Elements,32,0,2,30,3.125,18
+Greedy policy update-2901.npz,Fighter,Battle Master,Monk,Open Hand,32,15,2,15,50.0,10
+Greedy policy update-2901.npz,Fighter,Battle Master,Monk,Mercy,32,9,12,11,46.875,10
+Greedy policy update-2901.npz,Fighter,Battle Master,Monk,Elements,32,9,1,22,29.688,9
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Monk,Open Hand,32,3,2,27,12.5,14
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Monk,Mercy,32,4,15,13,35.938,7
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Monk,Elements,32,4,6,22,21.875,8
+Greedy policy update-2901.npz,Fighter,Champion,Paladin,Devotion,32,0,3,29,4.688,22
+Greedy policy update-2901.npz,Fighter,Champion,Paladin,Ancients,32,2,13,17,26.562,10
+Greedy policy update-2901.npz,Fighter,Champion,Paladin,Glory,32,1,8,23,15.625,12
+Greedy policy update-2901.npz,Fighter,Battle Master,Paladin,Devotion,32,6,6,20,28.125,19
+Greedy policy update-2901.npz,Fighter,Battle Master,Paladin,Ancients,32,9,10,13,43.75,15
+Greedy policy update-2901.npz,Fighter,Battle Master,Paladin,Glory,32,4,9,19,26.562,11
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Paladin,Devotion,32,0,10,22,15.625,19
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Paladin,Ancients,32,2,19,11,35.938,10
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Paladin,Glory,32,0,11,21,17.188,19
+Greedy policy update-2901.npz,Fighter,Champion,Ranger,Hunter,32,30,0,2,93.75,18
+Greedy policy update-2901.npz,Fighter,Champion,Ranger,Fey Wanderer,32,31,0,1,96.875,23
+Greedy policy update-2901.npz,Fighter,Champion,Ranger,Gloom Stalker,32,30,0,2,93.75,16
+Greedy policy update-2901.npz,Fighter,Battle Master,Ranger,Hunter,32,32,0,0,100.0,28
+Greedy policy update-2901.npz,Fighter,Battle Master,Ranger,Fey Wanderer,32,32,0,0,100.0,31
+Greedy policy update-2901.npz,Fighter,Battle Master,Ranger,Gloom Stalker,32,32,0,0,100.0,29
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Ranger,Hunter,32,31,0,1,96.875,22
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Ranger,Fey Wanderer,32,30,0,2,93.75,20
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Ranger,Gloom Stalker,32,28,0,4,87.5,17
+Greedy policy update-2901.npz,Fighter,Champion,Rogue,Thief,32,28,0,4,87.5,22
+Greedy policy update-2901.npz,Fighter,Champion,Rogue,Assassin,32,28,0,4,87.5,15
+Greedy policy update-2901.npz,Fighter,Champion,Rogue,Soulknife,32,32,0,0,100.0,24
+Greedy policy update-2901.npz,Fighter,Battle Master,Rogue,Thief,32,30,0,2,93.75,26
+Greedy policy update-2901.npz,Fighter,Battle Master,Rogue,Assassin,32,32,0,0,100.0,27
+Greedy policy update-2901.npz,Fighter,Battle Master,Rogue,Soulknife,32,32,0,0,100.0,29
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Rogue,Thief,32,28,0,4,87.5,18
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Rogue,Assassin,32,30,1,1,95.312,16
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Rogue,Soulknife,32,32,0,0,100.0,26
+Greedy policy update-2901.npz,Fighter,Champion,Sorcerer,Draconic,32,8,0,24,25.0,2
+Greedy policy update-2901.npz,Fighter,Champion,Sorcerer,Aberrant,32,21,1,10,67.188,4
+Greedy policy update-2901.npz,Fighter,Champion,Sorcerer,Clockwork,32,23,0,9,71.875,4
+Greedy policy update-2901.npz,Fighter,Battle Master,Sorcerer,Draconic,32,17,0,15,53.125,9
+Greedy policy update-2901.npz,Fighter,Battle Master,Sorcerer,Aberrant,32,27,0,5,84.375,13
+Greedy policy update-2901.npz,Fighter,Battle Master,Sorcerer,Clockwork,32,28,0,4,87.5,15
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Sorcerer,Draconic,32,12,0,20,37.5,5
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Sorcerer,Aberrant,32,22,0,10,68.75,6
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Sorcerer,Clockwork,32,23,0,9,71.875,5
+Greedy policy update-2901.npz,Fighter,Champion,Warlock,Fiend,32,20,9,3,76.562,7
+Greedy policy update-2901.npz,Fighter,Champion,Warlock,Archfey,32,24,8,0,87.5,23
+Greedy policy update-2901.npz,Fighter,Champion,Warlock,Great Old One,32,26,5,1,89.062,17
+Greedy policy update-2901.npz,Fighter,Battle Master,Warlock,Fiend,32,28,3,1,92.188,9
+Greedy policy update-2901.npz,Fighter,Battle Master,Warlock,Archfey,32,29,3,0,95.312,26
+Greedy policy update-2901.npz,Fighter,Battle Master,Warlock,Great Old One,32,31,1,0,98.438,25
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Warlock,Fiend,32,19,9,4,73.438,8
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Warlock,Archfey,32,23,9,0,85.938,23
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Warlock,Great Old One,32,27,4,1,90.625,16
+Greedy policy update-2901.npz,Fighter,Champion,Wizard,Evoker,32,19,0,13,59.375,6
+Greedy policy update-2901.npz,Fighter,Champion,Wizard,Abjurer,32,17,1,14,54.688,6
+Greedy policy update-2901.npz,Fighter,Champion,Wizard,Diviner,32,16,2,14,53.125,5
+Greedy policy update-2901.npz,Fighter,Battle Master,Wizard,Evoker,32,30,0,2,93.75,13
+Greedy policy update-2901.npz,Fighter,Battle Master,Wizard,Abjurer,32,22,0,10,68.75,10
+Greedy policy update-2901.npz,Fighter,Battle Master,Wizard,Diviner,32,31,0,1,96.875,13
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Wizard,Evoker,32,24,0,8,75.0,2
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Wizard,Abjurer,32,14,4,14,50.0,9
+Greedy policy update-2901.npz,Fighter,Psi Warrior,Wizard,Diviner,32,23,0,9,71.875,1
+Greedy policy update-2901.npz,Monk,Open Hand,Paladin,Devotion,32,12,1,19,39.062,21
+Greedy policy update-2901.npz,Monk,Open Hand,Paladin,Ancients,32,11,8,13,46.875,15
+Greedy policy update-2901.npz,Monk,Open Hand,Paladin,Glory,32,16,6,10,59.375,15
+Greedy policy update-2901.npz,Monk,Mercy,Paladin,Devotion,32,6,15,11,42.188,14
+Greedy policy update-2901.npz,Monk,Mercy,Paladin,Ancients,32,7,20,5,53.125,6
+Greedy policy update-2901.npz,Monk,Mercy,Paladin,Glory,32,9,18,5,56.25,10
+Greedy policy update-2901.npz,Monk,Elements,Paladin,Devotion,32,7,2,23,25.0,21
+Greedy policy update-2901.npz,Monk,Elements,Paladin,Ancients,32,10,8,14,43.75,15
+Greedy policy update-2901.npz,Monk,Elements,Paladin,Glory,32,10,9,13,45.312,10
+Greedy policy update-2901.npz,Monk,Open Hand,Ranger,Hunter,32,29,0,3,90.625,22
+Greedy policy update-2901.npz,Monk,Open Hand,Ranger,Fey Wanderer,32,30,0,2,93.75,25
+Greedy policy update-2901.npz,Monk,Open Hand,Ranger,Gloom Stalker,32,30,0,2,93.75,14
+Greedy policy update-2901.npz,Monk,Mercy,Ranger,Hunter,32,11,20,1,65.625,10
+Greedy policy update-2901.npz,Monk,Mercy,Ranger,Fey Wanderer,32,8,24,0,62.5,8
+Greedy policy update-2901.npz,Monk,Mercy,Ranger,Gloom Stalker,32,6,26,0,59.375,3
+Greedy policy update-2901.npz,Monk,Elements,Ranger,Hunter,32,29,0,3,90.625,22
+Greedy policy update-2901.npz,Monk,Elements,Ranger,Fey Wanderer,32,29,0,3,90.625,24
+Greedy policy update-2901.npz,Monk,Elements,Ranger,Gloom Stalker,32,30,0,2,93.75,14
+Greedy policy update-2901.npz,Monk,Open Hand,Rogue,Thief,32,32,0,0,100.0,23
+Greedy policy update-2901.npz,Monk,Open Hand,Rogue,Assassin,32,32,0,0,100.0,22
+Greedy policy update-2901.npz,Monk,Open Hand,Rogue,Soulknife,32,32,0,0,100.0,19
+Greedy policy update-2901.npz,Monk,Mercy,Rogue,Thief,32,24,8,0,87.5,14
+Greedy policy update-2901.npz,Monk,Mercy,Rogue,Assassin,32,20,12,0,81.25,11
+Greedy policy update-2901.npz,Monk,Mercy,Rogue,Soulknife,32,22,10,0,84.375,16
+Greedy policy update-2901.npz,Monk,Elements,Rogue,Thief,32,30,1,1,95.312,15
+Greedy policy update-2901.npz,Monk,Elements,Rogue,Assassin,32,31,0,1,96.875,13
+Greedy policy update-2901.npz,Monk,Elements,Rogue,Soulknife,32,32,0,0,100.0,16
+Greedy policy update-2901.npz,Monk,Open Hand,Sorcerer,Draconic,32,8,0,24,25.0,8
+Greedy policy update-2901.npz,Monk,Open Hand,Sorcerer,Aberrant,32,22,0,10,68.75,2
+Greedy policy update-2901.npz,Monk,Open Hand,Sorcerer,Clockwork,32,29,0,3,90.625,2
+Greedy policy update-2901.npz,Monk,Mercy,Sorcerer,Draconic,32,7,11,14,39.062,10
+Greedy policy update-2901.npz,Monk,Mercy,Sorcerer,Aberrant,32,17,8,7,65.625,3
+Greedy policy update-2901.npz,Monk,Mercy,Sorcerer,Clockwork,32,23,8,1,84.375,2
+Greedy policy update-2901.npz,Monk,Elements,Sorcerer,Draconic,32,9,0,23,28.125,9
+Greedy policy update-2901.npz,Monk,Elements,Sorcerer,Aberrant,32,19,1,12,60.938,3
+Greedy policy update-2901.npz,Monk,Elements,Sorcerer,Clockwork,32,27,0,5,84.375,2
+Greedy policy update-2901.npz,Monk,Open Hand,Warlock,Fiend,32,28,2,2,90.625,10
+Greedy policy update-2901.npz,Monk,Open Hand,Warlock,Archfey,32,32,0,0,100.0,25
+Greedy policy update-2901.npz,Monk,Open Hand,Warlock,Great Old One,32,30,1,1,95.312,17
+Greedy policy update-2901.npz,Monk,Mercy,Warlock,Fiend,32,13,16,3,65.625,5
+Greedy policy update-2901.npz,Monk,Mercy,Warlock,Archfey,32,14,17,1,70.312,10
+Greedy policy update-2901.npz,Monk,Mercy,Warlock,Great Old One,32,7,25,0,60.938,6
+Greedy policy update-2901.npz,Monk,Elements,Warlock,Fiend,32,24,1,7,76.562,10
+Greedy policy update-2901.npz,Monk,Elements,Warlock,Archfey,32,31,0,1,96.875,23
+Greedy policy update-2901.npz,Monk,Elements,Warlock,Great Old One,32,31,0,1,96.875,16
+Greedy policy update-2901.npz,Monk,Open Hand,Wizard,Evoker,32,23,0,9,71.875,8
+Greedy policy update-2901.npz,Monk,Open Hand,Wizard,Abjurer,32,15,0,17,46.875,12
+Greedy policy update-2901.npz,Monk,Open Hand,Wizard,Diviner,32,20,1,11,64.062,10
+Greedy policy update-2901.npz,Monk,Mercy,Wizard,Evoker,32,11,14,7,56.25,4
+Greedy policy update-2901.npz,Monk,Mercy,Wizard,Abjurer,32,8,17,7,51.562,3
+Greedy policy update-2901.npz,Monk,Mercy,Wizard,Diviner,32,15,13,4,67.188,6
+Greedy policy update-2901.npz,Monk,Elements,Wizard,Evoker,32,19,2,11,62.5,8
+Greedy policy update-2901.npz,Monk,Elements,Wizard,Abjurer,32,16,0,16,50.0,9
+Greedy policy update-2901.npz,Monk,Elements,Wizard,Diviner,32,19,2,11,62.5,11
+Greedy policy update-2901.npz,Paladin,Devotion,Ranger,Hunter,32,24,4,4,81.25,12
+Greedy policy update-2901.npz,Paladin,Devotion,Ranger,Fey Wanderer,32,25,3,4,82.812,19
+Greedy policy update-2901.npz,Paladin,Devotion,Ranger,Gloom Stalker,32,24,5,3,82.812,14
+Greedy policy update-2901.npz,Paladin,Ancients,Ranger,Hunter,32,20,8,4,75.0,12
+Greedy policy update-2901.npz,Paladin,Ancients,Ranger,Fey Wanderer,32,18,10,4,71.875,6
+Greedy policy update-2901.npz,Paladin,Ancients,Ranger,Gloom Stalker,32,19,6,7,68.75,16
+Greedy policy update-2901.npz,Paladin,Glory,Ranger,Hunter,32,22,6,4,78.125,13
+Greedy policy update-2901.npz,Paladin,Glory,Ranger,Fey Wanderer,32,23,5,4,79.688,13
+Greedy policy update-2901.npz,Paladin,Glory,Ranger,Gloom Stalker,32,24,5,3,82.812,18
+Greedy policy update-2901.npz,Paladin,Devotion,Rogue,Thief,32,28,4,0,93.75,21
+Greedy policy update-2901.npz,Paladin,Devotion,Rogue,Assassin,32,27,4,1,90.625,18
+Greedy policy update-2901.npz,Paladin,Devotion,Rogue,Soulknife,32,30,2,0,96.875,23
+Greedy policy update-2901.npz,Paladin,Ancients,Rogue,Thief,32,26,6,0,90.625,18
+Greedy policy update-2901.npz,Paladin,Ancients,Rogue,Assassin,32,19,9,4,73.438,16
+Greedy policy update-2901.npz,Paladin,Ancients,Rogue,Soulknife,32,25,6,1,87.5,21
+Greedy policy update-2901.npz,Paladin,Glory,Rogue,Thief,32,25,6,1,87.5,16
+Greedy policy update-2901.npz,Paladin,Glory,Rogue,Assassin,32,26,1,5,82.812,19
+Greedy policy update-2901.npz,Paladin,Glory,Rogue,Soulknife,32,30,1,1,95.312,22
+Greedy policy update-2901.npz,Paladin,Devotion,Sorcerer,Draconic,32,27,2,3,87.5,8
+Greedy policy update-2901.npz,Paladin,Devotion,Sorcerer,Aberrant,32,28,0,4,87.5,7
+Greedy policy update-2901.npz,Paladin,Devotion,Sorcerer,Clockwork,32,29,0,3,90.625,9
+Greedy policy update-2901.npz,Paladin,Ancients,Sorcerer,Draconic,32,24,7,1,85.938,3
+Greedy policy update-2901.npz,Paladin,Ancients,Sorcerer,Aberrant,32,31,0,1,96.875,11
+Greedy policy update-2901.npz,Paladin,Ancients,Sorcerer,Clockwork,32,31,0,1,96.875,3
+Greedy policy update-2901.npz,Paladin,Glory,Sorcerer,Draconic,32,28,2,2,90.625,10
+Greedy policy update-2901.npz,Paladin,Glory,Sorcerer,Aberrant,32,30,0,2,93.75,19
+Greedy policy update-2901.npz,Paladin,Glory,Sorcerer,Clockwork,32,32,0,0,100.0,11
+Greedy policy update-2901.npz,Paladin,Devotion,Warlock,Fiend,32,15,12,5,65.625,10
+Greedy policy update-2901.npz,Paladin,Devotion,Warlock,Archfey,32,26,6,0,90.625,20
+Greedy policy update-2901.npz,Paladin,Devotion,Warlock,Great Old One,32,25,6,1,87.5,18
+Greedy policy update-2901.npz,Paladin,Ancients,Warlock,Fiend,32,15,14,3,68.75,13
+Greedy policy update-2901.npz,Paladin,Ancients,Warlock,Archfey,32,21,11,0,82.812,16
+Greedy policy update-2901.npz,Paladin,Ancients,Warlock,Great Old One,32,27,5,0,92.188,20
+Greedy policy update-2901.npz,Paladin,Glory,Warlock,Fiend,32,16,13,3,70.312,18
+Greedy policy update-2901.npz,Paladin,Glory,Warlock,Archfey,32,25,7,0,89.062,22
+Greedy policy update-2901.npz,Paladin,Glory,Warlock,Great Old One,32,24,7,1,85.938,22
+Greedy policy update-2901.npz,Paladin,Devotion,Wizard,Evoker,32,27,2,3,87.5,3
+Greedy policy update-2901.npz,Paladin,Devotion,Wizard,Abjurer,32,22,5,5,76.562,1
+Greedy policy update-2901.npz,Paladin,Devotion,Wizard,Diviner,32,27,3,2,89.062,1
+Greedy policy update-2901.npz,Paladin,Ancients,Wizard,Evoker,32,17,8,7,65.625,1
+Greedy policy update-2901.npz,Paladin,Ancients,Wizard,Abjurer,32,11,14,7,56.25,2
+Greedy policy update-2901.npz,Paladin,Ancients,Wizard,Diviner,32,19,9,4,73.438,2
+Greedy policy update-2901.npz,Paladin,Glory,Wizard,Evoker,32,24,6,2,84.375,1
+Greedy policy update-2901.npz,Paladin,Glory,Wizard,Abjurer,32,19,10,3,75.0,2
+Greedy policy update-2901.npz,Paladin,Glory,Wizard,Diviner,32,23,8,1,84.375,2
+Greedy policy update-2901.npz,Ranger,Hunter,Rogue,Thief,32,16,0,16,50.0,8
+Greedy policy update-2901.npz,Ranger,Hunter,Rogue,Assassin,32,16,0,16,50.0,5
+Greedy policy update-2901.npz,Ranger,Hunter,Rogue,Soulknife,32,23,0,9,71.875,10
+Greedy policy update-2901.npz,Ranger,Fey Wanderer,Rogue,Thief,32,16,0,16,50.0,7
+Greedy policy update-2901.npz,Ranger,Fey Wanderer,Rogue,Assassin,32,14,0,18,43.75,8
+Greedy policy update-2901.npz,Ranger,Fey Wanderer,Rogue,Soulknife,32,20,0,12,62.5,12
+Greedy policy update-2901.npz,Ranger,Gloom Stalker,Rogue,Thief,32,16,0,16,50.0,9
+Greedy policy update-2901.npz,Ranger,Gloom Stalker,Rogue,Assassin,32,13,0,19,40.625,9
+Greedy policy update-2901.npz,Ranger,Gloom Stalker,Rogue,Soulknife,32,24,0,8,75.0,8
+Greedy policy update-2901.npz,Ranger,Hunter,Sorcerer,Draconic,32,9,1,22,29.688,9
+Greedy policy update-2901.npz,Ranger,Hunter,Sorcerer,Aberrant,32,18,0,14,56.25,9
+Greedy policy update-2901.npz,Ranger,Hunter,Sorcerer,Clockwork,32,23,0,9,71.875,8
+Greedy policy update-2901.npz,Ranger,Fey Wanderer,Sorcerer,Draconic,32,7,0,25,21.875,10
+Greedy policy update-2901.npz,Ranger,Fey Wanderer,Sorcerer,Aberrant,32,17,0,15,53.125,7
+Greedy policy update-2901.npz,Ranger,Fey Wanderer,Sorcerer,Clockwork,32,23,0,9,71.875,6
+Greedy policy update-2901.npz,Ranger,Gloom Stalker,Sorcerer,Draconic,32,19,1,12,60.938,9
+Greedy policy update-2901.npz,Ranger,Gloom Stalker,Sorcerer,Aberrant,32,21,0,11,65.625,9
+Greedy policy update-2901.npz,Ranger,Gloom Stalker,Sorcerer,Clockwork,32,25,0,7,78.125,12
+Greedy policy update-2901.npz,Ranger,Hunter,Warlock,Fiend,32,20,8,4,75.0,7
+Greedy policy update-2901.npz,Ranger,Hunter,Warlock,Archfey,32,26,6,0,90.625,22
+Greedy policy update-2901.npz,Ranger,Hunter,Warlock,Great Old One,32,28,4,0,93.75,17
+Greedy policy update-2901.npz,Ranger,Fey Wanderer,Warlock,Fiend,32,19,9,4,73.438,7
+Greedy policy update-2901.npz,Ranger,Fey Wanderer,Warlock,Archfey,32,28,3,1,92.188,25
+Greedy policy update-2901.npz,Ranger,Fey Wanderer,Warlock,Great Old One,32,27,5,0,92.188,17
+Greedy policy update-2901.npz,Ranger,Gloom Stalker,Warlock,Fiend,32,23,5,4,79.688,9
+Greedy policy update-2901.npz,Ranger,Gloom Stalker,Warlock,Archfey,32,24,8,0,87.5,23
+Greedy policy update-2901.npz,Ranger,Gloom Stalker,Warlock,Great Old One,32,29,3,0,95.312,23
+Greedy policy update-2901.npz,Ranger,Hunter,Wizard,Evoker,32,23,0,9,71.875,5
+Greedy policy update-2901.npz,Ranger,Hunter,Wizard,Abjurer,32,16,0,16,50.0,6
+Greedy policy update-2901.npz,Ranger,Hunter,Wizard,Diviner,32,24,0,8,75.0,4
+Greedy policy update-2901.npz,Ranger,Fey Wanderer,Wizard,Evoker,32,22,0,10,68.75,8
+Greedy policy update-2901.npz,Ranger,Fey Wanderer,Wizard,Abjurer,32,14,0,18,43.75,7
+Greedy policy update-2901.npz,Ranger,Fey Wanderer,Wizard,Diviner,32,22,0,10,68.75,6
+Greedy policy update-2901.npz,Ranger,Gloom Stalker,Wizard,Evoker,32,27,0,5,84.375,10
+Greedy policy update-2901.npz,Ranger,Gloom Stalker,Wizard,Abjurer,32,19,0,13,59.375,6
+Greedy policy update-2901.npz,Ranger,Gloom Stalker,Wizard,Diviner,32,26,0,6,81.25,9
+Greedy policy update-2901.npz,Rogue,Thief,Sorcerer,Draconic,32,6,0,26,18.75,16
+Greedy policy update-2901.npz,Rogue,Thief,Sorcerer,Aberrant,32,10,0,22,31.25,10
+Greedy policy update-2901.npz,Rogue,Thief,Sorcerer,Clockwork,32,11,0,21,34.375,4
+Greedy policy update-2901.npz,Rogue,Assassin,Sorcerer,Draconic,32,4,0,28,12.5,17
+Greedy policy update-2901.npz,Rogue,Assassin,Sorcerer,Aberrant,32,13,0,19,40.625,10
+Greedy policy update-2901.npz,Rogue,Assassin,Sorcerer,Clockwork,32,14,0,18,43.75,5
+Greedy policy update-2901.npz,Rogue,Soulknife,Sorcerer,Draconic,32,5,0,27,15.625,18
+Greedy policy update-2901.npz,Rogue,Soulknife,Sorcerer,Aberrant,32,7,0,25,21.875,13
+Greedy policy update-2901.npz,Rogue,Soulknife,Sorcerer,Clockwork,32,9,0,23,28.125,7
+Greedy policy update-2901.npz,Rogue,Thief,Warlock,Fiend,32,17,0,15,53.125,3
+Greedy policy update-2901.npz,Rogue,Thief,Warlock,Archfey,32,32,0,0,100.0,26
+Greedy policy update-2901.npz,Rogue,Thief,Warlock,Great Old One,32,22,0,10,68.75,7
+Greedy policy update-2901.npz,Rogue,Assassin,Warlock,Fiend,32,23,0,9,71.875,3
+Greedy policy update-2901.npz,Rogue,Assassin,Warlock,Archfey,32,32,0,0,100.0,24
+Greedy policy update-2901.npz,Rogue,Assassin,Warlock,Great Old One,32,26,0,6,81.25,12
+Greedy policy update-2901.npz,Rogue,Soulknife,Warlock,Fiend,32,15,2,15,50.0,3
+Greedy policy update-2901.npz,Rogue,Soulknife,Warlock,Archfey,32,28,1,3,89.062,16
+Greedy policy update-2901.npz,Rogue,Soulknife,Warlock,Great Old One,32,23,2,7,75.0,4
+Greedy policy update-2901.npz,Rogue,Thief,Wizard,Evoker,32,14,0,18,43.75,5
+Greedy policy update-2901.npz,Rogue,Thief,Wizard,Abjurer,32,5,0,27,15.625,14
+Greedy policy update-2901.npz,Rogue,Thief,Wizard,Diviner,32,14,0,18,43.75,7
+Greedy policy update-2901.npz,Rogue,Assassin,Wizard,Evoker,32,21,0,11,65.625,7
+Greedy policy update-2901.npz,Rogue,Assassin,Wizard,Abjurer,32,14,0,18,43.75,8
+Greedy policy update-2901.npz,Rogue,Assassin,Wizard,Diviner,32,12,0,20,37.5,4
+Greedy policy update-2901.npz,Rogue,Soulknife,Wizard,Evoker,32,15,0,17,46.875,6
+Greedy policy update-2901.npz,Rogue,Soulknife,Wizard,Abjurer,32,4,0,28,12.5,16
+Greedy policy update-2901.npz,Rogue,Soulknife,Wizard,Diviner,32,12,0,20,37.5,8
+Greedy policy update-2901.npz,Sorcerer,Draconic,Warlock,Fiend,32,26,1,5,82.812,9
+Greedy policy update-2901.npz,Sorcerer,Draconic,Warlock,Archfey,32,24,7,1,85.938,24
+Greedy policy update-2901.npz,Sorcerer,Draconic,Warlock,Great Old One,32,25,0,7,78.125,21
+Greedy policy update-2901.npz,Sorcerer,Aberrant,Warlock,Fiend,32,22,1,9,70.312,9
+Greedy policy update-2901.npz,Sorcerer,Aberrant,Warlock,Archfey,32,20,5,7,70.312,17
+Greedy policy update-2901.npz,Sorcerer,Aberrant,Warlock,Great Old One,32,22,2,8,71.875,17
+Greedy policy update-2901.npz,Sorcerer,Clockwork,Warlock,Fiend,32,24,1,7,76.562,6
+Greedy policy update-2901.npz,Sorcerer,Clockwork,Warlock,Archfey,32,25,3,4,82.812,18
+Greedy policy update-2901.npz,Sorcerer,Clockwork,Warlock,Great Old One,32,27,0,5,84.375,16
+Greedy policy update-2901.npz,Sorcerer,Draconic,Wizard,Evoker,32,15,2,15,50.0,6
+Greedy policy update-2901.npz,Sorcerer,Draconic,Wizard,Abjurer,32,25,0,7,78.125,6
+Greedy policy update-2901.npz,Sorcerer,Draconic,Wizard,Diviner,32,14,2,16,46.875,5
+Greedy policy update-2901.npz,Sorcerer,Aberrant,Wizard,Evoker,32,12,2,18,40.625,5
+Greedy policy update-2901.npz,Sorcerer,Aberrant,Wizard,Abjurer,32,23,1,8,73.438,8
+Greedy policy update-2901.npz,Sorcerer,Aberrant,Wizard,Diviner,32,17,2,13,56.25,5
+Greedy policy update-2901.npz,Sorcerer,Clockwork,Wizard,Evoker,32,15,1,16,48.438,7
+Greedy policy update-2901.npz,Sorcerer,Clockwork,Wizard,Abjurer,32,16,0,16,50.0,8
+Greedy policy update-2901.npz,Sorcerer,Clockwork,Wizard,Diviner,32,15,1,16,48.438,4
+Greedy policy update-2901.npz,Warlock,Fiend,Wizard,Evoker,32,20,1,11,64.062,2
+Greedy policy update-2901.npz,Warlock,Fiend,Wizard,Abjurer,32,18,0,14,56.25,4
+Greedy policy update-2901.npz,Warlock,Fiend,Wizard,Diviner,32,11,2,19,37.5,0
+Greedy policy update-2901.npz,Warlock,Archfey,Wizard,Evoker,32,14,5,13,51.562,4
+Greedy policy update-2901.npz,Warlock,Archfey,Wizard,Abjurer,32,19,4,9,65.625,9
+Greedy policy update-2901.npz,Warlock,Archfey,Wizard,Diviner,32,19,3,10,64.062,5
+Greedy policy update-2901.npz,Warlock,Great Old One,Wizard,Evoker,32,10,0,22,31.25,7
+Greedy policy update-2901.npz,Warlock,Great Old One,Wizard,Abjurer,32,17,2,13,56.25,9
+Greedy policy update-2901.npz,Warlock,Great Old One,Wizard,Diviner,32,9,0,23,28.125,6

@@ -1,0 +1,380 @@
+{
+  "training/runs/self_play/ablation_unshaped.npz": {
+    "dev": {
+      "baseline": {
+        "wins": 1136,
+        "losses": 507,
+        "draws": 337,
+        "score": 0.6588383838383839,
+        "wins_by_class": [
+          136,
+          89,
+          27,
+          71,
+          123,
+          128,
+          89,
+          96,
+          82,
+          129,
+          74,
+          92
+        ],
+        "learner_decisions": 281593,
+        "opponent_action_selection": "deterministic",
+        "expanded_main_choices": 52294,
+        "termination": {
+          "ongoing": 0,
+          "defeat": 1643,
+          "double_ko": 1,
+          "turn_limit": 22,
+          "decision_limit": 314
+        }
+      },
+      "expert": {
+        "wins": 1121,
+        "losses": 496,
+        "draws": 363,
+        "score": 0.6578282828282829,
+        "wins_by_class": [
+          135,
+          89,
+          26,
+          67,
+          118,
+          126,
+          92,
+          96,
+          75,
+          130,
+          72,
+          95
+        ],
+        "learner_decisions": 296299,
+        "opponent_action_selection": "deterministic",
+        "expanded_main_choices": 58557,
+        "termination": {
+          "ongoing": 0,
+          "defeat": 1617,
+          "double_ko": 2,
+          "turn_limit": 28,
+          "decision_limit": 333
+        }
+      },
+      "prior": {
+        "wins": 1252,
+        "losses": 388,
+        "draws": 340,
+        "score": 0.7181818181818181,
+        "wins_by_class": [
+          144,
+          103,
+          30,
+          91,
+          123,
+          135,
+          123,
+          95,
+          101,
+          117,
+          82,
+          108
+        ],
+        "learner_decisions": 238149,
+        "opponent_action_selection": "seeded_stochastic",
+        "expanded_main_choices": 38983,
+        "termination": {
+          "ongoing": 0,
+          "defeat": 1640,
+          "double_ko": 1,
+          "turn_limit": 67,
+          "decision_limit": 272
+        }
+      },
+      "self": {
+        "wins": 601,
+        "losses": 601,
+        "draws": 778,
+        "score": 0.5,
+        "wins_by_class": [
+          73,
+          38,
+          10,
+          30,
+          66,
+          94,
+          71,
+          40,
+          42,
+          49,
+          37,
+          51
+        ],
+        "learner_decisions": 306618,
+        "opponent_action_selection": "deterministic",
+        "expanded_main_choices": 62796,
+        "termination": {
+          "ongoing": 0,
+          "defeat": 1202,
+          "double_ko": 0,
+          "turn_limit": 102,
+          "decision_limit": 676
+        }
+      }
+    },
+    "score": 0.4798737373737374,
+    "elapsed_s": 16.23786062502768
+  },
+  "training/runs/self_play/ablation_shaped.npz": {
+    "dev": {
+      "baseline": {
+        "wins": 1210,
+        "losses": 736,
+        "draws": 34,
+        "score": 0.6196969696969697,
+        "wins_by_class": [
+          135,
+          91,
+          60,
+          78,
+          117,
+          129,
+          120,
+          99,
+          83,
+          123,
+          80,
+          95
+        ],
+        "learner_decisions": 47388,
+        "opponent_action_selection": "deterministic",
+        "expanded_main_choices": 1862,
+        "termination": {
+          "ongoing": 0,
+          "defeat": 1946,
+          "double_ko": 0,
+          "turn_limit": 32,
+          "decision_limit": 2
+        }
+      },
+      "expert": {
+        "wins": 1191,
+        "losses": 745,
+        "draws": 44,
+        "score": 0.6126262626262626,
+        "wins_by_class": [
+          135,
+          91,
+          61,
+          73,
+          109,
+          124,
+          124,
+          96,
+          79,
+          119,
+          82,
+          98
+        ],
+        "learner_decisions": 49470,
+        "opponent_action_selection": "deterministic",
+        "expanded_main_choices": 2273,
+        "termination": {
+          "ongoing": 0,
+          "defeat": 1936,
+          "double_ko": 0,
+          "turn_limit": 40,
+          "decision_limit": 4
+        }
+      },
+      "prior": {
+        "wins": 1319,
+        "losses": 543,
+        "draws": 118,
+        "score": 0.695959595959596,
+        "wins_by_class": [
+          150,
+          103,
+          75,
+          83,
+          128,
+          131,
+          143,
+          97,
+          102,
+          116,
+          89,
+          102
+        ],
+        "learner_decisions": 50995,
+        "opponent_action_selection": "seeded_stochastic",
+        "expanded_main_choices": 963,
+        "termination": {
+          "ongoing": 0,
+          "defeat": 1862,
+          "double_ko": 1,
+          "turn_limit": 76,
+          "decision_limit": 41
+        }
+      },
+      "self": {
+        "wins": 841,
+        "losses": 841,
+        "draws": 298,
+        "score": 0.5,
+        "wins_by_class": [
+          119,
+          32,
+          35,
+          32,
+          84,
+          91,
+          115,
+          66,
+          66,
+          77,
+          52,
+          72
+        ],
+        "learner_decisions": 72986,
+        "opponent_action_selection": "deterministic",
+        "expanded_main_choices": 1898,
+        "termination": {
+          "ongoing": 0,
+          "defeat": 1682,
+          "double_ko": 0,
+          "turn_limit": 286,
+          "decision_limit": 12
+        }
+      }
+    },
+    "score": 0.5652020202020203,
+    "elapsed_s": 9.357350082951598
+  },
+  "training/runs/self_play/continuation.npz": {
+    "dev": {
+      "baseline": {
+        "wins": 1321,
+        "losses": 614,
+        "draws": 45,
+        "score": 0.6785353535353535,
+        "wins_by_class": [
+          144,
+          101,
+          75,
+          92,
+          131,
+          131,
+          138,
+          109,
+          93,
+          129,
+          70,
+          108
+        ],
+        "learner_decisions": 64178,
+        "opponent_action_selection": "deterministic",
+        "expanded_main_choices": 11057,
+        "termination": {
+          "ongoing": 0,
+          "defeat": 1935,
+          "double_ko": 0,
+          "turn_limit": 43,
+          "decision_limit": 2
+        }
+      },
+      "expert": {
+        "wins": 1298,
+        "losses": 638,
+        "draws": 44,
+        "score": 0.6666666666666666,
+        "wins_by_class": [
+          142,
+          102,
+          78,
+          90,
+          119,
+          131,
+          131,
+          110,
+          88,
+          129,
+          70,
+          108
+        ],
+        "learner_decisions": 63944,
+        "opponent_action_selection": "deterministic",
+        "expanded_main_choices": 10623,
+        "termination": {
+          "ongoing": 0,
+          "defeat": 1936,
+          "double_ko": 0,
+          "turn_limit": 42,
+          "decision_limit": 2
+        }
+      },
+      "prior": {
+        "wins": 1384,
+        "losses": 472,
+        "draws": 124,
+        "score": 0.7303030303030303,
+        "wins_by_class": [
+          145,
+          104,
+          84,
+          95,
+          124,
+          135,
+          152,
+          109,
+          107,
+          132,
+          87,
+          110
+        ],
+        "learner_decisions": 66515,
+        "opponent_action_selection": "seeded_stochastic",
+        "expanded_main_choices": 10761,
+        "termination": {
+          "ongoing": 0,
+          "defeat": 1856,
+          "double_ko": 3,
+          "turn_limit": 67,
+          "decision_limit": 54
+        }
+      },
+      "self": {
+        "wins": 939,
+        "losses": 939,
+        "draws": 102,
+        "score": 0.5,
+        "wins_by_class": [
+          116,
+          45,
+          64,
+          52,
+          96,
+          102,
+          122,
+          73,
+          67,
+          90,
+          61,
+          51
+        ],
+        "learner_decisions": 80553,
+        "opponent_action_selection": "deterministic",
+        "expanded_main_choices": 13050,
+        "termination": {
+          "ongoing": 0,
+          "defeat": 1878,
+          "double_ko": 2,
+          "turn_limit": 92,
+          "decision_limit": 8
+        }
+      }
+    },
+    "score": 0.6652525252525252,
+    "elapsed_s": 10.047694582957774
+  }
+}

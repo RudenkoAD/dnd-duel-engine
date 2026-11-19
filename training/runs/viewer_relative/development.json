@@ -1,0 +1,4372 @@
+{
+  "checkpoints": {
+    "control": {
+      "abi": 2002,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "namespace": "DEV/target-probe-v1",
+      "opponents": {
+        "expert": {
+          "0": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 0,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 0,
+            "draws": 44,
+            "losses": 830,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 682,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 156,
+                  "17": 526
+                },
+                "decisions": 682,
+                "declined": 0,
+                "foe_aim": 682,
+                "foe_aim_rate": 1.0,
+                "foe_all": 526,
+                "foe_companion": 0,
+                "foe_single": 156,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 682,
+                "offensive_aim_per_bout": 0.23680555555555555,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 682,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 156,
+                  "17": 526
+                },
+                "decisions": 682,
+                "declined": 0,
+                "foe_aim": 682,
+                "foe_aim_rate": 1.0,
+                "foe_all": 526,
+                "foe_companion": 0,
+                "foe_single": 156,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 682,
+                "offensive_aim_per_bout": 0.23680555555555555,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 3391,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2851,
+                  "126": 14,
+                  "17": 526
+                },
+                "decisions": 3391,
+                "declined": 0,
+                "foe_aim": 3377,
+                "foe_aim_rate": 0.9958714243585963,
+                "foe_all": 526,
+                "foe_companion": 0,
+                "foe_single": 2851,
+                "guessed": 14,
+                "objects": 0,
+                "offensive_aim": 3391,
+                "offensive_aim_per_bout": 1.1774305555555555,
+                "other_aim": 14,
+                "other_aim_rate": 0.0041285756414037155,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 3377,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2851,
+                  "17": 526
+                },
+                "decisions": 3377,
+                "declined": 0,
+                "foe_aim": 3377,
+                "foe_aim_rate": 1.0,
+                "foe_all": 526,
+                "foe_companion": 0,
+                "foe_single": 2851,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 3377,
+                "offensive_aim_per_bout": 1.1725694444444446,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 43,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 2006
+          },
+          "1": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 0,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 1,
+            "draws": 78,
+            "losses": 961,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 743,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 78,
+                  "17": 665
+                },
+                "decisions": 743,
+                "declined": 0,
+                "foe_aim": 743,
+                "foe_aim_rate": 1.0,
+                "foe_all": 665,
+                "foe_companion": 0,
+                "foe_single": 78,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 743,
+                "offensive_aim_per_bout": 0.25798611111111114,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 743,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 78,
+                  "17": 665
+                },
+                "decisions": 743,
+                "declined": 0,
+                "foe_aim": 743,
+                "foe_aim_rate": 1.0,
+                "foe_all": 665,
+                "foe_companion": 0,
+                "foe_single": 78,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 743,
+                "offensive_aim_per_bout": 0.25798611111111114,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 3514,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2833,
+                  "126": 12,
+                  "17": 665,
+                  "3": 4
+                },
+                "decisions": 3514,
+                "declined": 0,
+                "foe_aim": 3498,
+                "foe_aim_rate": 0.9954467842914058,
+                "foe_all": 665,
+                "foe_companion": 4,
+                "foe_single": 2833,
+                "guessed": 12,
+                "objects": 0,
+                "offensive_aim": 3514,
+                "offensive_aim_per_bout": 1.2201388888888889,
+                "other_aim": 16,
+                "other_aim_rate": 0.004553215708594195,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 3502,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2833,
+                  "17": 665,
+                  "3": 4
+                },
+                "decisions": 3502,
+                "declined": 0,
+                "foe_aim": 3498,
+                "foe_aim_rate": 0.9988577955454027,
+                "foe_all": 665,
+                "foe_companion": 4,
+                "foe_single": 2833,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 3502,
+                "offensive_aim_per_bout": 1.2159722222222222,
+                "other_aim": 4,
+                "other_aim_rate": 0.001142204454597373,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 76,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 1841
+          }
+        },
+        "heuristic": {
+          "0": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 0,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 1,
+            "draws": 27,
+            "losses": 795,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 671,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 140,
+                  "17": 531
+                },
+                "decisions": 671,
+                "declined": 0,
+                "foe_aim": 671,
+                "foe_aim_rate": 1.0,
+                "foe_all": 531,
+                "foe_companion": 0,
+                "foe_single": 140,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 671,
+                "offensive_aim_per_bout": 0.23298611111111112,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 671,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 140,
+                  "17": 531
+                },
+                "decisions": 671,
+                "declined": 0,
+                "foe_aim": 671,
+                "foe_aim_rate": 1.0,
+                "foe_all": 531,
+                "foe_companion": 0,
+                "foe_single": 140,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 671,
+                "offensive_aim_per_bout": 0.23298611111111112,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 3337,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2794,
+                  "126": 12,
+                  "17": 531
+                },
+                "decisions": 3337,
+                "declined": 0,
+                "foe_aim": 3325,
+                "foe_aim_rate": 0.9964039556487864,
+                "foe_all": 531,
+                "foe_companion": 0,
+                "foe_single": 2794,
+                "guessed": 12,
+                "objects": 0,
+                "offensive_aim": 3337,
+                "offensive_aim_per_bout": 1.1586805555555555,
+                "other_aim": 12,
+                "other_aim_rate": 0.003596044351213665,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 3325,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2794,
+                  "17": 531
+                },
+                "decisions": 3325,
+                "declined": 0,
+                "foe_aim": 3325,
+                "foe_aim_rate": 1.0,
+                "foe_all": 531,
+                "foe_companion": 0,
+                "foe_single": 2794,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 3325,
+                "offensive_aim_per_bout": 1.1545138888888888,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 25,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 2058
+          },
+          "1": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 0,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 2,
+            "draws": 60,
+            "losses": 942,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 781,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 80,
+                  "17": 701
+                },
+                "decisions": 781,
+                "declined": 0,
+                "foe_aim": 781,
+                "foe_aim_rate": 1.0,
+                "foe_all": 701,
+                "foe_companion": 0,
+                "foe_single": 80,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 781,
+                "offensive_aim_per_bout": 0.27118055555555554,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 781,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 80,
+                  "17": 701
+                },
+                "decisions": 781,
+                "declined": 0,
+                "foe_aim": 781,
+                "foe_aim_rate": 1.0,
+                "foe_all": 701,
+                "foe_companion": 0,
+                "foe_single": 80,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 781,
+                "offensive_aim_per_bout": 0.27118055555555554,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 3583,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2869,
+                  "126": 13,
+                  "17": 701
+                },
+                "decisions": 3583,
+                "declined": 0,
+                "foe_aim": 3570,
+                "foe_aim_rate": 0.9963717555121406,
+                "foe_all": 701,
+                "foe_companion": 0,
+                "foe_single": 2869,
+                "guessed": 13,
+                "objects": 0,
+                "offensive_aim": 3583,
+                "offensive_aim_per_bout": 1.2440972222222222,
+                "other_aim": 13,
+                "other_aim_rate": 0.003628244487859336,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 3570,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2869,
+                  "17": 701
+                },
+                "decisions": 3570,
+                "declined": 0,
+                "foe_aim": 3570,
+                "foe_aim_rate": 1.0,
+                "foe_all": 701,
+                "foe_companion": 0,
+                "foe_single": 2869,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 3570,
+                "offensive_aim_per_bout": 1.2395833333333333,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 57,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 1878
+          }
+        },
+        "self": {
+          "0": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 2,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 2,
+            "draws": 171,
+            "losses": 1302,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 821,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 41,
+                  "16": 1,
+                  "17": 779
+                },
+                "decisions": 821,
+                "declined": 0,
+                "foe_aim": 820,
+                "foe_aim_rate": 0.9987819732034104,
+                "foe_all": 779,
+                "foe_companion": 0,
+                "foe_single": 41,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 820,
+                "offensive_aim_per_bout": 0.2847222222222222,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 1,
+                "self_aim_rate": 0.001218026796589525,
+                "self_all": 1,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 820,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 41,
+                  "17": 779
+                },
+                "decisions": 820,
+                "declined": 0,
+                "foe_aim": 820,
+                "foe_aim_rate": 1.0,
+                "foe_all": 779,
+                "foe_companion": 0,
+                "foe_single": 41,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 820,
+                "offensive_aim_per_bout": 0.2847222222222222,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 3231,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 1,
+                  "1": 2430,
+                  "126": 20,
+                  "16": 1,
+                  "17": 779
+                },
+                "decisions": 3231,
+                "declined": 0,
+                "foe_aim": 3209,
+                "foe_aim_rate": 0.993190962550294,
+                "foe_all": 779,
+                "foe_companion": 0,
+                "foe_single": 2430,
+                "guessed": 20,
+                "objects": 0,
+                "offensive_aim": 3229,
+                "offensive_aim_per_bout": 1.1211805555555556,
+                "other_aim": 20,
+                "other_aim_rate": 0.0061900340451872485,
+                "self_aim": 2,
+                "self_aim_rate": 0.0006190034045187249,
+                "self_all": 1,
+                "self_single": 1
+              },
+              "foe_legal_windows": {
+                "aimed": 3209,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2430,
+                  "17": 779
+                },
+                "decisions": 3209,
+                "declined": 0,
+                "foe_aim": 3209,
+                "foe_aim_rate": 1.0,
+                "foe_all": 779,
+                "foe_companion": 0,
+                "foe_single": 2430,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 3209,
+                "offensive_aim_per_bout": 1.1142361111111112,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 168,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 1407
+          },
+          "1": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 3,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 8,
+            "draws": 172,
+            "losses": 1368,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 811,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 76,
+                  "17": 735
+                },
+                "decisions": 811,
+                "declined": 0,
+                "foe_aim": 811,
+                "foe_aim_rate": 1.0,
+                "foe_all": 735,
+                "foe_companion": 0,
+                "foe_single": 76,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 811,
+                "offensive_aim_per_bout": 0.2815972222222222,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 811,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 76,
+                  "17": 735
+                },
+                "decisions": 811,
+                "declined": 0,
+                "foe_aim": 811,
+                "foe_aim_rate": 1.0,
+                "foe_all": 735,
+                "foe_companion": 0,
+                "foe_single": 76,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 811,
+                "offensive_aim_per_bout": 0.2815972222222222,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 3196,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 4,
+                  "1": 2435,
+                  "126": 22,
+                  "17": 735
+                },
+                "decisions": 3196,
+                "declined": 0,
+                "foe_aim": 3170,
+                "foe_aim_rate": 0.9918648310387985,
+                "foe_all": 735,
+                "foe_companion": 0,
+                "foe_single": 2435,
+                "guessed": 22,
+                "objects": 0,
+                "offensive_aim": 3192,
+                "offensive_aim_per_bout": 1.1083333333333334,
+                "other_aim": 22,
+                "other_aim_rate": 0.00688360450563204,
+                "self_aim": 4,
+                "self_aim_rate": 0.0012515644555694619,
+                "self_all": 0,
+                "self_single": 4
+              },
+              "foe_legal_windows": {
+                "aimed": 3170,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2435,
+                  "17": 735
+                },
+                "decisions": 3170,
+                "declined": 0,
+                "foe_aim": 3170,
+                "foe_aim_rate": 1.0,
+                "foe_all": 735,
+                "foe_companion": 0,
+                "foe_single": 2435,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 3170,
+                "offensive_aim_per_bout": 1.1006944444444444,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 164,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 1340
+          }
+        },
+        "uniform": {
+          "0": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 4,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 5,
+            "draws": 51,
+            "losses": 9,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 790,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 4,
+                  "1": 411,
+                  "16": 2,
+                  "17": 373
+                },
+                "decisions": 790,
+                "declined": 0,
+                "foe_aim": 784,
+                "foe_aim_rate": 0.9924050632911392,
+                "foe_all": 373,
+                "foe_companion": 0,
+                "foe_single": 411,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 784,
+                "offensive_aim_per_bout": 0.2722222222222222,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 6,
+                "self_aim_rate": 0.007594936708860759,
+                "self_all": 2,
+                "self_single": 4
+              },
+              "foe_legal_windows": {
+                "aimed": 784,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 411,
+                  "17": 373
+                },
+                "decisions": 784,
+                "declined": 0,
+                "foe_aim": 784,
+                "foe_aim_rate": 1.0,
+                "foe_all": 373,
+                "foe_companion": 0,
+                "foe_single": 411,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 784,
+                "offensive_aim_per_bout": 0.2722222222222222,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 4775,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 6,
+                  "1": 4254,
+                  "126": 134,
+                  "16": 2,
+                  "17": 373,
+                  "3": 6
+                },
+                "decisions": 4775,
+                "declined": 0,
+                "foe_aim": 4627,
+                "foe_aim_rate": 0.9690052356020943,
+                "foe_all": 373,
+                "foe_companion": 6,
+                "foe_single": 4254,
+                "guessed": 134,
+                "objects": 0,
+                "offensive_aim": 4767,
+                "offensive_aim_per_bout": 1.6552083333333334,
+                "other_aim": 140,
+                "other_aim_rate": 0.02931937172774869,
+                "self_aim": 8,
+                "self_aim_rate": 0.001675392670157068,
+                "self_all": 2,
+                "self_single": 6
+              },
+              "foe_legal_windows": {
+                "aimed": 4628,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 4254,
+                  "17": 373,
+                  "3": 1
+                },
+                "decisions": 4628,
+                "declined": 0,
+                "foe_aim": 4627,
+                "foe_aim_rate": 0.9997839239412273,
+                "foe_all": 373,
+                "foe_companion": 1,
+                "foe_single": 4254,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 4628,
+                "offensive_aim_per_bout": 1.6069444444444445,
+                "other_aim": 1,
+                "other_aim_rate": 0.000216076058772688,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 46,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 2820
+          },
+          "1": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 1,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 4,
+            "draws": 23,
+            "losses": 7,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 843,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 351,
+                  "17": 492
+                },
+                "decisions": 843,
+                "declined": 0,
+                "foe_aim": 843,
+                "foe_aim_rate": 1.0,
+                "foe_all": 492,
+                "foe_companion": 0,
+                "foe_single": 351,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 843,
+                "offensive_aim_per_bout": 0.29270833333333335,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 843,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 351,
+                  "17": 492
+                },
+                "decisions": 843,
+                "declined": 0,
+                "foe_aim": 843,
+                "foe_aim_rate": 1.0,
+                "foe_all": 492,
+                "foe_companion": 0,
+                "foe_single": 351,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 843,
+                "offensive_aim_per_bout": 0.29270833333333335,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 3839,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 1,
+                  "1": 3292,
+                  "126": 35,
+                  "15": 3,
+                  "17": 492,
+                  "3": 2,
+                  "5": 17
+                },
+                "decisions": 3842,
+                "declined": 3,
+                "foe_aim": 3784,
+                "foe_aim_rate": 0.984903695991671,
+                "foe_all": 492,
+                "foe_companion": 2,
+                "foe_single": 3292,
+                "guessed": 35,
+                "objects": 17,
+                "offensive_aim": 3838,
+                "offensive_aim_per_bout": 1.332638888888889,
+                "other_aim": 54,
+                "other_aim_rate": 0.014055179593961478,
+                "self_aim": 1,
+                "self_aim_rate": 0.0002602811035918792,
+                "self_all": 0,
+                "self_single": 1
+              },
+              "foe_legal_windows": {
+                "aimed": 3801,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 3292,
+                  "17": 492,
+                  "3": 2,
+                  "5": 15
+                },
+                "decisions": 3801,
+                "declined": 0,
+                "foe_aim": 3784,
+                "foe_aim_rate": 0.9955274927650618,
+                "foe_all": 492,
+                "foe_companion": 2,
+                "foe_single": 3292,
+                "guessed": 0,
+                "objects": 15,
+                "offensive_aim": 3801,
+                "offensive_aim_per_bout": 1.3197916666666667,
+                "other_aim": 17,
+                "other_aim_rate": 0.0044725072349381745,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 19,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 2850
+          }
+        }
+      },
+      "paired_fixtures": 2880,
+      "replicates": 4,
+      "sha256": "99b99391f0d80b090ae74d93ce25d7011956da836bdd2f5ad64293b1ff5f3f00"
+    },
+    "selected": {
+      "abi": 2002,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "namespace": "DEV/target-probe-v1",
+      "opponents": {
+        "expert": {
+          "0": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 0,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 11,
+            "draws": 59,
+            "losses": 790,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 684,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 138,
+                  "17": 546
+                },
+                "decisions": 684,
+                "declined": 0,
+                "foe_aim": 684,
+                "foe_aim_rate": 1.0,
+                "foe_all": 546,
+                "foe_companion": 0,
+                "foe_single": 138,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 684,
+                "offensive_aim_per_bout": 0.2375,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 684,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 138,
+                  "17": 546
+                },
+                "decisions": 684,
+                "declined": 0,
+                "foe_aim": 684,
+                "foe_aim_rate": 1.0,
+                "foe_all": 546,
+                "foe_companion": 0,
+                "foe_single": 138,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 684,
+                "offensive_aim_per_bout": 0.2375,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 3446,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2887,
+                  "126": 12,
+                  "17": 546,
+                  "3": 1
+                },
+                "decisions": 3446,
+                "declined": 0,
+                "foe_aim": 3433,
+                "foe_aim_rate": 0.9962275101567034,
+                "foe_all": 546,
+                "foe_companion": 1,
+                "foe_single": 2887,
+                "guessed": 12,
+                "objects": 0,
+                "offensive_aim": 3446,
+                "offensive_aim_per_bout": 1.1965277777777779,
+                "other_aim": 13,
+                "other_aim_rate": 0.0037724898432965758,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 3434,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2887,
+                  "17": 546,
+                  "3": 1
+                },
+                "decisions": 3434,
+                "declined": 0,
+                "foe_aim": 3433,
+                "foe_aim_rate": 0.9997087944088526,
+                "foe_all": 546,
+                "foe_companion": 1,
+                "foe_single": 2887,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 3434,
+                "offensive_aim_per_bout": 1.1923611111111112,
+                "other_aim": 1,
+                "other_aim_rate": 0.00029120559114735004,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 48,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 2031
+          },
+          "1": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 1,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 8,
+            "draws": 82,
+            "losses": 911,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 761,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 148,
+                  "17": 613
+                },
+                "decisions": 761,
+                "declined": 0,
+                "foe_aim": 761,
+                "foe_aim_rate": 1.0,
+                "foe_all": 613,
+                "foe_companion": 0,
+                "foe_single": 148,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 761,
+                "offensive_aim_per_bout": 0.2642361111111111,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 761,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 148,
+                  "17": 613
+                },
+                "decisions": 761,
+                "declined": 0,
+                "foe_aim": 761,
+                "foe_aim_rate": 1.0,
+                "foe_all": 613,
+                "foe_companion": 0,
+                "foe_single": 148,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 761,
+                "offensive_aim_per_bout": 0.2642361111111111,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 4109,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 1,
+                  "1": 3463,
+                  "126": 21,
+                  "17": 613,
+                  "3": 11
+                },
+                "decisions": 4109,
+                "declined": 0,
+                "foe_aim": 4076,
+                "foe_aim_rate": 0.9919688488683378,
+                "foe_all": 613,
+                "foe_companion": 11,
+                "foe_single": 3463,
+                "guessed": 21,
+                "objects": 0,
+                "offensive_aim": 4108,
+                "offensive_aim_per_bout": 1.426388888888889,
+                "other_aim": 32,
+                "other_aim_rate": 0.007787782915551229,
+                "self_aim": 1,
+                "self_aim_rate": 0.0002433682161109759,
+                "self_all": 0,
+                "self_single": 1
+              },
+              "foe_legal_windows": {
+                "aimed": 4085,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 3463,
+                  "17": 613,
+                  "3": 9
+                },
+                "decisions": 4085,
+                "declined": 0,
+                "foe_aim": 4076,
+                "foe_aim_rate": 0.997796817625459,
+                "foe_all": 613,
+                "foe_companion": 9,
+                "foe_single": 3463,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 4085,
+                "offensive_aim_per_bout": 1.4184027777777777,
+                "other_aim": 9,
+                "other_aim_rate": 0.002203182374541004,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 73,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 1887
+          }
+        },
+        "heuristic": {
+          "0": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 0,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 10,
+            "draws": 49,
+            "losses": 776,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 655,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 113,
+                  "17": 542
+                },
+                "decisions": 655,
+                "declined": 0,
+                "foe_aim": 655,
+                "foe_aim_rate": 1.0,
+                "foe_all": 542,
+                "foe_companion": 0,
+                "foe_single": 113,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 655,
+                "offensive_aim_per_bout": 0.22743055555555555,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 655,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 113,
+                  "17": 542
+                },
+                "decisions": 655,
+                "declined": 0,
+                "foe_aim": 655,
+                "foe_aim_rate": 1.0,
+                "foe_all": 542,
+                "foe_companion": 0,
+                "foe_single": 113,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 655,
+                "offensive_aim_per_bout": 0.22743055555555555,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 3498,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2945,
+                  "126": 11,
+                  "17": 542
+                },
+                "decisions": 3498,
+                "declined": 0,
+                "foe_aim": 3487,
+                "foe_aim_rate": 0.9968553459119497,
+                "foe_all": 542,
+                "foe_companion": 0,
+                "foe_single": 2945,
+                "guessed": 11,
+                "objects": 0,
+                "offensive_aim": 3498,
+                "offensive_aim_per_bout": 1.2145833333333333,
+                "other_aim": 11,
+                "other_aim_rate": 0.0031446540880503146,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 3487,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2945,
+                  "17": 542
+                },
+                "decisions": 3487,
+                "declined": 0,
+                "foe_aim": 3487,
+                "foe_aim_rate": 1.0,
+                "foe_all": 542,
+                "foe_companion": 0,
+                "foe_single": 2945,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 3487,
+                "offensive_aim_per_bout": 1.210763888888889,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 39,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 2055
+          },
+          "1": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 1,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 11,
+            "draws": 68,
+            "losses": 885,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 801,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 178,
+                  "17": 623
+                },
+                "decisions": 801,
+                "declined": 0,
+                "foe_aim": 801,
+                "foe_aim_rate": 1.0,
+                "foe_all": 623,
+                "foe_companion": 0,
+                "foe_single": 178,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 801,
+                "offensive_aim_per_bout": 0.278125,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 801,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 178,
+                  "17": 623
+                },
+                "decisions": 801,
+                "declined": 0,
+                "foe_aim": 801,
+                "foe_aim_rate": 1.0,
+                "foe_all": 623,
+                "foe_companion": 0,
+                "foe_single": 178,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 801,
+                "offensive_aim_per_bout": 0.278125,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 4227,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 1,
+                  "1": 3583,
+                  "126": 20,
+                  "17": 623
+                },
+                "decisions": 4227,
+                "declined": 0,
+                "foe_aim": 4206,
+                "foe_aim_rate": 0.9950319375443577,
+                "foe_all": 623,
+                "foe_companion": 0,
+                "foe_single": 3583,
+                "guessed": 20,
+                "objects": 0,
+                "offensive_aim": 4226,
+                "offensive_aim_per_bout": 1.4673611111111111,
+                "other_aim": 20,
+                "other_aim_rate": 0.0047314880529926665,
+                "self_aim": 1,
+                "self_aim_rate": 0.0002365744026496333,
+                "self_all": 0,
+                "self_single": 1
+              },
+              "foe_legal_windows": {
+                "aimed": 4206,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 3583,
+                  "17": 623
+                },
+                "decisions": 4206,
+                "declined": 0,
+                "foe_aim": 4206,
+                "foe_aim_rate": 1.0,
+                "foe_all": 623,
+                "foe_companion": 0,
+                "foe_single": 3583,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 4206,
+                "offensive_aim_per_bout": 1.4604166666666667,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 56,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 1927
+          }
+        },
+        "self": {
+          "0": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 0,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 25,
+            "draws": 193,
+            "losses": 1329,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 797,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 22,
+                  "17": 775
+                },
+                "decisions": 797,
+                "declined": 0,
+                "foe_aim": 797,
+                "foe_aim_rate": 1.0,
+                "foe_all": 775,
+                "foe_companion": 0,
+                "foe_single": 22,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 797,
+                "offensive_aim_per_bout": 0.2767361111111111,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 797,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 22,
+                  "17": 775
+                },
+                "decisions": 797,
+                "declined": 0,
+                "foe_aim": 797,
+                "foe_aim_rate": 1.0,
+                "foe_all": 775,
+                "foe_companion": 0,
+                "foe_single": 22,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 797,
+                "offensive_aim_per_bout": 0.2767361111111111,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 3378,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2565,
+                  "126": 38,
+                  "17": 775
+                },
+                "decisions": 3378,
+                "declined": 0,
+                "foe_aim": 3340,
+                "foe_aim_rate": 0.9887507400828893,
+                "foe_all": 775,
+                "foe_companion": 0,
+                "foe_single": 2565,
+                "guessed": 38,
+                "objects": 0,
+                "offensive_aim": 3378,
+                "offensive_aim_per_bout": 1.1729166666666666,
+                "other_aim": 38,
+                "other_aim_rate": 0.011249259917110717,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 3340,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2565,
+                  "17": 775
+                },
+                "decisions": 3340,
+                "declined": 0,
+                "foe_aim": 3340,
+                "foe_aim_rate": 1.0,
+                "foe_all": 775,
+                "foe_companion": 0,
+                "foe_single": 2565,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 3340,
+                "offensive_aim_per_bout": 1.1597222222222223,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 168,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 1358
+          },
+          "1": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 0,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 20,
+            "draws": 190,
+            "losses": 1305,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 820,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 112,
+                  "17": 708
+                },
+                "decisions": 820,
+                "declined": 0,
+                "foe_aim": 820,
+                "foe_aim_rate": 1.0,
+                "foe_all": 708,
+                "foe_companion": 0,
+                "foe_single": 112,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 820,
+                "offensive_aim_per_bout": 0.2847222222222222,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 820,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 112,
+                  "17": 708
+                },
+                "decisions": 820,
+                "declined": 0,
+                "foe_aim": 820,
+                "foe_aim_rate": 1.0,
+                "foe_all": 708,
+                "foe_companion": 0,
+                "foe_single": 112,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 820,
+                "offensive_aim_per_bout": 0.2847222222222222,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 4023,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 3272,
+                  "126": 43,
+                  "17": 708
+                },
+                "decisions": 4023,
+                "declined": 0,
+                "foe_aim": 3980,
+                "foe_aim_rate": 0.9893114591101169,
+                "foe_all": 708,
+                "foe_companion": 0,
+                "foe_single": 3272,
+                "guessed": 43,
+                "objects": 0,
+                "offensive_aim": 4023,
+                "offensive_aim_per_bout": 1.396875,
+                "other_aim": 43,
+                "other_aim_rate": 0.010688540889883172,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 3980,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 3272,
+                  "17": 708
+                },
+                "decisions": 3980,
+                "declined": 0,
+                "foe_aim": 3980,
+                "foe_aim_rate": 1.0,
+                "foe_all": 708,
+                "foe_companion": 0,
+                "foe_single": 3272,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 3980,
+                "offensive_aim_per_bout": 1.3819444444444444,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 170,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 1385
+          }
+        },
+        "uniform": {
+          "0": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 2,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 0,
+            "draws": 36,
+            "losses": 8,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 830,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 3,
+                  "1": 455,
+                  "16": 2,
+                  "17": 370
+                },
+                "decisions": 830,
+                "declined": 0,
+                "foe_aim": 825,
+                "foe_aim_rate": 0.9939759036144579,
+                "foe_all": 370,
+                "foe_companion": 0,
+                "foe_single": 455,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 825,
+                "offensive_aim_per_bout": 0.2864583333333333,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 5,
+                "self_aim_rate": 0.006024096385542169,
+                "self_all": 2,
+                "self_single": 3
+              },
+              "foe_legal_windows": {
+                "aimed": 825,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 455,
+                  "17": 370
+                },
+                "decisions": 825,
+                "declined": 0,
+                "foe_aim": 825,
+                "foe_aim_rate": 1.0,
+                "foe_all": 370,
+                "foe_companion": 0,
+                "foe_single": 455,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 825,
+                "offensive_aim_per_bout": 0.2864583333333333,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 4519,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 3,
+                  "1": 4089,
+                  "126": 50,
+                  "16": 2,
+                  "17": 370,
+                  "3": 4,
+                  "9": 1
+                },
+                "decisions": 4519,
+                "declined": 0,
+                "foe_aim": 4459,
+                "foe_aim_rate": 0.9867227262668732,
+                "foe_all": 370,
+                "foe_companion": 4,
+                "foe_single": 4089,
+                "guessed": 50,
+                "objects": 1,
+                "offensive_aim": 4514,
+                "offensive_aim_per_bout": 1.5673611111111112,
+                "other_aim": 55,
+                "other_aim_rate": 0.012170834255366232,
+                "self_aim": 5,
+                "self_aim_rate": 0.0011064394777605664,
+                "self_all": 2,
+                "self_single": 3
+              },
+              "foe_legal_windows": {
+                "aimed": 4461,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 4089,
+                  "17": 370,
+                  "3": 2
+                },
+                "decisions": 4461,
+                "declined": 0,
+                "foe_aim": 4459,
+                "foe_aim_rate": 0.9995516700291415,
+                "foe_all": 370,
+                "foe_companion": 2,
+                "foe_single": 4089,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 4461,
+                "offensive_aim_per_bout": 1.5489583333333334,
+                "other_aim": 2,
+                "other_aim_rate": 0.0004483299708585519,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 36,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 2836
+          },
+          "1": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 0,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 2,
+            "draws": 22,
+            "losses": 3,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 819,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 387,
+                  "17": 432
+                },
+                "decisions": 819,
+                "declined": 0,
+                "foe_aim": 819,
+                "foe_aim_rate": 1.0,
+                "foe_all": 432,
+                "foe_companion": 0,
+                "foe_single": 387,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 819,
+                "offensive_aim_per_bout": 0.284375,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 819,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 387,
+                  "17": 432
+                },
+                "decisions": 819,
+                "declined": 0,
+                "foe_aim": 819,
+                "foe_aim_rate": 1.0,
+                "foe_all": 432,
+                "foe_companion": 0,
+                "foe_single": 387,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 819,
+                "offensive_aim_per_bout": 0.284375,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 3973,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 3500,
+                  "126": 33,
+                  "17": 432,
+                  "3": 2,
+                  "5": 4,
+                  "9": 2
+                },
+                "decisions": 3973,
+                "declined": 0,
+                "foe_aim": 3932,
+                "foe_aim_rate": 0.9896803423105965,
+                "foe_all": 432,
+                "foe_companion": 2,
+                "foe_single": 3500,
+                "guessed": 33,
+                "objects": 6,
+                "offensive_aim": 3973,
+                "offensive_aim_per_bout": 1.379513888888889,
+                "other_aim": 41,
+                "other_aim_rate": 0.010319657689403473,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 3936,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 3500,
+                  "17": 432,
+                  "5": 2,
+                  "9": 2
+                },
+                "decisions": 3936,
+                "declined": 0,
+                "foe_aim": 3932,
+                "foe_aim_rate": 0.9989837398373984,
+                "foe_all": 432,
+                "foe_companion": 0,
+                "foe_single": 3500,
+                "guessed": 0,
+                "objects": 4,
+                "offensive_aim": 3936,
+                "offensive_aim_per_bout": 1.3666666666666667,
+                "other_aim": 4,
+                "other_aim_rate": 0.0010162601626016261,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 20,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 2855
+          }
+        }
+      },
+      "paired_fixtures": 2880,
+      "replicates": 4,
+      "sha256": "d81965d6d1554a3df34c6265551e637b243224988b7c7efe7bbec679c719353e"
+    },
+    "target_aware_update_90": {
+      "abi": 2002,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "namespace": "DEV/target-probe-v1",
+      "opponents": {
+        "expert": {
+          "0": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 0,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 6,
+            "draws": 61,
+            "losses": 849,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 684,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 217,
+                  "17": 467
+                },
+                "decisions": 684,
+                "declined": 0,
+                "foe_aim": 684,
+                "foe_aim_rate": 1.0,
+                "foe_all": 467,
+                "foe_companion": 0,
+                "foe_single": 217,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 684,
+                "offensive_aim_per_bout": 0.2375,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 684,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 217,
+                  "17": 467
+                },
+                "decisions": 684,
+                "declined": 0,
+                "foe_aim": 684,
+                "foe_aim_rate": 1.0,
+                "foe_all": 467,
+                "foe_companion": 0,
+                "foe_single": 217,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 684,
+                "offensive_aim_per_bout": 0.2375,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 3427,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2944,
+                  "126": 14,
+                  "17": 467,
+                  "3": 2
+                },
+                "decisions": 3427,
+                "declined": 0,
+                "foe_aim": 3411,
+                "foe_aim_rate": 0.9953311934636708,
+                "foe_all": 467,
+                "foe_companion": 2,
+                "foe_single": 2944,
+                "guessed": 14,
+                "objects": 0,
+                "offensive_aim": 3427,
+                "offensive_aim_per_bout": 1.1899305555555555,
+                "other_aim": 16,
+                "other_aim_rate": 0.0046688065363291505,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 3413,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2944,
+                  "17": 467,
+                  "3": 2
+                },
+                "decisions": 3413,
+                "declined": 0,
+                "foe_aim": 3411,
+                "foe_aim_rate": 0.9994140052739525,
+                "foe_all": 467,
+                "foe_companion": 2,
+                "foe_single": 2944,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 3413,
+                "offensive_aim_per_bout": 1.1850694444444445,
+                "other_aim": 2,
+                "other_aim_rate": 0.0005859947260474656,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 55,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 1970
+          },
+          "1": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 1,
+            "bouts_with_self_aim_when_foe_legal": 1,
+            "decision_limit_draws": 4,
+            "draws": 91,
+            "losses": 920,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 717,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 253,
+                  "16": 1,
+                  "17": 463
+                },
+                "decisions": 717,
+                "declined": 0,
+                "foe_aim": 716,
+                "foe_aim_rate": 0.99860529986053,
+                "foe_all": 463,
+                "foe_companion": 0,
+                "foe_single": 253,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 716,
+                "offensive_aim_per_bout": 0.24861111111111112,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 1,
+                "self_aim_rate": 0.001394700139470014,
+                "self_all": 1,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 717,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 253,
+                  "16": 1,
+                  "17": 463
+                },
+                "decisions": 717,
+                "declined": 0,
+                "foe_aim": 716,
+                "foe_aim_rate": 0.99860529986053,
+                "foe_all": 463,
+                "foe_companion": 0,
+                "foe_single": 253,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 716,
+                "offensive_aim_per_bout": 0.24861111111111112,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 1,
+                "self_aim_rate": 0.001394700139470014,
+                "self_all": 1,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 4294,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 3794,
+                  "126": 30,
+                  "15": 1,
+                  "16": 1,
+                  "17": 463,
+                  "3": 6
+                },
+                "decisions": 4295,
+                "declined": 1,
+                "foe_aim": 4257,
+                "foe_aim_rate": 0.9911525029103608,
+                "foe_all": 463,
+                "foe_companion": 6,
+                "foe_single": 3794,
+                "guessed": 30,
+                "objects": 0,
+                "offensive_aim": 4293,
+                "offensive_aim_per_bout": 1.490625,
+                "other_aim": 36,
+                "other_aim_rate": 0.008381839348079161,
+                "self_aim": 1,
+                "self_aim_rate": 0.00023282887077997672,
+                "self_all": 1,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 4263,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 3794,
+                  "16": 1,
+                  "17": 463,
+                  "3": 5
+                },
+                "decisions": 4263,
+                "declined": 0,
+                "foe_aim": 4257,
+                "foe_aim_rate": 0.9985925404644617,
+                "foe_all": 463,
+                "foe_companion": 5,
+                "foe_single": 3794,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 4262,
+                "offensive_aim_per_bout": 1.479861111111111,
+                "other_aim": 5,
+                "other_aim_rate": 0.001172882946281961,
+                "self_aim": 1,
+                "self_aim_rate": 0.0002345765892563922,
+                "self_all": 1,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 87,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 1869
+          }
+        },
+        "heuristic": {
+          "0": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 0,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 5,
+            "draws": 42,
+            "losses": 813,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 703,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 234,
+                  "17": 469
+                },
+                "decisions": 703,
+                "declined": 0,
+                "foe_aim": 703,
+                "foe_aim_rate": 1.0,
+                "foe_all": 469,
+                "foe_companion": 0,
+                "foe_single": 234,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 703,
+                "offensive_aim_per_bout": 0.24409722222222222,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 703,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 234,
+                  "17": 469
+                },
+                "decisions": 703,
+                "declined": 0,
+                "foe_aim": 703,
+                "foe_aim_rate": 1.0,
+                "foe_all": 469,
+                "foe_companion": 0,
+                "foe_single": 234,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 703,
+                "offensive_aim_per_bout": 0.24409722222222222,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 3383,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2902,
+                  "126": 12,
+                  "17": 469
+                },
+                "decisions": 3383,
+                "declined": 0,
+                "foe_aim": 3371,
+                "foe_aim_rate": 0.996452852497783,
+                "foe_all": 469,
+                "foe_companion": 0,
+                "foe_single": 2902,
+                "guessed": 12,
+                "objects": 0,
+                "offensive_aim": 3383,
+                "offensive_aim_per_bout": 1.1746527777777778,
+                "other_aim": 12,
+                "other_aim_rate": 0.0035471475022169673,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 3371,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2902,
+                  "17": 469
+                },
+                "decisions": 3371,
+                "declined": 0,
+                "foe_aim": 3371,
+                "foe_aim_rate": 1.0,
+                "foe_all": 469,
+                "foe_companion": 0,
+                "foe_single": 2902,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 3371,
+                "offensive_aim_per_bout": 1.1704861111111111,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 37,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 2025
+          },
+          "1": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 1,
+            "bouts_with_self_aim_when_foe_legal": 1,
+            "decision_limit_draws": 5,
+            "draws": 73,
+            "losses": 886,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 775,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 291,
+                  "16": 1,
+                  "17": 483
+                },
+                "decisions": 775,
+                "declined": 0,
+                "foe_aim": 774,
+                "foe_aim_rate": 0.9987096774193548,
+                "foe_all": 483,
+                "foe_companion": 0,
+                "foe_single": 291,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 774,
+                "offensive_aim_per_bout": 0.26875,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 1,
+                "self_aim_rate": 0.0012903225806451613,
+                "self_all": 1,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 775,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 291,
+                  "16": 1,
+                  "17": 483
+                },
+                "decisions": 775,
+                "declined": 0,
+                "foe_aim": 774,
+                "foe_aim_rate": 0.9987096774193548,
+                "foe_all": 483,
+                "foe_companion": 0,
+                "foe_single": 291,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 774,
+                "offensive_aim_per_bout": 0.26875,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 1,
+                "self_aim_rate": 0.0012903225806451613,
+                "self_all": 1,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 4401,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 3891,
+                  "126": 26,
+                  "15": 1,
+                  "16": 1,
+                  "17": 483
+                },
+                "decisions": 4402,
+                "declined": 1,
+                "foe_aim": 4374,
+                "foe_aim_rate": 0.9936392548841436,
+                "foe_all": 483,
+                "foe_companion": 0,
+                "foe_single": 3891,
+                "guessed": 26,
+                "objects": 0,
+                "offensive_aim": 4400,
+                "offensive_aim_per_bout": 1.5277777777777777,
+                "other_aim": 26,
+                "other_aim_rate": 0.005906406179009541,
+                "self_aim": 1,
+                "self_aim_rate": 0.00022716946842344388,
+                "self_all": 1,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 4375,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 3891,
+                  "16": 1,
+                  "17": 483
+                },
+                "decisions": 4375,
+                "declined": 0,
+                "foe_aim": 4374,
+                "foe_aim_rate": 0.9997714285714285,
+                "foe_all": 483,
+                "foe_companion": 0,
+                "foe_single": 3891,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 4374,
+                "offensive_aim_per_bout": 1.51875,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 1,
+                "self_aim_rate": 0.00022857142857142857,
+                "self_all": 1,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 68,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 1921
+          }
+        },
+        "self": {
+          "0": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 2,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 8,
+            "draws": 175,
+            "losses": 1335,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 702,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 44,
+                  "16": 3,
+                  "17": 655
+                },
+                "decisions": 702,
+                "declined": 0,
+                "foe_aim": 699,
+                "foe_aim_rate": 0.9957264957264957,
+                "foe_all": 655,
+                "foe_companion": 0,
+                "foe_single": 44,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 699,
+                "offensive_aim_per_bout": 0.24270833333333333,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 3,
+                "self_aim_rate": 0.004273504273504274,
+                "self_all": 3,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 699,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 44,
+                  "17": 655
+                },
+                "decisions": 699,
+                "declined": 0,
+                "foe_aim": 699,
+                "foe_aim_rate": 1.0,
+                "foe_all": 655,
+                "foe_companion": 0,
+                "foe_single": 44,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 699,
+                "offensive_aim_per_bout": 0.24270833333333333,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 3433,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2717,
+                  "126": 58,
+                  "16": 3,
+                  "17": 655
+                },
+                "decisions": 3433,
+                "declined": 0,
+                "foe_aim": 3372,
+                "foe_aim_rate": 0.9822312845907369,
+                "foe_all": 655,
+                "foe_companion": 0,
+                "foe_single": 2717,
+                "guessed": 58,
+                "objects": 0,
+                "offensive_aim": 3430,
+                "offensive_aim_per_bout": 1.1909722222222223,
+                "other_aim": 58,
+                "other_aim_rate": 0.016894844159627147,
+                "self_aim": 3,
+                "self_aim_rate": 0.000873871249635887,
+                "self_all": 3,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 3372,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 2717,
+                  "17": 655
+                },
+                "decisions": 3372,
+                "declined": 0,
+                "foe_aim": 3372,
+                "foe_aim_rate": 1.0,
+                "foe_all": 655,
+                "foe_companion": 0,
+                "foe_single": 2717,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 3372,
+                "offensive_aim_per_bout": 1.1708333333333334,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 167,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 1370
+          },
+          "1": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 0,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 5,
+            "draws": 196,
+            "losses": 1349,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 804,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 204,
+                  "17": 600
+                },
+                "decisions": 804,
+                "declined": 0,
+                "foe_aim": 804,
+                "foe_aim_rate": 1.0,
+                "foe_all": 600,
+                "foe_companion": 0,
+                "foe_single": 204,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 804,
+                "offensive_aim_per_bout": 0.2791666666666667,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 804,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 204,
+                  "17": 600
+                },
+                "decisions": 804,
+                "declined": 0,
+                "foe_aim": 804,
+                "foe_aim_rate": 1.0,
+                "foe_all": 600,
+                "foe_companion": 0,
+                "foe_single": 204,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 804,
+                "offensive_aim_per_bout": 0.2791666666666667,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 4048,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 3398,
+                  "126": 50,
+                  "17": 600
+                },
+                "decisions": 4048,
+                "declined": 0,
+                "foe_aim": 3998,
+                "foe_aim_rate": 0.9876482213438735,
+                "foe_all": 600,
+                "foe_companion": 0,
+                "foe_single": 3398,
+                "guessed": 50,
+                "objects": 0,
+                "offensive_aim": 4048,
+                "offensive_aim_per_bout": 1.4055555555555554,
+                "other_aim": 50,
+                "other_aim_rate": 0.012351778656126482,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 4000,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 3398,
+                  "126": 2,
+                  "17": 600
+                },
+                "decisions": 4000,
+                "declined": 0,
+                "foe_aim": 3998,
+                "foe_aim_rate": 0.9995,
+                "foe_all": 600,
+                "foe_companion": 0,
+                "foe_single": 3398,
+                "guessed": 2,
+                "objects": 0,
+                "offensive_aim": 4000,
+                "offensive_aim_per_bout": 1.3888888888888888,
+                "other_aim": 2,
+                "other_aim_rate": 0.0005,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 191,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 1335
+          }
+        },
+        "uniform": {
+          "0": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 0,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 4,
+            "draws": 30,
+            "losses": 7,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 741,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 425,
+                  "17": 316
+                },
+                "decisions": 741,
+                "declined": 0,
+                "foe_aim": 741,
+                "foe_aim_rate": 1.0,
+                "foe_all": 316,
+                "foe_companion": 0,
+                "foe_single": 425,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 741,
+                "offensive_aim_per_bout": 0.25729166666666664,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 741,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 425,
+                  "17": 316
+                },
+                "decisions": 741,
+                "declined": 0,
+                "foe_aim": 741,
+                "foe_aim_rate": 1.0,
+                "foe_all": 316,
+                "foe_companion": 0,
+                "foe_single": 425,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 741,
+                "offensive_aim_per_bout": 0.25729166666666664,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 4386,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 4006,
+                  "126": 60,
+                  "17": 316,
+                  "3": 4
+                },
+                "decisions": 4386,
+                "declined": 0,
+                "foe_aim": 4322,
+                "foe_aim_rate": 0.9854081167350661,
+                "foe_all": 316,
+                "foe_companion": 4,
+                "foe_single": 4006,
+                "guessed": 60,
+                "objects": 0,
+                "offensive_aim": 4386,
+                "offensive_aim_per_bout": 1.5229166666666667,
+                "other_aim": 64,
+                "other_aim_rate": 0.01459188326493388,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 4326,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 4006,
+                  "17": 316,
+                  "3": 4
+                },
+                "decisions": 4326,
+                "declined": 0,
+                "foe_aim": 4322,
+                "foe_aim_rate": 0.9990753582986592,
+                "foe_all": 316,
+                "foe_companion": 4,
+                "foe_single": 4006,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 4326,
+                "offensive_aim_per_bout": 1.5020833333333334,
+                "other_aim": 4,
+                "other_aim_rate": 0.0009246417013407304,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 26,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 2843
+          },
+          "1": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 1,
+            "bouts_with_self_aim_when_foe_legal": 0,
+            "decision_limit_draws": 9,
+            "draws": 18,
+            "losses": 8,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 699,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 297,
+                  "16": 1,
+                  "17": 401
+                },
+                "decisions": 699,
+                "declined": 0,
+                "foe_aim": 698,
+                "foe_aim_rate": 0.9985693848354793,
+                "foe_all": 401,
+                "foe_companion": 0,
+                "foe_single": 297,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 698,
+                "offensive_aim_per_bout": 0.2423611111111111,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 1,
+                "self_aim_rate": 0.001430615164520744,
+                "self_all": 1,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 698,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 297,
+                  "17": 401
+                },
+                "decisions": 698,
+                "declined": 0,
+                "foe_aim": 698,
+                "foe_aim_rate": 1.0,
+                "foe_all": 401,
+                "foe_companion": 0,
+                "foe_single": 297,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 698,
+                "offensive_aim_per_bout": 0.2423611111111111,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 4291,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 3830,
+                  "126": 32,
+                  "15": 1,
+                  "16": 1,
+                  "17": 401,
+                  "3": 6,
+                  "5": 15,
+                  "9": 6
+                },
+                "decisions": 4292,
+                "declined": 1,
+                "foe_aim": 4231,
+                "foe_aim_rate": 0.9857875116495806,
+                "foe_all": 401,
+                "foe_companion": 6,
+                "foe_single": 3830,
+                "guessed": 32,
+                "objects": 21,
+                "offensive_aim": 4290,
+                "offensive_aim_per_bout": 1.4895833333333333,
+                "other_aim": 59,
+                "other_aim_rate": 0.01374650512581547,
+                "self_aim": 1,
+                "self_aim_rate": 0.00023299161230195712,
+                "self_all": 1,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 4258,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 3830,
+                  "126": 2,
+                  "17": 401,
+                  "3": 6,
+                  "5": 14,
+                  "9": 5
+                },
+                "decisions": 4258,
+                "declined": 0,
+                "foe_aim": 4231,
+                "foe_aim_rate": 0.993658994833255,
+                "foe_all": 401,
+                "foe_companion": 6,
+                "foe_single": 3830,
+                "guessed": 2,
+                "objects": 19,
+                "offensive_aim": 4258,
+                "offensive_aim_per_bout": 1.4784722222222222,
+                "other_aim": 27,
+                "other_aim_rate": 0.0063410051667449506,
+                "self_aim": 0,
+                "self_aim_rate": 0.0,
+                "self_all": 0,
+                "self_single": 0
+              }
+            },
+            "turn_limit_draws": 9,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 2854
+          }
+        }
+      },
+      "paired_fixtures": 2880,
+      "replicates": 4,
+      "sha256": "c9be34b39f4793e84bd051a1e6d66f697a6880051ed86f543f5d6df4adb6b480"
+    },
+    "warm": {
+      "abi": 2002,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "namespace": "DEV/target-probe-v1",
+      "opponents": {
+        "expert": {
+          "0": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 30,
+            "bouts_with_self_aim_when_foe_legal": 29,
+            "decision_limit_draws": 6,
+            "draws": 52,
+            "losses": 879,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 668,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 4,
+                  "1": 149,
+                  "16": 8,
+                  "17": 507
+                },
+                "decisions": 668,
+                "declined": 0,
+                "foe_aim": 656,
+                "foe_aim_rate": 0.9820359281437125,
+                "foe_all": 507,
+                "foe_companion": 0,
+                "foe_single": 149,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 656,
+                "offensive_aim_per_bout": 0.22777777777777777,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 12,
+                "self_aim_rate": 0.017964071856287425,
+                "self_all": 8,
+                "self_single": 4
+              },
+              "foe_legal_windows": {
+                "aimed": 668,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 4,
+                  "1": 149,
+                  "16": 8,
+                  "17": 507
+                },
+                "decisions": 668,
+                "declined": 0,
+                "foe_aim": 656,
+                "foe_aim_rate": 0.9820359281437125,
+                "foe_all": 507,
+                "foe_companion": 0,
+                "foe_single": 149,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 656,
+                "offensive_aim_per_bout": 0.22777777777777777,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 12,
+                "self_aim_rate": 0.017964071856287425,
+                "self_all": 8,
+                "self_single": 4
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 2880,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 38,
+                  "1": 2307,
+                  "126": 18,
+                  "16": 8,
+                  "17": 507,
+                  "3": 2
+                },
+                "decisions": 2880,
+                "declined": 0,
+                "foe_aim": 2814,
+                "foe_aim_rate": 0.9770833333333333,
+                "foe_all": 507,
+                "foe_companion": 2,
+                "foe_single": 2307,
+                "guessed": 18,
+                "objects": 0,
+                "offensive_aim": 2834,
+                "offensive_aim_per_bout": 0.9840277777777777,
+                "other_aim": 20,
+                "other_aim_rate": 0.006944444444444444,
+                "self_aim": 46,
+                "self_aim_rate": 0.01597222222222222,
+                "self_all": 8,
+                "self_single": 38
+              },
+              "foe_legal_windows": {
+                "aimed": 2861,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 37,
+                  "1": 2307,
+                  "16": 8,
+                  "17": 507,
+                  "3": 2
+                },
+                "decisions": 2861,
+                "declined": 0,
+                "foe_aim": 2814,
+                "foe_aim_rate": 0.9835721775602936,
+                "foe_all": 507,
+                "foe_companion": 2,
+                "foe_single": 2307,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 2816,
+                "offensive_aim_per_bout": 0.9777777777777777,
+                "other_aim": 2,
+                "other_aim_rate": 0.0006990562740300594,
+                "self_aim": 45,
+                "self_aim_rate": 0.015728766165676335,
+                "self_all": 8,
+                "self_single": 37
+              }
+            },
+            "turn_limit_draws": 45,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 1949
+          },
+          "1": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 700,
+            "bouts_with_self_aim_when_foe_legal": 700,
+            "decision_limit_draws": 5,
+            "draws": 88,
+            "losses": 1507,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 358,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 7,
+                  "16": 307,
+                  "17": 44
+                },
+                "decisions": 358,
+                "declined": 0,
+                "foe_aim": 44,
+                "foe_aim_rate": 0.12290502793296089,
+                "foe_all": 44,
+                "foe_companion": 0,
+                "foe_single": 0,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 44,
+                "offensive_aim_per_bout": 0.015277777777777777,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 314,
+                "self_aim_rate": 0.8770949720670391,
+                "self_all": 307,
+                "self_single": 7
+              },
+              "foe_legal_windows": {
+                "aimed": 357,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 7,
+                  "16": 306,
+                  "17": 44
+                },
+                "decisions": 357,
+                "declined": 0,
+                "foe_aim": 44,
+                "foe_aim_rate": 0.12324929971988796,
+                "foe_all": 44,
+                "foe_companion": 0,
+                "foe_single": 0,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 44,
+                "offensive_aim_per_bout": 0.015277777777777777,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 313,
+                "self_aim_rate": 0.876750700280112,
+                "self_all": 306,
+                "self_single": 7
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 1987,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 1381,
+                  "1": 238,
+                  "126": 16,
+                  "16": 307,
+                  "17": 44,
+                  "3": 1
+                },
+                "decisions": 1987,
+                "declined": 0,
+                "foe_aim": 282,
+                "foe_aim_rate": 0.14192249622546552,
+                "foe_all": 44,
+                "foe_companion": 1,
+                "foe_single": 238,
+                "guessed": 16,
+                "objects": 0,
+                "offensive_aim": 299,
+                "offensive_aim_per_bout": 0.10381944444444445,
+                "other_aim": 17,
+                "other_aim_rate": 0.008555611474584801,
+                "self_aim": 1688,
+                "self_aim_rate": 0.8495218922999497,
+                "self_all": 307,
+                "self_single": 1381
+              },
+              "foe_legal_windows": {
+                "aimed": 1972,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 1372,
+                  "1": 238,
+                  "126": 11,
+                  "16": 306,
+                  "17": 44,
+                  "3": 1
+                },
+                "decisions": 1972,
+                "declined": 0,
+                "foe_aim": 282,
+                "foe_aim_rate": 0.14300202839756593,
+                "foe_all": 44,
+                "foe_companion": 1,
+                "foe_single": 238,
+                "guessed": 11,
+                "objects": 0,
+                "offensive_aim": 294,
+                "offensive_aim_per_bout": 0.10208333333333333,
+                "other_aim": 12,
+                "other_aim_rate": 0.006085192697768763,
+                "self_aim": 1678,
+                "self_aim_rate": 0.8509127789046653,
+                "self_all": 306,
+                "self_single": 1372
+              }
+            },
+            "turn_limit_draws": 82,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 1285
+          }
+        },
+        "heuristic": {
+          "0": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 22,
+            "bouts_with_self_aim_when_foe_legal": 21,
+            "decision_limit_draws": 6,
+            "draws": 36,
+            "losses": 838,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 651,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 138,
+                  "16": 3,
+                  "17": 510
+                },
+                "decisions": 651,
+                "declined": 0,
+                "foe_aim": 648,
+                "foe_aim_rate": 0.9953917050691244,
+                "foe_all": 510,
+                "foe_companion": 0,
+                "foe_single": 138,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 648,
+                "offensive_aim_per_bout": 0.225,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 3,
+                "self_aim_rate": 0.004608294930875576,
+                "self_all": 3,
+                "self_single": 0
+              },
+              "foe_legal_windows": {
+                "aimed": 651,
+                "ally_companion": 0,
+                "choices": {
+                  "1": 138,
+                  "16": 3,
+                  "17": 510
+                },
+                "decisions": 651,
+                "declined": 0,
+                "foe_aim": 648,
+                "foe_aim_rate": 0.9953917050691244,
+                "foe_all": 510,
+                "foe_companion": 0,
+                "foe_single": 138,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 648,
+                "offensive_aim_per_bout": 0.225,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 3,
+                "self_aim_rate": 0.004608294930875576,
+                "self_all": 3,
+                "self_single": 0
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 2823,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 29,
+                  "1": 2267,
+                  "126": 14,
+                  "16": 3,
+                  "17": 510
+                },
+                "decisions": 2823,
+                "declined": 0,
+                "foe_aim": 2777,
+                "foe_aim_rate": 0.983705278072972,
+                "foe_all": 510,
+                "foe_companion": 0,
+                "foe_single": 2267,
+                "guessed": 14,
+                "objects": 0,
+                "offensive_aim": 2791,
+                "offensive_aim_per_bout": 0.9690972222222223,
+                "other_aim": 14,
+                "other_aim_rate": 0.00495926319518243,
+                "self_aim": 32,
+                "self_aim_rate": 0.011335458731845554,
+                "self_all": 3,
+                "self_single": 29
+              },
+              "foe_legal_windows": {
+                "aimed": 2808,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 28,
+                  "1": 2267,
+                  "16": 3,
+                  "17": 510
+                },
+                "decisions": 2808,
+                "declined": 0,
+                "foe_aim": 2777,
+                "foe_aim_rate": 0.988960113960114,
+                "foe_all": 510,
+                "foe_companion": 0,
+                "foe_single": 2267,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 2777,
+                "offensive_aim_per_bout": 0.9642361111111111,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 31,
+                "self_aim_rate": 0.01103988603988604,
+                "self_all": 3,
+                "self_single": 28
+              }
+            },
+            "turn_limit_draws": 29,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 2006
+          },
+          "1": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 699,
+            "bouts_with_self_aim_when_foe_legal": 699,
+            "decision_limit_draws": 6,
+            "draws": 69,
+            "losses": 1500,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 360,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 4,
+                  "16": 312,
+                  "17": 44
+                },
+                "decisions": 360,
+                "declined": 0,
+                "foe_aim": 44,
+                "foe_aim_rate": 0.12222222222222222,
+                "foe_all": 44,
+                "foe_companion": 0,
+                "foe_single": 0,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 44,
+                "offensive_aim_per_bout": 0.015277777777777777,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 316,
+                "self_aim_rate": 0.8777777777777778,
+                "self_all": 312,
+                "self_single": 4
+              },
+              "foe_legal_windows": {
+                "aimed": 360,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 4,
+                  "16": 312,
+                  "17": 44
+                },
+                "decisions": 360,
+                "declined": 0,
+                "foe_aim": 44,
+                "foe_aim_rate": 0.12222222222222222,
+                "foe_all": 44,
+                "foe_companion": 0,
+                "foe_single": 0,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 44,
+                "offensive_aim_per_bout": 0.015277777777777777,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 316,
+                "self_aim_rate": 0.8777777777777778,
+                "self_all": 312,
+                "self_single": 4
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 2019,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 1371,
+                  "1": 275,
+                  "126": 17,
+                  "16": 312,
+                  "17": 44
+                },
+                "decisions": 2019,
+                "declined": 0,
+                "foe_aim": 319,
+                "foe_aim_rate": 0.1579990094105993,
+                "foe_all": 44,
+                "foe_companion": 0,
+                "foe_single": 275,
+                "guessed": 17,
+                "objects": 0,
+                "offensive_aim": 336,
+                "offensive_aim_per_bout": 0.11666666666666667,
+                "other_aim": 17,
+                "other_aim_rate": 0.008420009905894007,
+                "self_aim": 1683,
+                "self_aim_rate": 0.8335809806835067,
+                "self_all": 312,
+                "self_single": 1371
+              },
+              "foe_legal_windows": {
+                "aimed": 2004,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 1362,
+                  "1": 275,
+                  "126": 11,
+                  "16": 312,
+                  "17": 44
+                },
+                "decisions": 2004,
+                "declined": 0,
+                "foe_aim": 319,
+                "foe_aim_rate": 0.1591816367265469,
+                "foe_all": 44,
+                "foe_companion": 0,
+                "foe_single": 275,
+                "guessed": 11,
+                "objects": 0,
+                "offensive_aim": 330,
+                "offensive_aim_per_bout": 0.11458333333333333,
+                "other_aim": 11,
+                "other_aim_rate": 0.0054890219560878245,
+                "self_aim": 1674,
+                "self_aim_rate": 0.8353293413173652,
+                "self_all": 312,
+                "self_single": 1362
+              }
+            },
+            "turn_limit_draws": 63,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 1311
+          }
+        },
+        "self": {
+          "0": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 32,
+            "bouts_with_self_aim_when_foe_legal": 28,
+            "decision_limit_draws": 10,
+            "draws": 158,
+            "losses": 915,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 771,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 4,
+                  "1": 26,
+                  "16": 16,
+                  "17": 725
+                },
+                "decisions": 771,
+                "declined": 0,
+                "foe_aim": 751,
+                "foe_aim_rate": 0.9740596627756161,
+                "foe_all": 725,
+                "foe_companion": 0,
+                "foe_single": 26,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 751,
+                "offensive_aim_per_bout": 0.2607638888888889,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 20,
+                "self_aim_rate": 0.02594033722438392,
+                "self_all": 16,
+                "self_single": 4
+              },
+              "foe_legal_windows": {
+                "aimed": 770,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 4,
+                  "1": 26,
+                  "16": 15,
+                  "17": 725
+                },
+                "decisions": 770,
+                "declined": 0,
+                "foe_aim": 751,
+                "foe_aim_rate": 0.9753246753246754,
+                "foe_all": 725,
+                "foe_companion": 0,
+                "foe_single": 26,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 751,
+                "offensive_aim_per_bout": 0.2607638888888889,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 19,
+                "self_aim_rate": 0.024675324675324677,
+                "self_all": 15,
+                "self_single": 4
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 2271,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 32,
+                  "1": 1486,
+                  "126": 12,
+                  "16": 16,
+                  "17": 725
+                },
+                "decisions": 2271,
+                "declined": 0,
+                "foe_aim": 2211,
+                "foe_aim_rate": 0.9735799207397622,
+                "foe_all": 725,
+                "foe_companion": 0,
+                "foe_single": 1486,
+                "guessed": 12,
+                "objects": 0,
+                "offensive_aim": 2223,
+                "offensive_aim_per_bout": 0.771875,
+                "other_aim": 12,
+                "other_aim_rate": 0.005284015852047556,
+                "self_aim": 48,
+                "self_aim_rate": 0.021136063408190225,
+                "self_all": 16,
+                "self_single": 32
+              },
+              "foe_legal_windows": {
+                "aimed": 2254,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 28,
+                  "1": 1486,
+                  "16": 15,
+                  "17": 725
+                },
+                "decisions": 2254,
+                "declined": 0,
+                "foe_aim": 2211,
+                "foe_aim_rate": 0.9809228039041704,
+                "foe_all": 725,
+                "foe_companion": 0,
+                "foe_single": 1486,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 2211,
+                "offensive_aim_per_bout": 0.7677083333333333,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 43,
+                "self_aim_rate": 0.019077196095829637,
+                "self_all": 15,
+                "self_single": 28
+              }
+            },
+            "turn_limit_draws": 145,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 1807
+          },
+          "1": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 667,
+            "bouts_with_self_aim_when_foe_legal": 666,
+            "decision_limit_draws": 6,
+            "draws": 137,
+            "losses": 1817,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 371,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 22,
+                  "16": 314,
+                  "17": 35
+                },
+                "decisions": 371,
+                "declined": 0,
+                "foe_aim": 35,
+                "foe_aim_rate": 0.09433962264150944,
+                "foe_all": 35,
+                "foe_companion": 0,
+                "foe_single": 0,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 35,
+                "offensive_aim_per_bout": 0.012152777777777778,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 336,
+                "self_aim_rate": 0.9056603773584906,
+                "self_all": 314,
+                "self_single": 22
+              },
+              "foe_legal_windows": {
+                "aimed": 369,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 22,
+                  "16": 312,
+                  "17": 35
+                },
+                "decisions": 369,
+                "declined": 0,
+                "foe_aim": 35,
+                "foe_aim_rate": 0.0948509485094851,
+                "foe_all": 35,
+                "foe_companion": 0,
+                "foe_single": 0,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 35,
+                "offensive_aim_per_bout": 0.012152777777777778,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 334,
+                "self_aim_rate": 0.9051490514905149,
+                "self_all": 312,
+                "self_single": 22
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 1641,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 1198,
+                  "1": 86,
+                  "126": 8,
+                  "16": 314,
+                  "17": 35
+                },
+                "decisions": 1641,
+                "declined": 0,
+                "foe_aim": 121,
+                "foe_aim_rate": 0.07373552711761121,
+                "foe_all": 35,
+                "foe_companion": 0,
+                "foe_single": 86,
+                "guessed": 8,
+                "objects": 0,
+                "offensive_aim": 129,
+                "offensive_aim_per_bout": 0.04479166666666667,
+                "other_aim": 8,
+                "other_aim_rate": 0.004875076173065204,
+                "self_aim": 1512,
+                "self_aim_rate": 0.9213893967093236,
+                "self_all": 314,
+                "self_single": 1198
+              },
+              "foe_legal_windows": {
+                "aimed": 1622,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 1185,
+                  "1": 86,
+                  "126": 4,
+                  "16": 312,
+                  "17": 35
+                },
+                "decisions": 1622,
+                "declined": 0,
+                "foe_aim": 121,
+                "foe_aim_rate": 0.07459926017262639,
+                "foe_all": 35,
+                "foe_companion": 0,
+                "foe_single": 86,
+                "guessed": 4,
+                "objects": 0,
+                "offensive_aim": 125,
+                "offensive_aim_per_bout": 0.043402777777777776,
+                "other_aim": 4,
+                "other_aim_rate": 0.002466091245376079,
+                "self_aim": 1497,
+                "self_aim_rate": 0.9229346485819976,
+                "self_all": 312,
+                "self_single": 1185
+              }
+            },
+            "turn_limit_draws": 129,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 926
+          }
+        },
+        "uniform": {
+          "0": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 33,
+            "bouts_with_self_aim_when_foe_legal": 27,
+            "decision_limit_draws": 0,
+            "draws": 45,
+            "losses": 20,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 749,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 21,
+                  "1": 283,
+                  "16": 16,
+                  "17": 429
+                },
+                "decisions": 749,
+                "declined": 0,
+                "foe_aim": 712,
+                "foe_aim_rate": 0.9506008010680908,
+                "foe_all": 429,
+                "foe_companion": 0,
+                "foe_single": 283,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 712,
+                "offensive_aim_per_bout": 0.24722222222222223,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 37,
+                "self_aim_rate": 0.049399198931909215,
+                "self_all": 16,
+                "self_single": 21
+              },
+              "foe_legal_windows": {
+                "aimed": 733,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 12,
+                  "1": 283,
+                  "16": 9,
+                  "17": 429
+                },
+                "decisions": 733,
+                "declined": 0,
+                "foe_aim": 712,
+                "foe_aim_rate": 0.9713506139154161,
+                "foe_all": 429,
+                "foe_companion": 0,
+                "foe_single": 283,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 712,
+                "offensive_aim_per_bout": 0.24722222222222223,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 21,
+                "self_aim_rate": 0.0286493860845839,
+                "self_all": 9,
+                "self_single": 12
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 4318,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 50,
+                  "1": 3780,
+                  "126": 35,
+                  "16": 16,
+                  "17": 429,
+                  "5": 1,
+                  "9": 7
+                },
+                "decisions": 4318,
+                "declined": 0,
+                "foe_aim": 4209,
+                "foe_aim_rate": 0.9747568318666049,
+                "foe_all": 429,
+                "foe_companion": 0,
+                "foe_single": 3780,
+                "guessed": 35,
+                "objects": 8,
+                "offensive_aim": 4252,
+                "offensive_aim_per_bout": 1.476388888888889,
+                "other_aim": 43,
+                "other_aim_rate": 0.009958314034275127,
+                "self_aim": 66,
+                "self_aim_rate": 0.015284854099119963,
+                "self_all": 16,
+                "self_single": 50
+              },
+              "foe_legal_windows": {
+                "aimed": 4267,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 40,
+                  "1": 3780,
+                  "126": 1,
+                  "16": 9,
+                  "17": 429,
+                  "5": 1,
+                  "9": 7
+                },
+                "decisions": 4267,
+                "declined": 0,
+                "foe_aim": 4209,
+                "foe_aim_rate": 0.9864073119287555,
+                "foe_all": 429,
+                "foe_companion": 0,
+                "foe_single": 3780,
+                "guessed": 1,
+                "objects": 8,
+                "offensive_aim": 4218,
+                "offensive_aim_per_bout": 1.4645833333333333,
+                "other_aim": 9,
+                "other_aim_rate": 0.0021092102179517225,
+                "self_aim": 49,
+                "self_aim_rate": 0.011483477853292711,
+                "self_all": 9,
+                "self_single": 40
+              }
+            },
+            "turn_limit_draws": 45,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 2815
+          },
+          "1": {
+            "bouts": 2880,
+            "bouts_with_self_aim": 789,
+            "bouts_with_self_aim_when_foe_legal": 789,
+            "decision_limit_draws": 1,
+            "draws": 23,
+            "losses": 629,
+            "magic_missile": {
+              "all_windows": {
+                "aimed": 433,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 4,
+                  "1": 10,
+                  "16": 399,
+                  "17": 20
+                },
+                "decisions": 433,
+                "declined": 0,
+                "foe_aim": 30,
+                "foe_aim_rate": 0.06928406466512702,
+                "foe_all": 20,
+                "foe_companion": 0,
+                "foe_single": 10,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 30,
+                "offensive_aim_per_bout": 0.010416666666666666,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 403,
+                "self_aim_rate": 0.930715935334873,
+                "self_all": 399,
+                "self_single": 4
+              },
+              "foe_legal_windows": {
+                "aimed": 422,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 1,
+                  "1": 10,
+                  "16": 391,
+                  "17": 20
+                },
+                "decisions": 422,
+                "declined": 0,
+                "foe_aim": 30,
+                "foe_aim_rate": 0.07109004739336493,
+                "foe_all": 20,
+                "foe_companion": 0,
+                "foe_single": 10,
+                "guessed": 0,
+                "objects": 0,
+                "offensive_aim": 30,
+                "offensive_aim_per_bout": 0.010416666666666666,
+                "other_aim": 0,
+                "other_aim_rate": 0.0,
+                "self_aim": 392,
+                "self_aim_rate": 0.9289099526066351,
+                "self_all": 391,
+                "self_single": 1
+              }
+            },
+            "projectile": {
+              "all_windows": {
+                "aimed": 3168,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 1847,
+                  "1": 748,
+                  "126": 12,
+                  "13": 3,
+                  "16": 399,
+                  "17": 20,
+                  "5": 126,
+                  "7": 2,
+                  "9": 11
+                },
+                "decisions": 3168,
+                "declined": 0,
+                "foe_aim": 768,
+                "foe_aim_rate": 0.24242424242424243,
+                "foe_all": 20,
+                "foe_companion": 0,
+                "foe_single": 748,
+                "guessed": 12,
+                "objects": 142,
+                "offensive_aim": 922,
+                "offensive_aim_per_bout": 0.32013888888888886,
+                "other_aim": 154,
+                "other_aim_rate": 0.04861111111111111,
+                "self_aim": 2246,
+                "self_aim_rate": 0.7089646464646465,
+                "self_all": 399,
+                "self_single": 1847
+              },
+              "foe_legal_windows": {
+                "aimed": 3110,
+                "ally_companion": 0,
+                "choices": {
+                  "0": 1814,
+                  "1": 748,
+                  "126": 2,
+                  "16": 391,
+                  "17": 20,
+                  "5": 122,
+                  "7": 2,
+                  "9": 11
+                },
+                "decisions": 3110,
+                "declined": 0,
+                "foe_aim": 768,
+                "foe_aim_rate": 0.24694533762057877,
+                "foe_all": 20,
+                "foe_companion": 0,
+                "foe_single": 748,
+                "guessed": 2,
+                "objects": 135,
+                "offensive_aim": 905,
+                "offensive_aim_per_bout": 0.3142361111111111,
+                "other_aim": 137,
+                "other_aim_rate": 0.04405144694533762,
+                "self_aim": 2205,
+                "self_aim_rate": 0.7090032154340836,
+                "self_all": 391,
+                "self_single": 1814
+              }
+            },
+            "turn_limit_draws": 22,
+            "verified_label_ids": [
+              0,
+              1,
+              16,
+              17
+            ],
+            "wins": 2228
+          }
+        }
+      },
+      "paired_fixtures": 2880,
+      "replicates": 4,
+      "sha256": "6f46d8839f5406b6b399cdb227dc3c2d08ba1b29508a89966427c9be77da845d"
+    }
+  },
+  "historical_transfer_probe": {
+    "abi_2001": {
+      "abi": 2001,
+      "paired_fixtures": 2880,
+      "seats": {
+        "0": {
+          "bouts_self_aimed": 43,
+          "bouts_self_aimed_with_foe_legal": 33,
+          "draws": 51,
+          "foe_legal_actions": 4446,
+          "losses": 15,
+          "losses_with_self_aim": 8,
+          "losses_with_self_aim_with_foe_legal": 5,
+          "phase80_actions": 4525,
+          "raw_choices": {
+            "0": 40,
+            "1": 3936,
+            "126": 61,
+            "16": 30,
+            "17": 454,
+            "3": 1,
+            "5": 2,
+            "9": 1
+          },
+          "raw_choices_when_foe_legal": {
+            "0": 33,
+            "1": 3936,
+            "16": 19,
+            "17": 454,
+            "3": 1,
+            "5": 2,
+            "9": 1
+          },
+          "reasons": [
+            0,
+            2829,
+            0,
+            51
+          ],
+          "relative_choices": {
+            "0": 40,
+            "1": 3936,
+            "126": 61,
+            "16": 30,
+            "17": 454,
+            "3": 1,
+            "5": 2,
+            "9": 1
+          },
+          "relative_choices_when_foe_legal": {
+            "0": 33,
+            "1": 3936,
+            "16": 19,
+            "17": 454,
+            "3": 1,
+            "5": 2,
+            "9": 1
+          },
+          "wins": 2814
+        },
+        "1": {
+          "bouts_self_aimed": 157,
+          "bouts_self_aimed_with_foe_legal": 155,
+          "draws": 37,
+          "foe_legal_actions": 3334,
+          "losses": 39,
+          "losses_with_self_aim": 29,
+          "losses_with_self_aim_with_foe_legal": 28,
+          "phase80_actions": 3369,
+          "raw_choices": {
+            "0": 2231,
+            "1": 536,
+            "10": 4,
+            "12": 1,
+            "126": 27,
+            "16": 519,
+            "17": 17,
+            "18": 2,
+            "4": 22,
+            "6": 2,
+            "8": 8
+          },
+          "raw_choices_when_foe_legal": {
+            "0": 2231,
+            "1": 530,
+            "10": 4,
+            "16": 519,
+            "17": 17,
+            "18": 2,
+            "4": 21,
+            "6": 2,
+            "8": 8
+          },
+          "reasons": [
+            0,
+            2843,
+            0,
+            36,
+            1
+          ],
+          "relative_choices": {
+            "0": 536,
+            "1": 2231,
+            "11": 4,
+            "126": 27,
+            "13": 1,
+            "16": 17,
+            "17": 519,
+            "19": 2,
+            "5": 22,
+            "7": 2,
+            "9": 8
+          },
+          "relative_choices_when_foe_legal": {
+            "0": 530,
+            "1": 2231,
+            "11": 4,
+            "16": 17,
+            "17": 519,
+            "19": 2,
+            "5": 21,
+            "7": 2,
+            "9": 8
+          },
+          "wins": 2804
+        }
+      }
+    },
+    "abi_2002_warm": {
+      "abi": 2002,
+      "paired_fixtures": 2880,
+      "seats": {
+        "0": {
+          "bouts_self_aimed": 42,
+          "bouts_self_aimed_with_foe_legal": 32,
+          "draws": 51,
+          "foe_legal_actions": 4441,
+          "losses": 15,
+          "losses_with_self_aim": 8,
+          "losses_with_self_aim_with_foe_legal": 5,
+          "phase80_actions": 4520,
+          "raw_choices": {
+            "0": 39,
+            "1": 3932,
+            "126": 61,
+            "16": 30,
+            "17": 454,
+            "3": 1,
+            "5": 2,
+            "9": 1
+          },
+          "raw_choices_when_foe_legal": {
+            "0": 32,
+            "1": 3932,
+            "16": 19,
+            "17": 454,
+            "3": 1,
+            "5": 2,
+            "9": 1
+          },
+          "reasons": [
+            0,
+            2829,
+            0,
+            51
+          ],
+          "relative_choices": {
+            "0": 39,
+            "1": 3932,
+            "126": 61,
+            "16": 30,
+            "17": 454,
+            "3": 1,
+            "5": 2,
+            "9": 1
+          },
+          "relative_choices_when_foe_legal": {
+            "0": 32,
+            "1": 3932,
+            "16": 19,
+            "17": 454,
+            "3": 1,
+            "5": 2,
+            "9": 1
+          },
+          "wins": 2814
+        },
+        "1": {
+          "bouts_self_aimed": 789,
+          "bouts_self_aimed_with_foe_legal": 788,
+          "draws": 33,
+          "foe_legal_actions": 3139,
+          "losses": 632,
+          "losses_with_self_aim": 502,
+          "losses_with_self_aim_with_foe_legal": 502,
+          "phase80_actions": 3193,
+          "raw_choices": {
+            "0": 745,
+            "1": 1880,
+            "12": 1,
+            "126": 17,
+            "16": 31,
+            "17": 399,
+            "4": 100,
+            "5": 2,
+            "6": 2,
+            "8": 16
+          },
+          "raw_choices_when_foe_legal": {
+            "0": 745,
+            "1": 1841,
+            "12": 1,
+            "126": 4,
+            "16": 31,
+            "17": 397,
+            "4": 100,
+            "5": 2,
+            "6": 2,
+            "8": 16
+          },
+          "reasons": [
+            0,
+            2847,
+            0,
+            30,
+            3
+          ],
+          "relative_choices": {
+            "0": 1880,
+            "1": 745,
+            "126": 17,
+            "13": 1,
+            "16": 399,
+            "17": 31,
+            "4": 2,
+            "5": 100,
+            "7": 2,
+            "9": 16
+          },
+          "relative_choices_when_foe_legal": {
+            "0": 1841,
+            "1": 745,
+            "126": 4,
+            "13": 1,
+            "16": 397,
+            "17": 31,
+            "4": 2,
+            "5": 100,
+            "7": 2,
+            "9": 16
+          },
+          "wins": 2215
+        }
+      }
+    },
+    "opponent": "uniform over legal physical action IDs",
+    "seed_namespace": "S2D"
+  },
+  "simulator_revision": "600436d"
+}

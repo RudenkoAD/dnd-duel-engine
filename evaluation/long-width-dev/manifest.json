@@ -1,0 +1,10126 @@
+{
+  "domain": "B2D",
+  "arena_abi": 2002,
+  "native_library_sha256": "621964e798659ba534fab6c8494664c8e7f9d91abb9a4e28ccb0ed9f40888e3f",
+  "references": {
+    "baseline": {
+      "path": "training/runs/league/checkpoints/update-1300.npz",
+      "sha256": "96f9bddabc0eeff4a70c111db443dea064490c6e576ff8bb569966024cb26e31",
+      "updates": 0
+    },
+    "old-wide": {
+      "path": "training/runs/width-league/wide/checkpoints/cpu-100.npz",
+      "sha256": "1c8cfe14f7a18f5455e022dfcc27376ecb273ae276a1a493914680c4d7fc51b5",
+      "updates": 757
+    },
+    "old-narrow": {
+      "path": "training/runs/width-league/narrow/checkpoints/cpu-100.npz",
+      "sha256": "4f4bb5c76eb175e1028b18761df01b5206fb379930a9fbca9b19c82336edc346",
+      "updates": 967
+    }
+  },
+  "candidate_updates": [
+    967,
+    1934,
+    2901
+  ],
+  "fixed_terminal_update": 2901,
+  "ranking_rule": "Descending exact weighted points; ascending updates on ties",
+  "starting_updates": 1300,
+  "training_duels_per_update": 384,
+  "opponent_sha256": {
+    "champion": "d81965d6d1554a3df34c6265551e637b243224988b7c7efe7bbec679c719353e",
+    "abi2002-control": "99b99391f0d80b090ae74d93ce25d7011956da836bdd2f5ad64293b1ff5f3f00",
+    "relative-update-90": "c9be34b39f4793e84bd051a1e6d66f697a6880051ed86f543f5d6df4adb6b480"
+  },
+  "opponent_weights": {
+    "champion": "1/6",
+    "abi2002-control": "1/6",
+    "relative-update-90": "1/6",
+    "expert": "1/2"
+  },
+  "bouts_per_opponent": 2880,
+  "batch_size": 512,
+  "fixtures": [
+    {
+      "focal": 0,
+      "opponent": 0,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950189540784648
+    },
+    {
+      "focal": 0,
+      "opponent": 0,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950566964752717
+    },
+    {
+      "focal": 0,
+      "opponent": 0,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950582786061331
+    },
+    {
+      "focal": 0,
+      "opponent": 0,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950493910412065
+    },
+    {
+      "focal": 0,
+      "opponent": 0,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950718601663473
+    },
+    {
+      "focal": 0,
+      "opponent": 0,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949939058812324
+    },
+    {
+      "focal": 0,
+      "opponent": 0,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950139247952231
+    },
+    {
+      "focal": 0,
+      "opponent": 0,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949951015551562
+    },
+    {
+      "focal": 0,
+      "opponent": 0,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950674370819453
+    },
+    {
+      "focal": 0,
+      "opponent": 0,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950261733127415
+    },
+    {
+      "focal": 0,
+      "opponent": 1,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950243008439199
+    },
+    {
+      "focal": 1,
+      "opponent": 0,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950243008439199
+    },
+    {
+      "focal": 0,
+      "opponent": 1,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949918820065850
+    },
+    {
+      "focal": 1,
+      "opponent": 0,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949918820065850
+    },
+    {
+      "focal": 0,
+      "opponent": 1,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950236345150616
+    },
+    {
+      "focal": 1,
+      "opponent": 0,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950236345150616
+    },
+    {
+      "focal": 0,
+      "opponent": 1,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950206783807100
+    },
+    {
+      "focal": 1,
+      "opponent": 0,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950206783807100
+    },
+    {
+      "focal": 0,
+      "opponent": 1,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950165483488199
+    },
+    {
+      "focal": 1,
+      "opponent": 0,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950165483488199
+    },
+    {
+      "focal": 0,
+      "opponent": 1,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950203930303087
+    },
+    {
+      "focal": 1,
+      "opponent": 0,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950203930303087
+    },
+    {
+      "focal": 0,
+      "opponent": 1,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950142590868502
+    },
+    {
+      "focal": 1,
+      "opponent": 0,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950142590868502
+    },
+    {
+      "focal": 0,
+      "opponent": 1,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950415911887056
+    },
+    {
+      "focal": 1,
+      "opponent": 0,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950415911887056
+    },
+    {
+      "focal": 0,
+      "opponent": 1,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950779269127158
+    },
+    {
+      "focal": 1,
+      "opponent": 0,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950779269127158
+    },
+    {
+      "focal": 0,
+      "opponent": 1,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950414833401686
+    },
+    {
+      "focal": 1,
+      "opponent": 0,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950414833401686
+    },
+    {
+      "focal": 0,
+      "opponent": 2,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950280655564061
+    },
+    {
+      "focal": 2,
+      "opponent": 0,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950280655564061
+    },
+    {
+      "focal": 0,
+      "opponent": 2,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949756916096118
+    },
+    {
+      "focal": 2,
+      "opponent": 0,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949756916096118
+    },
+    {
+      "focal": 0,
+      "opponent": 2,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950001652101493
+    },
+    {
+      "focal": 2,
+      "opponent": 0,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950001652101493
+    },
+    {
+      "focal": 0,
+      "opponent": 2,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950707721260907
+    },
+    {
+      "focal": 2,
+      "opponent": 0,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950707721260907
+    },
+    {
+      "focal": 0,
+      "opponent": 2,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950435558164623
+    },
+    {
+      "focal": 2,
+      "opponent": 0,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950435558164623
+    },
+    {
+      "focal": 0,
+      "opponent": 2,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950323888555494
+    },
+    {
+      "focal": 2,
+      "opponent": 0,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950323888555494
+    },
+    {
+      "focal": 0,
+      "opponent": 2,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950496456298091
+    },
+    {
+      "focal": 2,
+      "opponent": 0,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950496456298091
+    },
+    {
+      "focal": 0,
+      "opponent": 2,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950130115685852
+    },
+    {
+      "focal": 2,
+      "opponent": 0,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950130115685852
+    },
+    {
+      "focal": 0,
+      "opponent": 2,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950365245342444
+    },
+    {
+      "focal": 2,
+      "opponent": 0,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950365245342444
+    },
+    {
+      "focal": 0,
+      "opponent": 2,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950124203818426
+    },
+    {
+      "focal": 2,
+      "opponent": 0,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950124203818426
+    },
+    {
+      "focal": 0,
+      "opponent": 3,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950297756492345
+    },
+    {
+      "focal": 3,
+      "opponent": 0,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950297756492345
+    },
+    {
+      "focal": 0,
+      "opponent": 3,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949849517887600
+    },
+    {
+      "focal": 3,
+      "opponent": 0,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949849517887600
+    },
+    {
+      "focal": 0,
+      "opponent": 3,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949982245289091
+    },
+    {
+      "focal": 3,
+      "opponent": 0,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949982245289091
+    },
+    {
+      "focal": 0,
+      "opponent": 3,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950240640604786
+    },
+    {
+      "focal": 3,
+      "opponent": 0,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950240640604786
+    },
+    {
+      "focal": 0,
+      "opponent": 3,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950389086873136
+    },
+    {
+      "focal": 3,
+      "opponent": 0,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950389086873136
+    },
+    {
+      "focal": 0,
+      "opponent": 3,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950598561928828
+    },
+    {
+      "focal": 3,
+      "opponent": 0,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950598561928828
+    },
+    {
+      "focal": 0,
+      "opponent": 3,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950581474650959
+    },
+    {
+      "focal": 3,
+      "opponent": 0,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950581474650959
+    },
+    {
+      "focal": 0,
+      "opponent": 3,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950371096456704
+    },
+    {
+      "focal": 3,
+      "opponent": 0,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950371096456704
+    },
+    {
+      "focal": 0,
+      "opponent": 3,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949816348449978
+    },
+    {
+      "focal": 3,
+      "opponent": 0,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949816348449978
+    },
+    {
+      "focal": 0,
+      "opponent": 3,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950543020393394
+    },
+    {
+      "focal": 3,
+      "opponent": 0,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950543020393394
+    },
+    {
+      "focal": 0,
+      "opponent": 4,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950172601939866
+    },
+    {
+      "focal": 4,
+      "opponent": 0,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950172601939866
+    },
+    {
+      "focal": 0,
+      "opponent": 4,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950085342595250
+    },
+    {
+      "focal": 4,
+      "opponent": 0,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950085342595250
+    },
+    {
+      "focal": 0,
+      "opponent": 4,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769949940180650207
+    },
+    {
+      "focal": 4,
+      "opponent": 0,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769949940180650207
+    },
+    {
+      "focal": 0,
+      "opponent": 4,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950347765926408
+    },
+    {
+      "focal": 4,
+      "opponent": 0,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950347765926408
+    },
+    {
+      "focal": 0,
+      "opponent": 4,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949887083979559
+    },
+    {
+      "focal": 4,
+      "opponent": 0,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949887083979559
+    },
+    {
+      "focal": 0,
+      "opponent": 4,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950355111205679
+    },
+    {
+      "focal": 4,
+      "opponent": 0,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950355111205679
+    },
+    {
+      "focal": 0,
+      "opponent": 4,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950791223237266
+    },
+    {
+      "focal": 4,
+      "opponent": 0,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950791223237266
+    },
+    {
+      "focal": 0,
+      "opponent": 4,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950556295582745
+    },
+    {
+      "focal": 4,
+      "opponent": 0,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950556295582745
+    },
+    {
+      "focal": 0,
+      "opponent": 4,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950350172719173
+    },
+    {
+      "focal": 4,
+      "opponent": 0,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950350172719173
+    },
+    {
+      "focal": 0,
+      "opponent": 4,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950361713649525
+    },
+    {
+      "focal": 4,
+      "opponent": 0,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950361713649525
+    },
+    {
+      "focal": 0,
+      "opponent": 5,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950566051215832
+    },
+    {
+      "focal": 5,
+      "opponent": 0,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950566051215832
+    },
+    {
+      "focal": 0,
+      "opponent": 5,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949871798445926
+    },
+    {
+      "focal": 5,
+      "opponent": 0,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949871798445926
+    },
+    {
+      "focal": 0,
+      "opponent": 5,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949921960322562
+    },
+    {
+      "focal": 5,
+      "opponent": 0,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949921960322562
+    },
+    {
+      "focal": 0,
+      "opponent": 5,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950040623733524
+    },
+    {
+      "focal": 5,
+      "opponent": 0,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950040623733524
+    },
+    {
+      "focal": 0,
+      "opponent": 5,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950291221624549
+    },
+    {
+      "focal": 5,
+      "opponent": 0,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950291221624549
+    },
+    {
+      "focal": 0,
+      "opponent": 5,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950425090740472
+    },
+    {
+      "focal": 5,
+      "opponent": 0,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950425090740472
+    },
+    {
+      "focal": 0,
+      "opponent": 5,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950802644100856
+    },
+    {
+      "focal": 5,
+      "opponent": 0,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950802644100856
+    },
+    {
+      "focal": 0,
+      "opponent": 5,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950693594407950
+    },
+    {
+      "focal": 5,
+      "opponent": 0,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950693594407950
+    },
+    {
+      "focal": 0,
+      "opponent": 5,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950512166937727
+    },
+    {
+      "focal": 5,
+      "opponent": 0,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950512166937727
+    },
+    {
+      "focal": 0,
+      "opponent": 5,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769949822356348560
+    },
+    {
+      "focal": 5,
+      "opponent": 0,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769949822356348560
+    },
+    {
+      "focal": 0,
+      "opponent": 6,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950735064352794
+    },
+    {
+      "focal": 6,
+      "opponent": 0,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950735064352794
+    },
+    {
+      "focal": 0,
+      "opponent": 6,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950450900054750
+    },
+    {
+      "focal": 6,
+      "opponent": 0,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950450900054750
+    },
+    {
+      "focal": 0,
+      "opponent": 6,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769949733056917102
+    },
+    {
+      "focal": 6,
+      "opponent": 0,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769949733056917102
+    },
+    {
+      "focal": 0,
+      "opponent": 6,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950081173494868
+    },
+    {
+      "focal": 6,
+      "opponent": 0,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950081173494868
+    },
+    {
+      "focal": 0,
+      "opponent": 6,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950811881183808
+    },
+    {
+      "focal": 6,
+      "opponent": 0,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950811881183808
+    },
+    {
+      "focal": 0,
+      "opponent": 6,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950511172813433
+    },
+    {
+      "focal": 6,
+      "opponent": 0,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950511172813433
+    },
+    {
+      "focal": 0,
+      "opponent": 6,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950612610612964
+    },
+    {
+      "focal": 6,
+      "opponent": 0,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950612610612964
+    },
+    {
+      "focal": 0,
+      "opponent": 6,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949870883557118
+    },
+    {
+      "focal": 6,
+      "opponent": 0,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949870883557118
+    },
+    {
+      "focal": 0,
+      "opponent": 6,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950814622051313
+    },
+    {
+      "focal": 6,
+      "opponent": 0,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950814622051313
+    },
+    {
+      "focal": 0,
+      "opponent": 6,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950390707501989
+    },
+    {
+      "focal": 6,
+      "opponent": 0,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950390707501989
+    },
+    {
+      "focal": 0,
+      "opponent": 7,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950792754280215
+    },
+    {
+      "focal": 7,
+      "opponent": 0,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950792754280215
+    },
+    {
+      "focal": 0,
+      "opponent": 7,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949725982049906
+    },
+    {
+      "focal": 7,
+      "opponent": 0,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949725982049906
+    },
+    {
+      "focal": 0,
+      "opponent": 7,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950657707334134
+    },
+    {
+      "focal": 7,
+      "opponent": 0,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950657707334134
+    },
+    {
+      "focal": 0,
+      "opponent": 7,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950342507990895
+    },
+    {
+      "focal": 7,
+      "opponent": 0,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950342507990895
+    },
+    {
+      "focal": 0,
+      "opponent": 7,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950731078539076
+    },
+    {
+      "focal": 7,
+      "opponent": 0,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950731078539076
+    },
+    {
+      "focal": 0,
+      "opponent": 7,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950725037179396
+    },
+    {
+      "focal": 7,
+      "opponent": 0,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950725037179396
+    },
+    {
+      "focal": 0,
+      "opponent": 7,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950208930713351
+    },
+    {
+      "focal": 7,
+      "opponent": 0,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950208930713351
+    },
+    {
+      "focal": 0,
+      "opponent": 7,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949817557031411
+    },
+    {
+      "focal": 7,
+      "opponent": 0,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949817557031411
+    },
+    {
+      "focal": 0,
+      "opponent": 7,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950076213520089
+    },
+    {
+      "focal": 7,
+      "opponent": 0,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950076213520089
+    },
+    {
+      "focal": 0,
+      "opponent": 7,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950718419363478
+    },
+    {
+      "focal": 7,
+      "opponent": 0,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950718419363478
+    },
+    {
+      "focal": 0,
+      "opponent": 8,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950276041585674
+    },
+    {
+      "focal": 8,
+      "opponent": 0,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950276041585674
+    },
+    {
+      "focal": 0,
+      "opponent": 8,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949772099108173
+    },
+    {
+      "focal": 8,
+      "opponent": 0,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949772099108173
+    },
+    {
+      "focal": 0,
+      "opponent": 8,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769949866033097520
+    },
+    {
+      "focal": 8,
+      "opponent": 0,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769949866033097520
+    },
+    {
+      "focal": 0,
+      "opponent": 8,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950216827175712
+    },
+    {
+      "focal": 8,
+      "opponent": 0,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950216827175712
+    },
+    {
+      "focal": 0,
+      "opponent": 8,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949755023672422
+    },
+    {
+      "focal": 8,
+      "opponent": 0,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949755023672422
+    },
+    {
+      "focal": 0,
+      "opponent": 8,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949891345893020
+    },
+    {
+      "focal": 8,
+      "opponent": 0,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949891345893020
+    },
+    {
+      "focal": 0,
+      "opponent": 8,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949805197717160
+    },
+    {
+      "focal": 8,
+      "opponent": 0,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949805197717160
+    },
+    {
+      "focal": 0,
+      "opponent": 8,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950051270663730
+    },
+    {
+      "focal": 8,
+      "opponent": 0,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950051270663730
+    },
+    {
+      "focal": 0,
+      "opponent": 8,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950483613750736
+    },
+    {
+      "focal": 8,
+      "opponent": 0,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950483613750736
+    },
+    {
+      "focal": 0,
+      "opponent": 8,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950744328226560
+    },
+    {
+      "focal": 8,
+      "opponent": 0,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950744328226560
+    },
+    {
+      "focal": 0,
+      "opponent": 9,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949806051271733
+    },
+    {
+      "focal": 9,
+      "opponent": 0,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949806051271733
+    },
+    {
+      "focal": 0,
+      "opponent": 9,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949739141069181
+    },
+    {
+      "focal": 9,
+      "opponent": 0,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949739141069181
+    },
+    {
+      "focal": 0,
+      "opponent": 9,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950336111759256
+    },
+    {
+      "focal": 9,
+      "opponent": 0,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950336111759256
+    },
+    {
+      "focal": 0,
+      "opponent": 9,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950262591848903
+    },
+    {
+      "focal": 9,
+      "opponent": 0,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950262591848903
+    },
+    {
+      "focal": 0,
+      "opponent": 9,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950204233220203
+    },
+    {
+      "focal": 9,
+      "opponent": 0,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950204233220203
+    },
+    {
+      "focal": 0,
+      "opponent": 9,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950275414271429
+    },
+    {
+      "focal": 9,
+      "opponent": 0,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950275414271429
+    },
+    {
+      "focal": 0,
+      "opponent": 9,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949981736837461
+    },
+    {
+      "focal": 9,
+      "opponent": 0,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949981736837461
+    },
+    {
+      "focal": 0,
+      "opponent": 9,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950566136012808
+    },
+    {
+      "focal": 9,
+      "opponent": 0,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950566136012808
+    },
+    {
+      "focal": 0,
+      "opponent": 9,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950474896946374
+    },
+    {
+      "focal": 9,
+      "opponent": 0,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950474896946374
+    },
+    {
+      "focal": 0,
+      "opponent": 9,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950436657453093
+    },
+    {
+      "focal": 9,
+      "opponent": 0,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950436657453093
+    },
+    {
+      "focal": 0,
+      "opponent": 10,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949853786999075
+    },
+    {
+      "focal": 10,
+      "opponent": 0,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949853786999075
+    },
+    {
+      "focal": 0,
+      "opponent": 10,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950432796407282
+    },
+    {
+      "focal": 10,
+      "opponent": 0,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950432796407282
+    },
+    {
+      "focal": 0,
+      "opponent": 10,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769949871221346247
+    },
+    {
+      "focal": 10,
+      "opponent": 0,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769949871221346247
+    },
+    {
+      "focal": 0,
+      "opponent": 10,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950509109626304
+    },
+    {
+      "focal": 10,
+      "opponent": 0,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950509109626304
+    },
+    {
+      "focal": 0,
+      "opponent": 10,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950091655893878
+    },
+    {
+      "focal": 10,
+      "opponent": 0,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950091655893878
+    },
+    {
+      "focal": 0,
+      "opponent": 10,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950314557957658
+    },
+    {
+      "focal": 10,
+      "opponent": 0,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950314557957658
+    },
+    {
+      "focal": 0,
+      "opponent": 10,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949883084583465
+    },
+    {
+      "focal": 10,
+      "opponent": 0,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949883084583465
+    },
+    {
+      "focal": 0,
+      "opponent": 10,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950161614947470
+    },
+    {
+      "focal": 10,
+      "opponent": 0,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950161614947470
+    },
+    {
+      "focal": 0,
+      "opponent": 10,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950162707816239
+    },
+    {
+      "focal": 10,
+      "opponent": 0,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950162707816239
+    },
+    {
+      "focal": 0,
+      "opponent": 10,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950377587861524
+    },
+    {
+      "focal": 10,
+      "opponent": 0,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950377587861524
+    },
+    {
+      "focal": 0,
+      "opponent": 11,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950228650919666
+    },
+    {
+      "focal": 11,
+      "opponent": 0,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950228650919666
+    },
+    {
+      "focal": 0,
+      "opponent": 11,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950436491400043
+    },
+    {
+      "focal": 11,
+      "opponent": 0,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950436491400043
+    },
+    {
+      "focal": 0,
+      "opponent": 11,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950721096113841
+    },
+    {
+      "focal": 11,
+      "opponent": 0,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950721096113841
+    },
+    {
+      "focal": 0,
+      "opponent": 11,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769949882318730154
+    },
+    {
+      "focal": 11,
+      "opponent": 0,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769949882318730154
+    },
+    {
+      "focal": 0,
+      "opponent": 11,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950611335638097
+    },
+    {
+      "focal": 11,
+      "opponent": 0,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950611335638097
+    },
+    {
+      "focal": 0,
+      "opponent": 11,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950083564887501
+    },
+    {
+      "focal": 11,
+      "opponent": 0,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950083564887501
+    },
+    {
+      "focal": 0,
+      "opponent": 11,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950390423826046
+    },
+    {
+      "focal": 11,
+      "opponent": 0,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950390423826046
+    },
+    {
+      "focal": 0,
+      "opponent": 11,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950080193212876
+    },
+    {
+      "focal": 11,
+      "opponent": 0,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950080193212876
+    },
+    {
+      "focal": 0,
+      "opponent": 11,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950400259631269
+    },
+    {
+      "focal": 11,
+      "opponent": 0,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950400259631269
+    },
+    {
+      "focal": 0,
+      "opponent": 11,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950504800638486
+    },
+    {
+      "focal": 11,
+      "opponent": 0,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950504800638486
+    },
+    {
+      "focal": 1,
+      "opponent": 1,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950183219154110
+    },
+    {
+      "focal": 1,
+      "opponent": 1,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949979156563659
+    },
+    {
+      "focal": 1,
+      "opponent": 1,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950676744595684
+    },
+    {
+      "focal": 1,
+      "opponent": 1,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950475442062560
+    },
+    {
+      "focal": 1,
+      "opponent": 1,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950214616744964
+    },
+    {
+      "focal": 1,
+      "opponent": 1,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949723127775175
+    },
+    {
+      "focal": 1,
+      "opponent": 1,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950309876519532
+    },
+    {
+      "focal": 1,
+      "opponent": 1,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949833522989949
+    },
+    {
+      "focal": 1,
+      "opponent": 1,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950074583131388
+    },
+    {
+      "focal": 1,
+      "opponent": 1,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950520239620489
+    },
+    {
+      "focal": 1,
+      "opponent": 2,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949756544420713
+    },
+    {
+      "focal": 2,
+      "opponent": 1,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949756544420713
+    },
+    {
+      "focal": 1,
+      "opponent": 2,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950745983829784
+    },
+    {
+      "focal": 2,
+      "opponent": 1,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950745983829784
+    },
+    {
+      "focal": 1,
+      "opponent": 2,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949996271689424
+    },
+    {
+      "focal": 2,
+      "opponent": 1,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949996271689424
+    },
+    {
+      "focal": 1,
+      "opponent": 2,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769949952469049771
+    },
+    {
+      "focal": 2,
+      "opponent": 1,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769949952469049771
+    },
+    {
+      "focal": 1,
+      "opponent": 2,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769949841137009638
+    },
+    {
+      "focal": 2,
+      "opponent": 1,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769949841137009638
+    },
+    {
+      "focal": 1,
+      "opponent": 2,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950671740420959
+    },
+    {
+      "focal": 2,
+      "opponent": 1,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950671740420959
+    },
+    {
+      "focal": 1,
+      "opponent": 2,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950602932358562
+    },
+    {
+      "focal": 2,
+      "opponent": 1,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950602932358562
+    },
+    {
+      "focal": 1,
+      "opponent": 2,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950256881113476
+    },
+    {
+      "focal": 2,
+      "opponent": 1,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950256881113476
+    },
+    {
+      "focal": 1,
+      "opponent": 2,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950123247945373
+    },
+    {
+      "focal": 2,
+      "opponent": 1,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950123247945373
+    },
+    {
+      "focal": 1,
+      "opponent": 2,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950325633342977
+    },
+    {
+      "focal": 2,
+      "opponent": 1,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950325633342977
+    },
+    {
+      "focal": 1,
+      "opponent": 3,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949836212612742
+    },
+    {
+      "focal": 3,
+      "opponent": 1,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949836212612742
+    },
+    {
+      "focal": 1,
+      "opponent": 3,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950601871482640
+    },
+    {
+      "focal": 3,
+      "opponent": 1,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950601871482640
+    },
+    {
+      "focal": 1,
+      "opponent": 3,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950319144491336
+    },
+    {
+      "focal": 3,
+      "opponent": 1,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950319144491336
+    },
+    {
+      "focal": 1,
+      "opponent": 3,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769949783040201172
+    },
+    {
+      "focal": 3,
+      "opponent": 1,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769949783040201172
+    },
+    {
+      "focal": 1,
+      "opponent": 3,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950267139967989
+    },
+    {
+      "focal": 3,
+      "opponent": 1,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950267139967989
+    },
+    {
+      "focal": 1,
+      "opponent": 3,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950779589635090
+    },
+    {
+      "focal": 3,
+      "opponent": 1,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950779589635090
+    },
+    {
+      "focal": 1,
+      "opponent": 3,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950169623009956
+    },
+    {
+      "focal": 3,
+      "opponent": 1,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950169623009956
+    },
+    {
+      "focal": 1,
+      "opponent": 3,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950281358369697
+    },
+    {
+      "focal": 3,
+      "opponent": 1,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950281358369697
+    },
+    {
+      "focal": 1,
+      "opponent": 3,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950675890995590
+    },
+    {
+      "focal": 3,
+      "opponent": 1,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950675890995590
+    },
+    {
+      "focal": 1,
+      "opponent": 3,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950114151242032
+    },
+    {
+      "focal": 3,
+      "opponent": 1,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950114151242032
+    },
+    {
+      "focal": 1,
+      "opponent": 4,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950203262561720
+    },
+    {
+      "focal": 4,
+      "opponent": 1,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950203262561720
+    },
+    {
+      "focal": 1,
+      "opponent": 4,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950764388883556
+    },
+    {
+      "focal": 4,
+      "opponent": 1,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950764388883556
+    },
+    {
+      "focal": 1,
+      "opponent": 4,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949983264031657
+    },
+    {
+      "focal": 4,
+      "opponent": 1,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949983264031657
+    },
+    {
+      "focal": 1,
+      "opponent": 4,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950495350913664
+    },
+    {
+      "focal": 4,
+      "opponent": 1,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950495350913664
+    },
+    {
+      "focal": 1,
+      "opponent": 4,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950240440433341
+    },
+    {
+      "focal": 4,
+      "opponent": 1,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950240440433341
+    },
+    {
+      "focal": 1,
+      "opponent": 4,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950095119680521
+    },
+    {
+      "focal": 4,
+      "opponent": 1,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950095119680521
+    },
+    {
+      "focal": 1,
+      "opponent": 4,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950438849098566
+    },
+    {
+      "focal": 4,
+      "opponent": 1,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950438849098566
+    },
+    {
+      "focal": 1,
+      "opponent": 4,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950501673588010
+    },
+    {
+      "focal": 4,
+      "opponent": 1,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950501673588010
+    },
+    {
+      "focal": 1,
+      "opponent": 4,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950657990476577
+    },
+    {
+      "focal": 4,
+      "opponent": 1,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950657990476577
+    },
+    {
+      "focal": 1,
+      "opponent": 4,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950502504218440
+    },
+    {
+      "focal": 4,
+      "opponent": 1,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950502504218440
+    },
+    {
+      "focal": 1,
+      "opponent": 5,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950030086023303
+    },
+    {
+      "focal": 5,
+      "opponent": 1,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950030086023303
+    },
+    {
+      "focal": 1,
+      "opponent": 5,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950713496957047
+    },
+    {
+      "focal": 5,
+      "opponent": 1,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950713496957047
+    },
+    {
+      "focal": 1,
+      "opponent": 5,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950472085338093
+    },
+    {
+      "focal": 5,
+      "opponent": 1,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950472085338093
+    },
+    {
+      "focal": 1,
+      "opponent": 5,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950649688301473
+    },
+    {
+      "focal": 5,
+      "opponent": 1,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950649688301473
+    },
+    {
+      "focal": 1,
+      "opponent": 5,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950381901889059
+    },
+    {
+      "focal": 5,
+      "opponent": 1,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950381901889059
+    },
+    {
+      "focal": 1,
+      "opponent": 5,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950491386349404
+    },
+    {
+      "focal": 5,
+      "opponent": 1,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950491386349404
+    },
+    {
+      "focal": 1,
+      "opponent": 5,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949970348048112
+    },
+    {
+      "focal": 5,
+      "opponent": 1,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949970348048112
+    },
+    {
+      "focal": 1,
+      "opponent": 5,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950275487063455
+    },
+    {
+      "focal": 5,
+      "opponent": 1,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950275487063455
+    },
+    {
+      "focal": 1,
+      "opponent": 5,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769949908887241543
+    },
+    {
+      "focal": 5,
+      "opponent": 1,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769949908887241543
+    },
+    {
+      "focal": 1,
+      "opponent": 5,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950538082124468
+    },
+    {
+      "focal": 5,
+      "opponent": 1,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950538082124468
+    },
+    {
+      "focal": 1,
+      "opponent": 6,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949829494940437
+    },
+    {
+      "focal": 6,
+      "opponent": 1,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949829494940437
+    },
+    {
+      "focal": 1,
+      "opponent": 6,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950349671691584
+    },
+    {
+      "focal": 6,
+      "opponent": 1,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950349671691584
+    },
+    {
+      "focal": 1,
+      "opponent": 6,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950582268880640
+    },
+    {
+      "focal": 6,
+      "opponent": 1,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950582268880640
+    },
+    {
+      "focal": 1,
+      "opponent": 6,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950345358031068
+    },
+    {
+      "focal": 6,
+      "opponent": 1,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950345358031068
+    },
+    {
+      "focal": 1,
+      "opponent": 6,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769949756987805924
+    },
+    {
+      "focal": 6,
+      "opponent": 1,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769949756987805924
+    },
+    {
+      "focal": 1,
+      "opponent": 6,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769949818031396501
+    },
+    {
+      "focal": 6,
+      "opponent": 1,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769949818031396501
+    },
+    {
+      "focal": 1,
+      "opponent": 6,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950481878498495
+    },
+    {
+      "focal": 6,
+      "opponent": 1,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950481878498495
+    },
+    {
+      "focal": 1,
+      "opponent": 6,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950131576753640
+    },
+    {
+      "focal": 6,
+      "opponent": 1,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950131576753640
+    },
+    {
+      "focal": 1,
+      "opponent": 6,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949742455499036
+    },
+    {
+      "focal": 6,
+      "opponent": 1,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949742455499036
+    },
+    {
+      "focal": 1,
+      "opponent": 6,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769949796799031618
+    },
+    {
+      "focal": 6,
+      "opponent": 1,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769949796799031618
+    },
+    {
+      "focal": 1,
+      "opponent": 7,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949980267915834
+    },
+    {
+      "focal": 7,
+      "opponent": 1,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949980267915834
+    },
+    {
+      "focal": 1,
+      "opponent": 7,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950292271804604
+    },
+    {
+      "focal": 7,
+      "opponent": 1,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950292271804604
+    },
+    {
+      "focal": 1,
+      "opponent": 7,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769949811083301291
+    },
+    {
+      "focal": 7,
+      "opponent": 1,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769949811083301291
+    },
+    {
+      "focal": 1,
+      "opponent": 7,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950321738865610
+    },
+    {
+      "focal": 7,
+      "opponent": 1,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950321738865610
+    },
+    {
+      "focal": 1,
+      "opponent": 7,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950712673673321
+    },
+    {
+      "focal": 7,
+      "opponent": 1,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950712673673321
+    },
+    {
+      "focal": 1,
+      "opponent": 7,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950344455991471
+    },
+    {
+      "focal": 7,
+      "opponent": 1,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950344455991471
+    },
+    {
+      "focal": 1,
+      "opponent": 7,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949782714022508
+    },
+    {
+      "focal": 7,
+      "opponent": 1,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949782714022508
+    },
+    {
+      "focal": 1,
+      "opponent": 7,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950106729769230
+    },
+    {
+      "focal": 7,
+      "opponent": 1,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950106729769230
+    },
+    {
+      "focal": 1,
+      "opponent": 7,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950317150130454
+    },
+    {
+      "focal": 7,
+      "opponent": 1,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950317150130454
+    },
+    {
+      "focal": 1,
+      "opponent": 7,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950310952312035
+    },
+    {
+      "focal": 7,
+      "opponent": 1,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950310952312035
+    },
+    {
+      "focal": 1,
+      "opponent": 8,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949931774359098
+    },
+    {
+      "focal": 8,
+      "opponent": 1,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949931774359098
+    },
+    {
+      "focal": 1,
+      "opponent": 8,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950703229434684
+    },
+    {
+      "focal": 8,
+      "opponent": 1,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950703229434684
+    },
+    {
+      "focal": 1,
+      "opponent": 8,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950248390465486
+    },
+    {
+      "focal": 8,
+      "opponent": 1,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950248390465486
+    },
+    {
+      "focal": 1,
+      "opponent": 8,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950396158672050
+    },
+    {
+      "focal": 8,
+      "opponent": 1,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950396158672050
+    },
+    {
+      "focal": 1,
+      "opponent": 8,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950767699503194
+    },
+    {
+      "focal": 8,
+      "opponent": 1,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950767699503194
+    },
+    {
+      "focal": 1,
+      "opponent": 8,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950447829938988
+    },
+    {
+      "focal": 8,
+      "opponent": 1,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950447829938988
+    },
+    {
+      "focal": 1,
+      "opponent": 8,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950231068530365
+    },
+    {
+      "focal": 8,
+      "opponent": 1,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950231068530365
+    },
+    {
+      "focal": 1,
+      "opponent": 8,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950681678911238
+    },
+    {
+      "focal": 8,
+      "opponent": 1,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950681678911238
+    },
+    {
+      "focal": 1,
+      "opponent": 8,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950163903566840
+    },
+    {
+      "focal": 8,
+      "opponent": 1,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950163903566840
+    },
+    {
+      "focal": 1,
+      "opponent": 8,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950351872785007
+    },
+    {
+      "focal": 8,
+      "opponent": 1,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950351872785007
+    },
+    {
+      "focal": 1,
+      "opponent": 9,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950654961369530
+    },
+    {
+      "focal": 9,
+      "opponent": 1,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950654961369530
+    },
+    {
+      "focal": 1,
+      "opponent": 9,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950754452057499
+    },
+    {
+      "focal": 9,
+      "opponent": 1,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950754452057499
+    },
+    {
+      "focal": 1,
+      "opponent": 9,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950249238853590
+    },
+    {
+      "focal": 9,
+      "opponent": 1,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950249238853590
+    },
+    {
+      "focal": 1,
+      "opponent": 9,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950178214764029
+    },
+    {
+      "focal": 9,
+      "opponent": 1,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950178214764029
+    },
+    {
+      "focal": 1,
+      "opponent": 9,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950782087637536
+    },
+    {
+      "focal": 9,
+      "opponent": 1,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950782087637536
+    },
+    {
+      "focal": 1,
+      "opponent": 9,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950814843206654
+    },
+    {
+      "focal": 9,
+      "opponent": 1,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950814843206654
+    },
+    {
+      "focal": 1,
+      "opponent": 9,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949960963603093
+    },
+    {
+      "focal": 9,
+      "opponent": 1,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949960963603093
+    },
+    {
+      "focal": 1,
+      "opponent": 9,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950375103178384
+    },
+    {
+      "focal": 9,
+      "opponent": 1,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950375103178384
+    },
+    {
+      "focal": 1,
+      "opponent": 9,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950442488763472
+    },
+    {
+      "focal": 9,
+      "opponent": 1,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950442488763472
+    },
+    {
+      "focal": 1,
+      "opponent": 9,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950373400655178
+    },
+    {
+      "focal": 9,
+      "opponent": 1,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950373400655178
+    },
+    {
+      "focal": 1,
+      "opponent": 10,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950252031892736
+    },
+    {
+      "focal": 10,
+      "opponent": 1,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950252031892736
+    },
+    {
+      "focal": 1,
+      "opponent": 10,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950402088271957
+    },
+    {
+      "focal": 10,
+      "opponent": 1,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950402088271957
+    },
+    {
+      "focal": 1,
+      "opponent": 10,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950682536720449
+    },
+    {
+      "focal": 10,
+      "opponent": 1,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950682536720449
+    },
+    {
+      "focal": 1,
+      "opponent": 10,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950654524377800
+    },
+    {
+      "focal": 10,
+      "opponent": 1,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950654524377800
+    },
+    {
+      "focal": 1,
+      "opponent": 10,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950640076013992
+    },
+    {
+      "focal": 10,
+      "opponent": 1,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950640076013992
+    },
+    {
+      "focal": 1,
+      "opponent": 10,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950372513672260
+    },
+    {
+      "focal": 10,
+      "opponent": 1,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950372513672260
+    },
+    {
+      "focal": 1,
+      "opponent": 10,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950180715072814
+    },
+    {
+      "focal": 10,
+      "opponent": 1,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950180715072814
+    },
+    {
+      "focal": 1,
+      "opponent": 10,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949794219743865
+    },
+    {
+      "focal": 10,
+      "opponent": 1,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949794219743865
+    },
+    {
+      "focal": 1,
+      "opponent": 10,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949916664604686
+    },
+    {
+      "focal": 10,
+      "opponent": 1,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949916664604686
+    },
+    {
+      "focal": 1,
+      "opponent": 10,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950492266332410
+    },
+    {
+      "focal": 10,
+      "opponent": 1,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950492266332410
+    },
+    {
+      "focal": 1,
+      "opponent": 11,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949933536203755
+    },
+    {
+      "focal": 11,
+      "opponent": 1,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949933536203755
+    },
+    {
+      "focal": 1,
+      "opponent": 11,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950424414411139
+    },
+    {
+      "focal": 11,
+      "opponent": 1,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950424414411139
+    },
+    {
+      "focal": 1,
+      "opponent": 11,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950539143830793
+    },
+    {
+      "focal": 11,
+      "opponent": 1,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950539143830793
+    },
+    {
+      "focal": 1,
+      "opponent": 11,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769949755565698011
+    },
+    {
+      "focal": 11,
+      "opponent": 1,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769949755565698011
+    },
+    {
+      "focal": 1,
+      "opponent": 11,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949902975801602
+    },
+    {
+      "focal": 11,
+      "opponent": 1,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949902975801602
+    },
+    {
+      "focal": 1,
+      "opponent": 11,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949999514156474
+    },
+    {
+      "focal": 11,
+      "opponent": 1,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949999514156474
+    },
+    {
+      "focal": 1,
+      "opponent": 11,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950503798433661
+    },
+    {
+      "focal": 11,
+      "opponent": 1,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950503798433661
+    },
+    {
+      "focal": 1,
+      "opponent": 11,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950684538492969
+    },
+    {
+      "focal": 11,
+      "opponent": 1,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950684538492969
+    },
+    {
+      "focal": 1,
+      "opponent": 11,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769949864059720165
+    },
+    {
+      "focal": 11,
+      "opponent": 1,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769949864059720165
+    },
+    {
+      "focal": 1,
+      "opponent": 11,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950302387657725
+    },
+    {
+      "focal": 11,
+      "opponent": 1,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950302387657725
+    },
+    {
+      "focal": 2,
+      "opponent": 2,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950640960721426
+    },
+    {
+      "focal": 2,
+      "opponent": 2,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950229942940685
+    },
+    {
+      "focal": 2,
+      "opponent": 2,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769949751910786349
+    },
+    {
+      "focal": 2,
+      "opponent": 2,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769949929746763520
+    },
+    {
+      "focal": 2,
+      "opponent": 2,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950496308814386
+    },
+    {
+      "focal": 2,
+      "opponent": 2,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950229449797421
+    },
+    {
+      "focal": 2,
+      "opponent": 2,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949981171088036
+    },
+    {
+      "focal": 2,
+      "opponent": 2,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950388446042349
+    },
+    {
+      "focal": 2,
+      "opponent": 2,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769949828964828695
+    },
+    {
+      "focal": 2,
+      "opponent": 2,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950529573412133
+    },
+    {
+      "focal": 2,
+      "opponent": 3,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950102863638370
+    },
+    {
+      "focal": 3,
+      "opponent": 2,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950102863638370
+    },
+    {
+      "focal": 2,
+      "opponent": 3,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949730607434028
+    },
+    {
+      "focal": 3,
+      "opponent": 2,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949730607434028
+    },
+    {
+      "focal": 2,
+      "opponent": 3,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949990541164831
+    },
+    {
+      "focal": 3,
+      "opponent": 2,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949990541164831
+    },
+    {
+      "focal": 2,
+      "opponent": 3,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950361276714247
+    },
+    {
+      "focal": 3,
+      "opponent": 2,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950361276714247
+    },
+    {
+      "focal": 2,
+      "opponent": 3,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950028508154323
+    },
+    {
+      "focal": 3,
+      "opponent": 2,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950028508154323
+    },
+    {
+      "focal": 2,
+      "opponent": 3,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950781055339395
+    },
+    {
+      "focal": 3,
+      "opponent": 2,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950781055339395
+    },
+    {
+      "focal": 2,
+      "opponent": 3,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950646681380442
+    },
+    {
+      "focal": 3,
+      "opponent": 2,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950646681380442
+    },
+    {
+      "focal": 2,
+      "opponent": 3,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949926473517722
+    },
+    {
+      "focal": 3,
+      "opponent": 2,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949926473517722
+    },
+    {
+      "focal": 2,
+      "opponent": 3,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949783980796503
+    },
+    {
+      "focal": 3,
+      "opponent": 2,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949783980796503
+    },
+    {
+      "focal": 2,
+      "opponent": 3,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769949916418489032
+    },
+    {
+      "focal": 3,
+      "opponent": 2,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769949916418489032
+    },
+    {
+      "focal": 2,
+      "opponent": 4,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950292646093133
+    },
+    {
+      "focal": 4,
+      "opponent": 2,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950292646093133
+    },
+    {
+      "focal": 2,
+      "opponent": 4,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950016159167659
+    },
+    {
+      "focal": 4,
+      "opponent": 2,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950016159167659
+    },
+    {
+      "focal": 2,
+      "opponent": 4,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950508459388166
+    },
+    {
+      "focal": 4,
+      "opponent": 2,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950508459388166
+    },
+    {
+      "focal": 2,
+      "opponent": 4,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950173555795597
+    },
+    {
+      "focal": 4,
+      "opponent": 2,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950173555795597
+    },
+    {
+      "focal": 2,
+      "opponent": 4,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949725299519386
+    },
+    {
+      "focal": 4,
+      "opponent": 2,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949725299519386
+    },
+    {
+      "focal": 2,
+      "opponent": 4,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950346072122664
+    },
+    {
+      "focal": 4,
+      "opponent": 2,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950346072122664
+    },
+    {
+      "focal": 2,
+      "opponent": 4,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949780006961020
+    },
+    {
+      "focal": 4,
+      "opponent": 2,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949780006961020
+    },
+    {
+      "focal": 2,
+      "opponent": 4,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950140250389282
+    },
+    {
+      "focal": 4,
+      "opponent": 2,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950140250389282
+    },
+    {
+      "focal": 2,
+      "opponent": 4,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950541954270286
+    },
+    {
+      "focal": 4,
+      "opponent": 2,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950541954270286
+    },
+    {
+      "focal": 2,
+      "opponent": 4,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950722574265795
+    },
+    {
+      "focal": 4,
+      "opponent": 2,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950722574265795
+    },
+    {
+      "focal": 2,
+      "opponent": 5,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950556007232614
+    },
+    {
+      "focal": 5,
+      "opponent": 2,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950556007232614
+    },
+    {
+      "focal": 2,
+      "opponent": 5,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950667460273651
+    },
+    {
+      "focal": 5,
+      "opponent": 2,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950667460273651
+    },
+    {
+      "focal": 2,
+      "opponent": 5,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950317779133847
+    },
+    {
+      "focal": 5,
+      "opponent": 2,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950317779133847
+    },
+    {
+      "focal": 2,
+      "opponent": 5,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769949911200702786
+    },
+    {
+      "focal": 5,
+      "opponent": 2,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769949911200702786
+    },
+    {
+      "focal": 2,
+      "opponent": 5,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769949922353337658
+    },
+    {
+      "focal": 5,
+      "opponent": 2,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769949922353337658
+    },
+    {
+      "focal": 2,
+      "opponent": 5,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769949959252592166
+    },
+    {
+      "focal": 5,
+      "opponent": 2,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769949959252592166
+    },
+    {
+      "focal": 2,
+      "opponent": 5,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950304591322425
+    },
+    {
+      "focal": 5,
+      "opponent": 2,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950304591322425
+    },
+    {
+      "focal": 2,
+      "opponent": 5,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949805479228760
+    },
+    {
+      "focal": 5,
+      "opponent": 2,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949805479228760
+    },
+    {
+      "focal": 2,
+      "opponent": 5,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950240549799830
+    },
+    {
+      "focal": 5,
+      "opponent": 2,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950240549799830
+    },
+    {
+      "focal": 2,
+      "opponent": 5,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950686969786454
+    },
+    {
+      "focal": 5,
+      "opponent": 2,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950686969786454
+    },
+    {
+      "focal": 2,
+      "opponent": 6,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950041712307928
+    },
+    {
+      "focal": 6,
+      "opponent": 2,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950041712307928
+    },
+    {
+      "focal": 2,
+      "opponent": 6,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950240208701808
+    },
+    {
+      "focal": 6,
+      "opponent": 2,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950240208701808
+    },
+    {
+      "focal": 2,
+      "opponent": 6,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950484633064913
+    },
+    {
+      "focal": 6,
+      "opponent": 2,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950484633064913
+    },
+    {
+      "focal": 2,
+      "opponent": 6,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769949797310337221
+    },
+    {
+      "focal": 6,
+      "opponent": 2,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769949797310337221
+    },
+    {
+      "focal": 2,
+      "opponent": 6,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950506574640073
+    },
+    {
+      "focal": 6,
+      "opponent": 2,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950506574640073
+    },
+    {
+      "focal": 2,
+      "opponent": 6,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949940386184311
+    },
+    {
+      "focal": 6,
+      "opponent": 2,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949940386184311
+    },
+    {
+      "focal": 2,
+      "opponent": 6,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950808193626148
+    },
+    {
+      "focal": 6,
+      "opponent": 2,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950808193626148
+    },
+    {
+      "focal": 2,
+      "opponent": 6,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950281696923984
+    },
+    {
+      "focal": 6,
+      "opponent": 2,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950281696923984
+    },
+    {
+      "focal": 2,
+      "opponent": 6,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950288105588252
+    },
+    {
+      "focal": 6,
+      "opponent": 2,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950288105588252
+    },
+    {
+      "focal": 2,
+      "opponent": 6,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950059889377831
+    },
+    {
+      "focal": 6,
+      "opponent": 2,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950059889377831
+    },
+    {
+      "focal": 2,
+      "opponent": 7,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950628487598166
+    },
+    {
+      "focal": 7,
+      "opponent": 2,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950628487598166
+    },
+    {
+      "focal": 2,
+      "opponent": 7,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949942217376285
+    },
+    {
+      "focal": 7,
+      "opponent": 2,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949942217376285
+    },
+    {
+      "focal": 2,
+      "opponent": 7,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950784239868550
+    },
+    {
+      "focal": 7,
+      "opponent": 2,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950784239868550
+    },
+    {
+      "focal": 2,
+      "opponent": 7,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950523708177845
+    },
+    {
+      "focal": 7,
+      "opponent": 2,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950523708177845
+    },
+    {
+      "focal": 2,
+      "opponent": 7,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950262137194385
+    },
+    {
+      "focal": 7,
+      "opponent": 2,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950262137194385
+    },
+    {
+      "focal": 2,
+      "opponent": 7,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769949983632414798
+    },
+    {
+      "focal": 7,
+      "opponent": 2,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769949983632414798
+    },
+    {
+      "focal": 2,
+      "opponent": 7,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949816553624080
+    },
+    {
+      "focal": 7,
+      "opponent": 2,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949816553624080
+    },
+    {
+      "focal": 2,
+      "opponent": 7,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949744180547620
+    },
+    {
+      "focal": 7,
+      "opponent": 2,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949744180547620
+    },
+    {
+      "focal": 2,
+      "opponent": 7,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950681091614086
+    },
+    {
+      "focal": 7,
+      "opponent": 2,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950681091614086
+    },
+    {
+      "focal": 2,
+      "opponent": 7,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950719903085152
+    },
+    {
+      "focal": 7,
+      "opponent": 2,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950719903085152
+    },
+    {
+      "focal": 2,
+      "opponent": 8,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950063230412814
+    },
+    {
+      "focal": 8,
+      "opponent": 2,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950063230412814
+    },
+    {
+      "focal": 2,
+      "opponent": 8,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949947493896507
+    },
+    {
+      "focal": 8,
+      "opponent": 2,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949947493896507
+    },
+    {
+      "focal": 2,
+      "opponent": 8,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950748358354815
+    },
+    {
+      "focal": 8,
+      "opponent": 2,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950748358354815
+    },
+    {
+      "focal": 2,
+      "opponent": 8,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769949854258158717
+    },
+    {
+      "focal": 8,
+      "opponent": 2,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769949854258158717
+    },
+    {
+      "focal": 2,
+      "opponent": 8,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949918197127632
+    },
+    {
+      "focal": 8,
+      "opponent": 2,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949918197127632
+    },
+    {
+      "focal": 2,
+      "opponent": 8,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950395761073709
+    },
+    {
+      "focal": 8,
+      "opponent": 2,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950395761073709
+    },
+    {
+      "focal": 2,
+      "opponent": 8,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949727333751060
+    },
+    {
+      "focal": 8,
+      "opponent": 2,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949727333751060
+    },
+    {
+      "focal": 2,
+      "opponent": 8,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949959322920872
+    },
+    {
+      "focal": 8,
+      "opponent": 2,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949959322920872
+    },
+    {
+      "focal": 2,
+      "opponent": 8,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950115924987917
+    },
+    {
+      "focal": 8,
+      "opponent": 2,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950115924987917
+    },
+    {
+      "focal": 2,
+      "opponent": 8,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769949849089120195
+    },
+    {
+      "focal": 8,
+      "opponent": 2,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769949849089120195
+    },
+    {
+      "focal": 2,
+      "opponent": 9,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950579520759146
+    },
+    {
+      "focal": 9,
+      "opponent": 2,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950579520759146
+    },
+    {
+      "focal": 2,
+      "opponent": 9,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950372769924341
+    },
+    {
+      "focal": 9,
+      "opponent": 2,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950372769924341
+    },
+    {
+      "focal": 2,
+      "opponent": 9,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950169698575835
+    },
+    {
+      "focal": 9,
+      "opponent": 2,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950169698575835
+    },
+    {
+      "focal": 2,
+      "opponent": 9,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950005815006557
+    },
+    {
+      "focal": 9,
+      "opponent": 2,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950005815006557
+    },
+    {
+      "focal": 2,
+      "opponent": 9,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950142474181262
+    },
+    {
+      "focal": 9,
+      "opponent": 2,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950142474181262
+    },
+    {
+      "focal": 2,
+      "opponent": 9,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769949980294435792
+    },
+    {
+      "focal": 9,
+      "opponent": 2,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769949980294435792
+    },
+    {
+      "focal": 2,
+      "opponent": 9,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950593749500471
+    },
+    {
+      "focal": 9,
+      "opponent": 2,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950593749500471
+    },
+    {
+      "focal": 2,
+      "opponent": 9,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950390524789342
+    },
+    {
+      "focal": 9,
+      "opponent": 2,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950390524789342
+    },
+    {
+      "focal": 2,
+      "opponent": 9,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950105648272477
+    },
+    {
+      "focal": 9,
+      "opponent": 2,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950105648272477
+    },
+    {
+      "focal": 2,
+      "opponent": 9,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950022437451031
+    },
+    {
+      "focal": 9,
+      "opponent": 2,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950022437451031
+    },
+    {
+      "focal": 2,
+      "opponent": 10,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949919679327359
+    },
+    {
+      "focal": 10,
+      "opponent": 2,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949919679327359
+    },
+    {
+      "focal": 2,
+      "opponent": 10,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949896638933409
+    },
+    {
+      "focal": 10,
+      "opponent": 2,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949896638933409
+    },
+    {
+      "focal": 2,
+      "opponent": 10,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950102465192517
+    },
+    {
+      "focal": 10,
+      "opponent": 2,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950102465192517
+    },
+    {
+      "focal": 2,
+      "opponent": 10,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950085712482476
+    },
+    {
+      "focal": 10,
+      "opponent": 2,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950085712482476
+    },
+    {
+      "focal": 2,
+      "opponent": 10,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949943491733520
+    },
+    {
+      "focal": 10,
+      "opponent": 2,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949943491733520
+    },
+    {
+      "focal": 2,
+      "opponent": 10,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949824205816593
+    },
+    {
+      "focal": 10,
+      "opponent": 2,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949824205816593
+    },
+    {
+      "focal": 2,
+      "opponent": 10,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950545756966367
+    },
+    {
+      "focal": 10,
+      "opponent": 2,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950545756966367
+    },
+    {
+      "focal": 2,
+      "opponent": 10,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949892360779061
+    },
+    {
+      "focal": 10,
+      "opponent": 2,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949892360779061
+    },
+    {
+      "focal": 2,
+      "opponent": 10,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769949953814103632
+    },
+    {
+      "focal": 10,
+      "opponent": 2,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769949953814103632
+    },
+    {
+      "focal": 2,
+      "opponent": 10,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769949741069245274
+    },
+    {
+      "focal": 10,
+      "opponent": 2,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769949741069245274
+    },
+    {
+      "focal": 2,
+      "opponent": 11,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949891883207417
+    },
+    {
+      "focal": 11,
+      "opponent": 2,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949891883207417
+    },
+    {
+      "focal": 2,
+      "opponent": 11,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949951192641376
+    },
+    {
+      "focal": 11,
+      "opponent": 2,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949951192641376
+    },
+    {
+      "focal": 2,
+      "opponent": 11,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950264998350399
+    },
+    {
+      "focal": 11,
+      "opponent": 2,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950264998350399
+    },
+    {
+      "focal": 2,
+      "opponent": 11,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769949772816631840
+    },
+    {
+      "focal": 11,
+      "opponent": 2,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769949772816631840
+    },
+    {
+      "focal": 2,
+      "opponent": 11,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950030415886586
+    },
+    {
+      "focal": 11,
+      "opponent": 2,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950030415886586
+    },
+    {
+      "focal": 2,
+      "opponent": 11,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950389722072461
+    },
+    {
+      "focal": 11,
+      "opponent": 2,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950389722072461
+    },
+    {
+      "focal": 2,
+      "opponent": 11,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949856868689874
+    },
+    {
+      "focal": 11,
+      "opponent": 2,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949856868689874
+    },
+    {
+      "focal": 2,
+      "opponent": 11,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950709491022116
+    },
+    {
+      "focal": 11,
+      "opponent": 2,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950709491022116
+    },
+    {
+      "focal": 2,
+      "opponent": 11,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949806855904550
+    },
+    {
+      "focal": 11,
+      "opponent": 2,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949806855904550
+    },
+    {
+      "focal": 2,
+      "opponent": 11,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950123120927666
+    },
+    {
+      "focal": 11,
+      "opponent": 2,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950123120927666
+    },
+    {
+      "focal": 3,
+      "opponent": 3,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950648143397360
+    },
+    {
+      "focal": 3,
+      "opponent": 3,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950521185499029
+    },
+    {
+      "focal": 3,
+      "opponent": 3,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950523433883788
+    },
+    {
+      "focal": 3,
+      "opponent": 3,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950692462431330
+    },
+    {
+      "focal": 3,
+      "opponent": 3,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950627097471000
+    },
+    {
+      "focal": 3,
+      "opponent": 3,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950629538681964
+    },
+    {
+      "focal": 3,
+      "opponent": 3,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949896940050100
+    },
+    {
+      "focal": 3,
+      "opponent": 3,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950809412034504
+    },
+    {
+      "focal": 3,
+      "opponent": 3,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950446497150020
+    },
+    {
+      "focal": 3,
+      "opponent": 3,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950437162497205
+    },
+    {
+      "focal": 3,
+      "opponent": 4,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950574642201988
+    },
+    {
+      "focal": 4,
+      "opponent": 3,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950574642201988
+    },
+    {
+      "focal": 3,
+      "opponent": 4,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949896659146717
+    },
+    {
+      "focal": 4,
+      "opponent": 3,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949896659146717
+    },
+    {
+      "focal": 3,
+      "opponent": 4,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950349037737838
+    },
+    {
+      "focal": 4,
+      "opponent": 3,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950349037737838
+    },
+    {
+      "focal": 3,
+      "opponent": 4,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950440300213733
+    },
+    {
+      "focal": 4,
+      "opponent": 3,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950440300213733
+    },
+    {
+      "focal": 3,
+      "opponent": 4,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950372358947110
+    },
+    {
+      "focal": 4,
+      "opponent": 3,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950372358947110
+    },
+    {
+      "focal": 3,
+      "opponent": 4,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950817033525784
+    },
+    {
+      "focal": 4,
+      "opponent": 3,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950817033525784
+    },
+    {
+      "focal": 3,
+      "opponent": 4,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950558536878834
+    },
+    {
+      "focal": 4,
+      "opponent": 3,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950558536878834
+    },
+    {
+      "focal": 3,
+      "opponent": 4,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949944172252034
+    },
+    {
+      "focal": 4,
+      "opponent": 3,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949944172252034
+    },
+    {
+      "focal": 3,
+      "opponent": 4,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949791702538088
+    },
+    {
+      "focal": 4,
+      "opponent": 3,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949791702538088
+    },
+    {
+      "focal": 3,
+      "opponent": 4,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769949759634249880
+    },
+    {
+      "focal": 4,
+      "opponent": 3,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769949759634249880
+    },
+    {
+      "focal": 3,
+      "opponent": 5,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949902331969362
+    },
+    {
+      "focal": 5,
+      "opponent": 3,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949902331969362
+    },
+    {
+      "focal": 3,
+      "opponent": 5,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950811615325737
+    },
+    {
+      "focal": 5,
+      "opponent": 3,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950811615325737
+    },
+    {
+      "focal": 3,
+      "opponent": 5,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950774921768275
+    },
+    {
+      "focal": 5,
+      "opponent": 3,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950774921768275
+    },
+    {
+      "focal": 3,
+      "opponent": 5,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769949810052702055
+    },
+    {
+      "focal": 5,
+      "opponent": 3,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769949810052702055
+    },
+    {
+      "focal": 3,
+      "opponent": 5,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949995646540189
+    },
+    {
+      "focal": 5,
+      "opponent": 3,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949995646540189
+    },
+    {
+      "focal": 3,
+      "opponent": 5,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949897606457280
+    },
+    {
+      "focal": 5,
+      "opponent": 3,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949897606457280
+    },
+    {
+      "focal": 3,
+      "opponent": 5,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950115804886476
+    },
+    {
+      "focal": 5,
+      "opponent": 3,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950115804886476
+    },
+    {
+      "focal": 3,
+      "opponent": 5,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950061321001542
+    },
+    {
+      "focal": 5,
+      "opponent": 3,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950061321001542
+    },
+    {
+      "focal": 3,
+      "opponent": 5,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769949843520778712
+    },
+    {
+      "focal": 5,
+      "opponent": 3,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769949843520778712
+    },
+    {
+      "focal": 3,
+      "opponent": 5,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950075476243005
+    },
+    {
+      "focal": 5,
+      "opponent": 3,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950075476243005
+    },
+    {
+      "focal": 3,
+      "opponent": 6,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949723807700453
+    },
+    {
+      "focal": 6,
+      "opponent": 3,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949723807700453
+    },
+    {
+      "focal": 3,
+      "opponent": 6,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949765718284846
+    },
+    {
+      "focal": 6,
+      "opponent": 3,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949765718284846
+    },
+    {
+      "focal": 3,
+      "opponent": 6,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949862554179894
+    },
+    {
+      "focal": 6,
+      "opponent": 3,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949862554179894
+    },
+    {
+      "focal": 3,
+      "opponent": 6,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950722399067272
+    },
+    {
+      "focal": 6,
+      "opponent": 3,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950722399067272
+    },
+    {
+      "focal": 3,
+      "opponent": 6,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769949943039665272
+    },
+    {
+      "focal": 6,
+      "opponent": 3,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769949943039665272
+    },
+    {
+      "focal": 3,
+      "opponent": 6,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950752723981623
+    },
+    {
+      "focal": 6,
+      "opponent": 3,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950752723981623
+    },
+    {
+      "focal": 3,
+      "opponent": 6,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950456612223059
+    },
+    {
+      "focal": 6,
+      "opponent": 3,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950456612223059
+    },
+    {
+      "focal": 3,
+      "opponent": 6,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949932132455242
+    },
+    {
+      "focal": 6,
+      "opponent": 3,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949932132455242
+    },
+    {
+      "focal": 3,
+      "opponent": 6,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949854179723650
+    },
+    {
+      "focal": 6,
+      "opponent": 3,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949854179723650
+    },
+    {
+      "focal": 3,
+      "opponent": 6,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950199786846557
+    },
+    {
+      "focal": 6,
+      "opponent": 3,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950199786846557
+    },
+    {
+      "focal": 3,
+      "opponent": 7,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950518385437502
+    },
+    {
+      "focal": 7,
+      "opponent": 3,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950518385437502
+    },
+    {
+      "focal": 3,
+      "opponent": 7,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949788993670197
+    },
+    {
+      "focal": 7,
+      "opponent": 3,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949788993670197
+    },
+    {
+      "focal": 3,
+      "opponent": 7,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769949855554615164
+    },
+    {
+      "focal": 7,
+      "opponent": 3,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769949855554615164
+    },
+    {
+      "focal": 3,
+      "opponent": 7,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950308926560611
+    },
+    {
+      "focal": 7,
+      "opponent": 3,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950308926560611
+    },
+    {
+      "focal": 3,
+      "opponent": 7,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950022458791552
+    },
+    {
+      "focal": 7,
+      "opponent": 3,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950022458791552
+    },
+    {
+      "focal": 3,
+      "opponent": 7,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950653950297904
+    },
+    {
+      "focal": 7,
+      "opponent": 3,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950653950297904
+    },
+    {
+      "focal": 3,
+      "opponent": 7,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950777020929881
+    },
+    {
+      "focal": 7,
+      "opponent": 3,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950777020929881
+    },
+    {
+      "focal": 3,
+      "opponent": 7,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950608509524730
+    },
+    {
+      "focal": 7,
+      "opponent": 3,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950608509524730
+    },
+    {
+      "focal": 3,
+      "opponent": 7,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950093104623587
+    },
+    {
+      "focal": 7,
+      "opponent": 3,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950093104623587
+    },
+    {
+      "focal": 3,
+      "opponent": 7,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950466357611405
+    },
+    {
+      "focal": 7,
+      "opponent": 3,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950466357611405
+    },
+    {
+      "focal": 3,
+      "opponent": 8,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950616485614018
+    },
+    {
+      "focal": 8,
+      "opponent": 3,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950616485614018
+    },
+    {
+      "focal": 3,
+      "opponent": 8,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950574668461359
+    },
+    {
+      "focal": 8,
+      "opponent": 3,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950574668461359
+    },
+    {
+      "focal": 3,
+      "opponent": 8,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950724752736648
+    },
+    {
+      "focal": 8,
+      "opponent": 3,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950724752736648
+    },
+    {
+      "focal": 3,
+      "opponent": 8,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769949742571349329
+    },
+    {
+      "focal": 8,
+      "opponent": 3,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769949742571349329
+    },
+    {
+      "focal": 3,
+      "opponent": 8,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950397501614833
+    },
+    {
+      "focal": 8,
+      "opponent": 3,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950397501614833
+    },
+    {
+      "focal": 3,
+      "opponent": 8,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950678119697541
+    },
+    {
+      "focal": 8,
+      "opponent": 3,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950678119697541
+    },
+    {
+      "focal": 3,
+      "opponent": 8,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950461046563396
+    },
+    {
+      "focal": 8,
+      "opponent": 3,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950461046563396
+    },
+    {
+      "focal": 3,
+      "opponent": 8,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950267549474881
+    },
+    {
+      "focal": 8,
+      "opponent": 3,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950267549474881
+    },
+    {
+      "focal": 3,
+      "opponent": 8,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950348607977898
+    },
+    {
+      "focal": 8,
+      "opponent": 3,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950348607977898
+    },
+    {
+      "focal": 3,
+      "opponent": 8,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769949760858366565
+    },
+    {
+      "focal": 8,
+      "opponent": 3,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769949760858366565
+    },
+    {
+      "focal": 3,
+      "opponent": 9,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949783996605830
+    },
+    {
+      "focal": 9,
+      "opponent": 3,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949783996605830
+    },
+    {
+      "focal": 3,
+      "opponent": 9,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950443128199279
+    },
+    {
+      "focal": 9,
+      "opponent": 3,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950443128199279
+    },
+    {
+      "focal": 3,
+      "opponent": 9,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950395472298775
+    },
+    {
+      "focal": 9,
+      "opponent": 3,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950395472298775
+    },
+    {
+      "focal": 3,
+      "opponent": 9,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950239586182192
+    },
+    {
+      "focal": 9,
+      "opponent": 3,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950239586182192
+    },
+    {
+      "focal": 3,
+      "opponent": 9,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950654223989202
+    },
+    {
+      "focal": 9,
+      "opponent": 3,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950654223989202
+    },
+    {
+      "focal": 3,
+      "opponent": 9,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950006944743535
+    },
+    {
+      "focal": 9,
+      "opponent": 3,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950006944743535
+    },
+    {
+      "focal": 3,
+      "opponent": 9,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950322276557859
+    },
+    {
+      "focal": 9,
+      "opponent": 3,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950322276557859
+    },
+    {
+      "focal": 3,
+      "opponent": 9,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949813809079130
+    },
+    {
+      "focal": 9,
+      "opponent": 3,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949813809079130
+    },
+    {
+      "focal": 3,
+      "opponent": 9,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769949870053308385
+    },
+    {
+      "focal": 9,
+      "opponent": 3,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769949870053308385
+    },
+    {
+      "focal": 3,
+      "opponent": 9,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950646970223054
+    },
+    {
+      "focal": 9,
+      "opponent": 3,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950646970223054
+    },
+    {
+      "focal": 3,
+      "opponent": 10,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950815136714306
+    },
+    {
+      "focal": 10,
+      "opponent": 3,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950815136714306
+    },
+    {
+      "focal": 3,
+      "opponent": 10,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950094284218448
+    },
+    {
+      "focal": 10,
+      "opponent": 3,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950094284218448
+    },
+    {
+      "focal": 3,
+      "opponent": 10,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950752656254211
+    },
+    {
+      "focal": 10,
+      "opponent": 3,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950752656254211
+    },
+    {
+      "focal": 3,
+      "opponent": 10,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769949840284256840
+    },
+    {
+      "focal": 10,
+      "opponent": 3,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769949840284256840
+    },
+    {
+      "focal": 3,
+      "opponent": 10,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950535464194670
+    },
+    {
+      "focal": 10,
+      "opponent": 3,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950535464194670
+    },
+    {
+      "focal": 3,
+      "opponent": 10,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950805032455482
+    },
+    {
+      "focal": 10,
+      "opponent": 3,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950805032455482
+    },
+    {
+      "focal": 3,
+      "opponent": 10,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949727899668994
+    },
+    {
+      "focal": 10,
+      "opponent": 3,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949727899668994
+    },
+    {
+      "focal": 3,
+      "opponent": 10,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950190546233432
+    },
+    {
+      "focal": 10,
+      "opponent": 3,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950190546233432
+    },
+    {
+      "focal": 3,
+      "opponent": 10,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949981579852198
+    },
+    {
+      "focal": 10,
+      "opponent": 3,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949981579852198
+    },
+    {
+      "focal": 3,
+      "opponent": 10,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950568360759372
+    },
+    {
+      "focal": 10,
+      "opponent": 3,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950568360759372
+    },
+    {
+      "focal": 3,
+      "opponent": 11,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950543943983755
+    },
+    {
+      "focal": 11,
+      "opponent": 3,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950543943983755
+    },
+    {
+      "focal": 3,
+      "opponent": 11,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949791517516381
+    },
+    {
+      "focal": 11,
+      "opponent": 3,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949791517516381
+    },
+    {
+      "focal": 3,
+      "opponent": 11,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950807497835260
+    },
+    {
+      "focal": 11,
+      "opponent": 3,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950807497835260
+    },
+    {
+      "focal": 3,
+      "opponent": 11,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950640185292921
+    },
+    {
+      "focal": 11,
+      "opponent": 3,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950640185292921
+    },
+    {
+      "focal": 3,
+      "opponent": 11,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949948630594630
+    },
+    {
+      "focal": 11,
+      "opponent": 3,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949948630594630
+    },
+    {
+      "focal": 3,
+      "opponent": 11,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950348509299545
+    },
+    {
+      "focal": 11,
+      "opponent": 3,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950348509299545
+    },
+    {
+      "focal": 3,
+      "opponent": 11,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950190206476916
+    },
+    {
+      "focal": 11,
+      "opponent": 3,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950190206476916
+    },
+    {
+      "focal": 3,
+      "opponent": 11,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949887921136834
+    },
+    {
+      "focal": 11,
+      "opponent": 3,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949887921136834
+    },
+    {
+      "focal": 3,
+      "opponent": 11,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769949753691291542
+    },
+    {
+      "focal": 11,
+      "opponent": 3,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769949753691291542
+    },
+    {
+      "focal": 3,
+      "opponent": 11,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950341343839490
+    },
+    {
+      "focal": 11,
+      "opponent": 3,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950341343839490
+    },
+    {
+      "focal": 4,
+      "opponent": 4,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949984483175582
+    },
+    {
+      "focal": 4,
+      "opponent": 4,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950790062759759
+    },
+    {
+      "focal": 4,
+      "opponent": 4,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950155735431251
+    },
+    {
+      "focal": 4,
+      "opponent": 4,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950106278945347
+    },
+    {
+      "focal": 4,
+      "opponent": 4,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950218258810627
+    },
+    {
+      "focal": 4,
+      "opponent": 4,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950782694876590
+    },
+    {
+      "focal": 4,
+      "opponent": 4,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949868552312984
+    },
+    {
+      "focal": 4,
+      "opponent": 4,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950257326305034
+    },
+    {
+      "focal": 4,
+      "opponent": 4,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950247434652296
+    },
+    {
+      "focal": 4,
+      "opponent": 4,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950788484103862
+    },
+    {
+      "focal": 4,
+      "opponent": 5,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950716438043083
+    },
+    {
+      "focal": 5,
+      "opponent": 4,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950716438043083
+    },
+    {
+      "focal": 4,
+      "opponent": 5,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950405303593390
+    },
+    {
+      "focal": 5,
+      "opponent": 4,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950405303593390
+    },
+    {
+      "focal": 4,
+      "opponent": 5,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950134913069117
+    },
+    {
+      "focal": 5,
+      "opponent": 4,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950134913069117
+    },
+    {
+      "focal": 4,
+      "opponent": 5,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769949913285913668
+    },
+    {
+      "focal": 5,
+      "opponent": 4,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769949913285913668
+    },
+    {
+      "focal": 4,
+      "opponent": 5,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950136704276416
+    },
+    {
+      "focal": 5,
+      "opponent": 4,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950136704276416
+    },
+    {
+      "focal": 4,
+      "opponent": 5,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950330454851166
+    },
+    {
+      "focal": 5,
+      "opponent": 4,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950330454851166
+    },
+    {
+      "focal": 4,
+      "opponent": 5,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949728278847109
+    },
+    {
+      "focal": 5,
+      "opponent": 4,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949728278847109
+    },
+    {
+      "focal": 4,
+      "opponent": 5,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950546295018751
+    },
+    {
+      "focal": 5,
+      "opponent": 4,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950546295018751
+    },
+    {
+      "focal": 4,
+      "opponent": 5,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950377855483377
+    },
+    {
+      "focal": 5,
+      "opponent": 4,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950377855483377
+    },
+    {
+      "focal": 4,
+      "opponent": 5,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950479700818567
+    },
+    {
+      "focal": 5,
+      "opponent": 4,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950479700818567
+    },
+    {
+      "focal": 4,
+      "opponent": 6,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950406718208120
+    },
+    {
+      "focal": 6,
+      "opponent": 4,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950406718208120
+    },
+    {
+      "focal": 4,
+      "opponent": 6,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949945023573153
+    },
+    {
+      "focal": 6,
+      "opponent": 4,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949945023573153
+    },
+    {
+      "focal": 4,
+      "opponent": 6,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950616049145134
+    },
+    {
+      "focal": 6,
+      "opponent": 4,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950616049145134
+    },
+    {
+      "focal": 4,
+      "opponent": 6,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950728675732488
+    },
+    {
+      "focal": 6,
+      "opponent": 4,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950728675732488
+    },
+    {
+      "focal": 4,
+      "opponent": 6,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950369214933442
+    },
+    {
+      "focal": 6,
+      "opponent": 4,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950369214933442
+    },
+    {
+      "focal": 4,
+      "opponent": 6,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950237083445048
+    },
+    {
+      "focal": 6,
+      "opponent": 4,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950237083445048
+    },
+    {
+      "focal": 4,
+      "opponent": 6,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950700932146495
+    },
+    {
+      "focal": 6,
+      "opponent": 4,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950700932146495
+    },
+    {
+      "focal": 4,
+      "opponent": 6,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950001134904626
+    },
+    {
+      "focal": 6,
+      "opponent": 4,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950001134904626
+    },
+    {
+      "focal": 4,
+      "opponent": 6,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950770248416748
+    },
+    {
+      "focal": 6,
+      "opponent": 4,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950770248416748
+    },
+    {
+      "focal": 4,
+      "opponent": 6,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950706602027074
+    },
+    {
+      "focal": 6,
+      "opponent": 4,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950706602027074
+    },
+    {
+      "focal": 4,
+      "opponent": 7,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950336324559640
+    },
+    {
+      "focal": 7,
+      "opponent": 4,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950336324559640
+    },
+    {
+      "focal": 4,
+      "opponent": 7,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950472405768446
+    },
+    {
+      "focal": 7,
+      "opponent": 4,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950472405768446
+    },
+    {
+      "focal": 4,
+      "opponent": 7,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950572022051055
+    },
+    {
+      "focal": 7,
+      "opponent": 4,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950572022051055
+    },
+    {
+      "focal": 4,
+      "opponent": 7,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950745994128842
+    },
+    {
+      "focal": 7,
+      "opponent": 4,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950745994128842
+    },
+    {
+      "focal": 4,
+      "opponent": 7,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950570484229429
+    },
+    {
+      "focal": 7,
+      "opponent": 4,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950570484229429
+    },
+    {
+      "focal": 4,
+      "opponent": 7,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950055150647721
+    },
+    {
+      "focal": 7,
+      "opponent": 4,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950055150647721
+    },
+    {
+      "focal": 4,
+      "opponent": 7,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950154287620747
+    },
+    {
+      "focal": 7,
+      "opponent": 4,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950154287620747
+    },
+    {
+      "focal": 4,
+      "opponent": 7,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949735680450062
+    },
+    {
+      "focal": 7,
+      "opponent": 4,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949735680450062
+    },
+    {
+      "focal": 4,
+      "opponent": 7,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950173794329392
+    },
+    {
+      "focal": 7,
+      "opponent": 4,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950173794329392
+    },
+    {
+      "focal": 4,
+      "opponent": 7,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950070820091169
+    },
+    {
+      "focal": 7,
+      "opponent": 4,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950070820091169
+    },
+    {
+      "focal": 4,
+      "opponent": 8,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949760809709064
+    },
+    {
+      "focal": 8,
+      "opponent": 4,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949760809709064
+    },
+    {
+      "focal": 4,
+      "opponent": 8,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950335567540288
+    },
+    {
+      "focal": 8,
+      "opponent": 4,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950335567540288
+    },
+    {
+      "focal": 4,
+      "opponent": 8,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950698944522887
+    },
+    {
+      "focal": 8,
+      "opponent": 4,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950698944522887
+    },
+    {
+      "focal": 4,
+      "opponent": 8,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950598981822359
+    },
+    {
+      "focal": 8,
+      "opponent": 4,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950598981822359
+    },
+    {
+      "focal": 4,
+      "opponent": 8,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950177781409574
+    },
+    {
+      "focal": 8,
+      "opponent": 4,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950177781409574
+    },
+    {
+      "focal": 4,
+      "opponent": 8,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950312317621201
+    },
+    {
+      "focal": 8,
+      "opponent": 4,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950312317621201
+    },
+    {
+      "focal": 4,
+      "opponent": 8,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949776399285946
+    },
+    {
+      "focal": 8,
+      "opponent": 4,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949776399285946
+    },
+    {
+      "focal": 4,
+      "opponent": 8,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950273904179897
+    },
+    {
+      "focal": 8,
+      "opponent": 4,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950273904179897
+    },
+    {
+      "focal": 4,
+      "opponent": 8,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769949760203181200
+    },
+    {
+      "focal": 8,
+      "opponent": 4,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769949760203181200
+    },
+    {
+      "focal": 4,
+      "opponent": 8,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950029967475094
+    },
+    {
+      "focal": 8,
+      "opponent": 4,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950029967475094
+    },
+    {
+      "focal": 4,
+      "opponent": 9,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950269430990947
+    },
+    {
+      "focal": 9,
+      "opponent": 4,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950269430990947
+    },
+    {
+      "focal": 4,
+      "opponent": 9,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950425023095371
+    },
+    {
+      "focal": 9,
+      "opponent": 4,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950425023095371
+    },
+    {
+      "focal": 4,
+      "opponent": 9,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950036461506332
+    },
+    {
+      "focal": 9,
+      "opponent": 4,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950036461506332
+    },
+    {
+      "focal": 4,
+      "opponent": 9,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950319676492999
+    },
+    {
+      "focal": 9,
+      "opponent": 4,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950319676492999
+    },
+    {
+      "focal": 4,
+      "opponent": 9,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950269607937032
+    },
+    {
+      "focal": 9,
+      "opponent": 4,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950269607937032
+    },
+    {
+      "focal": 4,
+      "opponent": 9,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950164290157446
+    },
+    {
+      "focal": 9,
+      "opponent": 4,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950164290157446
+    },
+    {
+      "focal": 4,
+      "opponent": 9,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949808232874564
+    },
+    {
+      "focal": 9,
+      "opponent": 4,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949808232874564
+    },
+    {
+      "focal": 4,
+      "opponent": 9,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950457567787099
+    },
+    {
+      "focal": 9,
+      "opponent": 4,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950457567787099
+    },
+    {
+      "focal": 4,
+      "opponent": 9,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950482520703368
+    },
+    {
+      "focal": 9,
+      "opponent": 4,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950482520703368
+    },
+    {
+      "focal": 4,
+      "opponent": 9,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950820464678277
+    },
+    {
+      "focal": 9,
+      "opponent": 4,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950820464678277
+    },
+    {
+      "focal": 4,
+      "opponent": 10,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949826898920681
+    },
+    {
+      "focal": 10,
+      "opponent": 4,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949826898920681
+    },
+    {
+      "focal": 4,
+      "opponent": 10,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949814461904891
+    },
+    {
+      "focal": 10,
+      "opponent": 4,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949814461904891
+    },
+    {
+      "focal": 4,
+      "opponent": 10,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769949947344268811
+    },
+    {
+      "focal": 10,
+      "opponent": 4,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769949947344268811
+    },
+    {
+      "focal": 4,
+      "opponent": 10,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950759444335067
+    },
+    {
+      "focal": 10,
+      "opponent": 4,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950759444335067
+    },
+    {
+      "focal": 4,
+      "opponent": 10,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949999270426835
+    },
+    {
+      "focal": 10,
+      "opponent": 4,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949999270426835
+    },
+    {
+      "focal": 4,
+      "opponent": 10,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949954304762036
+    },
+    {
+      "focal": 10,
+      "opponent": 4,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949954304762036
+    },
+    {
+      "focal": 4,
+      "opponent": 10,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950589420745442
+    },
+    {
+      "focal": 10,
+      "opponent": 4,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950589420745442
+    },
+    {
+      "focal": 4,
+      "opponent": 10,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950405121378512
+    },
+    {
+      "focal": 10,
+      "opponent": 4,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950405121378512
+    },
+    {
+      "focal": 4,
+      "opponent": 10,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950366294771470
+    },
+    {
+      "focal": 10,
+      "opponent": 4,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950366294771470
+    },
+    {
+      "focal": 4,
+      "opponent": 10,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950526740470007
+    },
+    {
+      "focal": 10,
+      "opponent": 4,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950526740470007
+    },
+    {
+      "focal": 4,
+      "opponent": 11,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949892499606721
+    },
+    {
+      "focal": 11,
+      "opponent": 4,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949892499606721
+    },
+    {
+      "focal": 4,
+      "opponent": 11,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950018353796822
+    },
+    {
+      "focal": 11,
+      "opponent": 4,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950018353796822
+    },
+    {
+      "focal": 4,
+      "opponent": 11,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950710979005937
+    },
+    {
+      "focal": 11,
+      "opponent": 4,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950710979005937
+    },
+    {
+      "focal": 4,
+      "opponent": 11,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950776026038925
+    },
+    {
+      "focal": 11,
+      "opponent": 4,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950776026038925
+    },
+    {
+      "focal": 4,
+      "opponent": 11,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769949856761022635
+    },
+    {
+      "focal": 11,
+      "opponent": 4,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769949856761022635
+    },
+    {
+      "focal": 4,
+      "opponent": 11,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950569331953810
+    },
+    {
+      "focal": 11,
+      "opponent": 4,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950569331953810
+    },
+    {
+      "focal": 4,
+      "opponent": 11,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950532187153483
+    },
+    {
+      "focal": 11,
+      "opponent": 4,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950532187153483
+    },
+    {
+      "focal": 4,
+      "opponent": 11,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950524781068645
+    },
+    {
+      "focal": 11,
+      "opponent": 4,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950524781068645
+    },
+    {
+      "focal": 4,
+      "opponent": 11,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950397379509345
+    },
+    {
+      "focal": 11,
+      "opponent": 4,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950397379509345
+    },
+    {
+      "focal": 4,
+      "opponent": 11,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769949965686330967
+    },
+    {
+      "focal": 11,
+      "opponent": 4,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769949965686330967
+    },
+    {
+      "focal": 5,
+      "opponent": 5,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950676895051279
+    },
+    {
+      "focal": 5,
+      "opponent": 5,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950677095186882
+    },
+    {
+      "focal": 5,
+      "opponent": 5,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950083812528243
+    },
+    {
+      "focal": 5,
+      "opponent": 5,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950530541301737
+    },
+    {
+      "focal": 5,
+      "opponent": 5,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950293920894296
+    },
+    {
+      "focal": 5,
+      "opponent": 5,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949963533831007
+    },
+    {
+      "focal": 5,
+      "opponent": 5,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950223214865696
+    },
+    {
+      "focal": 5,
+      "opponent": 5,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949804792443533
+    },
+    {
+      "focal": 5,
+      "opponent": 5,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950320564388246
+    },
+    {
+      "focal": 5,
+      "opponent": 5,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769949784607390614
+    },
+    {
+      "focal": 5,
+      "opponent": 6,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950131898040109
+    },
+    {
+      "focal": 6,
+      "opponent": 5,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950131898040109
+    },
+    {
+      "focal": 5,
+      "opponent": 6,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949986570988200
+    },
+    {
+      "focal": 6,
+      "opponent": 5,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949986570988200
+    },
+    {
+      "focal": 5,
+      "opponent": 6,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950668656200446
+    },
+    {
+      "focal": 6,
+      "opponent": 5,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950668656200446
+    },
+    {
+      "focal": 5,
+      "opponent": 6,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950765676713892
+    },
+    {
+      "focal": 6,
+      "opponent": 5,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950765676713892
+    },
+    {
+      "focal": 5,
+      "opponent": 6,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950317488717916
+    },
+    {
+      "focal": 6,
+      "opponent": 5,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950317488717916
+    },
+    {
+      "focal": 5,
+      "opponent": 6,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950641453075344
+    },
+    {
+      "focal": 6,
+      "opponent": 5,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950641453075344
+    },
+    {
+      "focal": 5,
+      "opponent": 6,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949726004955247
+    },
+    {
+      "focal": 6,
+      "opponent": 5,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949726004955247
+    },
+    {
+      "focal": 5,
+      "opponent": 6,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950301732758118
+    },
+    {
+      "focal": 6,
+      "opponent": 5,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950301732758118
+    },
+    {
+      "focal": 5,
+      "opponent": 6,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949831227252712
+    },
+    {
+      "focal": 6,
+      "opponent": 5,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949831227252712
+    },
+    {
+      "focal": 5,
+      "opponent": 6,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769949876640600319
+    },
+    {
+      "focal": 6,
+      "opponent": 5,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769949876640600319
+    },
+    {
+      "focal": 5,
+      "opponent": 7,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950456116354374
+    },
+    {
+      "focal": 7,
+      "opponent": 5,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950456116354374
+    },
+    {
+      "focal": 5,
+      "opponent": 7,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950592768477021
+    },
+    {
+      "focal": 7,
+      "opponent": 5,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950592768477021
+    },
+    {
+      "focal": 5,
+      "opponent": 7,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950357596815375
+    },
+    {
+      "focal": 7,
+      "opponent": 5,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950357596815375
+    },
+    {
+      "focal": 5,
+      "opponent": 7,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950195502041501
+    },
+    {
+      "focal": 7,
+      "opponent": 5,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950195502041501
+    },
+    {
+      "focal": 5,
+      "opponent": 7,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950366364845866
+    },
+    {
+      "focal": 7,
+      "opponent": 5,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950366364845866
+    },
+    {
+      "focal": 5,
+      "opponent": 7,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950112488778947
+    },
+    {
+      "focal": 7,
+      "opponent": 5,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950112488778947
+    },
+    {
+      "focal": 5,
+      "opponent": 7,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949985951366281
+    },
+    {
+      "focal": 7,
+      "opponent": 5,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949985951366281
+    },
+    {
+      "focal": 5,
+      "opponent": 7,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950491517575845
+    },
+    {
+      "focal": 7,
+      "opponent": 5,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950491517575845
+    },
+    {
+      "focal": 5,
+      "opponent": 7,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950635327364024
+    },
+    {
+      "focal": 7,
+      "opponent": 5,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950635327364024
+    },
+    {
+      "focal": 5,
+      "opponent": 7,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950212950631123
+    },
+    {
+      "focal": 7,
+      "opponent": 5,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950212950631123
+    },
+    {
+      "focal": 5,
+      "opponent": 8,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950115173279660
+    },
+    {
+      "focal": 8,
+      "opponent": 5,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950115173279660
+    },
+    {
+      "focal": 5,
+      "opponent": 8,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950098103719131
+    },
+    {
+      "focal": 8,
+      "opponent": 5,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950098103719131
+    },
+    {
+      "focal": 5,
+      "opponent": 8,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949813340837616
+    },
+    {
+      "focal": 8,
+      "opponent": 5,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949813340837616
+    },
+    {
+      "focal": 5,
+      "opponent": 8,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950425482434257
+    },
+    {
+      "focal": 8,
+      "opponent": 5,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950425482434257
+    },
+    {
+      "focal": 5,
+      "opponent": 8,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769949995825258698
+    },
+    {
+      "focal": 8,
+      "opponent": 5,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769949995825258698
+    },
+    {
+      "focal": 5,
+      "opponent": 8,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950740174576894
+    },
+    {
+      "focal": 8,
+      "opponent": 5,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950740174576894
+    },
+    {
+      "focal": 5,
+      "opponent": 8,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950767570061805
+    },
+    {
+      "focal": 8,
+      "opponent": 5,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950767570061805
+    },
+    {
+      "focal": 5,
+      "opponent": 8,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950107070340603
+    },
+    {
+      "focal": 8,
+      "opponent": 5,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950107070340603
+    },
+    {
+      "focal": 5,
+      "opponent": 8,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950576583722950
+    },
+    {
+      "focal": 8,
+      "opponent": 5,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950576583722950
+    },
+    {
+      "focal": 5,
+      "opponent": 8,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950359400523335
+    },
+    {
+      "focal": 8,
+      "opponent": 5,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950359400523335
+    },
+    {
+      "focal": 5,
+      "opponent": 9,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950808974672781
+    },
+    {
+      "focal": 9,
+      "opponent": 5,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950808974672781
+    },
+    {
+      "focal": 5,
+      "opponent": 9,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950406502612441
+    },
+    {
+      "focal": 9,
+      "opponent": 5,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950406502612441
+    },
+    {
+      "focal": 5,
+      "opponent": 9,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950030971104597
+    },
+    {
+      "focal": 9,
+      "opponent": 5,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950030971104597
+    },
+    {
+      "focal": 5,
+      "opponent": 9,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950512366658580
+    },
+    {
+      "focal": 9,
+      "opponent": 5,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950512366658580
+    },
+    {
+      "focal": 5,
+      "opponent": 9,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950697366592376
+    },
+    {
+      "focal": 9,
+      "opponent": 5,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950697366592376
+    },
+    {
+      "focal": 5,
+      "opponent": 9,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950373619846662
+    },
+    {
+      "focal": 9,
+      "opponent": 5,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950373619846662
+    },
+    {
+      "focal": 5,
+      "opponent": 9,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950136879000400
+    },
+    {
+      "focal": 9,
+      "opponent": 5,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950136879000400
+    },
+    {
+      "focal": 5,
+      "opponent": 9,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949807707114475
+    },
+    {
+      "focal": 9,
+      "opponent": 5,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949807707114475
+    },
+    {
+      "focal": 5,
+      "opponent": 9,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769949775473354989
+    },
+    {
+      "focal": 9,
+      "opponent": 5,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769949775473354989
+    },
+    {
+      "focal": 5,
+      "opponent": 9,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950353841833242
+    },
+    {
+      "focal": 9,
+      "opponent": 5,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950353841833242
+    },
+    {
+      "focal": 5,
+      "opponent": 10,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949738929022087
+    },
+    {
+      "focal": 10,
+      "opponent": 5,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949738929022087
+    },
+    {
+      "focal": 5,
+      "opponent": 10,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950586534832115
+    },
+    {
+      "focal": 10,
+      "opponent": 5,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950586534832115
+    },
+    {
+      "focal": 5,
+      "opponent": 10,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950293464257947
+    },
+    {
+      "focal": 10,
+      "opponent": 5,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950293464257947
+    },
+    {
+      "focal": 5,
+      "opponent": 10,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950215883318732
+    },
+    {
+      "focal": 10,
+      "opponent": 5,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950215883318732
+    },
+    {
+      "focal": 5,
+      "opponent": 10,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950425454292017
+    },
+    {
+      "focal": 10,
+      "opponent": 5,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950425454292017
+    },
+    {
+      "focal": 5,
+      "opponent": 10,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769949873622789069
+    },
+    {
+      "focal": 10,
+      "opponent": 5,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769949873622789069
+    },
+    {
+      "focal": 5,
+      "opponent": 10,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950748123693819
+    },
+    {
+      "focal": 10,
+      "opponent": 5,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950748123693819
+    },
+    {
+      "focal": 5,
+      "opponent": 10,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950408551968678
+    },
+    {
+      "focal": 10,
+      "opponent": 5,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950408551968678
+    },
+    {
+      "focal": 5,
+      "opponent": 10,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949991657832004
+    },
+    {
+      "focal": 10,
+      "opponent": 5,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949991657832004
+    },
+    {
+      "focal": 5,
+      "opponent": 10,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950745117236690
+    },
+    {
+      "focal": 10,
+      "opponent": 5,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950745117236690
+    },
+    {
+      "focal": 5,
+      "opponent": 11,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950186860647596
+    },
+    {
+      "focal": 11,
+      "opponent": 5,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950186860647596
+    },
+    {
+      "focal": 5,
+      "opponent": 11,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950724505420559
+    },
+    {
+      "focal": 11,
+      "opponent": 5,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950724505420559
+    },
+    {
+      "focal": 5,
+      "opponent": 11,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950560091535885
+    },
+    {
+      "focal": 11,
+      "opponent": 5,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950560091535885
+    },
+    {
+      "focal": 5,
+      "opponent": 11,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950001483457402
+    },
+    {
+      "focal": 11,
+      "opponent": 5,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950001483457402
+    },
+    {
+      "focal": 5,
+      "opponent": 11,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949962146666782
+    },
+    {
+      "focal": 11,
+      "opponent": 5,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949962146666782
+    },
+    {
+      "focal": 5,
+      "opponent": 11,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950033956424895
+    },
+    {
+      "focal": 11,
+      "opponent": 5,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950033956424895
+    },
+    {
+      "focal": 5,
+      "opponent": 11,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950311637915780
+    },
+    {
+      "focal": 11,
+      "opponent": 5,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950311637915780
+    },
+    {
+      "focal": 5,
+      "opponent": 11,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950180389742585
+    },
+    {
+      "focal": 11,
+      "opponent": 5,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950180389742585
+    },
+    {
+      "focal": 5,
+      "opponent": 11,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950510012144429
+    },
+    {
+      "focal": 11,
+      "opponent": 5,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950510012144429
+    },
+    {
+      "focal": 5,
+      "opponent": 11,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950336735553540
+    },
+    {
+      "focal": 11,
+      "opponent": 5,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950336735553540
+    },
+    {
+      "focal": 6,
+      "opponent": 6,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949893605974654
+    },
+    {
+      "focal": 6,
+      "opponent": 6,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950606228980556
+    },
+    {
+      "focal": 6,
+      "opponent": 6,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769949810973255099
+    },
+    {
+      "focal": 6,
+      "opponent": 6,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950595584471507
+    },
+    {
+      "focal": 6,
+      "opponent": 6,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950415385221820
+    },
+    {
+      "focal": 6,
+      "opponent": 6,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949740928105946
+    },
+    {
+      "focal": 6,
+      "opponent": 6,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950598819130488
+    },
+    {
+      "focal": 6,
+      "opponent": 6,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950560195486072
+    },
+    {
+      "focal": 6,
+      "opponent": 6,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950554639793030
+    },
+    {
+      "focal": 6,
+      "opponent": 6,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950426082253213
+    },
+    {
+      "focal": 6,
+      "opponent": 7,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950152635883667
+    },
+    {
+      "focal": 7,
+      "opponent": 6,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950152635883667
+    },
+    {
+      "focal": 6,
+      "opponent": 7,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950276000896754
+    },
+    {
+      "focal": 7,
+      "opponent": 6,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950276000896754
+    },
+    {
+      "focal": 6,
+      "opponent": 7,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949955104005449
+    },
+    {
+      "focal": 7,
+      "opponent": 6,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949955104005449
+    },
+    {
+      "focal": 6,
+      "opponent": 7,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950401115895064
+    },
+    {
+      "focal": 7,
+      "opponent": 6,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950401115895064
+    },
+    {
+      "focal": 6,
+      "opponent": 7,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950302522365562
+    },
+    {
+      "focal": 7,
+      "opponent": 6,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950302522365562
+    },
+    {
+      "focal": 6,
+      "opponent": 7,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950054720311370
+    },
+    {
+      "focal": 7,
+      "opponent": 6,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950054720311370
+    },
+    {
+      "focal": 6,
+      "opponent": 7,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949761703121176
+    },
+    {
+      "focal": 7,
+      "opponent": 6,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949761703121176
+    },
+    {
+      "focal": 6,
+      "opponent": 7,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950320602911240
+    },
+    {
+      "focal": 7,
+      "opponent": 6,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950320602911240
+    },
+    {
+      "focal": 6,
+      "opponent": 7,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950787722721134
+    },
+    {
+      "focal": 7,
+      "opponent": 6,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950787722721134
+    },
+    {
+      "focal": 6,
+      "opponent": 7,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950300350183685
+    },
+    {
+      "focal": 7,
+      "opponent": 6,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950300350183685
+    },
+    {
+      "focal": 6,
+      "opponent": 8,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949807556147628
+    },
+    {
+      "focal": 8,
+      "opponent": 6,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949807556147628
+    },
+    {
+      "focal": 6,
+      "opponent": 8,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950363823577516
+    },
+    {
+      "focal": 8,
+      "opponent": 6,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950363823577516
+    },
+    {
+      "focal": 6,
+      "opponent": 8,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950614656104556
+    },
+    {
+      "focal": 8,
+      "opponent": 6,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950614656104556
+    },
+    {
+      "focal": 6,
+      "opponent": 8,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950298153515139
+    },
+    {
+      "focal": 8,
+      "opponent": 6,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950298153515139
+    },
+    {
+      "focal": 6,
+      "opponent": 8,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950738198487737
+    },
+    {
+      "focal": 8,
+      "opponent": 6,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950738198487737
+    },
+    {
+      "focal": 6,
+      "opponent": 8,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949807312411993
+    },
+    {
+      "focal": 8,
+      "opponent": 6,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949807312411993
+    },
+    {
+      "focal": 6,
+      "opponent": 8,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950187471908876
+    },
+    {
+      "focal": 8,
+      "opponent": 6,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950187471908876
+    },
+    {
+      "focal": 6,
+      "opponent": 8,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949832470302942
+    },
+    {
+      "focal": 8,
+      "opponent": 6,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949832470302942
+    },
+    {
+      "focal": 6,
+      "opponent": 8,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950190490591466
+    },
+    {
+      "focal": 8,
+      "opponent": 6,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950190490591466
+    },
+    {
+      "focal": 6,
+      "opponent": 8,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950347048717642
+    },
+    {
+      "focal": 8,
+      "opponent": 6,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950347048717642
+    },
+    {
+      "focal": 6,
+      "opponent": 9,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950352024818139
+    },
+    {
+      "focal": 9,
+      "opponent": 6,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950352024818139
+    },
+    {
+      "focal": 6,
+      "opponent": 9,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950607952044737
+    },
+    {
+      "focal": 9,
+      "opponent": 6,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950607952044737
+    },
+    {
+      "focal": 6,
+      "opponent": 9,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949729241069571
+    },
+    {
+      "focal": 9,
+      "opponent": 6,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949729241069571
+    },
+    {
+      "focal": 6,
+      "opponent": 9,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769949754158220610
+    },
+    {
+      "focal": 9,
+      "opponent": 6,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769949754158220610
+    },
+    {
+      "focal": 6,
+      "opponent": 9,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950157192442936
+    },
+    {
+      "focal": 9,
+      "opponent": 6,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950157192442936
+    },
+    {
+      "focal": 6,
+      "opponent": 9,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950529863730002
+    },
+    {
+      "focal": 9,
+      "opponent": 6,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950529863730002
+    },
+    {
+      "focal": 6,
+      "opponent": 9,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949909308570087
+    },
+    {
+      "focal": 9,
+      "opponent": 6,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949909308570087
+    },
+    {
+      "focal": 6,
+      "opponent": 9,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949780050944767
+    },
+    {
+      "focal": 9,
+      "opponent": 6,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949780050944767
+    },
+    {
+      "focal": 6,
+      "opponent": 9,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949844675069154
+    },
+    {
+      "focal": 9,
+      "opponent": 6,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949844675069154
+    },
+    {
+      "focal": 6,
+      "opponent": 9,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769949833061141403
+    },
+    {
+      "focal": 9,
+      "opponent": 6,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769949833061141403
+    },
+    {
+      "focal": 6,
+      "opponent": 10,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949767052048571
+    },
+    {
+      "focal": 10,
+      "opponent": 6,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949767052048571
+    },
+    {
+      "focal": 6,
+      "opponent": 10,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950737674824920
+    },
+    {
+      "focal": 10,
+      "opponent": 6,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950737674824920
+    },
+    {
+      "focal": 6,
+      "opponent": 10,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950482779031760
+    },
+    {
+      "focal": 10,
+      "opponent": 6,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950482779031760
+    },
+    {
+      "focal": 6,
+      "opponent": 10,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950023264023660
+    },
+    {
+      "focal": 10,
+      "opponent": 6,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950023264023660
+    },
+    {
+      "focal": 6,
+      "opponent": 10,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950307922474157
+    },
+    {
+      "focal": 10,
+      "opponent": 6,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950307922474157
+    },
+    {
+      "focal": 6,
+      "opponent": 10,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950396594695466
+    },
+    {
+      "focal": 10,
+      "opponent": 6,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950396594695466
+    },
+    {
+      "focal": 6,
+      "opponent": 10,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950514924695759
+    },
+    {
+      "focal": 10,
+      "opponent": 6,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950514924695759
+    },
+    {
+      "focal": 6,
+      "opponent": 10,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949765625739734
+    },
+    {
+      "focal": 10,
+      "opponent": 6,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949765625739734
+    },
+    {
+      "focal": 6,
+      "opponent": 10,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950036647581661
+    },
+    {
+      "focal": 10,
+      "opponent": 6,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950036647581661
+    },
+    {
+      "focal": 6,
+      "opponent": 10,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950274256140344
+    },
+    {
+      "focal": 10,
+      "opponent": 6,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950274256140344
+    },
+    {
+      "focal": 6,
+      "opponent": 11,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950564325994630
+    },
+    {
+      "focal": 11,
+      "opponent": 6,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950564325994630
+    },
+    {
+      "focal": 6,
+      "opponent": 11,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950560461455609
+    },
+    {
+      "focal": 11,
+      "opponent": 6,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950560461455609
+    },
+    {
+      "focal": 6,
+      "opponent": 11,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950282776667717
+    },
+    {
+      "focal": 11,
+      "opponent": 6,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950282776667717
+    },
+    {
+      "focal": 6,
+      "opponent": 11,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950723805154496
+    },
+    {
+      "focal": 11,
+      "opponent": 6,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950723805154496
+    },
+    {
+      "focal": 6,
+      "opponent": 11,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769949986299388651
+    },
+    {
+      "focal": 11,
+      "opponent": 6,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769949986299388651
+    },
+    {
+      "focal": 6,
+      "opponent": 11,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950113801437150
+    },
+    {
+      "focal": 11,
+      "opponent": 6,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950113801437150
+    },
+    {
+      "focal": 6,
+      "opponent": 11,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949769283392426
+    },
+    {
+      "focal": 11,
+      "opponent": 6,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949769283392426
+    },
+    {
+      "focal": 6,
+      "opponent": 11,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950573534036479
+    },
+    {
+      "focal": 11,
+      "opponent": 6,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950573534036479
+    },
+    {
+      "focal": 6,
+      "opponent": 11,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949815222223320
+    },
+    {
+      "focal": 11,
+      "opponent": 6,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949815222223320
+    },
+    {
+      "focal": 6,
+      "opponent": 11,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950626573052882
+    },
+    {
+      "focal": 11,
+      "opponent": 6,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950626573052882
+    },
+    {
+      "focal": 7,
+      "opponent": 7,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950448061626506
+    },
+    {
+      "focal": 7,
+      "opponent": 7,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950019379507358
+    },
+    {
+      "focal": 7,
+      "opponent": 7,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950475343335555
+    },
+    {
+      "focal": 7,
+      "opponent": 7,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769949799129101400
+    },
+    {
+      "focal": 7,
+      "opponent": 7,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950068516286560
+    },
+    {
+      "focal": 7,
+      "opponent": 7,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950040386814686
+    },
+    {
+      "focal": 7,
+      "opponent": 7,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950352620268111
+    },
+    {
+      "focal": 7,
+      "opponent": 7,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950298115079189
+    },
+    {
+      "focal": 7,
+      "opponent": 7,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950581299221267
+    },
+    {
+      "focal": 7,
+      "opponent": 7,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950813090882007
+    },
+    {
+      "focal": 7,
+      "opponent": 8,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950581202067277
+    },
+    {
+      "focal": 8,
+      "opponent": 7,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950581202067277
+    },
+    {
+      "focal": 7,
+      "opponent": 8,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950477282975598
+    },
+    {
+      "focal": 8,
+      "opponent": 7,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950477282975598
+    },
+    {
+      "focal": 7,
+      "opponent": 8,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950697138197741
+    },
+    {
+      "focal": 8,
+      "opponent": 7,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950697138197741
+    },
+    {
+      "focal": 7,
+      "opponent": 8,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950600198016987
+    },
+    {
+      "focal": 8,
+      "opponent": 7,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950600198016987
+    },
+    {
+      "focal": 7,
+      "opponent": 8,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950278699333994
+    },
+    {
+      "focal": 8,
+      "opponent": 7,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950278699333994
+    },
+    {
+      "focal": 7,
+      "opponent": 8,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950638620776999
+    },
+    {
+      "focal": 8,
+      "opponent": 7,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950638620776999
+    },
+    {
+      "focal": 7,
+      "opponent": 8,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950350174069343
+    },
+    {
+      "focal": 8,
+      "opponent": 7,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950350174069343
+    },
+    {
+      "focal": 7,
+      "opponent": 8,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949909198403788
+    },
+    {
+      "focal": 8,
+      "opponent": 7,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949909198403788
+    },
+    {
+      "focal": 7,
+      "opponent": 8,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950197752488975
+    },
+    {
+      "focal": 8,
+      "opponent": 7,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950197752488975
+    },
+    {
+      "focal": 7,
+      "opponent": 8,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950314852172855
+    },
+    {
+      "focal": 8,
+      "opponent": 7,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950314852172855
+    },
+    {
+      "focal": 7,
+      "opponent": 9,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950594732904658
+    },
+    {
+      "focal": 9,
+      "opponent": 7,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950594732904658
+    },
+    {
+      "focal": 7,
+      "opponent": 9,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950532978749519
+    },
+    {
+      "focal": 9,
+      "opponent": 7,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950532978749519
+    },
+    {
+      "focal": 7,
+      "opponent": 9,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950050087754338
+    },
+    {
+      "focal": 9,
+      "opponent": 7,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950050087754338
+    },
+    {
+      "focal": 7,
+      "opponent": 9,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950780749007366
+    },
+    {
+      "focal": 9,
+      "opponent": 7,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950780749007366
+    },
+    {
+      "focal": 7,
+      "opponent": 9,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949923157141452
+    },
+    {
+      "focal": 9,
+      "opponent": 7,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949923157141452
+    },
+    {
+      "focal": 7,
+      "opponent": 9,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950262476099393
+    },
+    {
+      "focal": 9,
+      "opponent": 7,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950262476099393
+    },
+    {
+      "focal": 7,
+      "opponent": 9,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950789847133336
+    },
+    {
+      "focal": 9,
+      "opponent": 7,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950789847133336
+    },
+    {
+      "focal": 7,
+      "opponent": 9,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950246872532486
+    },
+    {
+      "focal": 9,
+      "opponent": 7,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950246872532486
+    },
+    {
+      "focal": 7,
+      "opponent": 9,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769949838207306962
+    },
+    {
+      "focal": 9,
+      "opponent": 7,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769949838207306962
+    },
+    {
+      "focal": 7,
+      "opponent": 9,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950356694936510
+    },
+    {
+      "focal": 9,
+      "opponent": 7,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950356694936510
+    },
+    {
+      "focal": 7,
+      "opponent": 10,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950605485717792
+    },
+    {
+      "focal": 10,
+      "opponent": 7,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950605485717792
+    },
+    {
+      "focal": 7,
+      "opponent": 10,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950508499978311
+    },
+    {
+      "focal": 10,
+      "opponent": 7,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950508499978311
+    },
+    {
+      "focal": 7,
+      "opponent": 10,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950460742570099
+    },
+    {
+      "focal": 10,
+      "opponent": 7,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950460742570099
+    },
+    {
+      "focal": 7,
+      "opponent": 10,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950435643724048
+    },
+    {
+      "focal": 10,
+      "opponent": 7,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950435643724048
+    },
+    {
+      "focal": 7,
+      "opponent": 10,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769949904949719046
+    },
+    {
+      "focal": 10,
+      "opponent": 7,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769949904949719046
+    },
+    {
+      "focal": 7,
+      "opponent": 10,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950075950016994
+    },
+    {
+      "focal": 10,
+      "opponent": 7,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950075950016994
+    },
+    {
+      "focal": 7,
+      "opponent": 10,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950374699466819
+    },
+    {
+      "focal": 10,
+      "opponent": 7,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950374699466819
+    },
+    {
+      "focal": 7,
+      "opponent": 10,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950585581220039
+    },
+    {
+      "focal": 10,
+      "opponent": 7,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950585581220039
+    },
+    {
+      "focal": 7,
+      "opponent": 10,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949831056648851
+    },
+    {
+      "focal": 10,
+      "opponent": 7,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949831056648851
+    },
+    {
+      "focal": 7,
+      "opponent": 10,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950527758248552
+    },
+    {
+      "focal": 10,
+      "opponent": 7,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950527758248552
+    },
+    {
+      "focal": 7,
+      "opponent": 11,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950082757926926
+    },
+    {
+      "focal": 11,
+      "opponent": 7,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950082757926926
+    },
+    {
+      "focal": 7,
+      "opponent": 11,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950523495973988
+    },
+    {
+      "focal": 11,
+      "opponent": 7,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950523495973988
+    },
+    {
+      "focal": 7,
+      "opponent": 11,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950598773144987
+    },
+    {
+      "focal": 11,
+      "opponent": 7,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950598773144987
+    },
+    {
+      "focal": 7,
+      "opponent": 11,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950700777582433
+    },
+    {
+      "focal": 11,
+      "opponent": 7,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950700777582433
+    },
+    {
+      "focal": 7,
+      "opponent": 11,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950355749553968
+    },
+    {
+      "focal": 11,
+      "opponent": 7,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950355749553968
+    },
+    {
+      "focal": 7,
+      "opponent": 11,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949836614348424
+    },
+    {
+      "focal": 11,
+      "opponent": 7,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949836614348424
+    },
+    {
+      "focal": 7,
+      "opponent": 11,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949918434410750
+    },
+    {
+      "focal": 11,
+      "opponent": 7,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949918434410750
+    },
+    {
+      "focal": 7,
+      "opponent": 11,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950162512475219
+    },
+    {
+      "focal": 11,
+      "opponent": 7,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950162512475219
+    },
+    {
+      "focal": 7,
+      "opponent": 11,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950705683941933
+    },
+    {
+      "focal": 11,
+      "opponent": 7,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950705683941933
+    },
+    {
+      "focal": 7,
+      "opponent": 11,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769949979365607448
+    },
+    {
+      "focal": 11,
+      "opponent": 7,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769949979365607448
+    },
+    {
+      "focal": 8,
+      "opponent": 8,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950296536127561
+    },
+    {
+      "focal": 8,
+      "opponent": 8,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949966625297442
+    },
+    {
+      "focal": 8,
+      "opponent": 8,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950341392364249
+    },
+    {
+      "focal": 8,
+      "opponent": 8,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769949733131681223
+    },
+    {
+      "focal": 8,
+      "opponent": 8,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949748714967930
+    },
+    {
+      "focal": 8,
+      "opponent": 8,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949855032545369
+    },
+    {
+      "focal": 8,
+      "opponent": 8,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950039548328815
+    },
+    {
+      "focal": 8,
+      "opponent": 8,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950356864628886
+    },
+    {
+      "focal": 8,
+      "opponent": 8,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950212232695059
+    },
+    {
+      "focal": 8,
+      "opponent": 8,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950657241624395
+    },
+    {
+      "focal": 8,
+      "opponent": 9,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949936497199100
+    },
+    {
+      "focal": 9,
+      "opponent": 8,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949936497199100
+    },
+    {
+      "focal": 8,
+      "opponent": 9,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950783610252545
+    },
+    {
+      "focal": 9,
+      "opponent": 8,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950783610252545
+    },
+    {
+      "focal": 8,
+      "opponent": 9,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949909382184623
+    },
+    {
+      "focal": 9,
+      "opponent": 8,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949909382184623
+    },
+    {
+      "focal": 8,
+      "opponent": 9,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950690567956330
+    },
+    {
+      "focal": 9,
+      "opponent": 8,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950690567956330
+    },
+    {
+      "focal": 8,
+      "opponent": 9,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769949806789856410
+    },
+    {
+      "focal": 9,
+      "opponent": 8,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769949806789856410
+    },
+    {
+      "focal": 8,
+      "opponent": 9,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950648289181550
+    },
+    {
+      "focal": 9,
+      "opponent": 8,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950648289181550
+    },
+    {
+      "focal": 8,
+      "opponent": 9,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949962460858302
+    },
+    {
+      "focal": 9,
+      "opponent": 8,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769949962460858302
+    },
+    {
+      "focal": 8,
+      "opponent": 9,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950058739628357
+    },
+    {
+      "focal": 9,
+      "opponent": 8,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950058739628357
+    },
+    {
+      "focal": 8,
+      "opponent": 9,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950228788832458
+    },
+    {
+      "focal": 9,
+      "opponent": 8,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950228788832458
+    },
+    {
+      "focal": 8,
+      "opponent": 9,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950211316789265
+    },
+    {
+      "focal": 9,
+      "opponent": 8,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950211316789265
+    },
+    {
+      "focal": 8,
+      "opponent": 10,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950600992707392
+    },
+    {
+      "focal": 10,
+      "opponent": 8,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950600992707392
+    },
+    {
+      "focal": 8,
+      "opponent": 10,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949831676964980
+    },
+    {
+      "focal": 10,
+      "opponent": 8,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949831676964980
+    },
+    {
+      "focal": 8,
+      "opponent": 10,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950308934793742
+    },
+    {
+      "focal": 10,
+      "opponent": 8,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950308934793742
+    },
+    {
+      "focal": 8,
+      "opponent": 10,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769949809732871073
+    },
+    {
+      "focal": 10,
+      "opponent": 8,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769949809732871073
+    },
+    {
+      "focal": 8,
+      "opponent": 10,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950613428745176
+    },
+    {
+      "focal": 10,
+      "opponent": 8,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950613428745176
+    },
+    {
+      "focal": 8,
+      "opponent": 10,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950365947666159
+    },
+    {
+      "focal": 10,
+      "opponent": 8,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950365947666159
+    },
+    {
+      "focal": 8,
+      "opponent": 10,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949758345823001
+    },
+    {
+      "focal": 10,
+      "opponent": 8,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949758345823001
+    },
+    {
+      "focal": 8,
+      "opponent": 10,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950262492015159
+    },
+    {
+      "focal": 10,
+      "opponent": 8,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950262492015159
+    },
+    {
+      "focal": 8,
+      "opponent": 10,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950795415794532
+    },
+    {
+      "focal": 10,
+      "opponent": 8,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950795415794532
+    },
+    {
+      "focal": 8,
+      "opponent": 10,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950519275927027
+    },
+    {
+      "focal": 10,
+      "opponent": 8,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950519275927027
+    },
+    {
+      "focal": 8,
+      "opponent": 11,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949941128541725
+    },
+    {
+      "focal": 11,
+      "opponent": 8,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949941128541725
+    },
+    {
+      "focal": 8,
+      "opponent": 11,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950368117201971
+    },
+    {
+      "focal": 11,
+      "opponent": 8,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950368117201971
+    },
+    {
+      "focal": 8,
+      "opponent": 11,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949992301560724
+    },
+    {
+      "focal": 11,
+      "opponent": 8,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949992301560724
+    },
+    {
+      "focal": 8,
+      "opponent": 11,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950454455119203
+    },
+    {
+      "focal": 11,
+      "opponent": 8,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950454455119203
+    },
+    {
+      "focal": 8,
+      "opponent": 11,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950593163339220
+    },
+    {
+      "focal": 11,
+      "opponent": 8,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950593163339220
+    },
+    {
+      "focal": 8,
+      "opponent": 11,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950390970460941
+    },
+    {
+      "focal": 11,
+      "opponent": 8,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950390970460941
+    },
+    {
+      "focal": 8,
+      "opponent": 11,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950601881301553
+    },
+    {
+      "focal": 11,
+      "opponent": 8,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950601881301553
+    },
+    {
+      "focal": 8,
+      "opponent": 11,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950036245746611
+    },
+    {
+      "focal": 11,
+      "opponent": 8,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950036245746611
+    },
+    {
+      "focal": 8,
+      "opponent": 11,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949961669360697
+    },
+    {
+      "focal": 11,
+      "opponent": 8,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769949961669360697
+    },
+    {
+      "focal": 8,
+      "opponent": 11,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950167076740957
+    },
+    {
+      "focal": 11,
+      "opponent": 8,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950167076740957
+    },
+    {
+      "focal": 9,
+      "opponent": 9,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769950037293616947
+    },
+    {
+      "focal": 9,
+      "opponent": 9,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769949955895345908
+    },
+    {
+      "focal": 9,
+      "opponent": 9,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950458503211590
+    },
+    {
+      "focal": 9,
+      "opponent": 9,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950763910985621
+    },
+    {
+      "focal": 9,
+      "opponent": 9,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950803256813205
+    },
+    {
+      "focal": 9,
+      "opponent": 9,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949852162766001
+    },
+    {
+      "focal": 9,
+      "opponent": 9,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769949772614312753
+    },
+    {
+      "focal": 9,
+      "opponent": 9,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949914533632279
+    },
+    {
+      "focal": 9,
+      "opponent": 9,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950238445597653
+    },
+    {
+      "focal": 9,
+      "opponent": 9,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950263618209578
+    },
+    {
+      "focal": 9,
+      "opponent": 10,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950424162868926
+    },
+    {
+      "focal": 10,
+      "opponent": 9,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769950424162868926
+    },
+    {
+      "focal": 9,
+      "opponent": 10,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950599565683138
+    },
+    {
+      "focal": 10,
+      "opponent": 9,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769950599565683138
+    },
+    {
+      "focal": 9,
+      "opponent": 10,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949868212122626
+    },
+    {
+      "focal": 10,
+      "opponent": 9,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769949868212122626
+    },
+    {
+      "focal": 9,
+      "opponent": 10,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950327143200586
+    },
+    {
+      "focal": 10,
+      "opponent": 9,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950327143200586
+    },
+    {
+      "focal": 9,
+      "opponent": 10,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950043085931360
+    },
+    {
+      "focal": 10,
+      "opponent": 9,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950043085931360
+    },
+    {
+      "focal": 9,
+      "opponent": 10,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769949732304248209
+    },
+    {
+      "focal": 10,
+      "opponent": 9,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769949732304248209
+    },
+    {
+      "focal": 9,
+      "opponent": 10,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950174157146620
+    },
+    {
+      "focal": 10,
+      "opponent": 9,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950174157146620
+    },
+    {
+      "focal": 9,
+      "opponent": 10,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950669888865018
+    },
+    {
+      "focal": 10,
+      "opponent": 9,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769950669888865018
+    },
+    {
+      "focal": 9,
+      "opponent": 10,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950172474307522
+    },
+    {
+      "focal": 10,
+      "opponent": 9,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950172474307522
+    },
+    {
+      "focal": 9,
+      "opponent": 10,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950820309434681
+    },
+    {
+      "focal": 10,
+      "opponent": 9,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950820309434681
+    },
+    {
+      "focal": 9,
+      "opponent": 11,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949797987157043
+    },
+    {
+      "focal": 11,
+      "opponent": 9,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949797987157043
+    },
+    {
+      "focal": 9,
+      "opponent": 11,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950215778118863
+    },
+    {
+      "focal": 11,
+      "opponent": 9,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950215778118863
+    },
+    {
+      "focal": 9,
+      "opponent": 11,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950063611926282
+    },
+    {
+      "focal": 11,
+      "opponent": 9,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950063611926282
+    },
+    {
+      "focal": 9,
+      "opponent": 11,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950438650948357
+    },
+    {
+      "focal": 11,
+      "opponent": 9,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950438650948357
+    },
+    {
+      "focal": 9,
+      "opponent": 11,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949840453658542
+    },
+    {
+      "focal": 11,
+      "opponent": 9,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769949840453658542
+    },
+    {
+      "focal": 9,
+      "opponent": 11,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949726279450455
+    },
+    {
+      "focal": 11,
+      "opponent": 9,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949726279450455
+    },
+    {
+      "focal": 9,
+      "opponent": 11,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950534379925054
+    },
+    {
+      "focal": 11,
+      "opponent": 9,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950534379925054
+    },
+    {
+      "focal": 9,
+      "opponent": 11,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950456652724731
+    },
+    {
+      "focal": 11,
+      "opponent": 9,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950456652724731
+    },
+    {
+      "focal": 9,
+      "opponent": 11,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950765264613739
+    },
+    {
+      "focal": 11,
+      "opponent": 9,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950765264613739
+    },
+    {
+      "focal": 9,
+      "opponent": 11,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769949911873706447
+    },
+    {
+      "focal": 11,
+      "opponent": 9,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769949911873706447
+    },
+    {
+      "focal": 10,
+      "opponent": 10,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949727321298747
+    },
+    {
+      "focal": 10,
+      "opponent": 10,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950106640301752
+    },
+    {
+      "focal": 10,
+      "opponent": 10,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769949979647467728
+    },
+    {
+      "focal": 10,
+      "opponent": 10,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950388639700911
+    },
+    {
+      "focal": 10,
+      "opponent": 10,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950191128680868
+    },
+    {
+      "focal": 10,
+      "opponent": 10,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769950052616881676
+    },
+    {
+      "focal": 10,
+      "opponent": 10,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950232748459643
+    },
+    {
+      "focal": 10,
+      "opponent": 10,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769950231292634052
+    },
+    {
+      "focal": 10,
+      "opponent": 10,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950640892825672
+    },
+    {
+      "focal": 10,
+      "opponent": 10,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950668279303615
+    },
+    {
+      "focal": 10,
+      "opponent": 11,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949944077571185
+    },
+    {
+      "focal": 11,
+      "opponent": 10,
+      "level": 1,
+      "arena": 0,
+      "seed": 4769949944077571185
+    },
+    {
+      "focal": 10,
+      "opponent": 11,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949785192054907
+    },
+    {
+      "focal": 11,
+      "opponent": 10,
+      "level": 1,
+      "arena": 2,
+      "seed": 4769949785192054907
+    },
+    {
+      "focal": 10,
+      "opponent": 11,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950217256350565
+    },
+    {
+      "focal": 11,
+      "opponent": 10,
+      "level": 2,
+      "arena": 1,
+      "seed": 4769950217256350565
+    },
+    {
+      "focal": 10,
+      "opponent": 11,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950605078249275
+    },
+    {
+      "focal": 11,
+      "opponent": 10,
+      "level": 2,
+      "arena": 3,
+      "seed": 4769950605078249275
+    },
+    {
+      "focal": 10,
+      "opponent": 11,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950513789335963
+    },
+    {
+      "focal": 11,
+      "opponent": 10,
+      "level": 3,
+      "arena": 0,
+      "seed": 4769950513789335963
+    },
+    {
+      "focal": 10,
+      "opponent": 11,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950090789028666
+    },
+    {
+      "focal": 11,
+      "opponent": 10,
+      "level": 3,
+      "arena": 2,
+      "seed": 4769950090789028666
+    },
+    {
+      "focal": 10,
+      "opponent": 11,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950595737435203
+    },
+    {
+      "focal": 11,
+      "opponent": 10,
+      "level": 4,
+      "arena": 1,
+      "seed": 4769950595737435203
+    },
+    {
+      "focal": 10,
+      "opponent": 11,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949916367131143
+    },
+    {
+      "focal": 11,
+      "opponent": 10,
+      "level": 4,
+      "arena": 3,
+      "seed": 4769949916367131143
+    },
+    {
+      "focal": 10,
+      "opponent": 11,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950237187692584
+    },
+    {
+      "focal": 11,
+      "opponent": 10,
+      "level": 5,
+      "arena": 0,
+      "seed": 4769950237187692584
+    },
+    {
+      "focal": 10,
+      "opponent": 11,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950235094751203
+    },
+    {
+      "focal": 11,
+      "opponent": 10,
+      "level": 5,
+      "arena": 2,
+      "seed": 4769950235094751203
+    },
+    {
+      "focal": 11,
+      "opponent": 11,
+      "level": 1,
+      "arena": 1,
+      "seed": 4769949832920897474
+    },
+    {
+      "focal": 11,
+      "opponent": 11,
+      "level": 1,
+      "arena": 3,
+      "seed": 4769950801363398396
+    },
+    {
+      "focal": 11,
+      "opponent": 11,
+      "level": 2,
+      "arena": 0,
+      "seed": 4769950030980739291
+    },
+    {
+      "focal": 11,
+      "opponent": 11,
+      "level": 2,
+      "arena": 2,
+      "seed": 4769950023233956097
+    },
+    {
+      "focal": 11,
+      "opponent": 11,
+      "level": 3,
+      "arena": 1,
+      "seed": 4769950796276104801
+    },
+    {
+      "focal": 11,
+      "opponent": 11,
+      "level": 3,
+      "arena": 3,
+      "seed": 4769949828805480924
+    },
+    {
+      "focal": 11,
+      "opponent": 11,
+      "level": 4,
+      "arena": 0,
+      "seed": 4769950677893706333
+    },
+    {
+      "focal": 11,
+      "opponent": 11,
+      "level": 4,
+      "arena": 2,
+      "seed": 4769949812561614925
+    },
+    {
+      "focal": 11,
+      "opponent": 11,
+      "level": 5,
+      "arena": 1,
+      "seed": 4769950540132094356
+    },
+    {
+      "focal": 11,
+      "opponent": 11,
+      "level": 5,
+      "arena": 3,
+      "seed": 4769950307005198919
+    }
+  ]
+}

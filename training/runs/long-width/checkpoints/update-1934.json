@@ -1,0 +1,24 @@
+{
+  "bouts": 742656,
+  "coverage_cells": 120,
+  "cpu_s": 2352.6968580000002,
+  "elapsed_s": 2103.224028042052,
+  "frozen_decisions": 24551010,
+  "learner_decisions": 43481762,
+  "live_vs_live_bouts": 185664,
+  "min_games_per_cell": 3869,
+  "new_bouts": 451968,
+  "new_updates": 1177,
+  "optimizer_minibatches": 172728,
+  "path": "training/runs/long-width/checkpoints/update-1934.npz",
+  "sha256": "0e4652790047af29bf0eccf510f2620f508720c494fedc4c765ae6cc1c4c3441",
+  "termination": {
+    "decision_limit": 11,
+    "defeat": 441215,
+    "double_ko": 139,
+    "ongoing": 0,
+    "turn_limit": 10603
+  },
+  "unequal_level_bouts": 185664,
+  "update": 1934
+}
